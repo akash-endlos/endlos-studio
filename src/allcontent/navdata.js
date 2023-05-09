@@ -128,29 +128,37 @@
 export const menuItems = [
     {
       main: "Portfolio",
+      link:"",
       children: [
         {
           childmenu: "Archviz",
+          link:"",
           subchildren: [
             {
               subchild: "Walkthrough",
+              link:"",
             },
             {
               subchild: "AR & VR application",
+              link:"",
             },
           ],
         },
         {
           childmenu: "Pre Visualization",
+          link:"",
           subchildren: [
             {
               subchild: "Pre Production",
+              link:"",
               subgrandchildren: [
                 {
                   subchild: "Storyboard",
+                  link:"",
                 },
                 {
                   subchild: "Animation",
+                  link:"",
                 },
               ],
             },
@@ -158,63 +166,85 @@ export const menuItems = [
         },
         {
           childmenu: "Visual production",
+          link:"",
           subchildren: [
             {
               subchild: "Enviorment Design",
+              link:"",
             },
             {
               subchild: "Augmented Reality",
+              link:"",
             },
             {
               subchild: "Virtual Reality",
+              link:"",
             },
           ],
         },
         {
           childmenu: "Game Development",
+          link:"",
         },
       ],
     },
     {
       main: "Blog",
+      link:"",
       children: [
         {
           childmenu: "What's New",
+          link:"",
         },
         {
           childmenu: "Trending",
+          link:"",
         },
         {
           childmenu: "News",
+          link:"",
         },
         {
           childmenu: "Customer Reviews",
+          link:"",
         },
         {
           childmenu: "Guides",
+          link:"",
         },
       ],
     },
     {
-      main: "About Us",
+      main: "Company",
+      link:"",
       children: [
         {
+          childmenu: "About Us",
+          link:"/about-us",
+        },
+        {
           childmenu: "Careers",
+          link:"",
         },
         {
           childmenu: "Services",
+          link:"",
           subchildren: [
             {
               subchild: "Pre Visualization",
+              link:"",
               subgrandchildren: [
                 {
                   subchild: "Pre Production",
+                  link:"",
                   subgrandchildren: [
                     {
                       subchild: "Storyboard",
+                      link:"",
                     },
                     {
                       subchild: "Animation",
+                      link:"",
                     },
                   ],
                 },
@@ -222,18 +252,23 @@ export const menuItems = [
             },
             {
               subchild: "Virtual production",
+              link:"",
             },
             {
               subchild: "Game Development",
+              link:"",
             },
             {
               subchild: "Archviz",
+              link:"",
               subgrandchildren: [
                 {
                   subchild: "Walkthrough",
+                  link:"",
                 },
                 {
                   subchild: "AR & VR application",
+                  link:"",
                 },
               ],
             },
@@ -241,20 +276,25 @@ export const menuItems = [
         },
         {
           childmenu: "Our Vision",
+          link:"",
         },
         {
           childmenu: "FAQ",
+          link:"",
         },
       ],
     },
     {
       main: "Contact Us",
+      link:"",
       children: [
         {
           childmenu: "Write to us",
+          link:"",
         },
         {
           childmenu: "Book a meeting",
+          link:"",
         },
       ],
     },

@@ -31,9 +31,9 @@ function Navbar({Navclass = 'bg-transparent text-white'}) {
           isscroll ? "bg-[#161616] text-white" : `${Navclass}`
         }`}
       >
-        <span className="font-bold tracking-[.2em] cursor-pointer text-2xl align-middle">
+        <Link href="/"><span className="font-bold tracking-[.2em] cursor-pointer text-2xl align-middle">
           ENDLOS STUDIO
-        </span>
+        </span></Link>
         <NewNavbar />
         <HamburgerMenu/>
         <div className=" justify-between items-center hidden xl:flex">

@@ -40,7 +40,7 @@ export default function HomeVideoCarousel() {
         navigation={true}
         className="mySwiper"
       >
-        {[2, 3, 4, 5, 5, 5, 5].map((index) => (
+        {[2, 3, 4, 5].map((index) => (
           <SwiperSlide
             key={index}
             onMouseEnter={() => handleSlideMouseEnter(index)}

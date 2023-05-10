@@ -220,7 +220,7 @@ export const menuItems = [
       children: [
         {
           childmenu: "About Us",
-          link:"/about-us",
+          link:"/company/about-us",
         },
         {
           childmenu: "Careers",
@@ -280,7 +280,7 @@ export const menuItems = [
         },
         {
           childmenu: "FAQ",
-          link:"",
+          link:"/company/faq",
         },
       ],
     },

@@ -3,7 +3,7 @@ import React from "react";
 import bg from "../../../../public/assets/home-7-img-9.jpg";
 const HomeImageContainer = () => {
   return (
-    <div className="bg-[#111111] py-52 h-auto ">
+    <div className="bg-[#111111] pt-32 h-auto ">
       <div
         style={{
           backgroundImage: `url(${bg.src})`,

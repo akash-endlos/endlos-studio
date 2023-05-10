@@ -1,18 +1,25 @@
 import React, { useRef, useState } from "react";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/swiper.min.css";
+import SwiperCore, { EffectCoverflow, Pagination, Navigation } from "swiper/core";
 
-// import Swiper core and required modules
-import SwiperCore, { EffectCoverflow, Pagination } from "swiper/core";
-import { Navigation } from "swiper";
-
-// install Swiper modules
 SwiperCore.use([EffectCoverflow, Pagination, Navigation]);
 
 export default function HomeVideoCarousel() {
+  const [currentSlide, setCurrentSlide] = useState(null);
+  const videoRefs = useRef([]);
+
+  const handleSlideMouseEnter = (index) => {
+    setCurrentSlide(index);
+    videoRefs.current[index].play();
+  };
+
+  const handleSlideMouseLeave = (index) => {
+    setCurrentSlide(null);
+    videoRefs.current[index].pause();
+    videoRefs.current[index].currentTime = 0;
+  };
+
   return (
     <div className="pt-20 bg-[#111111]">
       <Swiper
@@ -29,31 +36,24 @@ export default function HomeVideoCarousel() {
           scale: 2,
           slideShadows: false,
         }}
-        pagination={true}
+        pagination={false}
         navigation={true}
         className="mySwiper"
       >
-        <SwiperSlide>
-          <video src="/assets/cr2.mp4" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <video src="/assets/cr3.mp4" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <video src="/assets/cr4.mp4" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <video src="/assets/cr5.mp4" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <video src="/assets/cr5.mp4" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <video src="/assets/cr5.mp4" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <video src="/assets/cr5.mp4" />
-        </SwiperSlide>
+        {[2, 3, 4, 5, 5, 5, 5].map((index) => (
+          <SwiperSlide
+            key={index}
+            onMouseEnter={() => handleSlideMouseEnter(index)}
+            onMouseLeave={() => handleSlideMouseLeave(index)}
+          >
+            <video
+              src={`/assets/cr${index}.mp4`}
+              ref={(ref) => (videoRefs.current[index] = ref)}
+              autoPlay={index === currentSlide}
+              muted
+            />
+          </SwiperSlide>
+        ))}
       </Swiper>
     </div>
   );

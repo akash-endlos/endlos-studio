@@ -12,7 +12,7 @@ const HomeWriteUsContainer = () => {
                     height: "auto",
                 }}
             >
-                <div className='container mx-auto py-10'>
+                <div className='container mx-auto py-10 px-5'>
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                         <form class="w-full">
                 <div className='text-white pb-10'><span className="font-bold tracking-[.2em] cursor-pointer text-2xl align-middle ">Write Us</span></div>

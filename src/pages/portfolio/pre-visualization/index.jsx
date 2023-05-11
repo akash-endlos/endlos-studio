@@ -9,14 +9,6 @@ import HomeProductionHouse from '@/components/home-page-components/HomeProductio
 
 
 const index = () => {
-    const router = useRouter()
-    const { id } = router.query;
-    useEffect(() => {
-        const element = document.getElementById(id);
-        if (element) {
-            element.scrollIntoView({ behavior: "smooth" });
-        }
-    }, [id])
 
     return (
         <>

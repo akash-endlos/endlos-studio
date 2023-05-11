@@ -65,7 +65,7 @@ const index = () => {
 
                         <div>
                             <form class="w-full mx-auto px-5">
-                                <div className='text-white pb-10'><span className="font-bold tracking-[.2em] cursor-pointer text-2xl align-middle ">Write Review</span></div>
+                                <div className='text-white pb-10'><span className="font-bold tracking-[.2em] cursor-pointer text-2xl align-middle ">Write Us</span></div>
                                 <div class="flex flex-wrap -mx-3 mb-6">
                                     <div class="w-full md:w-3/4 px-3 mb-6 md:mb-0">
                                         <label class="block uppercase tracking-wide text-white text-xs font-bold mb-2" for="grid-first-name">

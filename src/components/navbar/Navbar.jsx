@@ -10,7 +10,7 @@ import {
 import NewNavbar from "./NewNavbar";
 import HamburgerMenu from "./HamburgerMenu";
 
-function Navbar({Navclass = 'bg-transparent text-white'}) {
+function Navbar({ Navclass = 'bg-transparent text-white' }) {
 
   const [isscroll, setIsScroll] = useState(false);
 
@@ -28,15 +28,14 @@ function Navbar({Navclass = 'bg-transparent text-white'}) {
   return (
     <>
       <div
-        className={`fixed top-0 z-50 flex justify-between items-center px-5 py-5  w-full h-[90px] transition duration-100 ${
-          isscroll ? "bg-[#161616] text-white" : `${Navclass}`
-        }`}
+        className={`fixed top-0 z-50 flex justify-between items-center px-5 py-5  w-full h-[90px] transition duration-100 ${isscroll ? "bg-[#161616] text-white" : `${Navclass}`
+          }`}
       >
         <Link href="/"><span className="font-bold tracking-[.2em] cursor-pointer text-2xl align-middle">
           ENDLOS STUDIO
         </span></Link>
         <NewNavbar />
-        <HamburgerMenu/>
+        <HamburgerMenu />
         <div className=" justify-between items-center hidden xl:flex">
           <span className="font-semibold tracking-widest text-md pr-5 cursor-pointer">
             <AiFillYoutube size={20} color="white" />

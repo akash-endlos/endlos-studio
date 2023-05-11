@@ -294,7 +294,7 @@ export const menuItems = [
       children: [
         {
           childmenu: "Write to us",
-          link:"",
+          link:"/contact-us/write-to-us",
         },
         {
           childmenu: "Book a meeting",

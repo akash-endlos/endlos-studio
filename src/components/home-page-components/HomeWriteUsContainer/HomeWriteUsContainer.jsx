@@ -15,7 +15,7 @@ const HomeWriteUsContainer = () => {
                 <div className='container mx-auto py-10 px-5'>
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                         <form class="w-full">
-                <div className='text-white pb-10'><span className="font-bold tracking-[.2em] cursor-pointer text-2xl align-middle ">Write Us</span></div>
+                            <div className='text-white pb-10'><span className="font-bold tracking-[.2em] cursor-pointer text-2xl align-middle ">Write Us</span></div>
                             <div class="flex flex-wrap -mx-3 mb-6">
                                 <div class="w-full md:w-3/4 px-3 mb-6 md:mb-0">
                                     <label class="block uppercase tracking-wide text-white text-xs font-bold mb-2" for="grid-first-name">
@@ -41,7 +41,7 @@ const HomeWriteUsContainer = () => {
                                 </div>
                             </div>
                             <div>
-                            <button class="bg-white text-black hover:text-white hover:bg-black py-2 px-4 rounded">Submit</button>
+                                <button class="bg-white text-black hover:text-white hover:bg-black py-2 px-4 rounded">Submit</button>
 
                             </div>
                         </form>

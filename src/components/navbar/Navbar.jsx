@@ -11,6 +11,7 @@ import NewNavbar from "./NewNavbar";
 import HamburgerMenu from "./HamburgerMenu";
 
 function Navbar({Navclass = 'bg-transparent text-white'}) {
+
   const [isscroll, setIsScroll] = useState(false);
 
   useEffect(() => {

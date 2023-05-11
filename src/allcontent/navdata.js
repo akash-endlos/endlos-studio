@@ -136,11 +136,13 @@ export const menuItems = [
           subchildren: [
             {
               subchild: "Walkthrough",
-              link:"",
+              link:"/portfolio/archviz",
+              id:"walkthrough"
             },
             {
               subchild: "AR & VR application",
-              link:"",
+              link:"/portfolio/archviz",
+              id:"interactive"
             },
           ],
         },

@@ -22,6 +22,7 @@ const index = () => {
             <Navbar Navclass="bg-[#111111] text-white" />
             <div className="pt-24 bg-[#111111] text-white">
                 <PortFolioParallax title={'Virtual production'} subtitle={'Can You Handle The Truth'} />
+                <PortFolioCardsContainer/>
                   <div className='max-w-screen-xl mx-auto'>
                   <div className='py-10'>
                   <video src='/assets/1.mp4' controls width="100%"></video>
@@ -30,7 +31,6 @@ const index = () => {
                   </div>
                   </div>
                   </div>
-                  <PortFolioCardsContainer/>
                 <div id="environment">
                     <PortFolioParallax title={'Environment'} subtitle={'Can You Handle The Truth'} btn={true} />
                     <div className='flex justify-center items-center'>

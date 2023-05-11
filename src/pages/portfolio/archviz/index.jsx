@@ -5,6 +5,8 @@ import React, { useEffect } from 'react'
 import bg from "../../../../public/assets/img1.jpg";
 import PortFolioParallax from '@/components/portfolio-page-components/PortFolioParallax/PortFolioParallax';
 import ArchwizGallery from '@/components/portfolio-page-components/ArchwizGallery/ArchwizGallery';
+import HomeVideoCarousel from '@/components/home-page-components/HomeVideoCarousel/HomeVideoCarousel';
+import PortFolioCarousel from '@/components/portfolio-page-components/PortFolioCarousel/PortFolioCarousel';
 
 
 const index = () => {
@@ -28,19 +30,20 @@ const index = () => {
                 <PortFolioParallax title={'Archviz'} subtitle={'Can You Handle The Truth'} />
                 <ArchwizGallery />
                 <div class='grid grid-cols-1 md:grid-cols-2 gap-4 py-10'>
-                    <div>
+                    {/* <div>
                         <video src='/assets/1.mp4' controls width="100%"></video>
                     </div>
                     <div>
                         <video src='/assets/1.mp4' controls width="100%"></video>
-                    </div>
+                    </div> */}
                 </div>
 
                 <div id="walkthrough">
                     <PortFolioParallax title={'WalkThrough'} subtitle={'Can You Handle The Truth'} btn={true} />
-                    <div className='flex justify-center items-center'>
+                    <PortFolioCarousel/>
+                    {/* <div className='flex justify-center items-center'>
                         <video src='/assets/1.mp4' controls width="100%"></video>
-                    </div>
+                    </div> */}
                 </div>
                 <div id="interactive">
                     <PortFolioParallax title={'Interactive'} subtitle={'Can You Handle The Truth'} />

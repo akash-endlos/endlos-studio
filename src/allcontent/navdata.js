@@ -224,7 +224,7 @@ export const menuItems = [
         },
         {
           childmenu: "Careers",
-          link:"",
+          link:"/company/careers",
         },
         {
           childmenu: "Services",

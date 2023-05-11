@@ -26,6 +26,7 @@ const index = () => {
             <Navbar Navclass="bg-[#111111] text-white" />
             <div className="pt-24 bg-[#111111] text-white">
                 <PortFolioParallax title={'Archviz'} subtitle={'Can You Handle The Truth'} />
+                <ArchwizGallery />
                 <div class='grid grid-cols-1 md:grid-cols-2 gap-4 py-10'>
                     <div>
                         <video src='/assets/1.mp4' controls width="100%"></video>
@@ -35,8 +36,18 @@ const index = () => {
                     </div>
                 </div>
 
-                <ArchwizGallery />
-                <PortFolioParallax title={'WalkThrough'} subtitle={'Can You Handle The Truth'} />
+                <div id="walkthrough">
+                    <PortFolioParallax title={'WalkThrough'} subtitle={'Can You Handle The Truth'} btn={true} />
+                    <div className='flex justify-center items-center'>
+                        <video src='/assets/1.mp4' controls width="100%"></video>
+                    </div>
+                </div>
+                <div id="interactive">
+                    <PortFolioParallax title={'Interactive'} subtitle={'Can You Handle The Truth'} />
+                    <div className='flex justify-center items-center'>
+                        <video src='/assets/1.mp4' controls width="100%"></video>
+                    </div>
+                </div>
 
             </div>
             <Footer />

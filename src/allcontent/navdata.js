@@ -172,16 +172,18 @@ export const menuItems = [
           subchildren: [
             {
               subchild: "Enviorment Design",
-              link:"",
+              link:"/portfolio/virtual-production",
+              id:"environment"
             },
             {
-              subchild: "Augmented Reality",
-              link:"",
+              subchild: "AR & VR",
+              link:"/portfolio/virtual-production",
+              id:"arvr"
             },
-            {
-              subchild: "Virtual Reality",
-              link:"",
-            },
+            // {
+            //   subchild: "Virtual Reality",
+            //   link:"",
+            // },
           ],
         },
         {

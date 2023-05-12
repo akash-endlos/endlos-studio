@@ -15,7 +15,7 @@ export const menuItems = [
               id:"walkthrough"
             },
             {
-              subchild: "AR & VR application",
+              subchild: "Interactive Archviz",
               link:"/portfolio/archviz",
               id:"interactive"
             },

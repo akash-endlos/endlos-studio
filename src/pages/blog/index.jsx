@@ -33,8 +33,8 @@ const index = () => {
             <BlogParallaxComponent />
             <div class="grid grid-cols-1 xl:grid-cols-5 gap-4 bg-[#111111] ">
                 <div class="col-span-4">
-                    <div className={`nav-links-container ${isFixed ? 'fixed top-20' : ''} bg-[#111111] w-full py-2 shadow-lg transition duration-500 ease-in-out transform z-50`}>
-                        <div className='text-white flex justify-center items-center flex-wrap gap-5 my-10'>
+                    <div className={`nav-links-container ${isFixed ? 'fixed top-20 z-10' : ''} bg-[#111111] w-full py-2 shadow-lg transition duration-500 ease-in-out transform z-50`}>
+                        <div className='text-white flex justify-center items-center flex-wrap gap-5 my-2'>
                             <div className='py-2 rounded-md cursor-pointer px-6 hover:bg-gray-200 hover:text-[#111111]'>
                                 Popular News
                             </div>

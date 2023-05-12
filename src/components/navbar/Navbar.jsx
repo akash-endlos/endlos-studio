@@ -35,8 +35,9 @@ function Navbar({ Navclass = 'bg-transparent text-white' }) {
           ENDLOS STUDIO
         </span></Link>
         <NewNavbar />
-        <HamburgerMenu />
-        <div className=" justify-between items-center hidden xl:flex">
+      <div className="flex justify-center items-center gap-5">
+        <button className="px-5 py-2 border rounded-lg bg-[#111111]">Book a meeting</button>
+      <div className=" justify-between items-center hidden xl:flex">
           <span className="font-semibold tracking-widest text-md pr-5 cursor-pointer">
             <AiFillYoutube size={20} color="white" />
           </span>
@@ -50,6 +51,8 @@ function Navbar({ Navclass = 'bg-transparent text-white' }) {
             <AiFillFacebook size={20} color="white" />
           </span>
         </div>
+      </div>
+      <HamburgerMenu />
       </div>
     </>
   );

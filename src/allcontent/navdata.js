@@ -296,10 +296,10 @@ export const menuItems = [
           childmenu: "Write to us",
           link:"/contact-us/write-to-us",
         },
-        {
-          childmenu: "Book a meeting",
-          link:"",
-        },
+        // {
+        //   childmenu: "Book a meeting",
+        //   link:"",
+        // },
       ],
     },
   ];

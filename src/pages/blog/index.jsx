@@ -36,16 +36,10 @@ const index = () => {
                     <div className={`nav-links-container transition ease-in-out delay-150 ${isFixed ? 'fixed top-20 z-10 ' : ''} bg-[#111111] w-full py-2 shadow-lg transition duration-1000 ease-in-out transform z-50`}>
                         <div className='text-white flex justify-center items-center flex-wrap gap-5 my-2'>
                             <div className='py-2 rounded-md cursor-pointer px-6 hover:bg-gray-200 hover:text-[#111111]'>
-                                Popular News
+                                Guides
                             </div>
                             <div className='py-2 rounded-md cursor-pointer px-6 hover:bg-gray-200 hover:text-[#111111]'>
-                                Guide
-                            </div>
-                            <div className='py-2 rounded-md cursor-pointer px-6 hover:bg-gray-200 hover:text-[#111111]'>
-                                What's New
-                            </div>
-                            <div className='py-2 rounded-md cursor-pointer px-6 hover:bg-gray-200 hover:text-[#111111]'>
-                                Client Feedback
+                            Customer Reviews
                             </div>
                         </div>
                     </div>

@@ -34,8 +34,8 @@ const index = () => {
         <>
             <Navbar />
             <BlogParallaxComponent />
-            <div class="grid grid-cols-1 xl:grid-cols-5 gap-4 bg-[#111111] ">
-                <div class="col-span-4">
+            <div className="grid grid-cols-1 xl:grid-cols-5 gap-4 bg-[#111111] ">
+                <div className="col-span-4">
                     <div className={`nav-links-container transition ease-in-out delay-150 ${isFixed ? 'fixed top-20 z-10 ' : ''} bg-[#111111] w-full py-2 shadow-lg transition duration-1000 ease-in-out transform z-50`}>
                         <div className='text-white flex justify-center items-center flex-wrap gap-5 my-2'>
                             <Link href="#guide">
@@ -54,7 +54,7 @@ const index = () => {
                     <AlternateImageContainer />
                     <AlternateImageContainer />
                 </div>
-                <div class="col-span-1 text-white">
+                <div className="col-span-1 text-white">
                     <BlogRightSection />
                 </div>
             </div>

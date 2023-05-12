@@ -13,35 +13,35 @@ const HomeWriteUsContainer = () => {
                 }}
             >
                 <div className='container mx-auto py-10 px-5'>
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                        <form class="w-full">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <form className="w-full">
                             <div className='text-white pb-10'><span className="font-bold tracking-[.2em] cursor-pointer text-2xl align-middle ">Write Us</span></div>
-                            <div class="flex flex-wrap -mx-3 mb-6">
-                                <div class="w-full md:w-3/4 px-3 mb-6 md:mb-0">
-                                    <label class="block uppercase tracking-wide text-white text-xs font-bold mb-2" for="grid-first-name">
+                            <div className="flex flex-wrap -mx-3 mb-6">
+                                <div className="w-full md:w-3/4 px-3 mb-6 md:mb-0">
+                                    <label className="block uppercase tracking-wide text-white text-xs font-bold mb-2" for="grid-first-name">
                                         First Name
                                     </label>
-                                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="please enter full name" />
+                                    <input className="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="please enter full name" />
                                 </div>
                             </div>
-                            <div class="flex flex-wrap -mx-3 mb-6">
-                                <div class="w-full md:w-3/4 px-3 mb-6 md:mb-0">
-                                    <label class="block uppercase tracking-wide text-white text-xs font-bold mb-2" for="grid-first-name">
+                            <div className="flex flex-wrap -mx-3 mb-6">
+                                <div className="w-full md:w-3/4 px-3 mb-6 md:mb-0">
+                                    <label className="block uppercase tracking-wide text-white text-xs font-bold mb-2" for="grid-first-name">
                                         Email
                                     </label>
-                                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="please enter email" />
+                                    <input className="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="please enter email" />
                                 </div>
                             </div>
-                            <div class="flex flex-wrap -mx-3 mb-6">
-                                <div class="w-full md:w-3/4 px-3 mb-6 md:mb-0">
+                            <div className="flex flex-wrap -mx-3 mb-6">
+                                <div className="w-full md:w-3/4 px-3 mb-6 md:mb-0">
 
-                                    <label for="message" class="block mb-2 text-sm font-medium text-white">YOUR MESSAGE</label>
-                                    <textarea id="message" rows="4" class=" outline-none block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Write your thoughts here..."></textarea>
+                                    <label for="message" className="block mb-2 text-sm font-medium text-white">YOUR MESSAGE</label>
+                                    <textarea id="message" rows="4" className=" outline-none block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Write your thoughts here..."></textarea>
 
                                 </div>
                             </div>
                             <div>
-                                <button class="bg-white text-black hover:text-white hover:bg-black py-2 px-4 rounded">Submit</button>
+                                <button className="bg-white text-black hover:text-white hover:bg-black py-2 px-4 rounded">Submit</button>
 
                             </div>
                         </form>

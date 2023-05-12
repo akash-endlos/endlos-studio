@@ -23,7 +23,7 @@ const index = () => {
             <div className="pt-24 bg-[#111111] text-white">
                 <PortFolioParallax title={'Archviz'} subtitle={'Can You Handle The Truth'} />
                 <ArchwizGallery />
-                <div class='grid grid-cols-1 md:grid-cols-2 gap-4 py-10'>
+                <div className='grid grid-cols-1 md:grid-cols-2 gap-4 py-10'>
                 </div>
 
                 <div id="walkthrough">

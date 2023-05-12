@@ -20,23 +20,23 @@ const index = () => {
                         <img src="/assets/home-7-img-1.jpg" />
                     </div>
                     <p className='max-w-screen-lg mx-auto py-10'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dolores facere, dignissimos iure nemo voluptas ea voluptates eius rerum. Hic voluptatum quasi illum odio saepe, odit iusto sunt quis quae magni eum maxime aut minima sint aperiam quibusdam atque repudiandae quisquam quia laboriosam cupiditate incidunt fuga! Inventore aperiam eius obcaecati aspernatur recusandae voluptatibus dolores natus, vel, ullam aliquid fugiat optio fuga possimus repellat dolore quod ipsa eligendi ratione quia ad et quasi. Quidem exercitationem velit repudiandae quia numquam ipsum omnis. Quo mollitia dignissimos quam excepturi, adipisci nihil quasi inventore accusamus enim cum ipsam ab earum recusandae harum itaque quae expedita nulla quia iste laudantium, eum vitae! Atque obcaecati libero, porro modi ab hic totam aliquid ipsam at maxime molestias commodi eligendi. Cumque, eos?</p>
-                    <div class="grid grid-cols-2 grid-rows-2">
-                        <div class=" col-start-1 col-end-2 row-start-1 row-end-2">  <img className="w-full object-cover mb-2" src="https://source.unsplash.com/random/800x600" alt="Card Image" /></div>
-                        <div class=" col-start-1 col-end-2 row-start-2 row-end-3">  <img className="w-full  object-cover mb-2" src="https://source.unsplash.com/random/800x600" alt="Card Image" /></div>
-                        <div class=" col-start-2 col-end-3 row-start-1 row-end-3">  <img className="w-full  object-cover mb-2" src="https://source.unsplash.com/random/800x600" alt="Card Image" /></div>
+                    <div className="grid grid-cols-2 grid-rows-2">
+                        <div className=" col-start-1 col-end-2 row-start-1 row-end-2">  <img className="w-full object-cover mb-2" src="https://source.unsplash.com/random/800x600" alt="Card Image" /></div>
+                        <div className=" col-start-1 col-end-2 row-start-2 row-end-3">  <img className="w-full  object-cover mb-2" src="https://source.unsplash.com/random/800x600" alt="Card Image" /></div>
+                        <div className=" col-start-2 col-end-3 row-start-1 row-end-3">  <img className="w-full  object-cover mb-2" src="https://source.unsplash.com/random/800x600" alt="Card Image" /></div>
                     </div>
-                    <div class="relative h-screen">
+                    <div className="relative h-screen">
                         <div style={{
                             backgroundImage: `url(${bg.src})`,
                             backgroundSize: "cover",
                             backgroundRepeat: "no-repeat",
                             width: "100vw",
                             height: "100vh",
-                        }} class="absolute top-0 left-0 w-full h-full bg-fixed bg-center bg-gradient-to-b from-gray-900 to-gray-600"></div>
-                        <div class="absolute inset-0 flex items-center justify-center">
+                        }} className="absolute top-0 left-0 w-full h-full bg-fixed bg-center bg-gradient-to-b from-gray-900 to-gray-600"></div>
+                        <div className="absolute inset-0 flex items-center justify-center">
                             <div className='flex flex-col items-center gap-2'>
                                 <p className='text-xl text-white'>FILMING CREW</p>
-                                <h1 class="text-white text-4xl font-bold font-serif">MEET THE TEAM</h1>
+                                <h1 className="text-white text-4xl font-bold font-serif">MEET THE TEAM</h1>
                             </div>
                         </div>
                     </div>

@@ -11,7 +11,7 @@ const HomeOurTeam = () => {
                 width: "100vw",
                 height: "auto",
             }}
-            class="bg-fixed bg-center bg-cover "
+            className="bg-fixed bg-center bg-cover "
         >
             <div className="mx-auto max-w-screen-xl py-5  ">
                 <p className='text-center font-bold text-4xl text-white py-10'>OUR TEAM</p>

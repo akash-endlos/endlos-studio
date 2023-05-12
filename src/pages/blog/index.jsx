@@ -61,9 +61,43 @@ const index = () => {
             <div id="guide" className='bg-[#111111]'>
                 <BlogGuideSection />
             </div>
-            <div id="customer" className='bg-[#111111]'>
+            <div id="customer" className='bg-[#111111] pb-28'>
                 <CustomerReviewSection />
             </div>
+           <div className='bg-[#111111] '>
+           <form class="max-w-5xl mx-auto px-10">
+                <div class="mb-4">
+                    <label class="block text-white font-bold mb-2" for="first_name">
+                        First Name
+                    </label>
+                    <input class=" border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="first_name" type="text" placeholder="Enter your first name" />
+                </div>
+                <div class="mb-4">
+                    <label class="block text-white font-bold mb-2" for="last_name">
+                        Last Name
+                    </label>
+                    <input class=" border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="last_name" type="text" placeholder="Enter your last name" />
+                </div>
+                <div class="mb-4">
+                    <label class="block text-white font-bold mb-2" for="email">
+                        Email
+                    </label>
+                    <input class=" border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Enter your email" />
+                </div>
+                <div class="mb-4">
+                    <label class="block text-white font-bold mb-2" for="message">
+                        Message
+                    </label>
+                    <textarea class=" border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="message" placeholder="Enter your message"></textarea>
+                </div>
+                <div class="flex items-center justify-between">
+                    <button class="bg-[#111111] hover:bg-white border hover:text-[#111111] text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+                        Submit
+                    </button>
+                </div>
+            </form>
+           </div>
+
             <Footer />
         </>
     )

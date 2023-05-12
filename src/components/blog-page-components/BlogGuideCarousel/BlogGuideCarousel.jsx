@@ -7,7 +7,7 @@ const BlogGuideCarousel = () => {
     infinite: true,
     speed: 500,
     autoplay: true,
-    autoplaySpeed: 3000, // set the duration between each slide transition
+    autoplaySpeed: 3000,
     slidesToShow: 3,
     slidesToScroll: 1,
   };

@@ -236,7 +236,8 @@ export const menuItems = [
           subchildren: [
             {
               subchild: "Pre Visualization",
-              link:"",
+              link:"/company/services",
+              id:"servicesprevirtualization"
               // subgrandchildren: [
               //   {
               //     subchild: "Pre Production",
@@ -257,6 +258,7 @@ export const menuItems = [
             {
               subchild: "Virtual production",
               link:"",
+              id:"servicesvp"
             },
             {
               subchild: "Game Development",

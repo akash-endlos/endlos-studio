@@ -36,7 +36,7 @@ const index = () => {
             <BlogParallaxComponent />
             <div className="grid grid-cols-1 xl:grid-cols-5 gap-4 bg-[#111111] ">
                 <div className="col-span-4">
-                    <div className={`nav-links-container transition ease-in-out delay-150 ${isFixed ? 'fixed top-20 z-10 ' : ''} bg-[#111111] w-full py-2 shadow-lg transition duration-1000 ease-in-out transform z-50`}>
+                    <div className={`nav-links-container transition ease-in-out delay-150 ${isFixed ? 'fixed top-20 z-0 ' : ''} bg-[#111111] w-full py-2 shadow-lg transition duration-1000 ease-in-out transform z-50`}>
                         <div className='text-white flex justify-center items-center flex-wrap gap-5 my-2'>
                             <Link href="#guide">
                                 <div className='py-2 rounded-md cursor-pointer px-6 hover:bg-gray-200 hover:text-[#111111]'>
@@ -67,16 +67,10 @@ const index = () => {
            <div className='bg-[#111111] '>
            <form class="max-w-5xl mx-auto px-10">
                 <div class="mb-4">
-                    <label class="block text-white font-bold mb-2" for="first_name">
-                        First Name
+                    <label class="block text-white font-bold mb-2" for="name">
+                        Name
                     </label>
-                    <input class=" border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="first_name" type="text" placeholder="Enter your first name" />
-                </div>
-                <div class="mb-4">
-                    <label class="block text-white font-bold mb-2" for="last_name">
-                        Last Name
-                    </label>
-                    <input class=" border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="last_name" type="text" placeholder="Enter your last name" />
+                    <input class=" border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Enter your  name" />
                 </div>
                 <div class="mb-4">
                     <label class="block text-white font-bold mb-2" for="email">

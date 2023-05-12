@@ -3,9 +3,9 @@ import React from 'react'
 const AlternateImageContainer = () => {
     return (
         <div className='bg-[#111111] text-white'>
-            <div className='max-w-screen-2xl mx-auto pt-5'>
-                <div class="grid grid-cols-2 grid-rows-2 gap-0">
-                    <div class=" col-start-1 col-end-2 row-start-1 row-end-2">
+            <div className='max-w-screen-2xl mx-auto '>
+                <div class="grid grid-cols-2 grid-rows-2 gap-0 ">
+                    <div class=" col-start-1 col-end-2 row-start-1 row-end-2 pt-5">
                         <div class="col-start-1 row-start-1 col-end-2 row-end-2">
 
                             <div class="max-w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
@@ -26,7 +26,7 @@ const AlternateImageContainer = () => {
 
                         </div>
                     </div>
-                    <div class="col-start-2 col-end-3 row-start-2 row-end-3">
+                    <div class="col-start-2 col-end-3 row-start-2 row-end-3 pt-5">
                         <div class="col-start-1 row-start-1 col-end-2 row-end-2">
 
                             <div class="max-w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">

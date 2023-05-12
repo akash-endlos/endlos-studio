@@ -11,9 +11,12 @@ const index = () => {
     const router = useRouter()
     const { id } = router.query;
     useEffect(() => {
-        const element = document.getElementById(id);
-        if (element) {
-            element.scrollIntoView({ behavior: "smooth" });
+        if(id)
+        {
+         const element = document.getElementById(id);
+         if (element) {
+             element.scrollIntoView({ behavior: "smooth" });
+         }
         }
     }, [id])
 

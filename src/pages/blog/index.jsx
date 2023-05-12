@@ -10,9 +10,16 @@ const index = () => {
         <>
             <Navbar />
             <BlogParallaxComponent />
-            <AlternateImageContainer />
-            <AlternateImageContainer />
-            <AlternateImageContainer />
+            <div class="grid grid-cols-1 xl:grid-cols-5 gap-4 ">
+                <div class="col-span-4">
+                    <AlternateImageContainer />
+                    <AlternateImageContainer />
+                    <AlternateImageContainer />
+                </div>
+                <div class="col-span-1 text-white">
+
+                </div>
+            </div>
             <Footer />
         </>
     )

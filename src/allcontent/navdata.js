@@ -194,29 +194,29 @@ export const menuItems = [
     },
     {
       main: "Blog",
-      link:"",
-      children: [
-        {
-          childmenu: "What's New",
-          link:"",
-        },
-        {
-          childmenu: "Trending",
-          link:"",
-        },
-        {
-          childmenu: "News",
-          link:"",
-        },
-        {
-          childmenu: "Customer Reviews",
-          link:"",
-        },
-        {
-          childmenu: "Guides",
-          link:"",
-        },
-      ],
+      link:"/blog",
+      // children: [
+      //   {
+      //     childmenu: "What's New",
+      //     link:"",
+      //   },
+      //   {
+      //     childmenu: "Trending",
+      //     link:"",
+      //   },
+      //   {
+      //     childmenu: "News",
+      //     link:"",
+      //   },
+      //   {
+      //     childmenu: "Customer Reviews",
+      //     link:"",
+      //   },
+      //   {
+      //     childmenu: "Guides",
+      //     link:"",
+      //   },
+      // ],
     },
     {
       main: "Company",

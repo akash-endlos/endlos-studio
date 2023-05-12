@@ -10,7 +10,7 @@ const HomeImageContainer = () => {
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
           width: "100vw",
-          height: "100vh",
+          height: "auto",
         }}
       >
         <div className="flex justify-center items-center py-10">

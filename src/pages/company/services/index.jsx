@@ -380,7 +380,7 @@ const index = () => {
       </div>
       {/* new section end */}
       {/* new section start */}
-      <div id="servicesgamedevelopment">
+      <div id="servicesarchviz">
         <div className="relative">
           <div
             className="h-screen bg-cover bg-fixed"

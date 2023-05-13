@@ -14,7 +14,7 @@ const HomeWriteUsContainer = () => {
             >
                 <div className='container mx-auto py-10 px-5'>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                        <htmlForm className="w-full">
+                        <form className="w-full">
                             <div className='text-white pb-10'><span className="font-bold tracking-[.2em] cursor-pointer text-2xl align-middle ">Write Us</span></div>
                             <div className="flex flex-wrap -mx-3 mb-6">
                                 <div className="w-full md:w-3/4 px-3 mb-6 md:mb-0">
@@ -44,7 +44,7 @@ const HomeWriteUsContainer = () => {
                                 <button className="bg-white text-black hover:text-white hover:bg-black py-2 px-4 rounded">Submit</button>
 
                             </div>
-                        </htmlForm>
+                        </form>
                         <img src="https://images.all-free-download.com/images/graphiclarge/canyon_desert_htmlForest_hill_landscape_mountain_nature_600620.jpg" />
 
                     </div>

@@ -80,17 +80,17 @@ export const menuItems = [
             {
               subchild: "Pre Visualization",
               link:"/company/services",
-              id:"servicesprevirtualization"
+              id:"servicespv"
             },
             {
               subchild: "Virtual production",
-              link:"",
+              link:"/company/services",
               id:"servicesvp"
             },
             {
               subchild: "Game Development",
-              link:"",
-              id:"",
+              link:"/company/services",
+              id:"servicesgamedevelopment",
             },
             {
               subchild: "Archviz",
@@ -99,13 +99,13 @@ export const menuItems = [
               subgrandchildren: [
                 {
                   subchild: "Walkthrough",
-                  link:"",
-                  id:"",
+                  link:"/company/services",
+                  id:"serviceswalktrough",
                 },
                 {
                   subchild: "AR & VR application",
-                  link:"",
-                  id:"",
+                  link:"/company/services",
+                  id:"servicesarchviz",
                 },
               ],
             },

@@ -14,12 +14,12 @@ export const menuItems = [
             {
               subchild: "Walkthrough",
               link:"/portfolio/archviz",
-              id:"walkthrough"
+              id:"archvizwalkthrough"
             },
             {
               subchild: "Interactive Archviz",
               link:"/portfolio/archviz",
-              id:"interactive"
+              id:"archvizinteractive"
             },
           ],
         },

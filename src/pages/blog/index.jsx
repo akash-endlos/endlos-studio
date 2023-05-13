@@ -36,7 +36,7 @@ const index = () => {
             <BlogParallaxComponent />
             <div className="grid grid-cols-1 xl:grid-cols-5 gap-4  bg-[#111111] ">
                 <div className="col-span-4 border-r-2 border-r-slate-900">
-                    <div className={`nav-links-container transition ease-in-out delay-150 ${isFixed ? 'fixed top-20 z-10 ' : ''} bg-[#111111] w-full py-2 shadow-lg transition duration-1000 ease-in-out transform z-50`}>
+                    <div className={`nav-links-container transition ease-in-out delay-150 ${isFixed ? 'fixed top-20 z-10 ' : ''} bg-[#111111] w-full py-2 shadow-lg transition duration-1000 ease-in-out transform z-30`}>
                         <div className='text-white flex justify-center items-center flex-wrap gap-5 my-2'>
                             <Link href="#guide">
                                 <div className='py-2 rounded-md cursor-pointer px-6 hover:bg-gray-200 hover:text-[#111111]'>

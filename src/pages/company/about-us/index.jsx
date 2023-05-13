@@ -29,7 +29,7 @@ const page = () => {
                     </div>
                 </div>
             </div>
-      <HomeImageContainer />
+      {/* <HomeImageContainer /> */}
       <AboutPageCarousel />
       <OurGoal/>
       <ParallaxImageContainer/>

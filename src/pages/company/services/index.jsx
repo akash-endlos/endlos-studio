@@ -171,7 +171,7 @@ const index = () => {
       <div className="bg-[#111111]">
         <div className="max-w-screen-xl mx-auto">
           <div class="grid grid-cols-1 sm:grid-cols-3 gap-2 py-10">
-            <div class="rounded-lg shadow-lg  max-w-sm w-full sm:w-auto">
+            <div class="rounded-lg shadow-lg   w-full sm:w-auto">
               <a href="#!">
                 <video
                   width="320"
@@ -188,7 +188,7 @@ const index = () => {
                 </video>
               </a>
             </div>
-            <div class="rounded-lg shadow-lg  max-w-sm w-full sm:w-auto">
+            <div class="rounded-lg shadow-lg   w-full sm:w-auto">
               <a href="#!">
                 <video
                   width="320"
@@ -205,7 +205,7 @@ const index = () => {
                 </video>
               </a>
             </div>
-            <div class="rounded-lg shadow-lg  max-w-sm w-full sm:w-auto">
+            <div class="rounded-lg shadow-lg   w-full sm:w-auto">
               <a href="#!">
                 <video
                   width="320"

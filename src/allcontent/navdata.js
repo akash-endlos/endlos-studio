@@ -27,22 +27,6 @@ export const menuItems = [
           childmenu: "Pre Visualization",
           link:"/portfolio/pre-visualization",
           id:"",
-          // subchildren: [
-          //   {
-          //     subchild: "Pre Production",
-          //     link:"",
-          //     subgrandchildren: [
-          //       {
-          //         subchild: "Storyboard",
-          //         link:"",
-          //       },
-          //       {
-          //         subchild: "Animation",
-          //         link:"",
-          //       },
-          //     ],
-          //   },
-          // ],
         },
         {
           childmenu: "Virtual production",
@@ -59,10 +43,6 @@ export const menuItems = [
               link:"/portfolio/virtual-production",
               id:"arvr"
             },
-            // {
-            //   subchild: "Virtual Reality",
-            //   link:"",
-            // },
           ],
         },
         {
@@ -76,28 +56,6 @@ export const menuItems = [
       main: "Blog",
       link:"/blog",
       id:"",
-      // children: [
-      //   {
-      //     childmenu: "What's New",
-      //     link:"",
-      //   },
-      //   {
-      //     childmenu: "Trending",
-      //     link:"",
-      //   },
-      //   {
-      //     childmenu: "News",
-      //     link:"",
-      //   },
-      //   {
-      //     childmenu: "Customer Reviews",
-      //     link:"",
-      //   },
-      //   {
-      //     childmenu: "Guides",
-      //     link:"",
-      //   },
-      // ],
     },
     {
       main: "Company",
@@ -123,22 +81,6 @@ export const menuItems = [
               subchild: "Pre Visualization",
               link:"/company/services",
               id:"servicesprevirtualization"
-              // subgrandchildren: [
-              //   {
-              //     subchild: "Pre Production",
-              //     link:"",
-              //     subgrandchildren: [
-              //       {
-              //         subchild: "Storyboard",
-              //         link:"",
-              //       },
-              //       {
-              //         subchild: "Animation",
-              //         link:"",
-              //       },
-              //     ],
-              //   },
-              // ],
             },
             {
               subchild: "Virtual production",

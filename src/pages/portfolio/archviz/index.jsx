@@ -11,12 +11,19 @@ const index = () => {
   const { id } = router.query;
   useEffect(() => {
     if (id) {
-      const element = document.getElementById(id);
-      if (element) {
-        element.scrollIntoView({ behavior: "smooth" });
+      const sectionElement = document.getElementById(id);
+      if (sectionElement) {
+        setTimeout(() => {
+          const scrollPosition = sectionElement.offsetTop;
+          window.scrollTo({
+            top: scrollPosition,
+            behavior: "smooth",
+          });
+        }, 100);
       }
     }
   }, [id]);
+  
 
   return (
     <>

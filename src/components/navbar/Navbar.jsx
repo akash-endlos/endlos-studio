@@ -32,7 +32,7 @@ function Navbar({ Navclass = 'bg-transparent text-white' }) {
           }`}
       >
         <Link href="/"><span className="font-bold tracking-[.2em] cursor-pointer text-2xl align-middle font-serif">
-          ENDLOS STUDIO
+          <img src="/assets/logo.png" className="w-60"/>
         </span></Link>
         <NewNavbar />
         <div className="flex justify-center items-center gap-5">

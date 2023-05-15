@@ -428,7 +428,7 @@ const index = () => {
                 <div class="absolute border-gray-400 border-t-4 bottom-0 py-1 px-4 w-4/5"></div>
               </div>
               <div class="col-span-12 sm:col-span-12 md:col-span-5 lg:col-span-5 xxl:col-span-5">
-                <div class="relative bg-pink-900 h-full md:h-96 w-full bg-opacity-50 rounded-tr-lg rounded-br-lg">
+                <div class="relative bg-[#111111] h-full md:h-96 w-full bg-opacity-50 rounded-tr-lg rounded-br-lg">
                   <div class="p-8">
                     <p class="text-white text-xs md:text-sm lg:text-xl mb-4">
                       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia sequi, ea aperiam sunt vitae possimus totam commodi enim veniam debitis nihil provident perferendis, facere doloribus alias hic aliquid velit. Officiis deleniti placeat consequatur impedit exercitationem tempora harum sunt tempora harum sunt tempora harum sunt 

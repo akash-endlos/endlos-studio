@@ -38,85 +38,85 @@ const index = () => {
             </div>
 
 
-          <div className='bg-[#111111] text-white'>
-          <div className=" grid  lg:grid-cols-4 md:grid-cols-2 py-5 max-w-7xl mx-auto gap-20 px-5">
+            <div className='bg-[#111111] text-white'>
+                <div className=" grid  lg:grid-cols-4 md:grid-cols-2 py-5 max-w-7xl mx-auto gap-20 px-5">
 
-<div className="flex justify-center items-center flex-col">
-    <FiUserCheck size={45} />
-    <p className="text-center py-2">Transparency</p>
-    <p className="lead text-center">
-        Being transparent is part of our DNA. We believe in transparency in
-        the transactions we make.
-    </p>
-</div>
-<div className="flex justify-center items-center flex-col">
-    <BiCheckShield size={45} />
-    <p className="text-center py-2">Trust</p>
-    <p className="lead text-center">
-        We serve as trusted advisors for our partners, customers, and
-        employees.
-    </p>
+                    <div className="flex justify-center items-center flex-col">
+                        <FiUserCheck size={45} />
+                        <p className="text-center py-2">Transparency</p>
+                        <p className="lead text-center">
+                            Being transparent is part of our DNA. We believe in transparency in
+                            the transactions we make.
+                        </p>
+                    </div>
+                    <div className="flex justify-center items-center flex-col">
+                        <BiCheckShield size={45} />
+                        <p className="text-center py-2">Trust</p>
+                        <p className="lead text-center">
+                            We serve as trusted advisors for our partners, customers, and
+                            employees.
+                        </p>
 
-</div>
-<div className="flex justify-center items-center flex-col">
-    <FiThumbsUp size={45} />
-    <p className="text-center py-2">Customer Success</p>
-    <p className="lead text-center">
-        As our clients, partners, as well as our employees, expand, so too
-        do we.
-    </p>
-</div>
-<div className="flex justify-center items-center flex-col">
-    <TbBulb size={45} />
-    <p className="text-center py-2">Innovation</p>
-    <p className="lead text-center">
-        We celebrate creativity and promote collaboration for innovation
-    </p>
-</div>
-<div className="flex justify-center items-center flex-col">
-    <TbBulb size={45} />
-    <p className="text-center py-2">Innovation</p>
-    <p className="lead text-center">
-        We celebrate creativity and promote collaboration for innovation
-    </p>
-</div>
-<div className="flex justify-center items-center flex-col">
-    <TbBulb size={45} />
-    <p className="text-center py-2">Innovation</p>
-    <p className="lead text-center">
-        We celebrate creativity and promote collaboration for innovation
-    </p>
-</div>
-<div className="flex justify-center items-center flex-col">
-    <TbBulb size={45} />
-    <p className="text-center py-2">Innovation</p>
-    <p className="lead text-center">
-        We celebrate creativity and promote collaboration for innovation
-    </p>
-</div>
-<div className="flex justify-center items-center flex-col">
-    <TbBulb size={45} />
-    <p className="text-center py-2">Innovation</p>
-    <p className="lead text-center">
-        We celebrate creativity and promote collaboration for innovation
-    </p>
-</div>
-<div className="flex justify-center items-center flex-col">
-    <TbBulb size={45} />
-    <p className="text-center py-2">Innovation</p>
-    <p className="lead text-center">
-        We celebrate creativity and promote collaboration for innovation
-    </p>
-</div>
-<div className="flex justify-center items-center flex-col">
-    <TbBulb size={45} />
-    <p className="text-center py-2">Innovation</p>
-    <p className="lead text-center">
-        We celebrate creativity and promote collaboration for innovation
-    </p>
-</div>
-</div>
-          </div>
+                    </div>
+                    <div className="flex justify-center items-center flex-col">
+                        <FiThumbsUp size={45} />
+                        <p className="text-center py-2">Customer Success</p>
+                        <p className="lead text-center">
+                            As our clients, partners, as well as our employees, expand, so too
+                            do we.
+                        </p>
+                    </div>
+                    <div className="flex justify-center items-center flex-col">
+                        <TbBulb size={45} />
+                        <p className="text-center py-2">Innovation</p>
+                        <p className="lead text-center">
+                            We celebrate creativity and promote collaboration for innovation
+                        </p>
+                    </div>
+                    <div className="flex justify-center items-center flex-col">
+                        <TbBulb size={45} />
+                        <p className="text-center py-2">Innovation</p>
+                        <p className="lead text-center">
+                            We celebrate creativity and promote collaboration for innovation
+                        </p>
+                    </div>
+                    <div className="flex justify-center items-center flex-col">
+                        <TbBulb size={45} />
+                        <p className="text-center py-2">Innovation</p>
+                        <p className="lead text-center">
+                            We celebrate creativity and promote collaboration for innovation
+                        </p>
+                    </div>
+                    <div className="flex justify-center items-center flex-col">
+                        <TbBulb size={45} />
+                        <p className="text-center py-2">Innovation</p>
+                        <p className="lead text-center">
+                            We celebrate creativity and promote collaboration for innovation
+                        </p>
+                    </div>
+                    <div className="flex justify-center items-center flex-col">
+                        <TbBulb size={45} />
+                        <p className="text-center py-2">Innovation</p>
+                        <p className="lead text-center">
+                            We celebrate creativity and promote collaboration for innovation
+                        </p>
+                    </div>
+                    <div className="flex justify-center items-center flex-col">
+                        <TbBulb size={45} />
+                        <p className="text-center py-2">Innovation</p>
+                        <p className="lead text-center">
+                            We celebrate creativity and promote collaboration for innovation
+                        </p>
+                    </div>
+                    <div className="flex justify-center items-center flex-col">
+                        <TbBulb size={45} />
+                        <p className="text-center py-2">Innovation</p>
+                        <p className="lead text-center">
+                            We celebrate creativity and promote collaboration for innovation
+                        </p>
+                    </div>
+                </div>
+            </div>
 
 
 

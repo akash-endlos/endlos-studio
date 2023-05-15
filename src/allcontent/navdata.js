@@ -113,7 +113,7 @@ export const menuItems = [
         },
         {
           childmenu: "Our Vision",
-          link:"",
+          link:"/company/our-vision",
           id:"",
         },
         {

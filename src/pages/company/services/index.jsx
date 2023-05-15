@@ -53,7 +53,7 @@ const index = () => {
               nulla et est euismod malesuada a non sem.
             </p>
           </div>
-          <div className="max-w-7xl px-10 mx-auto">
+          <div className="max-w-screen-2xl px-5 mx-auto">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4 py-10">
               <div class="bg-gradient-to-r from-gray-900 to-gray-800 rounded-lg overflow-hidden shadow-lg">
                 <img
@@ -168,7 +168,7 @@ const index = () => {
         </div>
       </div>
       <div className="bg-[#111111]">
-        <div className="max-w-screen-xl mx-auto">
+        <div className="max-w-screen-2xl mx-auto">
           <div class="grid grid-cols-1 sm:grid-cols-3 gap-2 py-10">
             <div class="rounded-lg shadow-lg   w-full sm:w-auto">
               <a href="#!">
@@ -252,7 +252,7 @@ const index = () => {
 
       <div className="bg-[#111111]">
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 py-10">
-          <div class="max-w-screen-xl mx-auto">
+          <div class="max-w-screen-2xl mx-auto">
             <a
               href="#"
               class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
@@ -273,7 +273,7 @@ const index = () => {
               </div>
             </a>
           </div>
-          <div class="max-w-2xl">
+          <div class="max-w-screen-2xl mx-auto">
             <a
               href="#"
               class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
@@ -322,7 +322,7 @@ const index = () => {
         </div>
       </div>
       <div className="bg-[#111111]">
-        <div className="max-w-screen-xl mx-auto">
+        <div className="max-w-screen-2xl mx-auto">
           <div class="grid grid-cols-1 sm:grid-cols-3 gap-2 py-10">
             <div class="rounded-lg shadow-lg   w-full sm:w-auto">
               <a href="#!">

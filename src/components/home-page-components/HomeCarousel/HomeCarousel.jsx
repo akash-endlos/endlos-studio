@@ -40,7 +40,7 @@ const HomeCarousel = () => {
     <>
       <Swiper
         autoplay={{
-          delay: 5000,
+          delay: 100000,
           disableOnInteraction: false,
         }}
         pagination={pagination}

@@ -19,16 +19,14 @@ const FormContainer = () => {
         resolver: yupResolver(schema),
     });
 
-    const [errorMessage, setErrorMessage] = useState('');
-  
     const onSubmit = async (data) => {
-  const  {name,email,message} = data;
-      try {
-        await axios.post('/api/send-email', { name, email, message });
-       reset()
-      } catch (error) {
-        console.error(error);
-      }
+        const { name, email, message } = data;
+        try {
+            await axios.post('/api/send-email', { name, email, message });
+            reset()
+        } catch (error) {
+            console.error(error);
+        }
     };
     return (
         <form className="w-full " onSubmit={handleSubmit(onSubmit)}>

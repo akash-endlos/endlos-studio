@@ -23,12 +23,12 @@ const HomeCarousel = () => {
       src: "/assets/2.mp4",
       link: "",
     },
-    {
-      title:
-        "Endlos Innovation helps you to automate production to be more flexible and adapted to the requirements of your organization.",
-      src: "/assets/1.mp4",
-      link: "",
-    },
+    // {
+    //   title:
+    //     "Endlos Innovation helps you to automate production to be more flexible and adapted to the requirements of your organization.",
+    //   src: "/assets/1.mp4",
+    //   link: "",
+    // },
     // {
     //   title:
     //     "Endlos Innovation helps you to automate production to be more flexible and adapted to the requirements of your organization.",

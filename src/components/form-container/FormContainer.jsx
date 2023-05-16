@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as Yup from 'yup';
+import axios from 'axios';
 
 const FormContainer = () => {
-    const [status, setStatus] = useState('');
     const schema = Yup.object().shape({
         name: Yup.string().required('Name is required'),
         email: Yup.string().email('Invalid email address').required('Email is required'),
@@ -12,6 +12,7 @@ const FormContainer = () => {
     });
     const {
         register,
+        reset,
         handleSubmit,
         formState: { errors },
     } = useForm({
@@ -26,13 +27,11 @@ const FormContainer = () => {
 
     const [errorMessage, setErrorMessage] = useState('');
   
-    const onSubmit = async () => {
-  
+    const onSubmit = async (data) => {
+  const  {name,email,message} = data;
       try {
-        await axios.post('/api/sendEmail', { name, email, message });
-        setName('');
-        setEmail('');
-        setMessage('');
+        await axios.post('/api/send-email', { name, email, message });
+       reset()
       } catch (error) {
         console.error(error);
       }

@@ -65,7 +65,7 @@ const NewNavbar = () => {
 
   return (
     <div className="hidden xl:block z-20">
-      <ul className="flex justify-between items-center gap-4">
+      <ul className="flex justify-between items-center gap-28">
         {menuItems.map((item) => (
           <li className="relative py-10 cursor-pointer" key={item.main}>
             <Link href={item.link}><span className="font-semibold">{item.main}</span></Link>

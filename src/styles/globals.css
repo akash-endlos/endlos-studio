@@ -79,7 +79,6 @@ li > ul {
   transform-origin: top;
   transition: transform 0.3s ease-in-out;
   height: 0;
-  overflow: hidden;
 }
 
 li:hover > ul {

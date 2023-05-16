@@ -8,18 +8,20 @@ const NewNavbar = () => {
     <ul className="absolute right-0 top-0 bg-[#111111] w-[170px] opacity-80 py-2">
       {subchildrenMenu &&
         subchildrenMenu.map((item) => (
+          <Link href={{
+            pathname:`${item.link}`,
+            query:{
+              id:`${item.id}`
+            }
+          }}>
           <li className="px-2 py-2 relative cursor-pointer pl-5" key={item.subchild}>
             {/* <span className="font-semibold text-sm">{item.subchild}</span> */}
             <div className="flex justify-between">
-              <Link href={{
-                pathname:`${item.link}`,
-                query:{
-                  id:`${item.id}`
-                }
-              }}><div className="font-semibold text-sm">{item.subchild}</div></Link>
+             <div className="font-semibold text-sm">{item.subchild}</div>
               {item.subgrandchildren && <AiFillCaretRight />}
             </div>
           </li>
+        </Link>
         ))}
     </ul>
   );
@@ -30,15 +32,17 @@ const NewNavbar = () => {
         subchildrenMenu.map((item) => (
           <li className="px-2 py-2 relative cursor-pointer pl-5" key={item.subchild}>
             {/* <span className="font-semibold text-sm">{item.subchild}</span> */}
-            <div className="flex justify-between">
-              <Link href={{
+            <Link href={{
                 pathname:`${item.link}`,
                 query:{
                   id:`${item.id}`
                 }
-              }}><div className="font-semibold text-sm">{item.subchild}</div></Link>
+              }}>
+            <div className="flex justify-between">
+              <div className="font-semibold text-sm">{item.subchild}</div>
               {item.subgrandchildren && <AiFillCaretRight />}
             </div>
+            </Link>
             {item.subgrandchildren && (
               <MultiSubNestedMenu subchildrenMenu={item.subgrandchildren} />
             )}
@@ -51,10 +55,11 @@ const NewNavbar = () => {
     <ul className="absolute xl:right-32 md:right-40 top-24 bg-[#111111] w-[170px] opacity-80 py-2">
       {childMenu.map((child) => (
         <li className="py-3 relative cursor-pointer px-2 pl-5" key={child.childmenu}>
-          <div className="flex justify-between">
-            <Link href={child.link}><div className="font-semibold text-sm">{child.childmenu}</div></Link>
+         <Link href={child.link}> <div className="flex justify-between">
+            <div className="font-semibold text-sm">{child.childmenu}</div>
             {child.subchildren && <AiFillCaretRight />}
           </div>
+          </Link>
           {child.subchildren && (
             <SubNestedMenu subchildrenMenu={child.subchildren} />
           )}

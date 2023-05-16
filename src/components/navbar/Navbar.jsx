@@ -9,10 +9,12 @@ import {
 } from "react-icons/ai";
 import NewNavbar from "./NewNavbar";
 import HamburgerMenu from "./HamburgerMenu";
+import { PopupButton } from "react-calendly";
 
 function Navbar({ Navclass = 'bg-transparent text-white' }) {
 
   const [isscroll, setIsScroll] = useState(false);
+  const [Body, setBody] = useState("");
 
   useEffect(() => {
     const handleScroll = () => {
@@ -23,6 +25,11 @@ function Navbar({ Navclass = 'bg-transparent text-white' }) {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
+  }, []);
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      setBody(document.body);
+    }
   }, []);
 
   return (
@@ -36,7 +43,12 @@ function Navbar({ Navclass = 'bg-transparent text-white' }) {
         </span></Link>
         <NewNavbar />
         <div className="flex justify-center items-center gap-5">
-          <button className="px-5 py-2 border rounded-lg bg-bg-transparent hover:bg-[#111111] hover:text-white hover:border-none outline-none">Book a meeting</button>
+          <button className="px-5 py-2 border rounded-lg bg-bg-transparent hover:bg-[#111111] hover:text-white hover:border-none outline-none"><PopupButton
+            url="https://calendly.com/endlosinnovations/30min"
+            rootElement={Body}
+            text="Book a meeting"
+            className="floating-btn"
+          /></button>
           <div className=" justify-between items-center hidden xl:flex">
             <span className="font-semibold tracking-widest text-md pr-5 cursor-pointer">
               <AiFillYoutube size={20} color="white" />

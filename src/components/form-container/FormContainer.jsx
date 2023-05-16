@@ -19,12 +19,6 @@ const FormContainer = () => {
         resolver: yupResolver(schema),
     });
 
-
-
-    // const onSubmit = (data) => {
-    //     console.log(data);
-    // };
-
     const [errorMessage, setErrorMessage] = useState('');
   
     const onSubmit = async (data) => {

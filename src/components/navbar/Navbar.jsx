@@ -44,7 +44,7 @@ function Navbar({ Navclass = 'bg-transparent text-white' }) {
         <NewNavbar />
         <div className="flex justify-center items-center gap-5">
           <button className="px-5 py-2 border rounded-lg bg-bg-transparent hover:bg-[#111111] hover:text-white hover:border-none outline-none"><PopupButton
-            url="https://calendly.com/endlosinnovations/30min"
+            url="https://calendly.com/endlos_tech/30min"
             rootElement={Body}
             text="Book a meeting"
             className="floating-btn"

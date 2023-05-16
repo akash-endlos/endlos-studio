@@ -39,16 +39,17 @@ function Navbar({ Navclass = 'bg-transparent text-white' }) {
           }`}
       >
         <Link href="/"><span className="font-bold tracking-[.2em] cursor-pointer text-2xl align-middle font-serif">
-          <img src="/assets/logo.png" className="w-60"/>
+          <img src="/assets/logo.png" className="w-60" />
         </span></Link>
         <NewNavbar />
         <div className="flex justify-center items-center gap-5">
-          <button className="px-5 py-2 border rounded-lg bg-bg-transparent hover:bg-[#111111] hover:text-white hover:border-none outline-none"><PopupButton
-            url="https://calendly.com/endlos_tech/30min"
-            rootElement={Body}
-            text="Book a meeting"
-            className="floating-btn"
-          /></button>
+          <div className="px-5 py-2 border rounded-lg bg-bg-transparent hover:bg-[#111111] hover:text-white hover:border-none outline-none">
+            <PopupButton
+              url="https://calendly.com/endlos_tech/30min"
+              rootElement={Body}
+              text="Book a meeting"
+              className="floating-btn"
+            /></div>
           <div className=" justify-between items-center hidden xl:flex">
             <span className="font-semibold tracking-widest text-md pr-5 cursor-pointer">
               <AiFillYoutube size={20} color="white" />

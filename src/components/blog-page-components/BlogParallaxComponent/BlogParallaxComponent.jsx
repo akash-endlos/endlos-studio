@@ -1,7 +1,7 @@
 import React from 'react'
 import bg from "../../../../public/assets/img1.jpg";
 
-const BlogParallaxComponent = () => {
+const BlogParallaxComponent = ({title}) => {
     return (
         <>
             <div className="relative">
@@ -15,7 +15,7 @@ const BlogParallaxComponent = () => {
                     <div className="absolute inset-0 bg-black opacity-60"></div>
                     <div className="absolute inset-0 flex justify-center items-center">
                         <div className="text-center">
-                            <h1 className="text-5xl font-bold text-white">Blog</h1>
+                            <h1 className="text-5xl font-bold text-white max-w-screen-lg leading-snug">{title}</h1>
                         </div>
                     </div>
                 </div>

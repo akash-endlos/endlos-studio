@@ -33,7 +33,7 @@ const index = () => {
     return (
         <>
             <Navbar />
-            <BlogParallaxComponent />
+            <BlogParallaxComponent title={'Blog'} />
             <div className="grid grid-cols-1 xl:grid-cols-12 gap-4  bg-[#111111] ">
                 <div className="col-span-9 border-r-2 border-r-slate-900">
                     <div className={`nav-links-container transition ease-in-out delay-150 ${isFixed ? 'fixed top-20 z-10 ' : ''} bg-[#111111] w-full py-2 shadow-lg transition duration-1000 ease-in-out transform z-30`}>

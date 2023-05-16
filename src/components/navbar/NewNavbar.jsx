@@ -5,44 +5,41 @@ import { AiFillCaretRight } from "react-icons/ai";
 
 const NewNavbar = () => {
   const MultiSubNestedMenu = ({ subchildrenMenu }) => (
-    <ul className="absolute right-0 top-0 bg-[#111111] w-[170px] opacity-80 py-2">
-      {subchildrenMenu &&
-        subchildrenMenu.map((item) => (
-          <Link href={{
-            pathname:`${item.link}`,
-            query:{
-              id:`${item.id}`
-            }
-          }}>
-          <li className="px-2 py-2 relative cursor-pointer pl-5" key={item.subchild}>
-            {/* <span className="font-semibold text-sm">{item.subchild}</span> */}
-            <div className="flex justify-between">
-             <div className="font-semibold text-sm">{item.subchild}</div>
-              {item.subgrandchildren && <AiFillCaretRight />}
-            </div>
-          </li>
-        </Link>
-        ))}
-    </ul>
-  );
-
-  const SubNestedMenu = ({ subchildrenMenu }) => (
-    <ul className="absolute right-0 top-0 bg-[#111111] w-[170px] opacity-80 py-2">
+    <ul className="absolute right-0 top-0 bg-[#111111] w-[170px] py-2">
       {subchildrenMenu &&
         subchildrenMenu.map((item) => (
           <li className="px-2 py-2 relative cursor-pointer pl-5" key={item.subchild}>
             {/* <span className="font-semibold text-sm">{item.subchild}</span> */}
             <Link href={{
-                pathname:`${item.link}`,
-                query:{
-                  id:`${item.id}`
+                pathname: `${item.link}`,
+                query: {
+                  id: `${item.id}`
                 }
-              }}>
-            <div className="flex justify-between">
+              }}><div className="flex justify-between">
               <div className="font-semibold text-sm">{item.subchild}</div>
               {item.subgrandchildren && <AiFillCaretRight />}
             </div>
             </Link>
+          </li>
+        ))}
+    </ul>
+  );
+
+  const SubNestedMenu = ({ subchildrenMenu }) => (
+    <ul className="absolute right-0 top-0 bg-[#111111] w-[170px] py-2">
+      {subchildrenMenu &&
+        subchildrenMenu.map((item) => (
+          <li className="px-2 py-2 relative cursor-pointer pl-5" key={item.subchild}>
+            {/* <span className="font-semibold text-sm">{item.subchild}</span> */}
+            <Link href={{
+                pathname: `${item.link}`,
+                query: {
+                  id: `${item.id}`
+                }
+              }}> <div className="flex justify-between">
+              <div className="font-semibold text-sm">{item.subchild}</div>
+              {item.subgrandchildren && <AiFillCaretRight />}
+            </div></Link>
             {item.subgrandchildren && (
               <MultiSubNestedMenu subchildrenMenu={item.subgrandchildren} />
             )}
@@ -52,14 +49,13 @@ const NewNavbar = () => {
   );
 
   const DropdownMenu = ({ childMenu }) => (
-    <ul className="absolute xl:right-32 md:right-40 top-24 bg-[#111111] w-[170px] opacity-80 py-2">
+    <ul className="absolute xl:right-32 md:right-40 top-24 bg-[#111111] w-[170px] py-2">
       {childMenu.map((child) => (
         <li className="py-3 relative cursor-pointer px-2 pl-5" key={child.childmenu}>
-         <Link href={child.link}> <div className="flex justify-between">
-            <div className="font-semibold text-sm">{child.childmenu}</div>
+           <Link href={child.link}><div className="flex justify-between">
+           <div className="font-semibold text-sm">{child.childmenu}</div>
             {child.subchildren && <AiFillCaretRight />}
-          </div>
-          </Link>
+          </div></Link>
           {child.subchildren && (
             <SubNestedMenu subchildrenMenu={child.subchildren} />
           )}

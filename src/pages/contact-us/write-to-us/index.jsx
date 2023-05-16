@@ -1,4 +1,5 @@
 import Footer from "@/components/footer/Footer";
+import FormContainer from "@/components/form-container/FormContainer";
 import Navbar from "@/components/navbar/Navbar";
 import React from "react";
 
@@ -18,7 +19,7 @@ const index = () => {
       </div>
       <div className="bg-[#111111]">
         <div className="max-w-screen-2xl mx-auto py-5">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-1">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-1">
             <div className="text-center">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-white">
                 <div className=" p-4">
@@ -78,79 +79,20 @@ const index = () => {
               </div>
             </div>
 
-            <div>
-              <form className="w-full mx-auto px-5">
-                <div className="text-white pb-10">
-                  <span className="font-bold tracking-[.2em] cursor-pointer text-2xl align-middle ">
-                    Write Us
-                  </span>
-                </div>
-                <div className="flex flex-wrap -mx-3 mb-6">
-                  <div className="w-full md:w-3/4 px-3 mb-6 md:mb-0">
-                    <label
-                      className="block uppercase tracking-wide text-white text-xs font-bold mb-2"
-                      htmlFor="grid-first-name"
-                    >
-                      First Name
-                    </label>
-                    <input
-                      className="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
-                      id="grid-first-name"
-                      type="text"
-                      placeholder="please enter full name"
-                    />
-                  </div>
-                </div>
-                <div className="flex flex-wrap -mx-3 mb-6">
-                  <div className="w-full md:w-3/4 px-3 mb-6 md:mb-0">
-                    <label
-                      className="block uppercase tracking-wide text-white text-xs font-bold mb-2"
-                      htmlFor="grid-first-name"
-                    >
-                      Email
-                    </label>
-                    <input
-                      className="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
-                      id="grid-first-name"
-                      type="text"
-                      placeholder="please enter email"
-                    />
-                  </div>
-                </div>
-                <div className="flex flex-wrap -mx-3 mb-6">
-                  <div className="w-full md:w-3/4 px-3 mb-6 md:mb-0">
-                    <label
-                      htmlFor="message"
-                      className="block mb-2 text-sm font-medium text-white"
-                    >
-                      YOUR MESSAGE
-                    </label>
-                    <textarea
-                      id="message"
-                      rows="4"
-                      className=" outline-none block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                      placeholder="Write your thoughts here..."
-                    ></textarea>
-                  </div>
-                </div>
-                <div>
-                  <button className="bg-white text-black hover:text-white hover:bg-black py-2 px-4 rounded">
-                    Submit
-                  </button>
-                </div>
-              </form>
+            <div className="px-10">
+            <FormContainer/>
             </div>
           </div>
         </div>
       </div>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1835.950518465944!2d72.5082235075285!3d23.027405573344772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9b3bf029e7b5%3A0x79f04cd53e9557b!2sEndlos%20Technologies%20Private%20Limited!5e0!3m2!1sen!2sin!4v1684211680037!5m2!1sen!2sin" 
-      className="max-w-full w-full"
-      height="450"
-      frameborder="0"
-      style={{ border: 0 }}
-      allowfullscreen=""
-      aria-hidden="false"
-      tabindex="0"
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1835.950518465944!2d72.5082235075285!3d23.027405573344772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9b3bf029e7b5%3A0x79f04cd53e9557b!2sEndlos%20Technologies%20Private%20Limited!5e0!3m2!1sen!2sin!4v1684211680037!5m2!1sen!2sin"
+        className="max-w-full w-full"
+        height="450"
+        frameborder="0"
+        style={{ border: 0 }}
+        allowfullscreen=""
+        aria-hidden="false"
+        tabindex="0"
       ></iframe>
       <Footer />
     </>

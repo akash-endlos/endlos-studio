@@ -8,7 +8,7 @@ const NewNavbar = () => {
     <ul className="absolute right-0 top-0  w-[170px] py-2">
       {subchildrenMenu &&
         subchildrenMenu.map((item) => (
-          <li className="px-2 py-3 relative cursor-pointer pl-5 bg-[#111111] text-white hover:bg-white hover:text-[#111111] rounded-lg" key={item.subchild}>
+          <li className="px-2 py-3 relative cursor-pointer pl-5 opacity-90 bg-[#111111] text-white hover:bg-white hover:text-[#111111] rounded-lg" key={item.subchild}>
             {/* <span className="font-semibold text-sm">{item.subchild}</span> */}
             <Link href={{
                 pathname: `${item.link}`,
@@ -29,7 +29,7 @@ const NewNavbar = () => {
     <ul className="absolute right-0 top-0  w-[170px] py-2">
       {subchildrenMenu &&
         subchildrenMenu.map((item) => (
-          <li className="px-2 py-3 relative cursor-pointer pl-5 bg-[#111111] text-white hover:bg-white hover:text-[#111111] rounded-lg" key={item.subchild}>
+          <li className="px-2 py-3 relative cursor-pointer pl-5 opacity-90 bg-[#111111] text-white hover:bg-white hover:text-[#111111] rounded-lg" key={item.subchild}>
             {/* <span className="font-semibold text-sm">{item.subchild}</span> */}
             <Link href={{
                 pathname: `${item.link}`,
@@ -51,7 +51,7 @@ const NewNavbar = () => {
   const DropdownMenu = ({ childMenu }) => (
     <ul className="absolute xl:right-32 md:right-40 top-24  w-[170px] py-2 ">
       {childMenu.map((child) => (
-        <li className="py-3 relative cursor-pointer px-2 pl-5 bg-[#111111] text-white hover:bg-white hover:text-[#111111] rounded-lg" key={child.childmenu}>
+        <li className="py-3 relative cursor-pointer px-2 pl-5 opacity-90 bg-[#111111] text-white hover:bg-white hover:text-[#111111] rounded-lg" key={child.childmenu}>
            <Link href={child.link}><div className="flex justify-between">
            <div className="font-semibold text-sm">{child.childmenu}</div>
             {child.subchildren && <AiFillCaretRight />}

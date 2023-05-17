@@ -61,12 +61,12 @@ const AlternateImageContainer = () => {
                {blogData && blogData.map((item,key)=>{
                 if(item.value==='left')
                 {return(
-                    <LeftContainer id={item.id} name={item.name} />
+                    <LeftContainer id={item?.id} name={item.name} />
                    
                 )}
                 else{
                     return(
-                        <RightContainer id={item.id} name={item.name} />  
+                        <RightContainer id={item?.id} name={item.name} />  
                     )
                 }
                })}

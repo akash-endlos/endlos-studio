@@ -51,7 +51,9 @@ const index = () => {
                         </div>
                     </div>
 
+                    <div className='max-h-[1000px] no-scrollbar overflow-y-scroll'>
                     <AlternateImageContainer  />
+                    </div>
                     {/* <AlternateImageContainer />
                     <AlternateImageContainer /> */}
                 </div>

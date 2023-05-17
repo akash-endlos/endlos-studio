@@ -7,9 +7,9 @@ const HomeBlogImages = () => {
             <div className='grid grid-cols-1'>
                 <div className="relative">
                     <div className="card">
-                        <img src="https://wallpapers.com/images/featured/1080p-3qmj7oaige168170.jpg" className="w-full h-2/3" alt="example image" />
-                        <div className="absolute inset-0 bg-black bg-opacity-50 text-white flex items-center justify-center opacity-0 transition duration-300 ease-in-out hover:opacity-100">
-                            <span className="text-xl font-bold">Hover text on image</span>
+                        <img src="https://wallpapers.com/images/featured/1080p-3qmj7oaige168170.jpg" className="w-full h-[700px]" alt="example image" />
+                        <div className="absolute inset-0 bg-black bg-opacity-50 text-white flex items-end justify-start opacity-0 transition duration-300 ease-in-out hover:opacity-100">
+                            <span className="text-4xl font-bold absolute bottom-16 left-10">Make Our World Besutiful With Virtual Reality</span>
                         </div>
                     </div>
                 </div>
@@ -17,17 +17,17 @@ const HomeBlogImages = () => {
                 <div className='grid grid-cols-2'>
                     <div className="relative">
                         <div className="card">
-                            <img src="https://wallpapers.com/images/featured/1080p-3qmj7oaige168170.jpg" className="w-full h-2/3" alt="example image" />
+                            <img src="https://wallpapers.com/images/featured/1080p-3qmj7oaige168170.jpg" className="w-full h-[400px]" alt="example image" />
                             <div className="absolute inset-0 bg-black bg-opacity-50 text-white flex items-center justify-center opacity-0 transition duration-300 ease-in-out hover:opacity-100">
-                                <span className="text-xl font-bold">Hover text on image</span>
+                                <span className="text-4xl font-bold absolute bottom-16 left-10">Make Our World Besutiful With Virtual Reality</span>
                             </div>
                         </div>
                     </div>
                     <div className="relative">
                         <div className="card">
-                            <img src="https://wallpapers.com/images/featured/1080p-3qmj7oaige168170.jpg" className="w-full h-2/3" alt="example image" />
+                            <img src="https://wallpapers.com/images/featured/1080p-3qmj7oaige168170.jpg" className="w-full h-[400px]" alt="example image" />
                             <div className="absolute inset-0 bg-black bg-opacity-50 text-white flex items-center justify-center opacity-0 transition duration-300 ease-in-out hover:opacity-100">
-                                <span className="text-xl font-bold">Hover text on image</span>
+                                <span className="text-4xl font-bold absolute bottom-16 left-10">Make Our World Besutiful With Virtual Reality</span>
                             </div>
                         </div>
                     </div>

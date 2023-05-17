@@ -24,7 +24,7 @@ export default function Home() {
       <HomeCarousel />
       <HomeImageContainer />
       <HomeServices />
-      <HomeNewReleases />
+      {/* <HomeNewReleases /> */}
       <HomeBlogImages />
       <HomeOurTeam />
       <HomeWriteUsContainer />

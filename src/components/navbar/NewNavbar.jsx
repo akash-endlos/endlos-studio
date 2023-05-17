@@ -69,7 +69,7 @@ const NewNavbar = () => {
       <ul className="flex justify-between items-center gap-28 ">
         {menuItems.map((item) => (
           <li className="relative py-10 cursor-pointer" key={item.main}>
-            <Link href={item.link}><span className="font-semibold">{item.main}</span></Link>
+            <Link href={`${item.main==='Blog' ? item.link : "/"}`}><span className="font-semibold">{item.main}</span></Link>
             {item.children && <DropdownMenu childMenu={item.children} />}
           </li>
         ))}

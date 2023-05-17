@@ -4,7 +4,6 @@ export const menuItems = [
     {
       main: "Portfolio",
       link:"",
-      id:"",
       children: [
         {
           childmenu: "Archviz",

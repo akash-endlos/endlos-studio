@@ -1,11 +1,11 @@
 import React from 'react'
-
+import bg from "../../../../public/assets/our_team_background.jpg";
 
 const HomeOurTeam = () => {
     return (
         <div
             style={{
-                backgroundImage: `url(https://cdn.pixabay.com/photo/2022/08/10/19/39/space-7378056__340.jpg)`,
+                backgroundImage: `url(${bg.src})`,
                 backgroundSize: "cover",
                 backgroundRepeat: "no-repeat",
                 width: "100vw",

@@ -26,7 +26,7 @@ const HomeServices = () => {
           <div className="bg-[#111111] p-4 text-center">
             <img className="w-full h-48 object-cover mb-2" src="/assets/home_service_4.jpg" alt="Card Image" />
             <h2 className="text-lg font-semibold mb-2 text-[#b6b6b6]">Game Development</h2>
-            <p className="text-[#b6b6b6] text-justify">Unleash your gaming vision with Endlos Studio, where groundbreaking gameplay mechanics and captivating worlds converge, creating unforgettable gaming experiences. Harness our expertise in game development and innovative technologies to bring your ideas to life and captivate players worldwide.
+            <p className="text-[#b6b6b6] text-justify ">Unleash your gaming vision with Endlos Studio, where groundbreaking gameplay mechanics and captivating worlds converge, creating unforgettable gaming experiences. Harness our expertise in game development and innovative technologies to bring your ideas to life and captivate players worldwide.
             </p>
           </div>
           {/* <div className="bg-[#111111] p-4 text-center">

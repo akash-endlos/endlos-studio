@@ -83,14 +83,14 @@ const Blog = ({ }) => {
               <div class="relative aspect-video overflow-hidden rounded-3xl">
                 <video class="w-full opacity-100" src='../assets/write_us_video.mp4' autoPlay muted loop></video>
               </div>
-              <p className="text-justify leading-loose py-10">
+              <p className="text-justify leading-loose ">
 
                 Virtual reality (VR) has become increasingly popular in recent years, and for good reason. It offers an immersive experience that allows users to feel like they are a part of another world. For those who are new to VR, it can be overwhelming and confusing. However, there are many blogs that offer an introduction to the world of virtual reality. These blogs cover everything from the basics of VR technology to the different types of headsets and controllers available.
 
                 They also provide information on the best VR games and experiences to try out as well as tips on how to make the most out of your virtual reality experience. These blogs have a wealth of information on all things VR and have become go-to sources for those looking to learn more about this exciting technology. As virtual reality continues to grow in popularity, these blogs will undoubtedly continue to provide valuable insights into this ever-changing field.Following VR blogs is essential for enthusiasts, developers, and businesses alike.
               </p>
             </div>
-            <p className="text-justify leading-loose">
+            <p className="text-justify leading-loose py-10">
 
               Virtual reality (VR) has become increasingly popular in recent years, and for good reason. It offers an immersive experience that allows users to feel like they are a part of another world. For those who are new to VR, it can be overwhelming and confusing. However, there are many blogs that offer an introduction to the world of virtual reality. These blogs cover everything from the basics of VR technology to the different types of headsets and controllers available.
 

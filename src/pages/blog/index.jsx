@@ -8,8 +8,11 @@ import Footer from '@/components/footer/Footer'
 import Navbar from '@/components/navbar/Navbar'
 import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
+import { useSelector } from 'react-redux'
 
 const index = () => {
+    const blogData = useSelector((state)=>state.allblogs)
+    console.log(blogData);
     const [isFixed, setIsFixed] = useState(false);
 
     useEffect(() => {
@@ -50,9 +53,9 @@ const index = () => {
                         </div>
                     </div>
 
-                    <AlternateImageContainer />
-                    <AlternateImageContainer />
-                    <AlternateImageContainer />
+                    <AlternateImageContainer  />
+                    {/* <AlternateImageContainer />
+                    <AlternateImageContainer /> */}
                 </div>
                 <div className="col-span-3 text-white">
                     <BlogRightSection />

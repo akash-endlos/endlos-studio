@@ -13,7 +13,7 @@ const HomeOurTeam = () => {
             }}
             className="bg-fixed bg-center bg-cover "
         >
-            <div className="mx-auto max-w-screen-2xl py-5  ">
+            <div className="mx-auto max-w-screen-2xl py-5  " data-aos="zoom-in" data-aos-easing="ease-in"  data-aos-duration="500">
                 <p className='text-center font-bold text-4xl text-white py-10'>OUR TEAM</p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 pb-10">
                     <div className=" p-4 ">

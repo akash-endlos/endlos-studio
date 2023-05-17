@@ -16,7 +16,7 @@ const HomeWriteUsContainer = () => {
                 <div className='container mx-auto py-10 px-5'>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                       <FormContainer/>
-                        <img src="https://images.freeimages.com/images/previews/ac9/railway-hdr-1361893.jpg" />
+                        <img data-aos="fade-left" data-aos-duration="2000"  src="https://images.freeimages.com/images/previews/ac9/railway-hdr-1361893.jpg" />
 
                     </div>
                 </div>

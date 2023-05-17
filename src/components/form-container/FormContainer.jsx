@@ -33,7 +33,7 @@ const FormContainer = () => {
         }
     };
     return (
-        <form className="w-full " onSubmit={handleSubmit(onSubmit)}>
+        <form className="w-full " onSubmit={handleSubmit(onSubmit)} data-aos="fade-right" data-aos-duration="2000" >
              <ToastContainer />
             <div className='text-white pb-10'><span className="font-bold tracking-[.2em] cursor-pointer text-2xl align-middle ">Write Us</span></div>
             <div className="flex flex-wrap -mx-3 mb-6">

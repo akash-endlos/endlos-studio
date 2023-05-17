@@ -3,7 +3,7 @@ import React from 'react'
 const HomeBlogImages = () => {
     return (
 
-        <div className='grid py-10 bg-[#111111]'>
+        <div className='grid pt-10 bg-[#111111]'>
             <div className='grid grid-cols-1'>
                 <div className="relative">
                     <div className="card">

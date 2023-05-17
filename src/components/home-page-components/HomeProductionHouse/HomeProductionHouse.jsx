@@ -24,7 +24,7 @@ const HomeProductionHouse = () => {
   ];
   return (
     <div className="w-full bg-[#111111] pt-10">
-      <div className='max-w-7xl mx-auto'>
+      <div className='max-w-screen-2xl mx-auto'>
         <Slider {...settings}>
           {clientLogos.map((item, index) => (
 

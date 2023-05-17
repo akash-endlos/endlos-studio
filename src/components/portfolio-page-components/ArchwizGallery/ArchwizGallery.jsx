@@ -7,30 +7,14 @@ const ArchwizGallery = () => {
         <div>
           <img
             className="h-auto max-w-full rounded-lg"
-            src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg"
+            src="/assets/archviz_1.jpg"
             alt=""
           />
         </div>
         <div>
           <img
             className="h-auto max-w-full rounded-lg"
-            src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg"
-            alt=""
-          />
-        </div>
-      </div>
-      <div className="grid gap-4">
-        <div>
-          <img
-            className="h-auto max-w-full rounded-lg"
-            src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg"
-            alt=""
-          />
-        </div>
-        <div>
-          <img
-            className="h-auto max-w-full rounded-lg"
-            src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg"
+            src="/assets/archviz_5.jpg"
             alt=""
           />
         </div>
@@ -39,14 +23,14 @@ const ArchwizGallery = () => {
         <div>
           <img
             className="h-auto max-w-full rounded-lg"
-            src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg"
+            src="/assets/archviz_2.jpg"
             alt=""
           />
         </div>
         <div>
           <img
             className="h-auto max-w-full rounded-lg"
-            src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg"
+            src="/assets/archviz_6.jpg"
             alt=""
           />
         </div>
@@ -55,14 +39,30 @@ const ArchwizGallery = () => {
         <div>
           <img
             className="h-auto max-w-full rounded-lg"
-            src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg"
+            src="/assets/archviz_3.jpg"
             alt=""
           />
         </div>
         <div>
           <img
             className="h-auto max-w-full rounded-lg"
-            src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg"
+            src="/assets/archviz_7.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+      <div className="grid gap-4">
+        <div>
+          <img
+            className="h-auto max-w-full rounded-lg"
+            src="/assets/archviz_4.jpg"
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            className="h-auto max-w-full rounded-lg"
+            src="/assets/archviz_8.jpg"
             alt=""
           />
         </div>

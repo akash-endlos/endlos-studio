@@ -29,7 +29,7 @@ export default function Home() {
       <HomeOurTeam />
       <HomeWriteUsContainer />
       <HomeVideoCarousel /> 
-      <HomeProductionHouse />
+      {/* <HomeProductionHouse /> */}
       <Footer />
     </>
   );

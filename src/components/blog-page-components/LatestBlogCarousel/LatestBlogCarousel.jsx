@@ -19,11 +19,11 @@ export default function LatestBlogCarousel() {
                 Latest Blogs
             </div>
             <Swiper
-            loop={true}
-            autoplay={{
-                delay: 3000,
-                disableOnInteraction: false,
-            }}
+                loop={true}
+                autoplay={{
+                    delay: 3000,
+                    disableOnInteraction: false,
+                }}
                 slidesPerView={3}
                 spaceBetween={30}
                 modules={[Pagination, Navigation]}
@@ -35,37 +35,37 @@ export default function LatestBlogCarousel() {
                 <SwiperSlide>  <div className="relative">
                     <div className="card cursor-pointer">
                         <img src="/assets/home_blog_1.jpg" className="w-full h-52" alt="example image" />
-                       
-                            <span className="text-xl bg-opacity-50 font-bold absolute bottom-2 left-2">Make Our World Beautiful With Virtual Reality</span>
-                        </div>
-                </div></SwiperSlide>
-                <SwiperSlide> <div className="relative">
-                    <div className="card cursor-pointer">
-                        <img src="/assets/home_blog_1.jpg" className="w-full h-52" alt="example image" />
-                       
-                            <span className="text-xl bg-opacity-50 font-bold absolute bottom-2 left-2">Make Our World Beautiful With Virtual Reality</span>
-                        </div>
-                </div></SwiperSlide>
-                <SwiperSlide> <div className="relative">
-                    <div className="card cursor-pointer">
-                        <img src="/assets/home_blog_1.jpg" className="w-full h-52" alt="example image" />
-                       
-                            <span className="text-xl bg-opacity-50 font-bold absolute bottom-2 left-2">Make Our World Beautiful With Virtual Reality</span>
+
+                        <span className="text-xl bg-opacity-50 font-bold absolute bottom-2 left-2">Make Our World Beautiful With Virtual Reality</span>
                     </div>
                 </div></SwiperSlide>
                 <SwiperSlide> <div className="relative">
                     <div className="card cursor-pointer">
                         <img src="/assets/home_blog_1.jpg" className="w-full h-52" alt="example image" />
-                       
-                            <span className="text-xl bg-opacity-50 font-bold absolute bottom-2 left-2">Make Our World Beautiful With Virtual Reality</span>
+
+                        <span className="text-xl bg-opacity-50 font-bold absolute bottom-2 left-2">Make Our World Beautiful With Virtual Reality</span>
+                    </div>
+                </div></SwiperSlide>
+                <SwiperSlide> <div className="relative">
+                    <div className="card cursor-pointer">
+                        <img src="/assets/home_blog_1.jpg" className="w-full h-52" alt="example image" />
+
+                        <span className="text-xl bg-opacity-50 font-bold absolute bottom-2 left-2">Make Our World Beautiful With Virtual Reality</span>
+                    </div>
+                </div></SwiperSlide>
+                <SwiperSlide> <div className="relative">
+                    <div className="card cursor-pointer">
+                        <img src="/assets/home_blog_1.jpg" className="w-full h-52" alt="example image" />
+
+                        <span className="text-xl bg-opacity-50 font-bold absolute bottom-2 left-2">Make Our World Beautiful With Virtual Reality</span>
                     </div>
                 </div></SwiperSlide>
                 <SwiperSlide><div className="relative">
                     <div className="card cursor-pointer">
                         <img src="/assets/home_blog_1.jpg" className="w-full h-52" alt="example image" />
-                       
-                            <span className="text-xl bg-opacity-50 font-bold absolute bottom-2 left-2">Make Our World Beautiful With Virtual Reality</span>
-                       
+
+                        <span className="text-xl bg-opacity-50 font-bold absolute bottom-2 left-2">Make Our World Beautiful With Virtual Reality</span>
+
                     </div>
                 </div></SwiperSlide>
             </Swiper>

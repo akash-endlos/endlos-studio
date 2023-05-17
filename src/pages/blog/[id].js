@@ -33,19 +33,19 @@ const Blog = ({ }) => {
             </div>
             <div className=" justify-between items-center hidden xl:flex">
               <small className="pr-5 font-semibold">Share On :- </small>
-            <span className="font-semibold tracking-widest text-md pr-5 cursor-pointer">
-              <AiFillYoutube size={20} color="white" />
-            </span>
-            <span className="font-semibold tracking-widest text-md pr-5 cursor-pointer">
-              <AiFillInstagram size={20} color="white" />
-            </span>
-            <span className="font-semibold tracking-widest text-md pr-5 cursor-pointer">
-              <AiOutlineTwitter size={20} color="white" />
-            </span>
-            <span className="font-semibold tracking-widest text-md pr-5 cursor-pointer">
-              <AiFillFacebook size={20} color="white" />
-            </span>
-          </div>
+              <span className="font-semibold tracking-widest text-md pr-5 cursor-pointer">
+                <AiFillYoutube size={20} color="white" />
+              </span>
+              <span className="font-semibold tracking-widest text-md pr-5 cursor-pointer">
+                <AiFillInstagram size={20} color="white" />
+              </span>
+              <span className="font-semibold tracking-widest text-md pr-5 cursor-pointer">
+                <AiOutlineTwitter size={20} color="white" />
+              </span>
+              <span className="font-semibold tracking-widest text-md pr-5 cursor-pointer">
+                <AiFillFacebook size={20} color="white" />
+              </span>
+            </div>
           </div>
           <p>
 

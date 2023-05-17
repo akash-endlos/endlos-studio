@@ -13,6 +13,7 @@ import HomeBlogImages from "@/components/home-page-components/HomeBlogImages/Hom
 import HomeWriteUsContainer from "@/components/home-page-components/HomeWriteUsContainer/HomeWriteUsContainer";
 import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/footer/Footer";
+import { useSelector } from "react-redux";
 
 const inter = Inter({ subsets: ["latin"] });
 

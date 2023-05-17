@@ -6,6 +6,8 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
 import 'react-toastify/dist/ReactToastify.css';
+import { Provider } from "react-redux";
+import store from "@/redux/store";
 
 export default function App({ Component, pageProps }) {
   useEffect(() => {
@@ -14,7 +16,9 @@ export default function App({ Component, pageProps }) {
   }, []);
   return (
       <>
-      <Component {...pageProps} />
+      <Provider store={store}>
+				<Component {...pageProps} />
+			</Provider>
       <ScrollToTop/>
       </>
   );

@@ -8,7 +8,7 @@ const Footer = () => {
           <h3 className="text-white text-lg font-serif font-bold">ENDLOS STUDIO</h3>
           <ul className="mt-4 space-y-4">
             <li className="text-justify">
-              <a className="text-gray-300 ">
+              <a className="text-gray-300">
               Endlos Studio is a leading creative studio that pushes digital innovation's boundaries. With a team of talented artists, developers, and technologists, we create awe-inspiring experiences in various domains, such as virtual production, architectural visualization, interactive storytelling, and game development. Our commitment to excellence and passion for cutting-edge technologies sets us apart as we strive to transform visions into reality with unparalleled craftsmanship and innovation.
               </a>
             </li>

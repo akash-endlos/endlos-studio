@@ -18,7 +18,7 @@ const HomeWriteUsContainer = () => {
                         <FormContainer />
                         {/* <img data-aos="fade-left" data-aos-delay="500"   src="https://images.freeimages.com/images/previews/ac9/railway-hdr-1361893.jpg" /> */}
                         <div class="relative aspect-video overflow-hidden rounded-3xl">
-                            <video class="w-full" src='../assets/write_us_video.mp4' autoPlay muted></video>
+                            <video class="w-full" src='../assets/write_us_video.mp4' autoPlay muted loop></video>
                         </div>
                     </div>
                 </div>

@@ -9,6 +9,7 @@ import {
   AiFillInstagram,
   AiOutlineTwitter,
   AiFillFacebook,
+  AiOutlineWhatsApp
 } from "react-icons/ai";
 
 const Blog = ({ }) => {
@@ -35,7 +36,7 @@ const Blog = ({ }) => {
             <div className=" justify-between items-center hidden xl:flex">
               <small className="pr-5 font-semibold">Share On :- </small>
               <span className="font-semibold tracking-widest text-md pr-5 cursor-pointer">
-                <AiFillYoutube size={20} color="white" />
+                <AiOutlineWhatsApp size={20} color="white" />
               </span>
               <span className="font-semibold tracking-widest text-md pr-5 cursor-pointer">
                 <AiFillInstagram size={20} color="white" />

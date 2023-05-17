@@ -11,13 +11,18 @@ const HomeImageContainer = () => {
           backgroundRepeat: "no-repeat",
           width: "100vw",
           height: "auto",
-          opacity:0.8
+          opacity: 0.8
         }}
       >
         <div className="flex justify-end items-center py-10 " >
           <img className="opacity-100" src="/assets/home-2-img.jpg" data-aos="fade-left" data-aos-duration="2000" />
         </div>
-        <p data-aos="fade-right" data-aos-duration="2000" className='flex justify-start max-w-4xl px-10 py-10 text-white font-serif text-justify  h-auto'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dolores facere, dignissimos iure nemo voluptas ea voluptates eius rerum. Hic voluptatum quasi illum odio saepe, odit iusto sunt quis quae magni eum maxime aut minima sint aperiam quibusdam atque repudiandae quisquam quia laboriosam cupiditate incidunt fuga! Inventore aperiam eius obcaecati aspernatur recusandae voluptatibus dolores natus, vel, ullam aliquid fugiat optio fuga possimus repellat dolore quod ipsa eligendi ratione quia ad et quasi. Quidem exercitationem velit repudiandae quia numquam ipsum omnis. Quo mollitia dignissimos quam excepturi, adipisci nihil quasi inventore accusamus enim cum ipsam ab earum recusandae harum itaque quae expedita nulla quia iste laudantium, eum vitae! Atque obcaecati libero, porro modi ab hic totam aliquid ipsam at maxime molestias commodi eligendi. Cumque, eos?</p>
+        <p data-aos="fade-right" data-aos-duration="2000" className='flex justify-start max-w-4xl px-10 py-2 text-white font-serif text-justify  h-auto'>Welcome to Endlos Studio, your destination for cutting-edge Unreal Engine experiences. As a passionate team of creators and innovators, we specialize in harnessing the power of Unreal Engine to bring your wildest imaginations to life.
+        </p>
+        <p data-aos="fade-right" data-aos-duration="2000" className='flex justify-start max-w-4xl px-10 py-2 text-white font-serif text-justify  h-auto'>At Endlos Studio, we believe in the limitless possibilities that Unreal Engine offers. Whether you dream of immersive virtual reality environments, jaw-dropping visual effects, or captivating gameplay mechanics, our skilled artists and developers are here to make it happen.
+        </p>
+        <p data-aos="fade-right" data-aos-duration="2000" className='flex justify-start max-w-4xl px-10 py-2 text-white font-serif text-justify  h-auto'>With years of experience in the industry, our talented team has honed their craft to deliver stunning visuals, seamless gameplay, and unparalleled attention to detail.
+        </p>
       </div>
     </div>
   );

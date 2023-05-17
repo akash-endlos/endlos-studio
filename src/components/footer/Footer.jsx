@@ -9,7 +9,7 @@ const Footer = () => {
           <ul className="mt-4 space-y-4">
             <li className="text-justify">
               <a className="text-gray-300 ">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, non eius deserunt exercitationem animi quis error provident deleniti repudiandae quaerat praesentium ullam totam commodi obcaecati libero sunt impedit, dolorem aliquid nisi explicabo quasi sequi voluptate? A officia earum aliquam ducimus. Debitis, sit. Atque, molestiae? Rem rerum ut recusandae excepturi quis eaque iure provident animi non.
+              Endlos Studio is a leading creative studio that pushes digital innovation's boundaries. With a team of talented artists, developers, and technologists, we create awe-inspiring experiences in various domains, such as virtual production, architectural visualization, interactive storytelling, and game development. Our commitment to excellence and passion for cutting-edge technologies sets us apart as we strive to transform visions into reality with unparalleled craftsmanship and innovation.
               </a>
             </li>
             {/* <li>

@@ -28,8 +28,8 @@ export default function Home() {
       <HomeBlogImages />
       <HomeOurTeam />
       <HomeWriteUsContainer />
+      <HomeVideoCarousel /> 
       <HomeProductionHouse />
-      <HomeVideoCarousel />
       <Footer />
     </>
   );

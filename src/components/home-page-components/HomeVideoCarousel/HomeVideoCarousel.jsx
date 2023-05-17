@@ -52,7 +52,7 @@ export default function HomeVideoCarousel() {
     },
   ];
   return (
-    <div className="pt-20 bg-[#111111]">
+    <div className="bg-[#111111]">
       <Swiper
         loop={true}
         effect={"coverflow"}

@@ -21,6 +21,39 @@ export default function PortFolioCarousel() {
     videoRefs.current[index].currentTime = 0;
   };
 
+  const CarouselSection = [
+    {
+      title:
+        "Endlos Innovation helps you to automate production to be more flexible and adapted to the requirements of your organization.",
+      src: "/assets/archviz_intractive_1.mp4",
+      link: "",
+    },
+    {
+      title:
+        "Endlos Innovation helps you to automate production to be more flexible and adapted to the requirements of your organization.",
+      src: "/assets/archviz_intractive_2.mp4",
+      link: "",
+    },
+    {
+      title:
+        "Endlos Innovation helps you to automate production to be more flexible and adapted to the requirements of your organization.",
+      src: "/assets/archviz_intractive_3.mp4",
+      link: "",
+    },
+    {
+      title:
+        "Endlos Innovation helps you to automate production to be more flexible and adapted to the requirements of your organization.",
+      src: "/assets/archviz_intractive_4.mp4",
+      link: "",
+    },
+    {
+      title:
+        "Endlos Innovation helps you to automate production to be more flexible and adapted to the requirements of your organization.",
+      src: "/assets/archviz_intractive_5.mp4",
+      link: "",
+    },
+  ];
+
   return (
     <div className=" bg-[#111111]">
       <Swiper
@@ -45,14 +78,14 @@ export default function PortFolioCarousel() {
         navigation={true}
         className="mySwiper"
       >
-        {[2, 3, 4, 5].map((index) => (
+        {CarouselSection.map((item,index) => (
           <SwiperSlide
             key={index}
             onMouseEnter={() => handleSlideMouseEnter(index)}
             onMouseLeave={() => handleSlideMouseLeave(index)}
           >
             <video
-              src={`/assets/cr${index}.mp4`}
+              src={item.src}
               ref={(ref) => (videoRefs.current[index] = ref)}
               autoPlay={index === currentSlide}
               muted

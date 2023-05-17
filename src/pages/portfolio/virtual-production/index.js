@@ -24,7 +24,7 @@ const index = () => {
         <>
             <Navbar Navclass="bg-[#111111] text-white" />
             <div className="pt-24 bg-[#111111] text-white">
-                <PortFolioParallax title={'Virtual production'} subtitle={'Can You Handle The Truth'} />
+                <PortFolioParallax title={'Virtual production'} subtitle={'Can You Handle The Truth'} nexttitle={'Types Of Virtual Production'} />
                 <PortFolioCardsContainer/>
                   <div className='max-w-screen-xl mx-auto'>
                   <div className='py-10'>

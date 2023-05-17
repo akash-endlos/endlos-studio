@@ -50,7 +50,7 @@ const index = () => {
           subtitle={"Can You Handle The Truth"}
         />
         <div className="flex justify-center items-center">
-          <video src="/assets/1.mp4" controls width="100%"></video>
+          <video src="/assets/archviz_interactive.mp4" controls width="100%"></video>
         </div>
       </div>
       <Footer />

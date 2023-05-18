@@ -19,7 +19,6 @@ const [filteredData, setfilteredData] = useState([])
     setfilteredData(careers)
    }
   }, [searchValue])
-  console.log(filteredData);
   return (
     <>
       <Navbar />

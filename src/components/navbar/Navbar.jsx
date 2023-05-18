@@ -35,7 +35,7 @@ function Navbar({ Navclass = 'bg-transparent text-white' }) {
   return (
     <>
       <div
-        className={`fixed top-0 z-50 flex flex-wrap justify-between items-center px-5 py-5  w-full h-[90px] transition duration-100 navbar ${isscroll ? "bg-[#161616] text-white" : `${Navclass}`
+        className={`fixed top-0 z-50 flex flex-wrap justify-between items-center px-5  w-full h-[90px] transition duration-100 navbar ${isscroll ? "bg-[#161616] text-white" : `${Navclass}`
           }`}
       >
         <Link href="/"><span className="font-bold tracking-[.2em] cursor-pointer text-2xl align-middle font-serif">

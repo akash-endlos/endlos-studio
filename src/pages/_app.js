@@ -8,6 +8,7 @@ import { useEffect } from "react";
 import 'react-toastify/dist/ReactToastify.css';
 import { Provider } from "react-redux";
 import store from "@/redux/store";
+import { ToastContainer } from "react-toastify";
 
 export default function App({ Component, pageProps }) {
   useEffect(() => {
@@ -17,6 +18,7 @@ export default function App({ Component, pageProps }) {
   return (
       <>
       <Provider store={store}>
+      <ToastContainer />
 				<Component {...pageProps} />
 			</Provider>
       <ScrollToTop/>

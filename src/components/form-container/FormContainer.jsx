@@ -26,7 +26,7 @@ const FormContainer = () => {
         try {
             await axios.post('/api/send-email', { name, email, message });
             reset()
-            toast.success('Successfully Sent',{theme:"colored"})
+            toast.success('Successfully Sent',{theme:"colored",position:"top-right"})
         } catch (error) {
             console.error(error);
             toast.error('Something went wrong',{theme:"colored"})
@@ -34,7 +34,7 @@ const FormContainer = () => {
     };
     return (
         <form className="w-full " onSubmit={handleSubmit(onSubmit)} data-aos="fade-right" data-aos-delay="500" >
-             <ToastContainer />
+            
             <div className='text-white pb-10'><span className="font-bold tracking-[.2em] cursor-pointer text-2xl align-middle ">Write Us</span></div>
             <div className="flex flex-wrap -mx-3 mb-6">
                 <div className="w-full md:w-3/4 px-3 mb-6 md:mb-0">

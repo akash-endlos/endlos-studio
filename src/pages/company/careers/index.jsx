@@ -12,7 +12,7 @@ const [filteredData, setfilteredData] = useState([])
   useEffect(() => {
    if(searchValue)
    {
-    const filterCareer = careers.filter((item)=>item.description.includes(searchValue))
+    const filterCareer = careers.filter((item)=>item.designation.includes(searchValue))
     setfilteredData(filterCareer)
    }
    else{

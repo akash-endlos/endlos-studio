@@ -49,7 +49,7 @@ const NewNavbar = () => {
   );
 
   const DropdownMenu = ({ childMenu }) => (
-    <ul className="absolute xl:right-32 md:right-40 top-24  w-[170px] py-2 ">
+    <ul className="absolute xl:right-32 md:right-40 top-20  w-[170px] py-2 ">
       {childMenu.map((child) => (
         <li className="py-3 relative cursor-pointer px-2 pl-5 opacity-90 bg-[#111111] text-white hover:bg-white hover:text-[#111111] rounded-lg" key={child.childmenu}>
            <Link href={child.link}><div className="flex justify-between">

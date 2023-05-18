@@ -6,18 +6,17 @@ import bg from "../../../../public/assets/img1.jpg";
 import { useSelector } from "react-redux";
 
 const Careers = () => {
-  const careers = useSelector((state)=>state.allcareers.career )
+  const careers = useSelector((state) => state.allcareers.career)
   const [searchValue, setsearchValue] = useState('')
-const [filteredData, setfilteredData] = useState([])
+  const [filteredData, setfilteredData] = useState([])
   useEffect(() => {
-   if(searchValue)
-   {
-    const filterCareer = careers.filter((item)=>item.designation.includes(searchValue))
-    setfilteredData(filterCareer)
-   }
-   else{
-    setfilteredData(careers)
-   }
+    if (searchValue) {
+      const filterCareer = careers.filter((item) => item.designation.toLocaleLowerCase().includes(searchValue.toLocaleLowerCase()))
+      setfilteredData(filterCareer)
+    }
+    else {
+      setfilteredData(careers)
+    }
   }, [searchValue])
   return (
     <>
@@ -47,7 +46,7 @@ const [filteredData, setfilteredData] = useState([])
             <input
               type="text"
               value={searchValue}
-              onChange={(e)=>setsearchValue(e.target.value)}
+              onChange={(e) => setsearchValue(e.target.value)}
               className="border text-black border-gray-300 rounded-md px-4 py-2 w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
               placeholder="Job title or Skill..."
             />
@@ -55,27 +54,27 @@ const [filteredData, setfilteredData] = useState([])
           </div>
         </div>
         <div className="rounded-md max-w-screen-md px-5 py-10 mx-auto bg-[#111111]">
-        {filteredData && filteredData.length>0 ? filteredData.map((item,index)=>(
-          <div key={index} className="rounded-md border border-gray-400 px-4 md:flex mb-2 py-2">
-          <div className="md:w-full md:pl-4  py-2">
-            <div className="flex justify-between items-center">
-              <h3 className="text-lg font-semibold">{item.designation}</h3>
-              <div className="flex flex-col items-center">
-              <strong>{item.jobType}</strong>
-              <small>{item.date}</small>
+          {filteredData && filteredData.length > 0 ? filteredData.map((item, index) => (
+            <div key={index} className="rounded-md border border-gray-400 px-4 md:flex mb-2 py-2">
+              <div className="md:w-full md:pl-4  py-2">
+                <div className="flex justify-between items-center">
+                  <h3 className="text-lg font-semibold">{item.designation}</h3>
+                  <div className="flex flex-col items-center">
+                    <strong>{item.jobType}</strong>
+                    <small>{item.date}</small>
+                  </div>
+                </div>
+
+                <p className=" text-justify py-5 max-w-sm">
+                  {item.description}
+                </p>
+                <button className="mt-4 bg-black hover:bg-white text-white hover:text-black px-4 py-2 rounded-md">
+                  Apply Now
+                </button>
               </div>
             </div>
+          )) : (<h1 className="text-center text-2xl font-semibold">There is No Data What you Want to Search</h1>)}
 
-            <p className=" text-justify py-5 max-w-sm">
-              {item.description}
-            </p>
-            <button className="mt-4 bg-black hover:bg-white text-white hover:text-black px-4 py-2 rounded-md">
-              Apply Now
-            </button>
-          </div>
-        </div>
-        )):(<h1 className="text-center text-2xl font-semibold">There is No Data What you Want to Search</h1>)}
-          
         </div>
       </div>
       <Footer />

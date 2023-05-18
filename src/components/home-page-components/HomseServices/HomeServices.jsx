@@ -29,26 +29,6 @@ const HomeServices = () => {
             <p className="text-[#b6b6b6] text-justify ">Unleash your gaming vision with Endlos Studio, where groundbreaking gameplay mechanics and captivating worlds converge, creating unforgettable gaming experiences. Harness our expertise in game development and innovative technologies to bring your ideas to life and captivate players worldwide.
             </p>
           </div>
-          {/* <div className="bg-[#111111] p-4 text-center">
-            <img className="w-full h-48 object-cover mb-2" src="/assets/home_service_5.jpg" alt="Card Image" />
-            <h2 className="text-lg font-semibold mb-2 text-[#b6b6b6]">ACADEMY AWARDS</h2>
-            <p className="text-[#b6b6b6]">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </div>
-          <div className="bg-[#111111] p-4 text-center">
-            <img className="w-full h-48 object-cover mb-2" src="/assets/home_service_6.jpg" alt="Card Image" />
-            <h2 className="text-lg font-semibold mb-2 text-[#b6b6b6]">CINEMAS</h2>
-            <p className="text-[#b6b6b6]">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </div> */}
-          {/* <div className="bg-[#111111] p-4 text-center">
-            <img className="w-full h-48 object-cover mb-2" src="/assets/home_service_2.jpg" alt="Card Image" />
-            <h2 className="text-lg font-semibold mb-2 text-[#b6b6b6]">BLOCK BUSTERS</h2>
-            <p className="text-[#b6b6b6]">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </div>
-          <div className="bg-[#111111] p-4 text-center">
-            <img className="w-full h-48 object-cover mb-2" src="/assets/home_service_2.jpg" alt="Card Image" />
-            <h2 className="text-lg font-semibold mb-2 text-[#b6b6b6]">PRODUCTION</h2>
-            <p className="text-[#b6b6b6]">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </div> */}
         </div>
       </div>
     </div>

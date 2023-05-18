@@ -6,7 +6,7 @@ import PortFolioParallax from '@/components/portfolio-page-components/PortFolioP
 import PortFolioCarousel from '@/components/portfolio-page-components/PortFolioCarousel/PortFolioCarousel';
 import PortFolioCardsContainer from '@/components/portfolio-page-components/PortFolioCardsContainer/PortFolioCardsContainer';
 import HomeProductionHouse from '@/components/home-page-components/HomeProductionHouse/HomeProductionHouse';
-import bg from "../../../../public/assets/home-7-img-1.jpg";
+import bg from "../../../../public/assets/game-development.jpg";
 
 const index = () => {
 
@@ -15,16 +15,35 @@ const index = () => {
             <Navbar Navclass="bg-[#111111] text-white" />
             <div className="pt-24 bg-[#111111] text-white">
                 <div >
-                    <PortFolioParallax title={'Game Development'} subtitle={'Can You Handle The Truth'} />
+                <div className="relative">
+                <div className="h-screen bg-cover bg-fixed" style={{
+                    backgroundImage: `url(${bg.src})`,
+                    backgroundSize: "cover",
+                    backgroundRepeat: "no-repeat",
+                    width: "100vw",
+                    height: "500px",
+                }}>
+                    <div className="absolute inset-0 bg-black opacity-60"></div>
+                    <div className="absolute inset-0 flex justify-center items-center">
+                        <div className="text-center">
+                            <h1 className="text-5xl font-bold text-white">Game Development</h1>
+                            <p className="mt-4 text-lg text-white font-serif">Can You Handle The Truth</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
                     <div className="flex justify-center items-center py-10">
-                        <img src="/assets/home-7-img-1.jpg" />
+                        <img src="/assets/gd-1.jpg" />
                     </div>
                     <p className='max-w-screen-lg mx-auto py-10'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dolores facere, dignissimos iure nemo voluptas ea voluptates eius rerum. Hic voluptatum quasi illum odio saepe, odit iusto sunt quis quae magni eum maxime aut minima sint aperiam quibusdam atque repudiandae quisquam quia laboriosam cupiditate incidunt fuga! Inventore aperiam eius obcaecati aspernatur recusandae voluptatibus dolores natus, vel, ullam aliquid fugiat optio fuga possimus repellat dolore quod ipsa eligendi ratione quia ad et quasi. Quidem exercitationem velit repudiandae quia numquam ipsum omnis. Quo mollitia dignissimos quam excepturi, adipisci nihil quasi inventore accusamus enim cum ipsam ab earum recusandae harum itaque quae expedita nulla quia iste laudantium, eum vitae! Atque obcaecati libero, porro modi ab hic totam aliquid ipsam at maxime molestias commodi eligendi. Cumque, eos?</p>
-                    <div className="grid grid-cols-2 grid-rows-2">
-                        <div className=" col-start-1 col-end-2 row-start-1 row-end-2">  <img className="w-full object-cover mb-2" src="https://source.unsplash.com/random/800x600" alt="Card Image" /></div>
-                        <div className=" col-start-1 col-end-2 row-start-2 row-end-3">  <img className="w-full  object-cover mb-2" src="https://source.unsplash.com/random/800x600" alt="Card Image" /></div>
-                        <div className=" col-start-2 col-end-3 row-start-1 row-end-3">  <img className="w-full  object-cover mb-2" src="https://source.unsplash.com/random/800x600" alt="Card Image" /></div>
+                   <div>
+                   <div className="grid grid-cols-2">
+                          <img className="w-full object-cover" src="/assets/gd-2.jpg" alt="Card Image" />
+                          <img className="w-full  object-cover " src="/assets/gd-3.jpg" alt="Card Image" />
+                          <img className="w-full  object-cover " src="/assets/gd-4.jpg" alt="Card Image" />
+                          <img className="w-full  object-cover " src="/assets/gd-5.jpg" alt="Card Image" />
                     </div>
+                   </div>
                     <div className="relative h-screen">
                         <div style={{
                             backgroundImage: `url(${bg.src})`,

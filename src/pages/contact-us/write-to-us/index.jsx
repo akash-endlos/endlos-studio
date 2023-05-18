@@ -9,7 +9,7 @@ const index = () => {
       <Navbar />
       <div className="relative">
         <img
-          src="https://cinerama.qodeinteractive.com/wp-content/uploads/2018/04/Contact-title-img.jpg"
+          src="/assets/contact_us.jpg"
           alt="dummy-img"
           className="mx-auto w-full h-[500px]"
         />

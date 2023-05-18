@@ -112,7 +112,7 @@ const Blog = ({ }) => {
                 <img data-aos="fade-left" data-aos-delay="500" src="https://images.freeimages.com/images/previews/ac9/railway-hdr-1361893.jpg" />
               </div>
             </div>
-            <LatestBlogCarousel/>
+            {/* <LatestBlogCarousel/> */}
           </div>
         </div>
       </div>

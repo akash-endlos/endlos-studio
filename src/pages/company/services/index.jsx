@@ -31,7 +31,7 @@ const index = () => {
                 backgroundSize: "cover",
                 backgroundRepeat: "no-repeat",
                 width: "100vw",
-                height: "300px",
+                height: "500px",
               }}
             >
               <div className="absolute inset-0 bg-black opacity-60"></div>

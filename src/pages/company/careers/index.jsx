@@ -48,7 +48,7 @@ const Careers = () => {
               type="text"
               value={searchValue}
               onChange={(e) => setsearchValue(e.target.value)}
-              className="border text-black border-gray-300 rounded-md px-4 py-2 w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="border text-white bg-black border-gray-300 rounded-md px-4 py-2 w-full focus:outline-none focus:ring-2 focus:border-[#db1eb3]"
               placeholder="Job title or Skill..."
             />
             <AiOutlineSearch className="h-5 w-5 text-gray-400 absolute right-12" />

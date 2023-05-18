@@ -109,7 +109,7 @@ const Blog = ({ }) => {
                 They also provide information on the best VR games and experiences to try out as well as tips on how to make the most out of your virtual reality experience. These blogs have a wealth of information on all things VR and have become go-to sources for those looking to learn more about this exciting technology. As virtual reality continues to grow in popularity, these blogs will undoubtedly continue to provide valuable insights into this ever-changing field.Following VR blogs is essential for enthusiasts, developers, and businesses alike.
               </p>
               <div class="relative aspect-video overflow-hidden rounded-3xl">
-                <img src="https://images.freeimages.com/images/previews/ac9/railway-hdr-1361893.jpg" />
+                <img data-aos="fade-left" data-aos-delay="500" src="https://images.freeimages.com/images/previews/ac9/railway-hdr-1361893.jpg" />
               </div>
             </div>
             <LatestBlogCarousel/>

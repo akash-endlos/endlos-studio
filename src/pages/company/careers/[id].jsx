@@ -44,8 +44,9 @@ const CareerDetails = () => {
           </div>
           <div className='col-span-12 sm:col-span-4 py-10'>
             <div className='py-5'>
-              <h1 className='font-bold text-xl'>Abouts Us</h1>
-              <p>Chennai | Mumbai | Hyderabad</p>
+              <h1 className='font-bold text-xl py-4'>Job Information</h1>
+              <p>Location</p>
+              <p className='font-semibold'>Ahemdabad</p>
             </div>
           </div>
         </div>

@@ -44,49 +44,49 @@ const CareerDetails = () => {
               </div>
               <div className='py-5'>
                 <p className='py-4'>Job Description</p>
-                <p className='px-10'>Create animalistic and grounded hand keyed animations that have a very strong foundation in realism;
+                <p className='px-5 py-1'>Create animalistic and grounded hand keyed animations that have a very strong foundation in realism;
                 </p>
-                <p className='px-10'>Create animalistic and grounded hand keyed animations that have a very strong foundation in realism;
+                <p className='px-5 py-1'>Create animalistic and grounded hand keyed animations that have a very strong foundation in realism;
                 </p>
               </div>
               <div className='py-5'>
                 <h1 className='font-bold text-xl py-4'>Requirements</h1>
                 <p className='py-4'>We would love to hear from if:</p>
-                <p className='px-10'>Create animalistic and grounded hand keyed animations that have a very strong foundation in realism;
+                <p className='px-5 py-1'>Create animalistic and grounded hand keyed animations that have a very strong foundation in realism;
                 </p>
-                <p className='px-10'>Create animalistic and grounded hand keyed animations that have a very strong foundation in realism;
+                <p className='px-5 py-1'>Create animalistic and grounded hand keyed animations that have a very strong foundation in realism;
                 </p>
-                <p className='px-10'>Create animalistic and grounded hand keyed animations that have a very strong foundation in realism;
+                <p className='px-5 py-1'>Create animalistic and grounded hand keyed animations that have a very strong foundation in realism;
                 </p>
-                <p className='px-10'>Create animalistic and grounded hand keyed animations that have a very strong foundation in realism;
+                <p className='px-5 py-1'>Create animalistic and grounded hand keyed animations that have a very strong foundation in realism;
                 </p>
-                <p className='px-10'>Create animalistic and grounded hand keyed animations that have a very strong foundation in realism;
+                <p className='px-5 py-1'>Create animalistic and grounded hand keyed animations that have a very strong foundation in realism;
                 </p>
-                <p className='px-10'>Create animalistic and grounded hand keyed animations that have a very strong foundation in realism;
+                <p className='px-5 py-1'>Create animalistic and grounded hand keyed animations that have a very strong foundation in realism;
                 </p>
-                <p className='px-10'>Create animalistic and grounded hand keyed animations that have a very strong foundation in realism;
+                <p className='px-5 py-1'>Create animalistic and grounded hand keyed animations that have a very strong foundation in realism;
                 </p>
-                <p className='px-10'>Create animalistic and grounded hand keyed animations that have a very strong foundation in realism;
+                <p className='px-5 py-1'>Create animalistic and grounded hand keyed animations that have a very strong foundation in realism;
                 </p>
               </div>
               <div className='py-5'>
                 <h1 className='font-bold text-xl py-4'>Benefits</h1>
                 <p className='py-4'>We would love to hear from if:</p>
-                <p className='px-10'>Create animalistic and grounded hand keyed animations that have a very strong foundation in realism;
+                <p className='px-5 py-1'>Create animalistic and grounded hand keyed animations that have a very strong foundation in realism;
                 </p>
-                <p className='px-10'>Create animalistic and grounded hand keyed animations that have a very strong foundation in realism;
+                <p className='px-5 py-1'>Create animalistic and grounded hand keyed animations that have a very strong foundation in realism;
                 </p>
-                <p className='px-10'>Create animalistic and grounded hand keyed animations that have a very strong foundation in realism;
+                <p className='px-5 py-1'>Create animalistic and grounded hand keyed animations that have a very strong foundation in realism;
                 </p>
-                <p className='px-10'>Create animalistic and grounded hand keyed animations that have a very strong foundation in realism;
+                <p className='px-5 py-1'>Create animalistic and grounded hand keyed animations that have a very strong foundation in realism;
                 </p>
-                <p className='px-10'>Create animalistic and grounded hand keyed animations that have a very strong foundation in realism;
+                <p className='px-5 py-1'>Create animalistic and grounded hand keyed animations that have a very strong foundation in realism;
                 </p>
-                <p className='px-10'>Create animalistic and grounded hand keyed animations that have a very strong foundation in realism;
+                <p className='px-5 py-1'>Create animalistic and grounded hand keyed animations that have a very strong foundation in realism;
                 </p>
-                <p className='px-10'>Create animalistic and grounded hand keyed animations that have a very strong foundation in realism;
+                <p className='px-5 py-1'>Create animalistic and grounded hand keyed animations that have a very strong foundation in realism;
                 </p>
-                <p className='px-10'>Create animalistic and grounded hand keyed animations that have a very strong foundation in realism;
+                <p className='px-5 py-1'>Create animalistic and grounded hand keyed animations that have a very strong foundation in realism;
                 </p>
               </div>
             </div>

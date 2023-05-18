@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import { AiOutlineSearch } from "react-icons/ai";
 import bg from "../../../../public/assets/img1.jpg";
 import { useSelector } from "react-redux";
+import Link from "next/link";
 
 const Careers = () => {
   const careers = useSelector((state) => state.allcareers.career)
@@ -68,9 +69,11 @@ const Careers = () => {
                 <p className=" text-justify py-5 max-w-sm">
                   {item.description}
                 </p>
+                <Link href={`careers/${item.id}`}>
                 <button className="mt-4 bg-black hover:bg-white text-white hover:text-black px-4 py-2 rounded-md">
-                  Apply Now
+                  See Details
                 </button>
+                </Link>
               </div>
             </div>
           )) : (<h1 className="text-center text-2xl font-semibold">There is No Data What you Want to Search</h1>)}

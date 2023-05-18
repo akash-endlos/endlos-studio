@@ -73,19 +73,19 @@ const index = () => {
                     <label class="block text-white font-bold mb-2" for="name">
                         Name
                     </label>
-                    <input class=" border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Enter your  name" />
+                    <input class=" border rounded w-full py-2 px-3 text-white bg-black leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Enter your  name" />
                 </div>
                 <div class="mb-4">
                     <label class="block text-white font-bold mb-2" for="email">
                         Email
                     </label>
-                    <input class=" border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Enter your email" />
+                    <input class=" border rounded w-full py-2 px-3 text-white bg-black leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Enter your email" />
                 </div>
                 <div class="mb-4">
                     <label class="block text-white font-bold mb-2" for="message">
                         Message
                     </label>
-                    <textarea class=" border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="message" placeholder="Enter your message"></textarea>
+                    <textarea class=" border rounded w-full py-2 px-3 text-white bg-black leading-tight focus:outline-none focus:shadow-outline" id="message" placeholder="Enter your message"></textarea>
                 </div>
                 <div class="flex items-center justify-between">
                     <button class="bg-[#111111] hover:bg-white border hover:text-[#111111] text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">

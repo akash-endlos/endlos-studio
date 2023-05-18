@@ -1,5 +1,5 @@
 import React from 'react'
-import bg from "../../../../public/assets/home-7-img-1.jpg";
+import bg from "../../../../public/assets/about_parallax.jpg";
 
 const ParallaxImageContainer = () => {
     return (

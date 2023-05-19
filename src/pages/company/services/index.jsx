@@ -46,7 +46,7 @@ const index = () => {
           </div>
           <div className="bg-[#111111]">
             <div className='flex flex-col gap-5 justify-center items-center text-white py-20'>
-              <h1 className='text-4xl'>What Web Provide</h1>
+              <h1 className='text-4xl'>What We Provide</h1>
               <p className='text-xl max-w-screen-lg text-center font-serif'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut numquam non ea vero quas, libero voluptatibus atque ad asperiores magni</p>
             </div>
           </div>
@@ -125,24 +125,34 @@ const index = () => {
       <div className="bg-[#111111]">
             <div className='flex flex-col gap-5 justify-center items-center text-white py-20'>
               <h1 className='text-4xl'>  Virtual Production</h1>
-              <p className='text-xl max-w-screen-lg text-center font-serif'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut numquam non ea vero quas, libero voluptatibus atque ad asperiores magni</p>
+              <p className='text-xl max-w-screen-2xl leading-10  font-serif text-justify'>Experience the future of filmmaking with our virtual production services. Harnessing cutting-edge technology and techniques, we seamlessly integrate physical and digital elements to create immersive virtual environments and deliver stunning real-time visual effects. Our virtual camera systems allow for dynamic shots in virtual sets and locations, while our real-time rendering and compositing capabilities provide instant feedback and iteration during the production process. Collaborate with our talented filmmakers, artists, and technicians to bring your creative visions to life like never before.</p>
             </div>
           </div>
           <img className="w-full h-[500px] object-cover" src="https://source.unsplash.com/random/800x600" alt="Card Image" />
       <div className="bg-[#111111] text-white">
         <div className='max-w-screen-xl mx-auto py-10'>
           <div className='py-5'>
-            <h1 className='font-bold text-xl py-4'>Virtual Production</h1>
-            <p>Open, inclusive, and equal are three words that sum up the work culture at PhantomFX. Our strength lies in our people; a dedicated team of creative professionals who work together to bring alive magic on screen. Our teams have delivered on some of the craziest deadlines, without taking eyes off the high bar of quality.</p>
+            <h1 className='font-bold text-xl py-4'>Immersive Virtual Environments</h1>
+            <p>Transport your audience to captivating virtual worlds with our state-of-the-art technology.</p>
           </div>
           <div className='py-5'>
-            <h1 className='font-bold text-xl py-4'>Visual Production</h1>
-            <p>Phantom Fx is looking for a Mid-Senior Creature Animator with extensive experience animating animal movement and behaviour. As a  Creature Animator, you will be part of a diverse team of animators that collaborates closely with Visual Design and Code to create engaging creatures for our current projects. As a Creature Animator for this dedicated creature team, we will look to you to deliver world-class creature animation quality.
+            <h1 className='font-bold text-xl py-4'>Real-Time Visual Effects</h1>
+            <p>Enhance storytelling and production efficiency with instant feedback and on-the-fly adjustments.
             </p>
           </div>
           <div className='py-5'>
-            <h1 className='font-bold text-md py-4'>Our Production House</h1>
-            <p>Phantom Fx is looking for a Mid-Senior Creature Animator with extensive experience animating animal movement and behaviour. As a  Creature Animator, you will be part of a diverse team of animators that collaborates closely with Visual Design and Code to create engaging creatures for our current projects. As a Creature Animator for this dedicated creature team, we will look to you to deliver world-class creature animation quality.
+            <h1 className='font-bold text-md py-4'>Virtual Camera Systems</h1>
+            <p>Capture dynamic shots in virtual sets and locations for added realism and creative freedom.
+            </p>
+          </div>
+          <div className='py-5'>
+            <h1 className='font-bold text-md py-4'>Seamless Integration</h1>
+            <p>Achieve a perfect blend of physical and digital elements for a cohesive and visually stunning final product.
+            </p>
+          </div>
+          <div className='py-5'>
+            <h1 className='font-bold text-md py-4'>Collaborative Approach</h1>
+            <p>Work closely with our team to bring your creative vision to life, leveraging the expertise of filmmakers, artists, and technicians.
             </p>
           </div>
         </div>

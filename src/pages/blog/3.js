@@ -19,7 +19,7 @@ const Blog = ({ }) => {
       <BlogParallaxComponent title={'Blog'} />
       <div className="bg-[#111111] text-white">
         <div className="py-24 flex items-center justify-center">
-          <h1 className="text-7xl max-w-7xl mx-auto px-5">Meet sustainability innovators combating climate change in India</h1>
+          <h1 className="text-7xl max-w-7xl mx-auto px-5">The Unreal Engine 5.2 is available!</h1>
         </div>
         <div className="max-w-screen-2xl mx-auto px-5">
           <div className="pb-10">
@@ -51,68 +51,51 @@ const Blog = ({ }) => {
           </div>
           <div className="max-w-7xl mx-auto py-10">
             <img src="/assets/home_blog_1.jpg" class="mx-auto max-w-full h-auto" alt="example image" />
+            <p className="py-2 pt-5">Unreal Engine 5 revolutionized the CGI environment. Unreal Engine 5.2 is now used to let creatives achieve even greater results.</p>
+            <p className="py-2">
+            Epic Games published the public plan of Unreal Engine 5.2 before GDC 2023 event in March. It's an excellent addition to a point release. It's Unreal Engine 5, so you shouldn't expect anything surprising.
 
-            <p className="text-justify py-10 leading-loose">
-
-              Virtual reality (VR) has become increasingly popular in recent years, and for good reason. It offers an immersive experience that allows users to feel like they are a part of another world. For those who are new to VR, it can be overwhelming and confusing. However, there are many blogs that offer an introduction to the world of virtual reality. These blogs cover everything from the basics of VR technology to the different types of headsets and controllers available.
-
-              They also provide information on the best VR games and experiences to try out as well as tips on how to make the most out of your virtual reality experience. These blogs have a wealth of information on all things VR and have become go-to sources for those looking to learn more about this exciting technology. As virtual reality continues to grow in popularity, these blogs will undoubtedly continue to provide valuable insights into this ever-changing field.Following VR blogs is essential for enthusiasts, developers, and businesses alike.
-
-              Enthusiasts can stay up-to-date with the latest VR trends, news, and product releases. They can also learn about the best VR games and experiences available on the market. For developers, keeping up with VR blogs is crucial to stay in touch with new technologies and industry changes that may impact their work. They can learn about new software updates, hardware advancements, and tips for developing immersive experiences.
-
-              Businesses can also benefit greatly from following VR blogs as they can gain valuable insights into consumer trends and preferences in this rapidly evolving field. They can stay informed about new business opportunities related to virtual reality like training simulations or interactive marketing campaigns. Additionally, following top VR blogs provides a platform for networking within the industry. It allows enthusiasts, developers, and businesses to connect with each other and share their ideas or collaborate on projects.
-
-              Overall, staying connected through top VR blogs is an essential part of being involved in this exciting industry. There are a plethora of VR blogs out there, but not all of them offer the same quality of content. For those who want to stay up-to-date on the latest VR technology and trends, it’s important to find blogs that offer in-depth reviews, news, and insights.
             </p>
-            <div class="relative aspect-video overflow-hidden rounded-3xl">
-              <video class="w-full opacity-100" src='../assets/write_us_video.mp4' autoPlay muted loop></video>
-            </div>
-            <p className="text-justify py-10 leading-loose">
-
-              Virtual reality (VR) has become increasingly popular in recent years, and for good reason. It offers an immersive experience that allows users to feel like they are a part of another world. For those who are new to VR, it can be overwhelming and confusing. However, there are many blogs that offer an introduction to the world of virtual reality. These blogs cover everything from the basics of VR technology to the different types of headsets and controllers available.
-
-              They also provide information on the best VR games and experiences to try out as well as tips on how to make the most out of your virtual reality experience. These blogs have a wealth of information on all things VR and have become go-to sources for those looking to learn more about this exciting technology. As virtual reality continues to grow in popularity, these blogs will undoubtedly continue to provide valuable insights into this ever-changing field.Following VR blogs is essential for enthusiasts, developers, and businesses alike.
-
-              Enthusiasts can stay up-to-date with the latest VR trends, news, and product releases. They can also learn about the best VR games and experiences available on the market. For developers, keeping up with VR blogs is crucial to stay in touch with new technologies and industry changes that may impact their work. They can learn about new software updates, hardware advancements, and tips for developing immersive experiences.
-
-              Businesses can also benefit greatly from following VR blogs as they can gain valuable insights into consumer trends and preferences in this rapidly evolving field. They can stay informed about new business opportunities related to virtual reality like training simulations or interactive marketing campaigns. Additionally, following top VR blogs provides a platform for networking within the industry. It allows enthusiasts, developers, and businesses to connect with each other and share their ideas or collaborate on projects.
-
-              Overall, staying connected through top VR blogs is an essential part of being involved in this exciting industry. There are a plethora of VR blogs out there, but not all of them offer the same quality of content. For those who want to stay up-to-date on the latest VR technology and trends, it’s important to find blogs that offer in-depth reviews, news, and insights.
+            <p className="py-2">
+            With support for natively compatible Apple, Silicon is now integrated into Unreal Editor. Unreal Editor, the Universal Binary of Unreal Engine, which fully supports Apple Silicon and Intel CPUs, has been made accessible for download via Epic Games. 
             </p>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-
-              {/* <img data-aos="fade-left" data-aos-delay="500"   src="https://images.freeimages.com/images/previews/ac9/railway-hdr-1361893.jpg" /> */}
-              <div class="relative aspect-video overflow-hidden rounded-3xl">
-                <video class="w-full opacity-100" src='../assets/write_us_video.mp4' autoPlay muted loop></video>
-              </div>
-              <p className="text-justify leading-loose ">
-
-                Virtual reality (VR) has become increasingly popular in recent years, and for good reason. It offers an immersive experience that allows users to feel like they are a part of another world. For those who are new to VR, it can be overwhelming and confusing. However, there are many blogs that offer an introduction to the world of virtual reality. These blogs cover everything from the basics of VR technology to the different types of headsets and controllers available.
-
-                They also provide information on the best VR games and experiences to try out as well as tips on how to make the most out of your virtual reality experience. These blogs have a wealth of information on all things VR and have become go-to sources for those looking to learn more about this exciting technology. As virtual reality continues to grow in popularity, these blogs will undoubtedly continue to provide valuable insights into this ever-changing field.Following VR blogs is essential for enthusiasts, developers, and businesses alike.
-              </p>
-            </div>
-            <p className="text-justify leading-loose py-10">
-
-              Virtual reality (VR) has become increasingly popular in recent years, and for good reason. It offers an immersive experience that allows users to feel like they are a part of another world. For those who are new to VR, it can be overwhelming and confusing. However, there are many blogs that offer an introduction to the world of virtual reality. These blogs cover everything from the basics of VR technology to the different types of headsets and controllers available.
-
-              They also provide information on the best VR games and experiences to try out as well as tips on how to make the most out of your virtual reality experience. These blogs have a wealth of information on all things VR and have become go-to sources for those looking to learn more about this exciting technology. As virtual reality continues to grow in popularity, these blogs will undoubtedly continue to provide valuable insights into this ever-changing field.Following VR blogs is essential for enthusiasts, developers, and businesses alike.
-            </p>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 py-10">
-
-              {/* <img data-aos="fade-left" data-aos-delay="500"   src="https://images.freeimages.com/images/previews/ac9/railway-hdr-1361893.jpg" /> */}
-
-              <p className="text-justify leading-loose">
-
-                Virtual reality (VR) has become increasingly popular in recent years, and for good reason. It offers an immersive experience that allows users to feel like they are a part of another world. For those who are new to VR, it can be overwhelming and confusing. However, there are many blogs that offer an introduction to the world of virtual reality. These blogs cover everything from the basics of VR technology to the different types of headsets and controllers available.
-
-                They also provide information on the best VR games and experiences to try out as well as tips on how to make the most out of your virtual reality experience. These blogs have a wealth of information on all things VR and have become go-to sources for those looking to learn more about this exciting technology. As virtual reality continues to grow in popularity, these blogs will undoubtedly continue to provide valuable insights into this ever-changing field.Following VR blogs is essential for enthusiasts, developers, and businesses alike.
-              </p>
-              <div class="relative aspect-video overflow-hidden rounded-3xl">
-                <img data-aos="fade-left" data-aos-delay="500" src="https://images.freeimages.com/images/previews/ac9/railway-hdr-1361893.jpg" />
-              </div>
-            </div>
-            {/* <LatestBlogCarousel/> */}
+            <h2 className="text-3xl font-bold max-w-7xl mx-auto py-5 px-5">New features in Unreal Engine 5.2</h2>
+            <p className="py-2">Here are some things you can expect from the new version.</p>
+            <h2 className="text-3xl font-bold max-w-7xl mx-auto py-5 px-5">Procedural Content Generation (PCG)</h2>
+            <p className="py-2">PCG is a software toolkit that allows making large numbers of objects of trees, for example, by using rules rather than manually putting assets. Like specific landscape-creation software such as Terragen or Vue D'Esprit, the goal is to apply an algorithmic technique to put massive quantities of items like boulders, trees and bushes into a huge area with natural-looking variations for creating richly detailed settings to be utilized in real-time applications.</p>
+            <p className="py-2">That's where VR can help with the immersive experience. Architects may need to convince their clients that the final result is better than the 2D and 3D models. VR can help them better understand what you can expect from an experience next and interact with the room. The customers can walk around the final destruction and comprehend it from every angle.</p>
+            <h2 className="text-3xl font-bold max-w-7xl mx-auto py-5 px-5">Substrate</h2>
+            <p className="py-2">The Substrate is a brand-new shading model in Unreal, which gives Unreal users a stronger instrument for building appearances and materials. Materials used in 3D graphics are the key to creating photorealistic effects. Therefore, the upgraded materials model is a significant improvement. In addition to the materials system, there is a set of UV tools designed for Unreal that are part of the latest Geometry toolset, which features modelling tools. With Substrate, it is an option to create variations on paint on cars or add mud onto the car's exterior.</p>
+            {/*  */}
+            <h2 className="text-3xl font-bold max-w-7xl mx-auto py-5 px-5">Path Tracing</h2>
+            <p className="py-2">Real-time path tracing technology will soon be available in Unreal. Ray tracing has evolved. A leap in photorealism from Ray Tracing is now coming to real-time graphics. Path tracing is available in Unreal, but it's not feature-par compared to Unreal Rasterizer. The new path tracing feature in Engine 5.2 will close the leading lead to greater realism games wind-up production.</p>
+            {/*  */}
+            {/*  */}
+            <h2 className="text-3xl font-bold max-w-7xl mx-auto py-5 px-5">Animation</h2>
+            <p className="py-2">The animation tools of Unreal get closer to the animation tools of top animation platforms such as Maya and Cinema4D. Animation rig tools and curve editors all receive major improvements, and there is an experimental control system based on physics, allowing secondary animations that are entirely driven by physical objects.</p>
+            <p className="py-2">To demonstrate the effectiveness of this technology and to demonstrate the power of all this, there's a brand new ML Deformer example that demonstrates the ways Unreal Engine machine learning technology can be utilized to build high-end real-time characters for consoles and computers with movements driven by full flesh, muscle and cloth simulation. The sample download also includes a live video that shows muscles expanding and sliding beneath the skin and folds that form on clothing.</p>
+            {/*  */}
+            {/*  */}
+            <h2 className="text-3xl font-bold max-w-7xl mx-auto py-5 px-5">Metahumans</h2>
+            <p className="py-2">The realism of Metahumans is growing. Design tools are getting more sophistication, and editors allow mixing between Metahumans and creating new versions. Skin textures are becoming much more realistic, and in combination with updated animation tools and rendering options, we have been getting closer to ending this Uncanny Valley. Metahuman Creator lets you create the human face by selecting three faces and blending different elements from the three faces to make an individual Metahuman. </p>
+            {/*  */}
+            <h2 className="text-3xl font-bold max-w-7xl mx-auto py-5 px-5">Verse</h2>
+            <p className="py-2">Epic is introducing a brand new programming language in Unreal named Verse. Before Verse, the choices were strictly visually oriented programming or C++, and Verse is somewhere between the two. Visual programming can be extremely effective; however, as any has worked with programs like Houdini is aware, it's often easy to write code to create custom logic rather as opposed to programming the logic in nodes when the editor for nodes starts to look like spaghetti. Utilizing C++, however, can be a test due to its more slow feedback loop and the necessity to build and link the codes before running it. The Verse is an inbuilt scripting language that can provide near-instant feedback. This makes coding faster and easier as C++ while also not being restricted by the visual programming using nodes.</p>
+            {/*  */}
+             {/*  */}
+             <h2 className="text-3xl font-bold max-w-7xl mx-auto py-5 px-5">Virtual Production</h2>
+            <p className="py-2">It is a key feature of Unreal Engine 5.2 that didn't get the attention it merited when it first came out, likely because it was unveiled at a conference devoted to gaming rather than making films. However, there are some exciting new features. In this release, Epic has pushed them higher to the top of the list to be released.</p>
+            <p className="py-2">Unreal 5.2 has improved tracking capabilities and better controls. The software includes a DMX control console with the latest DMX mapping interfaces. If you're not conversant with DMX, explore the possibilities. Since film lighting is becoming nearly entirely digital, the options offered through DMX-controlled lighting have also been growing. </p>
+            {/*  */}
+            {/*  */}
+            <h2 className="text-3xl font-bold max-w-7xl mx-auto py-5 px-5">Conclusion</h2>
+            <p className="py-2">Many digital production tools are available only to top-end productions, as the volume sound stages remain rare. Even the way computers now call for a high-end device to manage digital production requirements on a Studio stage. The applications are easily accessible to anyone, but they are still very useful even without access to top-of-the-line Workstations with massive volumes.</p>
+            <p className="py-2">In addition, the tools are readily available to self-employed filmmakers to begin learning how to utilize them.</p>
+            <p className="py-2">One reason which has hindered photorealistic 3D images from being more popular in lower-budget productions has been the rendering process. Smaller independent productions cannot pay for the thousands of compute nodes needed to render photorealistic mattes used in their film. </p>
+            <p className="py-2">The enhancements with Unreal Engine 5.2 will close the gap and get ever closer to attaining realistic rendering in real-time using mainstream computing devices. Virtual production is slowly becoming accessible also.</p>
+            {/*  */}
+            {/*  */}
+            {/* <LatestBlogCarousel /> */}
           </div>
         </div>
       </div>

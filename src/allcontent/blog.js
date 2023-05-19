@@ -1,7 +1,7 @@
 export const blog = [
     {
         id:1,
-        name: "Make Our World Beautiful With Virtual Reality",
+        name: "Artificial Intelligence in Gaming: Enhancing Immersion and Gameplay.",
         value:"left",
         src:"/assets/blog_home_vr_1.jpg"
     },

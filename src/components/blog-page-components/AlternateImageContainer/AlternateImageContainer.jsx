@@ -5,13 +5,13 @@ import { useSelector } from 'react-redux';
 const AlternateImageContainer = () => {
     const blogData = useSelector((state)=>state.allblogs.blog)
     console.log(blogData);
-    const LeftContainer = ({id,name}) => (
+    const LeftContainer = ({id,name,src}) => (
         <>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2  gap-0 ">
                 <div className="col-start-1 md:col-start-1 lg:col-start-1 row-start-1 row-end-2 md:row-end-auto pt-5">
                     <div className="max-w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                         <a href="#">
-                            <img className="rounded-t-lg" src="/assets/home-7-img-1.jpg" alt="" />
+                            <img className="rounded-t-lg" src={src} alt="" />
                         </a>
                         <div className="p-5">
                             <a href="#">
@@ -61,12 +61,12 @@ const AlternateImageContainer = () => {
                {blogData && blogData.map((item,key)=>{
                 if(item.value==='left')
                 {return(
-                    <LeftContainer id={item?.id} name={item.name} />
+                    <LeftContainer id={item?.id} name={item.name} src={item.src} />
                    
                 )}
                 else{
                     return(
-                        <RightContainer id={item?.id} name={item.name} />  
+                        <RightContainer id={item?.id} name={item.name} src={item.src} />  
                     )
                 }
                })}

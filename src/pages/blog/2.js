@@ -95,6 +95,16 @@ const Blog = ({ }) => {
               <p className="py-2">● VR can also facilitate greater multi-user collaboration when designing structures and speeds up the process of changing the process of designing</p>
             </div>
             {/*  */}
+            <h2 className="text-3xl font-bold max-w-7xl mx-auto py-5 px-5">The Future of Virtual Reality</h2>
+            <p className="py-2">The potential of virtual reality and the platforms for expanded reality is inexhaustible. The technology is still in its early stage of development and application of the technology. Very soon, VR technologies will be comparable to the use of e-mail within the workplace.</p>
+            <p className="py-2">The technology won't be an instrument for the design but is an integral design process component. It will enhance construction, improve collaboration, increase controls on quality, and give an improved customer experience beyond the design element.</p>
+            {/*  */}
+            {/*  */}
+            <h2 className="text-3xl font-bold max-w-7xl mx-auto py-5 px-5">Conclusion</h2>
+            <p className="py-2">VR can either substitute for your marketing methods or give you immense worth. VR may be an option; however, it'll be necessary shortly.</p>
+            <p className="py-2">Virtual Reality connects designers and consumers in ways we would never have before. VR is growing rapidly in the field of architecture. It can change the building style architects create and how the designs "take" customers.</p>
+            {/*  */}
+            {/*  */}
             {/* <LatestBlogCarousel /> */}
           </div>
         </div>

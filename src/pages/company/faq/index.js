@@ -4,6 +4,7 @@ import Navbar from '@/components/navbar/Navbar'
 import React, { useState } from 'react'
 import { AiOutlineCaretDown } from 'react-icons/ai'
 import bg from "../../../../public/assets/img1.jpg";
+import Link from 'next/link'
 
 
 const Index = () => {
@@ -46,7 +47,7 @@ const Index = () => {
               onClick={() => toggleSection(index)}
             >
               <div className='flex justify-between items-center py-4'>
-                <div>{section.title}</div>
+                <div>{`${index+1} :- `}{section.title}</div>
                 <div style={{ transform: `rotate(${activeIndex === index ? iconRotation : 0}deg)` }}>
                   <AiOutlineCaretDown />
                 </div>
@@ -57,7 +58,12 @@ const Index = () => {
             </div>
           ))}
         </div>
+      <div  className='py-16 max-w-screen-xl mx-auto'>
+      <p className='mb-5'>These FAQs provide a glimpse into our services. If you have any further questions or would like more information, please feel free to contact us.</p>
+      <Link href='/contact-us/write-to-us'><button type="button" class="bg-gray-900 hover:bg-white hover:text-black text-md font-bold rounded-md px-5 py-2.5 text-center mr-2 mb-2 ">Contact Us</button></Link>
       </div>
+      </div>
+         
       <Footer/>
     </>
   )

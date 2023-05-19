@@ -45,6 +45,26 @@ const Footer = () => {
           <Link href='/contact-us/write-to-us'><button type="button" class="bg-gray-900 hover:bg-white hover:text-black text-md font-bold rounded-md px-5 py-2.5 text-center mr-2 mb-2 ">Review Us</button></Link>
         </div>
       </div>
+     <div className="flex justify-between items-center px-10">
+     <div className=" justify-between items-center hidden xl:flex">
+        <span className="font-semibold tracking-widest text-md pr-5 cursor-pointer">
+          <AiFillYoutube size={20} color="white" />
+        </span>
+        <span className="font-semibold tracking-widest text-md pr-5 cursor-pointer">
+          <AiFillInstagram size={20} color="white" />
+        </span>
+        <span className="font-semibold tracking-widest text-md pr-5 cursor-pointer">
+          <AiOutlineTwitter size={20} color="white" />
+        </span>
+        <span className="font-semibold tracking-widest text-md pr-5 cursor-pointer">
+          <AiFillFacebook size={20} color="white" />
+        </span>
+      </div>
+     <div className="text-white py-6 text-center">
+    <span>   © 2023 Endlos Studio. All Rights Reserved.</span>
+  </div>
+      <div></div>
+     </div>
     </footer>
   );
 };

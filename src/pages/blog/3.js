@@ -50,7 +50,7 @@ const Blog = ({ }) => {
             </div>
           </div>
           <div className="max-w-7xl mx-auto py-10">
-            <img src="/assets/home_blog_1.jpg" class="mx-auto max-w-full h-auto" alt="example image" />
+            <img src="/assets/blog_inside_vr_3.jpg" class="mx-auto max-w-full h-auto" alt="example image" />
             <p className="py-2 pt-5">Unreal Engine 5 revolutionized the CGI environment. Unreal Engine 5.2 is now used to let creatives achieve even greater results.</p>
             <p className="py-2">
             Epic Games published the public plan of Unreal Engine 5.2 before GDC 2023 event in March. It's an excellent addition to a point release. It's Unreal Engine 5, so you shouldn't expect anything surprising.

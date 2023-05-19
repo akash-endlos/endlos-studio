@@ -50,7 +50,7 @@ const Blog = ({ }) => {
             </div>
           </div>
           <div className="max-w-7xl mx-auto py-10">
-            <img src="/assets/home_blog_1.jpg" class="mx-auto max-w-full h-auto" alt="example image" />
+            <img src="/assets/blog_inside_vr_1.jpg" class="mx-auto max-w-full h-auto" alt="example image" />
             <p className="py-2 pt-5">In the gaming world, artificial intelligence (AI) can be described as developing more flexible, adaptable, and demanding games. From NPCs to pathfinding, AI is revolutionizing the game experience.</p>
             <p className="py-2">
             However, what does using AI mean in the gaming industry? What is it, and why is it important? Learn more in this blog.

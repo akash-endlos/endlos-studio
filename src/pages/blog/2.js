@@ -50,7 +50,7 @@ const Blog = ({ }) => {
             </div>
           </div>
           <div className="max-w-7xl mx-auto py-10">
-            <img src="/assets/home_blog_1.jpg" class="mx-auto max-w-full h-auto" alt="example image" />
+            <img src="/assets/blog_inside_vr_2.jpg" class="mx-auto max-w-full h-auto" alt="example image" />
             <p className="py-2 pt-5">One of the biggest recent years has been creating architectural applications to use virtual reality. In the future, it was stated that VR wouldn't just be a key element when the presentation of a design; however, it would also be an integral part of the process of designing.</p>
             <p className="py-2">
               The most common challenge for most design-oriented businesses is convincing customers that their product looks identical to - or even superior to a representation in 3D or 2D.

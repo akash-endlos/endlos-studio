@@ -49,6 +49,9 @@ const Footer = () => {
             <li class="mb-4">
               <a >Game development</a>
             </li>
+            <li class="mb-4">
+              <a >Archviz</a>
+            </li>
           </ul>
         </div>
         <div>

@@ -79,7 +79,7 @@ const index = () => {
               <p className='text-xl max-w-screen-lg text-center font-serif'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut numquam non ea vero quas, libero voluptatibus atque ad asperiores magni</p>
             </div>
           </div>
-          <img className="w-full h-[500px] object-cover mb-2" src="https://source.unsplash.com/random/800x600" alt="Card Image" />
+          <img className="w-full h-[500px] object-cover mb-2" src="/assets/service_pv.jpg" alt="Card Image" />
           <div className='max-w-screen-xl mx-auto py-10'>
             <div className='py-5'>
               <h1 className='font-bold text-xl py-4'>Pre Visualization</h1>
@@ -128,7 +128,7 @@ const index = () => {
               <p className='text-xl max-w-screen-2xl leading-10  font-serif text-justify'>Experience the future of filmmaking with our virtual production services. Harnessing cutting-edge technology and techniques, we seamlessly integrate physical and digital elements to create immersive virtual environments and deliver stunning real-time visual effects. Our virtual camera systems allow for dynamic shots in virtual sets and locations, while our real-time rendering and compositing capabilities provide instant feedback and iteration during the production process. Collaborate with our talented filmmakers, artists, and technicians to bring your creative visions to life like never before.</p>
             </div>
           </div>
-          <img className="w-full h-[500px] object-cover" src="https://source.unsplash.com/random/800x600" alt="Card Image" />
+          <img className="w-full h-[500px] object-cover" src="/assets/service_vp.jpg" alt="Card Image" />
       <div className="bg-[#111111] text-white">
         <div className='max-w-screen-xl mx-auto py-10'>
           <div className='py-5'>
@@ -186,7 +186,7 @@ const index = () => {
               <p className='text-xl max-w-screen-lg text-center font-serif'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut numquam non ea vero quas, libero voluptatibus atque ad asperiores magni</p>
             </div>
           </div>
-          <img className="w-full h-[500px] object-cover" src="https://source.unsplash.com/random/800x600" alt="Card Image" />
+          <img className="w-full h-[500px] object-cover" src="/assets/service_gm.jpg" alt="Card Image" />
       <div className="bg-[#111111] text-white">
         <div className='max-w-screen-xl mx-auto py-10'>
           <div className='py-5'>

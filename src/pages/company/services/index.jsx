@@ -147,65 +147,6 @@ const index = () => {
           </div>
         </div>
       </div>
-      {/* <div className="bg-[#111111]">
-        <div className="max-w-screen-2xl mx-auto">
-          <div class="grid grid-cols-1 sm:grid-cols-3 gap-2 py-10">
-            <div class="rounded-lg shadow-lg   w-full sm:w-auto">
-              <a href="#!">
-                <video
-                  width="320"
-                  height="240"
-                  controls
-                  class="w-full rounded-t-lg"
-                >
-                  <source
-                    src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
-                    type="video/mp4"
-                  />
-                  <source src="movie.ogg" type="video/ogg" />
-                  Your browser does not support the video tag.
-                </video>
-              </a>
-            </div>
-            <div class="rounded-lg shadow-lg   w-full sm:w-auto">
-              <a href="#!">
-                <video
-                  width="320"
-                  height="240"
-                  controls
-                  class="w-full rounded-t-lg"
-                >
-                  <source
-                    src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
-                    type="video/mp4"
-                  />
-                  <source src="movie.ogg" type="video/ogg" />
-                  Your browser does not support the video tag.
-                </video>
-              </a>
-            </div>
-            <div class="rounded-lg shadow-lg   w-full sm:w-auto">
-              <a href="#!">
-                <video
-                  width="320"
-                  height="240"
-                  controls
-                  class="w-full rounded-t-lg"
-                >
-                  <source
-                    src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
-                    type="video/mp4"
-                  />
-                  <source src="movie.ogg" type="video/ogg" />
-                  Your browser does not support the video tag.
-                </video>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div> */}
-      {/* new section end */}
-      {/* new section start */}
       <div id="servicesgamedevelopment">
         <div className="relative">
           <div
@@ -254,87 +195,6 @@ const index = () => {
           </div>
         </div>
       </div>
-      {/* new section end */}
-
-      {/* new section start */}
-      {/* <div id="serviceswalktrough">
-        <div className="relative">
-          <div
-            className="h-screen bg-cover bg-fixed"
-            style={{
-              backgroundImage: `url(${bg.src})`,
-              backgroundSize: "cover",
-              backgroundRepeat: "no-repeat",
-              width: "100vw",
-              height: "300px",
-            }}
-          >
-            <div className="absolute inset-0 bg-black opacity-60"></div>
-            <div className="absolute inset-0 flex justify-center items-center">
-              <div className="text-center">
-                <h1 className="text-5xl font-bold text-white">Walktrough</h1>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="bg-[#111111]">
-        <div className="max-w-screen-2xl mx-auto">
-          <div class="grid grid-cols-1 sm:grid-cols-3 gap-2 py-10">
-            <div class="rounded-lg shadow-lg   w-full sm:w-auto">
-              <a href="#!">
-                <video
-                  width="320"
-                  height="240"
-                  controls
-                  class="w-full rounded-t-lg"
-                >
-                  <source
-                    src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
-                    type="video/mp4"
-                  />
-                  <source src="movie.ogg" type="video/ogg" />
-                  Your browser does not support the video tag.
-                </video>
-              </a>
-            </div>
-            <div class="rounded-lg shadow-lg   w-full sm:w-auto">
-              <a href="#!">
-                <video
-                  width="320"
-                  height="240"
-                  controls
-                  class="w-full rounded-t-lg"
-                >
-                  <source
-                    src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
-                    type="video/mp4"
-                  />
-                  <source src="movie.ogg" type="video/ogg" />
-                  Your browser does not support the video tag.
-                </video>
-              </a>
-            </div>
-            <div class="rounded-lg shadow-lg   w-full sm:w-auto">
-              <a href="#!">
-                <video
-                  width="320"
-                  height="240"
-                  controls
-                  class="w-full rounded-t-lg"
-                >
-                  <source
-                    src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
-                    type="video/mp4"
-                  />
-                  <source src="movie.ogg" type="video/ogg" />
-                  Your browser does not support the video tag.
-                </video>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div> */}
        <div id="serviceswalktrough">
         <div className="relative">
           <div
@@ -383,8 +243,6 @@ const index = () => {
           </div>
         </div>
       </div>
-      {/* new section end */}
-      {/* new section start */}
       <div id="servicesarchviz">
         <div className="relative">
           <div
@@ -410,17 +268,13 @@ const index = () => {
       <div class="z-30 relative items-center justify-center w-full h-full overflow-auto">
         <div
           class="inset-0 h-screen bg-cover bg-center"
-        // style={{
-        //   backgroundImage: "https://wallpapercave.com/wp/wp6689710.jpg",
-        // }}
+      
         ></div>
         <div class="absolute inset-0 z-20 flex items-center justify-center h-screen w-full bg-gray-900 bg-opacity-75"></div>
         <div class="absolute inset-0  z-30  flex flex-col items-center justify-center">
           <div
             class="shadow-2xl rounded-lg w-4/5 h-96 bg-cover bg-center"
-          // style={{
-          //   backgroundImage: "https://wallpapercave.com/wp/wp6689710.jpg",
-          // }}
+          
           >
             <div class="grid grid-cols-12 gap-1">
               <div class="relative my-6 px-8 col-span-12 sm:col-span-12 md:col-span-7 lg:col-span-7 xxl:col-span-7">
@@ -464,75 +318,6 @@ const index = () => {
           </div>
         </div>
       </div>
-      {/* <div className="bg-[#111111]">
-        <div class="grid grid-cols-4 lg:grid-cols-3 sm:grid-cols-1 gap-4 py-10">
-          <div class="mx-auto px-4  max-w-xl ">
-            <div class="bg-white shadow-2xl rounded-lg mb-6 tracking-wide">
-              <div class="md:flex-shrink-0">
-                <img src="https://ik.imagekit.io/q5edmtudmz/post1_fOFO9VDzENE.jpg" alt="mountains" class="w-full h-64 rounded-lg rounded-b-none" />
-              </div>
-              <div class="px-4 py-2 mt-2">
-                <h2 class="font-bold text-2xl text-gray-800 tracking-normal">My Amazing Journey to the Mountains.</h2>
-                <p class="text-sm text-gray-700 px-2 mr-1">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora reiciendis ad architecto at aut placeat quia, minus dolor praesentium officia maxime deserunt porro amet ab debitis deleniti modi soluta similique...
-                </p>
-                <div class="flex items-center justify-between mt-2 mx-6">
-                  <a href="#" class="text-blue-500 text-xs -ml-3">Show More</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="mx-auto px-4  max-w-xl ">
-            <div class="bg-white shadow-2xl rounded-lg mb-6 tracking-wide">
-              <div class="md:flex-shrink-0">
-                <img src="https://ik.imagekit.io/q5edmtudmz/post1_fOFO9VDzENE.jpg" alt="mountains" class="w-full h-64 rounded-lg rounded-b-none" />
-              </div>
-              <div class="px-4 py-2 mt-2">
-                <h2 class="font-bold text-2xl text-gray-800 tracking-normal">My Amazing Journey to the Mountains.</h2>
-                <p class="text-sm text-gray-700 px-2 mr-1">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora reiciendis ad architecto at aut placeat quia, minus dolor praesentium officia maxime deserunt porro amet ab debitis deleniti modi soluta similique...
-                </p>
-                <div class="flex items-center justify-between mt-2 mx-6">
-                  <a href="#" class="text-blue-500 text-xs -ml-3">Show More</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="mx-auto px-4  max-w-xl ">
-            <div class="bg-white shadow-2xl rounded-lg mb-6 tracking-wide">
-              <div class="md:flex-shrink-0">
-                <img src="https://ik.imagekit.io/q5edmtudmz/post1_fOFO9VDzENE.jpg" alt="mountains" class="w-full h-64 rounded-lg rounded-b-none" />
-              </div>
-              <div class="px-4 py-2 mt-2">
-                <h2 class="font-bold text-2xl text-gray-800 tracking-normal">My Amazing Journey to the Mountains.</h2>
-                <p class="text-sm text-gray-700 px-2 mr-1">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora reiciendis ad architecto at aut placeat quia, minus dolor praesentium officia maxime deserunt porro amet ab debitis deleniti modi soluta similique...
-                </p>
-                <div class="flex items-center justify-between mt-2 mx-6">
-                  <a href="#" class="text-blue-500 text-xs -ml-3">Show More</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="mx-auto px-4  max-w-xl ">
-            <div class="bg-white shadow-2xl rounded-lg mb-6 tracking-wide">
-              <div class="md:flex-shrink-0">
-                <img src="https://ik.imagekit.io/q5edmtudmz/post1_fOFO9VDzENE.jpg" alt="mountains" class="w-full h-64 rounded-lg rounded-b-none" />
-              </div>
-              <div class="px-4 py-2 mt-2">
-                <h2 class="font-bold text-2xl text-gray-800 tracking-normal">My Amazing Journey to the Mountains.</h2>
-                <p class="text-sm text-gray-700 px-2 mr-1">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora reiciendis ad architecto at aut placeat quia, minus dolor praesentium officia maxime deserunt porro amet ab debitis deleniti modi soluta similique...
-                </p>
-                <div class="flex items-center justify-between mt-2 mx-6">
-                  <a href="#" class="text-blue-500 text-xs -ml-3">Show More</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
-      {/* new section end */}
       <Footer />
     </div>
   );

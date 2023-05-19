@@ -14,7 +14,17 @@ const Footer = () => {
     <footer class="bg-[#111111] text-white">
       <div className="flex justify-between items-center flex-wrap px-5 max-w-screen-2xl mx-auto py-6">
         <div>
-          <h2 class="mb-6 text-lg font-semibold">Portfolio</h2>
+        <div className=" p-4">
+                  <h1 className="font-bold">ADDRESS</h1>
+                  <p className="py-2">
+                  1108, Shivalik Shilp, Iskcon <br />
+                  Cross Rd, Sanidhya, Ahmedabad 380015, <br />
+                  Gujarat, India
+                  </p>
+                  <p> +91 9327777854</p>
+                  <p>info@endlos.tech</p>
+                </div>
+          {/* <h2 class="mb-6 text-lg font-semibold">Portfolio</h2>
           <ul >
             <li class="mb-4">
               <a >Pre visualization</a>
@@ -25,10 +35,10 @@ const Footer = () => {
             <li class="mb-4">
               <a >Game development</a>
             </li>
-          </ul>
+          </ul> */}
         </div>
         <div>
-          <h2 class="mb-6 text-lg font-semibold">Portfolio</h2>
+          <h2 class="mb-6 text-lg font-semibold">Services</h2>
           <ul >
             <li class="mb-4">
               <a >Pre visualization</a>

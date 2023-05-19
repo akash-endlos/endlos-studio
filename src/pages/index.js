@@ -26,9 +26,9 @@ export default function Home() {
       <HomeServices />
       {/* <HomeNewReleases /> */}
       <HomeBlogImages />
-      <HomeOurTeam />
-      <HomeWriteUsContainer />
+      {/* <HomeOurTeam /> */}
       <HomeVideoCarousel /> 
+      <HomeWriteUsContainer />
       <HomeProductionHouse />
       <Footer />
     </>

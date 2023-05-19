@@ -8,7 +8,7 @@ import {
   AiFillFacebook,
 } from "react-icons/ai";
 import NewNavbar from "./NewNavbar";
-import HamburgerMenu from "./HamburgerMenu";
+import HamburgerMenu from "./HamburgerMenudemo";
 import { PopupButton } from "react-calendly";
 
 function Navbar({ Navclass = 'bg-transparent text-white' }) {

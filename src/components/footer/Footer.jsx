@@ -15,7 +15,7 @@ const Footer = () => {
       <div className="flex justify-between items-center flex-wrap px-5 max-w-screen-2xl mx-auto py-6">
         <div>
         <div className=" p-4">
-                  <h1 className="font-bold">ADDRESS</h1>
+        <h2 class="mb-6 text-lg font-semibold">Address</h2>
                   <p className="py-2">
                   1108, Shivalik Shilp, Iskcon <br />
                   Cross Rd, Sanidhya, Ahmedabad 380015, <br />
@@ -52,7 +52,7 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <Link href='/contact-us/write-to-us'><button type="button" class="bg-gray-900 hover:bg-white hover:text-black text-md font-bold rounded-md px-5 py-2.5 text-center mr-2 mb-2 ">Review Us</button></Link>
+          <Link href='/contact-us/write-to-us'><button type="button" class="bg-gray-900 hover:bg-white hover:text-black text-md font-bold rounded-md px-10 py-2.5 text-center mr-2 mb-2 ">Review Us</button></Link>
         </div>
       </div>
      <div className="flex justify-between items-center px-10">

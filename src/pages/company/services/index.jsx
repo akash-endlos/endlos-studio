@@ -234,7 +234,7 @@ const index = () => {
               <p className='text-xl max-w-screen-lg text-center font-serif'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut numquam non ea vero quas, libero voluptatibus atque ad asperiores magni</p>
             </div>
           </div>
-          <img className="w-full h-[500px] object-cover" src="https://source.unsplash.com/random/800x600" alt="Card Image" />
+          <video class="w-full opacity-100" src='../assets/Service Walkthrough.mp4' autoPlay muted loop></video>
       <div className="bg-[#111111] text-white">
         <div className='max-w-screen-xl mx-auto py-10'>
           <div className='py-5'>

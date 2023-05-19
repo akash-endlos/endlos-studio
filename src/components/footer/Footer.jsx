@@ -72,8 +72,8 @@ const Footer = () => {
             </ul>
           </div>
           <div className="col-span-2">
-            <div className=" p-4">
-              <h1 className="font-bold">ADDRESS</h1>
+            <h3 className="text-white text-lg font-medium">Address</h3>
+            <div className=" py-4">
               <div className="py-2 pt-5 flex gap-2 items-center"><BsFillTelephoneFill/> +91 9327777854</div>
               <div className="py-2 flex items-center gap-2"><AiFillMail/>info@endlos.tech</div>
             </div>

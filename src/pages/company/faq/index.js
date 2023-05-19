@@ -42,7 +42,7 @@ const Index = () => {
           {faqData.map((section, index) => (
             <div
               key={index}
-              className='border rounded-md px-5 mt-2'
+              className='border rounded-md px-5 mt-2 cursor-pointer'
               onClick={() => toggleSection(index)}
             >
               <div className='flex justify-between items-center py-4'>

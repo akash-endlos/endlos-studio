@@ -19,7 +19,7 @@ const Blog = ({ }) => {
       <BlogParallaxComponent title={'Blog'} />
       <div className="bg-[#111111] text-white">
         <div className="py-24 flex items-center justify-center">
-          <h1 className="text-7xl max-w-7xl mx-auto px-5">The Unreal Engine 5.2 is available!</h1>
+          <h1 className="text-7xl max-w-7xl mx-auto px-5 font-bold">The Unreal Engine 5.2 is available!</h1>
         </div>
         <div className="max-w-screen-2xl mx-auto px-5">
           <div className="pb-10">

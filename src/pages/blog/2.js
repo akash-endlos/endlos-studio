@@ -58,7 +58,7 @@ const Blog = ({ }) => {
 
             </p>
             <p className="py-2">
-            Architecture isn't an exception. VR technology isn't out of access anymore. It could be used in the coming fifty years. Designers and architects who can save money, attract more clients, and improve remote collaboration use VR technology.
+              Architecture isn't an exception. VR technology isn't out of access anymore. It could be used in the coming fifty years. Designers and architects who can save money, attract more clients, and improve remote collaboration use VR technology.
             </p>
             <h2 className="text-3xl font-bold max-w-7xl mx-auto py-5 px-5">What is the impact of virtual reality transforming the structure of a building?</h2>
             <p className="py-2">VR offers a lot to design and architecture. VR has the potential to effectively sell an idea superior to another method, including basic designs to collaborative projects and the final details that turn a building from excellent to outstanding.</p>
@@ -74,8 +74,8 @@ const Blog = ({ }) => {
             <p className="py-2">Virtual reality's use during the design phase lets every team perform better since they can comprehend the design better. Before the VR came out, architects displayed to their customers and then stored 3D models that were usually not accessible to others on the project team.</p>
             <p className="py-2">It is easy to demonstrate to other team members to improve teamwork and understanding. VR is also a great tool for presenting and launching the project in a way that is a powerful marketing instrument. The ability to show the project's future life could contribute to promoting the efforts of any company.</p>
             {/*  */}
-             {/*  */}
-             <h2 className="text-3xl font-bold max-w-7xl mx-auto py-5 px-5">Reduce time by using VR</h2>
+            {/*  */}
+            <h2 className="text-3xl font-bold max-w-7xl mx-auto py-5 px-5">Reduce time by using VR</h2>
             <p className="py-2">According to the experts, presenting your innovative concepts to clients is the most difficult part of the presentation process.</p>
             <p className="py-2">Through VR, You can invite customers to be involved at the start of the design process. Based on your feedback, you can alter or design the fly. This allows you to skip revising cycles, which saves you both time and money.</p>
             {/*  */}
@@ -84,6 +84,16 @@ const Blog = ({ }) => {
             <p className="py-2">VR is a tool to design a space and create a virtual environment. Sometimes, changes are made once you have seen the space live after the space has been created.</p>
             <p className="py-2">It becomes a costly problem if walls are constructed, and adjustments must be made to accommodate the buyer's needs, it becomes a costly problem. Designers can discover a new design approach in the Program through the use of VR systems and also resolve issues before the project can be designed that can be more cost-effective and efficient than relocating an actual space.</p>
             <p className="py-2">This can prevent the need for repeated changes and permits modifications to design processes immediately during discussions of wall colors and furniture choices.</p>
+            {/*  */}
+            {/*  */}
+            <h2 className="text-3xl font-bold max-w-7xl mx-auto py-5 px-5">The benefits of Virtual reality in architecture</h2>
+            <div className="max-w-6xl mx-auto">
+              <p className="py-2">●	The architect believes that VR has a second benefit: customers and consumers are enthralled. They are immersed in the design they've commissioned by putting on their VR headsets.</p>
+              <p className="py-2">●	The 3D immersive experience lets them better visualize what objects might look like and aids in understanding spaces - and even films much superior to other types of display.</p>
+              <p className="py-2">●	It also lets users give rapid feedback and observe the changes they need in real-time. A VR interactive can imitate scenarios, talk about and even dismiss real-world scenarios, or adapt these scenarios.</p>
+              <p className="py-2">●	In addition to a greater perception of the world that VR provides users, the rapid change suggests that architects can benefit from VR by offering the customer or clients a clear edge in the market.</p>
+              <p className="py-2">● VR can also facilitate greater multi-user collaboration when designing structures and speeds up the process of changing the process of designing</p>
+            </div>
             {/*  */}
             {/* <LatestBlogCarousel /> */}
           </div>

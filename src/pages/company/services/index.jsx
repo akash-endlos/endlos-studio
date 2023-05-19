@@ -75,7 +75,7 @@ const index = () => {
           </div>
           <div className="bg-[#111111]">
             <div className='flex flex-col gap-5 justify-center items-center text-white py-20'>
-              <h1 className='text-4xl'>  Pre Visualization</h1>
+              <h1 className='text-4xl font-bold'>  Pre Visualization</h1>
               <p className='text-xl max-w-screen-lg text-center font-serif'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut numquam non ea vero quas, libero voluptatibus atque ad asperiores magni</p>
             </div>
           </div>
@@ -124,7 +124,7 @@ const index = () => {
       </div>
       <div className="bg-[#111111]">
             <div className='flex flex-col gap-5 justify-center items-center text-white py-20'>
-              <h1 className='text-4xl'>  Virtual Production</h1>
+              <h1 className='text-4xl font-bold'>  Virtual Production</h1>
               <p className='text-xl max-w-screen-2xl leading-10  font-serif text-justify'>Experience the future of filmmaking with our virtual production services. Harnessing cutting-edge technology and techniques, we seamlessly integrate physical and digital elements to create immersive virtual environments and deliver stunning real-time visual effects. Our virtual camera systems allow for dynamic shots in virtual sets and locations, while our real-time rendering and compositing capabilities provide instant feedback and iteration during the production process. Collaborate with our talented filmmakers, artists, and technicians to bring your creative visions to life like never before.</p>
             </div>
           </div>

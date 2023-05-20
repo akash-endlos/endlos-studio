@@ -84,19 +84,3 @@ const HamburgerMenu = () => {
 
 export default HamburgerMenu;
 
-{
-  /* <div className="relative px-5">
-          <div className="flex justify-between items-center py-4 px-5 relative">
-            <span>asd</span>
-            <AiFillCaretDown />
-            <div className="absolute top-10 w-full flex justify-between items-center py-4 px-5">
-              <span>asda1</span>
-              <AiFillCaretDown />
-              <div className="absolute top-10 w-full flex justify-between items-center py-4 px-10">
-              <span>asda1</span>
-              <AiFillCaretDown />
-            </div>
-            </div>
-          </div>
-          </div> */
-}

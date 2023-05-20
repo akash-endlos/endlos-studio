@@ -51,27 +51,17 @@ const index = () => {
         <div className='max-w-screen-xl mx-auto py-10'>
           {/* <h2 className="font-bold text-2xl">Key features:</h2> */}
           <div className='py-5'>
-            <h1 className='font-bold text-xl py-4'>Immersive Virtual Environments </h1>
-            <p>Transport your audience to captivating virtual worlds with our state-of-the-art technology.</p>
+            <h1 className='font-bold text-xl py-4'>Attention to Detail</h1>
+            <p>Our work strategy in architecture visualization emphasizes a meticulous approach to detail. We focus on accurately representing architectural designs, materials, lighting, and spatial relationships to create realistic and immersive visualizations.</p>
           </div>
           <div className='py-5'>
-            <h1 className='font-bold text-xl py-4'>Real-Time Visual Effects</h1>
-            <p>Enhance storytelling and production efficiency with instant feedback and on-the-fly adjustments.
+            <h1 className='font-bold text-xl py-4'>Effective Communication</h1>
+            <p>We prioritize effective communication in architecture visualization. We work closely with architects, designers, and stakeholders to understand their vision and ensure that the final visualization effectively communicates the design intent to clients, investors, and the general public.
             </p>
           </div>
           <div className='py-5'>
-            <h1 className='font-bold text-xl py-4'>Virtual Camera Systems</h1>
-            <p>Capture dynamic shots in virtual sets and locations for added realism and creative freedom.
-            </p>
-          </div>
-          <div className='py-5'>
-            <h1 className='font-bold text-xl py-4'>Seamless Integration</h1>
-            <p>Achieve a perfect blend of physical and digital elements for a cohesive and visually stunning final product.
-            </p>
-          </div>
-          <div className='py-5'>
-            <h1 className='font-bold text-xl py-4'>Collaborative Approach</h1>
-            <p>Work closely with our team to bring your creative vision to life, leveraging the expertise of filmmakers, artists, and technicians.
+            <h1 className='font-bold text-xl py-4'>Interactive Elements</h1>
+            <p>Our work strategy incorporates interactive elements in architecture visualization, such as virtual tours and walkthroughs. By providing interactive experiences, we enable clients to engage with the design, explore spaces, and make informed decisions about the project.
             </p>
           </div>
         </div>

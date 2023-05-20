@@ -37,7 +37,7 @@ const index = () => {
             <div className="absolute inset-0 bg-black opacity-60"></div>
             <div className="absolute inset-0 flex justify-center items-center">
               <div className="text-center">
-                <h1 className="text-5xl font-bold text-white">
+                <h1 className="text-3xl font-bold text-white">
                   Virtual Production
                 </h1>
                 {/* <p className="mt-4 text-lg text-white font-serif">{subtitle}</p> */}
@@ -45,10 +45,10 @@ const index = () => {
             </div>
           </div>
         </div>
-        <div className="bg-black flex justify-center items-center py-16 p-5">
+        <div className="bg-black flex justify-center items-center py-10 p-5">
           <div className="inset-0 flex justify-center items-center">
             <div className="text-center">
-              <h1 className="text-5xl font-bold text-white">
+              <h1 className="text-2xl font-bold text-white">
                 Types Of Virtual Production
               </h1>
               {/* <p className="mt-4 text-lg text-white font-serif max-w-screen-xl text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam exercitationem voluptas sunt dolores reprehenderit, quo saepe earum nesciunt magnam officiis incidunt totam dolorem suscipit veniam temporibus adipisci molestias ipsa rem. Odit optio rerum atque neque nulla ipsam quaerat reiciendis hic perferendis, et harum veritatis, architecto quidem eveniet</p> */}
@@ -62,7 +62,7 @@ const index = () => {
         <div className="max-w-screen-xl mx-auto">
           <div className="py-10">
             <video src="/assets/1.mp4" controls width="100%"></video>
-            <div className="text-xl py-5 font-serif text-justify">
+            <div className="text-xl py-5 font-serif text-justify px-5">
               {/* <h2 className="font-bold text-2xl">Key features:</h2> */}
               <div className="py-5">
                 <h1 className="font-bold text-xl py-4">
@@ -126,7 +126,7 @@ const index = () => {
             <div className="inset-0 flex justify-center items-center">
               <div className="text-center">
                 {/* <h1 className="text-5xl font-bold text-white">Environment</h1> */}
-                <p className="mt-4 text-lg text-white font-serif max-w-screen-xl text-center">
+                <p className="mt-4 text-lg text-white font-serif max-w-screen-xl text-justify">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Laboriosam exercitationem voluptas sunt dolores reprehenderit,
                   quo saepe earum nesciunt magnam officiis incidunt totam
@@ -167,7 +167,7 @@ const index = () => {
             <div className="inset-0 flex justify-center items-center">
               <div className="text-center">
                 {/* <h1 className="text-5xl font-bold text-white">AR & VR</h1> */}
-                <p className="mt-4 text-lg text-white font-serif max-w-screen-xl text-center">
+                <p className="mt-4 text-lg text-white font-serif max-w-screen-xl text-justify">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Laboriosam exercitationem voluptas sunt dolores reprehenderit,
                   quo saepe earum nesciunt magnam officiis incidunt totam
@@ -186,7 +186,7 @@ const index = () => {
           <div className="max-w-screen-xl mx-auto">
             <div className="py-10">
               <video src="/assets/1.mp4" controls width="100%"></video>
-              <div className="text-xl py-5 font-serif text-justify">
+              <div className="text-xl py-5 font-serif text-justify px-5">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Laboriosam exercitationem voluptas sunt dolores reprehenderit,
                 quo saepe earum nesciunt magnam officiis incidunt totam dolorem

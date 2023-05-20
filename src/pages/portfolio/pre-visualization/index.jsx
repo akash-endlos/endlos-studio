@@ -28,14 +28,14 @@ const index = () => {
               <div className="absolute inset-0 bg-black opacity-60"></div>
               <div className="absolute inset-0 flex justify-center items-center">
                 <div className="text-center">
-                  <h1 className="text-5xl font-bold text-white">
+                  <h1 className="xl:mx-5xl md:text-4xl font-bold text-white">
                     Previsualization
                   </h1>
                 </div>
               </div>
             </div>
           </div>
-          <div className="bg-[#111111] flex justify-center items-center py-20 p-5">
+          {/* <div className="bg-[#111111] flex justify-center items-center py-20 p-5">
             <div className="inset-0 flex justify-center items-center">
               <div className="text-center">
                 <h1 className="text-5xl font-bold text-white">
@@ -43,8 +43,8 @@ const index = () => {
                 </h1>
               </div>
             </div>
-          </div>
-          <div className="max-w-screen-xl mx-auto py-10">
+          </div> */}
+          <div className="max-w-screen-xl mx-auto py-10 px-5">
             <h2 className="font-bold text-2xl">Key features:</h2>
             <div className="py-5">
               <h1 className="font-bold text-xl py-4">

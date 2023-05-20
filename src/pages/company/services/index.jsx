@@ -80,22 +80,15 @@ const index = () => {
             </div>
           </div>
           <img className="w-full h-[500px] object-cover mb-2" src="/assets/service_pv.jpg" alt="Card Image" />
-          <div className='max-w-screen-xl mx-auto py-10'>
-            <div className='py-5'>
-              <h1 className='font-bold text-xl py-4'>Pre Visualization</h1>
-              <p>Open, inclusive, and equal are three words that sum up the work culture at PhantomFX. Our strength lies in our people; a dedicated team of creative professionals who work together to bring alive magic on screen. Our teams have delivered on some of the craziest deadlines, without taking eyes off the high bar of quality.</p>
-            </div>
-            <div className='py-5'>
-              <h1 className='font-bold text-xl py-4'>Virtual Production</h1>
-              <p>Phantom Fx is looking for a Mid-Senior Creature Animator with extensive experience animating animal movement and behaviour. As a  Creature Animator, you will be part of a diverse team of animators that collaborates closely with Visual Design and Code to create engaging creatures for our current projects. As a Creature Animator for this dedicated creature team, we will look to you to deliver world-class creature animation quality.
-              </p>
-            </div>
-            <div className='py-5'>
-              <h1 className='font-bold text-xl py-4'>Our Production House</h1>
-              <p>Phantom Fx is looking for a Mid-Senior Creature Animator with extensive experience animating animal movement and behaviour. As a  Creature Animator, you will be part of a diverse team of animators that collaborates closely with Visual Design and Code to create engaging creatures for our current projects. As a Creature Animator for this dedicated creature team, we will look to you to deliver world-class creature animation quality.
-              </p>
-            </div>
+          <div className="bg-[#111111] text-white">
+        <div className='max-w-screen-xl mx-auto py-10'>
+          <h2 className="font-bold text-2xl">Key features:</h2>
+          <div className='py-5'>
+            <h1 className='font-bold text-xl py-4'>Visual Storytelling</h1>
+            <p>We emphasize the power of visual storytelling in pre-visualization. </p>
           </div>
+        </div>
+      </div>
         </div>
       </div>
       {/* new section start */}

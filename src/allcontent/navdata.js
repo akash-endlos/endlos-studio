@@ -10,11 +10,11 @@ export const menuItems = [
           link:"",
           id:"",
           subchildren: [
-            {
-              subchild: "Walkthrough",
-              link:"/portfolio/archviz",
-              id:"archvizwalkthrough"
-            },
+            // {
+            //   subchild: "Walkthrough",
+            //   link:"/portfolio/archviz",
+            //   id:"archvizwalkthrough"
+            // },
             {
               subchild: "Interactive Archviz",
               link:"/portfolio/archviz",

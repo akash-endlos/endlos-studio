@@ -36,14 +36,14 @@ const index = () => {
         <ArchwizGallery />
       </div>
 
-      <div id="archvizwalkthrough">
+      {/* <div id="archvizwalkthrough">
         <PortFolioParallax
           title={"WalkThrough"}
           subtitle={"Can You Handle The Truth"}
           btn={true}
         />
         <PortFolioCarousel />
-      </div>
+      </div> */}
       <div id="archvizinteractive">
         <PortFolioParallax
           title={"Interactive"}

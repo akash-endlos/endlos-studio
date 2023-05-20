@@ -3,11 +3,12 @@ import { RxHamburgerMenu } from "react-icons/rx";
 import { RxCross2 } from "react-icons/rx";
 import { AiFillCaretUp,AiFillCaretDown } from "react-icons/ai";
 import { hammenuItems } from "@/allcontent/hamBurgerData";
+import Link from "next/link";
 
 const HamburgerMenu = () => {
   const [toggle, setToggle] = useState(false);
 
-  const AccordionItem = ({ title, children }) => {
+  const AccordionItem = ({ title, children,link }) => {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleAccordion = () => {
@@ -15,15 +16,17 @@ const HamburgerMenu = () => {
     };
 
     return (
-      <div className="accordion-item">
+      <div onClick={toggleAccordion} className="accordion-item">
         <div className="accordion-header flex justify-between py-5">
+          <Link href={link}>
           <div
             className="accordion-button font-semibold hover:text-gray-200 "
             type="button"
-            onClick={toggleAccordion}
+           
           >
             {title}
           </div>
+          </Link>
           <div>
            {!isOpen ? <AiFillCaretDown onClick={toggleAccordion}/> :<AiFillCaretUp onClick={toggleAccordion}/>}
           </div>
@@ -54,16 +57,17 @@ const HamburgerMenu = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5">
             <div className="accordion">
               {hammenuItems.map((item) => (
-                <AccordionItem title={item.main}>
+                <AccordionItem title={item.main} link={item.link}>
                   {item?.children &&
                     item?.children?.map((subitem) => (
-                      <AccordionItem title={subitem.childmenu}>
+                      <AccordionItem title={subitem.childmenu} link={subitem.link}>
                         {subitem?.subchildren?.map((subchildmenu) => (
-                          <AccordionItem title={subchildmenu.subchild}>
+                          <AccordionItem title={subchildmenu.subchild} link={subchildmenu.link}>
                             {subchildmenu?.subgrandchildren &&
                               subchildmenu?.subgrandchildren?.map(
                                 (subgrandmenu) => (
                                   <AccordionItem
+                                    link={subgrandmenu.link}
                                     title={subgrandmenu.subchild}
                                   ></AccordionItem>
                                 )

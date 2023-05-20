@@ -16,7 +16,7 @@ const CustomerReviewSection = () => {
                     <div className="absolute inset-0 bg-black opacity-60"></div>
                     <div className="absolute inset-0 flex justify-center items-center">
                         <div className="text-center">
-                            <h1 className="text-5xl font-bold text-white">Customer Review</h1>
+                            <h1 className="text-3xl font-bold text-white">Customer Review</h1>
                         </div>
                     </div>
                 </div>

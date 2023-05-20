@@ -5,6 +5,7 @@ import React, { useEffect } from "react";
 import PortFolioParallax from "@/components/portfolio-page-components/PortFolioParallax/PortFolioParallax";
 import ArchwizGallery from "@/components/portfolio-page-components/ArchwizGallery/ArchwizGallery";
 import PortFolioCarousel from "@/components/portfolio-page-components/PortFolioCarousel/PortFolioCarousel";
+import bg from "../../../../public/assets/img1.jpg";
 
 const index = () => {
   const router = useRouter();
@@ -29,10 +30,52 @@ const index = () => {
     <>
       <Navbar Navclass="bg-[#111111] text-white" />
       <div className="pt-24 bg-[#111111] text-white">
-        <PortFolioParallax
-          title={"Archviz"}
-          subtitle={"Can You Handle The Truth"}
-        />
+      <div className="relative">
+                <div className="h-screen bg-cover bg-fixed" style={{
+                    backgroundImage: `url(${bg.src})`,
+                    backgroundSize: "cover",
+                    backgroundRepeat: "no-repeat",
+                    width: "100vw",
+                    height: "300px",
+                }}>
+                    <div className="absolute inset-0 bg-black opacity-60"></div>
+                    <div className="absolute inset-0 flex justify-center items-center">
+                        <div className="text-center">
+                            <h1 className="text-5xl font-bold text-white">Archviz</h1>
+                            {/* <p className="mt-4 text-lg text-white font-serif">{subtitle}</p> */}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="bg-[#111111] text-white">
+        <div className='max-w-screen-xl mx-auto py-10'>
+          {/* <h2 className="font-bold text-2xl">Key features:</h2> */}
+          <div className='py-5'>
+            <h1 className='font-bold text-xl py-4'>Immersive Virtual Environments </h1>
+            <p>Transport your audience to captivating virtual worlds with our state-of-the-art technology.</p>
+          </div>
+          <div className='py-5'>
+            <h1 className='font-bold text-xl py-4'>Real-Time Visual Effects</h1>
+            <p>Enhance storytelling and production efficiency with instant feedback and on-the-fly adjustments.
+            </p>
+          </div>
+          <div className='py-5'>
+            <h1 className='font-bold text-xl py-4'>Virtual Camera Systems</h1>
+            <p>Capture dynamic shots in virtual sets and locations for added realism and creative freedom.
+            </p>
+          </div>
+          <div className='py-5'>
+            <h1 className='font-bold text-xl py-4'>Seamless Integration</h1>
+            <p>Achieve a perfect blend of physical and digital elements for a cohesive and visually stunning final product.
+            </p>
+          </div>
+          <div className='py-5'>
+            <h1 className='font-bold text-xl py-4'>Collaborative Approach</h1>
+            <p>Work closely with our team to bring your creative vision to life, leveraging the expertise of filmmakers, artists, and technicians.
+            </p>
+          </div>
+        </div>
+      </div>
         <ArchwizGallery />
       </div>
 
@@ -45,10 +88,42 @@ const index = () => {
         <PortFolioCarousel />
       </div> */}
       <div id="archvizinteractive">
-        <PortFolioParallax
-          title={"Interactive"}
-          subtitle={"Can You Handle The Truth"}
-        />
+      <div className="relative">
+                <div className="h-screen bg-cover bg-fixed" style={{
+                    backgroundImage: `url(${bg.src})`,
+                    backgroundSize: "cover",
+                    backgroundRepeat: "no-repeat",
+                    width: "100vw",
+                    height: "300px",
+                }}>
+                    <div className="absolute inset-0 bg-black opacity-60"></div>
+                    <div className="absolute inset-0 flex justify-center items-center">
+                        <div className="text-center">
+                            <h1 className="text-5xl font-bold text-white">Interactive Archviz</h1>
+                            {/* <p className="mt-4 text-lg text-white font-serif">{subtitle}</p> */}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="bg-[#111111] text-white">
+        <div className='max-w-screen-xl mx-auto py-10'>
+          {/* <h2 className="font-bold text-2xl">Key features:</h2> */}
+          <div className='py-5'>
+            <h1 className='font-bold text-xl py-4'>User-Centric Design </h1>
+            <p>Our work strategy in interactive experiences focuses on user-centric design. We prioritize understanding the target audience's needs to create engaging and intuitive user experiences across various platforms, such as virtual reality (VR), augmented reality (AR), and interactive installations.</p>
+          </div>
+          <div className='py-5'>
+            <h1 className='font-bold text-xl py-4'>Immersive Interactivity</h1>
+            <p>We strive to create immersive interactive experiences that captivate and engage users. By leveraging advanced technologies, we develop interactive applications and installations that give users a sense of presence and immersion, allowing them to participate in the experience actively.ts.
+            </p>
+          </div>
+          <div className='py-5'>
+            <h1 className='font-bold text-xl py-4'>Iterative Development</h1>
+            <p>Our work strategy in interactive experiences embraces an iterative development process. We continuously gather user feedback, conduct testing, and make improvements to ensure the final product delivers a seamless and enjoyable interactive experience.
+            </p>
+          </div>
+        </div>
+      </div>
         <div className="flex justify-center items-center">
           <video src="/assets/archviz_interactive.mp4" controls width="100%"></video>
         </div>

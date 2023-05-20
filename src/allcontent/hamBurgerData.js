@@ -4,11 +4,13 @@ export const hammenuItems = [
   {
     main: "Portfolio",
     link:"",
+    expand:"portfolio",
     children: [
       {
         childmenu: "Archviz",
         link:"",
         id:"",
+        expand:"parchviz",
         subchildren: [
           {
             subchild: "Interactive Archviz",
@@ -27,6 +29,7 @@ export const hammenuItems = [
         link:"",
         id:"",
   
+        expand:"portfolio",
         subchildren: [
           {
             subchild: "Enviorment Design",
@@ -56,6 +59,7 @@ export const hammenuItems = [
     main: "Company",
     link:"",
     id:"",
+    expand:"company",
     children: [
       {
         childmenu: "About Us",
@@ -72,6 +76,7 @@ export const hammenuItems = [
         link:"",
         id:"",
   
+        expand:"portfolio",
         subchildren: [
           {
             subchild: "Pre Visualization",
@@ -93,6 +98,7 @@ export const hammenuItems = [
             link:"",
             id:"",
       
+            expand:"portfolio",
             subgrandchildren: [
               {
                 subchild: "Walkthrough",
@@ -124,6 +130,7 @@ export const hammenuItems = [
     main: "Contact Us",
     link:"",
     id:"",
+    expand:"contact",
     children: [
       {
         childmenu: "Write to us",

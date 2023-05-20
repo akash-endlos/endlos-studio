@@ -76,7 +76,7 @@ const index = () => {
           <div className="bg-[#111111]">
             <div className='flex flex-col gap-5 justify-center items-center text-white py-20'>
               <h1 className='text-4xl font-bold'>  Pre Visualization</h1>
-              <p className='text-xl max-w-screen-lg text-center font-serif'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut numquam non ea vero quas, libero voluptatibus atque ad asperiores magni</p>
+              <p className='text-xl max-w-screen-lg text-justify font-serif'>Our work strategy in pre-visualization emphasizes meticulous planning and attention to detail. We focus on understanding our client's needs and objectives, enabling us to create comprehensive pre-visualization plans that encompass all aspects of the project.</p>
             </div>
           </div>
           <img className="w-full h-[500px] object-cover mb-2" src="/assets/service_pv.jpg" alt="Card Image" />
@@ -91,7 +91,7 @@ const index = () => {
               </p>
             </div>
             <div className='py-5'>
-              <h1 className='font-bold text-md py-4'>Our Production House</h1>
+              <h1 className='font-bold text-xl py-4'>Our Production House</h1>
               <p>Phantom Fx is looking for a Mid-Senior Creature Animator with extensive experience animating animal movement and behaviour. As a  Creature Animator, you will be part of a diverse team of animators that collaborates closely with Visual Design and Code to create engaging creatures for our current projects. As a Creature Animator for this dedicated creature team, we will look to you to deliver world-class creature animation quality.
               </p>
             </div>
@@ -125,14 +125,15 @@ const index = () => {
       <div className="bg-[#111111]">
             <div className='flex flex-col gap-5 justify-center items-center text-white py-20'>
               <h1 className='text-4xl font-bold'>  Virtual Production</h1>
-              <p className='text-xl max-w-screen-2xl leading-10  font-serif text-justify'>Experience the future of filmmaking with our virtual production services. Harnessing cutting-edge technology and techniques, we seamlessly integrate physical and digital elements to create immersive virtual environments and deliver stunning real-time visual effects. Our virtual camera systems allow for dynamic shots in virtual sets and locations, while our real-time rendering and compositing capabilities provide instant feedback and iteration during the production process. Collaborate with our talented filmmakers, artists, and technicians to bring your creative visions to life like never before.</p>
+              <p className='text-xl max-w-screen-xl leading-10 px-5  font-serif text-justify'>Experience the future of filmmaking with our virtual production services. Harnessing cutting-edge technology and techniques, we seamlessly integrate physical and digital elements to create immersive virtual environments and deliver stunning real-time visual effects. Our virtual camera systems allow for dynamic shots in virtual sets and locations, while our real-time rendering and compositing capabilities provide instant feedback and iteration during the production process. Collaborate with our talented filmmakers, artists, and technicians to bring your creative visions to life like never before.</p>
             </div>
           </div>
           <img className="w-full h-[500px] object-cover" src="/assets/service_vp.jpg" alt="Card Image" />
       <div className="bg-[#111111] text-white">
         <div className='max-w-screen-xl mx-auto py-10'>
+          <h2 className="font-bold text-2xl">Key features:</h2>
           <div className='py-5'>
-            <h1 className='font-bold text-xl py-4'>Immersive Virtual Environments</h1>
+            <h1 className='font-bold text-xl py-4'>Immersive Virtual Environments </h1>
             <p>Transport your audience to captivating virtual worlds with our state-of-the-art technology.</p>
           </div>
           <div className='py-5'>
@@ -141,17 +142,17 @@ const index = () => {
             </p>
           </div>
           <div className='py-5'>
-            <h1 className='font-bold text-md py-4'>Virtual Camera Systems</h1>
+            <h1 className='font-bold text-xl py-4'>Virtual Camera Systems</h1>
             <p>Capture dynamic shots in virtual sets and locations for added realism and creative freedom.
             </p>
           </div>
           <div className='py-5'>
-            <h1 className='font-bold text-md py-4'>Seamless Integration</h1>
+            <h1 className='font-bold text-xl py-4'>Seamless Integration</h1>
             <p>Achieve a perfect blend of physical and digital elements for a cohesive and visually stunning final product.
             </p>
           </div>
           <div className='py-5'>
-            <h1 className='font-bold text-md py-4'>Collaborative Approach</h1>
+            <h1 className='font-bold text-xl py-4'>Collaborative Approach</h1>
             <p>Work closely with our team to bring your creative vision to life, leveraging the expertise of filmmakers, artists, and technicians.
             </p>
           </div>
@@ -183,24 +184,35 @@ const index = () => {
       <div className="bg-[#111111]">
             <div className='flex flex-col gap-5 justify-center items-center text-white py-20'>
               <h1 className='text-4xl'>   Game Development</h1>
-              <p className='text-xl max-w-screen-lg text-center font-serif'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut numquam non ea vero quas, libero voluptatibus atque ad asperiores magni</p>
+              <p className='text-xl max-w-screen-xl leading-10 text-justify font-serif'>Embark on a thrilling gaming journey with our comprehensive game development services. From concept to launch and beyond, we specialize in creating immersive and memorable gaming experiences across platforms. With a focus on real-time 3D graphics, physics simulations, multiplayer functionality, and captivating game design, our team of experts brings your game ideas to life, ensuring hours of entertainment for players.</p>
             </div>
           </div>
           <img className="w-full h-[500px] object-cover" src="/assets/service_gm.jpg" alt="Card Image" />
       <div className="bg-[#111111] text-white">
-        <div className='max-w-screen-xl mx-auto py-10'>
+      <div className='max-w-screen-xl mx-auto py-10'>
+          <h2 className="font-bold text-2xl">Key features:</h2>
           <div className='py-5'>
-            <h1 className='font-bold text-xl py-4'>Game Development</h1>
-            <p>Open, inclusive, and equal are three words that sum up the work culture at PhantomFX. Our strength lies in our people; a dedicated team of creative professionals who work together to bring alive magic on screen. Our teams have delivered on some of the craziest deadlines, without taking eyes off the high bar of quality.</p>
+            <h1 className='font-bold text-xl py-4'>Full-Cycle Development </h1>
+            <p>From concept ideation and design to programming, testing, and launch, we handle every aspect of game development.</p>
           </div>
           <div className='py-5'>
-            <h1 className='font-bold text-xl py-4'>Visual Production</h1>
-            <p>Phantom Fx is looking for a Mid-Senior Creature Animator with extensive experience animating animal movement and behaviour. As a  Creature Animator, you will be part of a diverse team of animators that collaborates closely with Visual Design and Code to create engaging creatures for our current projects. As a Creature Animator for this dedicated creature team, we will look to you to deliver world-class creature animation quality.
+            <h1 className='font-bold text-xl py-4'>Cross-Platform Compatibility</h1>
+            <p>Reach a wider audience by developing games for consoles, PCs, and mobile devices.
             </p>
           </div>
           <div className='py-5'>
-            <h1 className='font-bold text-md py-4'>Our Production House</h1>
-            <p>Phantom Fx is looking for a Mid-Senior Creature Animator with extensive experience animating animal movement and behaviour. As a  Creature Animator, you will be part of a diverse team of animators that collaborates closely with Visual Design and Code to create engaging creatures for our current projects. As a Creature Animator for this dedicated creature team, we will look to you to deliver world-class creature animation quality.
+            <h1 className='font-bold text-xl py-4'>Real-Time 3D Graphics</h1>
+            <p>Immerse players in visually stunning worlds with high-quality graphics and seamless animations.
+            </p>
+          </div>
+          <div className='py-5'>
+            <h1 className='font-bold text-xl py-4'>Multiplayer Functionality</h1>
+            <p>Foster social interaction and competitiveness with multiplayer and online gameplay features.
+            </p>
+          </div>
+          <div className='py-5'>
+            <h1 className='font-bold text-xl py-4'>Engaging Game Design</h1>
+            <p>Craft compelling stories, levels, and characters to deliver captivating and memorable gaming experiences.
             </p>
           </div>
         </div>
@@ -221,7 +233,7 @@ const index = () => {
             <div className="absolute inset-0 flex justify-center items-center">
               <div className="text-center">
                 <h1 className="text-5xl font-bold text-white">
-                  WalkThrough
+                Architecture Visualization
                 </h1>
               </div>
             </div>
@@ -230,25 +242,31 @@ const index = () => {
       </div>
       <div className="bg-[#111111]">
             <div className='flex flex-col gap-5 justify-center items-center text-white py-20'>
-              <h1 className='text-4xl'> WalkThrough</h1>
-              <p className='text-xl max-w-screen-lg text-center font-serif'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut numquam non ea vero quas, libero voluptatibus atque ad asperiores magni</p>
+              <h1 className='text-4xl'> Architecture Visualization</h1>
+              <p className='text-xl max-w-screen-lg text-justify font-serif'>We specialize in photorealistic renderings and animations that showcase every detail of your project. We ensure your vision is brought to life with stunning realism. Our clients can experience spaces before construction with interactive virtual tours and walkthroughs.</p>
             </div>
           </div>
           <video class="w-full opacity-100" src='../assets/Service Walkthrough.mp4' autoPlay muted loop></video>
       <div className="bg-[#111111] text-white">
-        <div className='max-w-screen-xl mx-auto py-10'>
+      <div className='max-w-screen-xl mx-auto py-10'>
+          <h2 className="font-bold text-2xl">Key features:</h2>
           <div className='py-5'>
-            <h1 className='font-bold text-xl py-4'>Game Development</h1>
-            <p>Open, inclusive, and equal are three words that sum up the work culture at PhantomFX. Our strength lies in our people; a dedicated team of creative professionals who work together to bring alive magic on screen. Our teams have delivered on some of the craziest deadlines, without taking eyes off the high bar of quality.</p>
+            <h1 className='font-bold text-xl py-4'>Full-Cycle Development </h1>
+            <p>Showcase your architectural designs with lifelike visuals that capture every detail.</p>
           </div>
           <div className='py-5'>
-            <h1 className='font-bold text-xl py-4'>Visual Production</h1>
-            <p>Phantom Fx is looking for a Mid-Senior Creature Animator with extensive experience animating animal movement and behaviour. As a  Creature Animator, you will be part of a diverse team of animators that collaborates closely with Visual Design and Code to create engaging creatures for our current projects. As a Creature Animator for this dedicated creature team, we will look to you to deliver world-class creature animation quality.
+            <h1 className='font-bold text-xl py-4'>Accurate Representation</h1>
+            <p>Highlight materials, lighting, and spatial relationships to create realistic visualizations.
             </p>
           </div>
           <div className='py-5'>
-            <h1 className='font-bold text-md py-4'>Our Production House</h1>
-            <p>Phantom Fx is looking for a Mid-Senior Creature Animator with extensive experience animating animal movement and behaviour. As a  Creature Animator, you will be part of a diverse team of animators that collaborates closely with Visual Design and Code to create engaging creatures for our current projects. As a Creature Animator for this dedicated creature team, we will look to you to deliver world-class creature animation quality.
+            <h1 className='font-bold text-xl py-4'>Interactive Archviz Virtual Production</h1>
+            <p>Our platform offers interactive virtual tours allowing clients to explore and experience spaces virtually while facilitating real-time design changes and customization options during client interactions.
+            </p>
+          </div>
+          <div className='py-5'>
+            <h1 className='font-bold text-xl py-4'>Effective Communication</h1>
+            <p>Convey design intent to stakeholders, investors, and the general public, fostering understanding and support.
             </p>
           </div>
         </div>
@@ -268,62 +286,46 @@ const index = () => {
             <div className="absolute inset-0 bg-black opacity-60"></div>
             <div className="absolute inset-0 flex justify-center items-center">
               <div className="text-center">
-                <h1 className="text-5xl font-bold text-white">Archviz</h1>
+                <h1 className="text-5xl font-bold text-white">Interactive Archviz</h1>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="z-30 relative items-center justify-center w-full h-full overflow-auto">
-        <div
-          class="inset-0 h-screen bg-cover bg-center"
-      
-        ></div>
-        <div class="absolute inset-0 z-20 flex items-center justify-center h-screen w-full bg-gray-900 bg-opacity-75"></div>
-        <div class="absolute inset-0  z-30  flex flex-col items-center justify-center">
-          <div
-            class="shadow-2xl rounded-lg w-4/5 h-96 bg-cover bg-center"
-          
-          >
-            <div class="grid grid-cols-12 gap-1">
-              <div class="relative my-6 px-8 col-span-12 sm:col-span-12 md:col-span-7 lg:col-span-7 xxl:col-span-7">
-                <div class="border-l-4 border-gray-400 py-20 px-5 mx-2 absolute left-0">
-                  <p class="italic text-white text-xl md:text-4xl lg:text-4xl uppercase text-center  font-semibold ">
-                    Virtual Reality Change The Future
-                  </p>
-                </div>
-                <div class="text-gray-400 font-semibold text-xl mb-4">Archviz</div>
-                <div class="absolute border-gray-400 border-t-4 bottom-0 py-1 px-4 w-4/5"></div>
-              </div>
-              <div class="col-span-12 sm:col-span-12 md:col-span-5 lg:col-span-5 xxl:col-span-5">
-                <div class="relative bg-[#111111] h-full md:h-96 w-full bg-opacity-50 rounded-tr-lg rounded-br-lg">
-                  <div class="p-8">
-                    <p class="text-white text-xs md:text-sm lg:text-xl mb-4">
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia sequi, ea aperiam sunt vitae possimus totam commodi enim veniam debitis nihil provident perferendis, facere doloribus alias hic aliquid velit. Officiis deleniti placeat consequatur impedit exercitationem tempora harum sunt tempora harum sunt tempora harum sunt
-                    </p>
-                  </div>
-                </div>
-              </div>
+      <div className="bg-[#111111]">
+            <div className='flex flex-col gap-5 justify-center items-center text-white py-20'>
+              <h1 className='text-4xl'>Interactive Archviz</h1>
+              <p className='text-xl max-w-screen-lg text-justify font-serif'>Engage and captivate our audience with interactive experiences that push the boundaries of technology and creativity. Our interactive services cover various applications, including virtual reality (VR) and augmented reality (AR) experiences, custom installations for events and exhibitions, and multi-platform development for web and mobile. With our expertise in user interface (UI) and user experience (UX) design, we create intuitive and enjoyable interactive experiences that leave a lasting impression.</p>
             </div>
           </div>
-        </div>
-      </div>
+    
 
       <div className="bg-[#111111] text-white">
-        <div className='max-w-screen-xl mx-auto py-10'>
+      <div className='max-w-screen-xl mx-auto py-10'>
+          <h2 className="font-bold text-2xl">Key features:</h2>
           <div className='py-5'>
-            <h1 className='font-bold text-xl py-4'>Game Development</h1>
-            <p>Open, inclusive, and equal are three words that sum up the work culture at PhantomFX. Our strength lies in our people; a dedicated team of creative professionals who work together to bring alive magic on screen. Our teams have delivered on some of the craziest deadlines, without taking eyes off the high bar of quality.</p>
+            <h1 className='font-bold text-xl py-4'>Immersive VR/AR Experiences</h1>
+            <p>Dive into virtual worlds or overlay digital content in the real world for captivating interactive adventures.</p>
           </div>
           <div className='py-5'>
-            <h1 className='font-bold text-xl py-4'>Visual Production</h1>
-            <p>Phantom Fx is looking for a Mid-Senior Creature Animator with extensive experience animating animal movement and behaviour. As a  Creature Animator, you will be part of a diverse team of animators that collaborates closely with Visual Design and Code to create engaging creatures for our current projects. As a Creature Animator for this dedicated creature team, we will look to you to deliver world-class creature animation quality.
+            <h1 className='font-bold text-xl py-4'>Custom Installations</h1>
+            <p>Create interactive exhibits and installations that mesmerize audiences and make a lasting impact.
             </p>
           </div>
           <div className='py-5'>
-            <h1 className='font-bold text-md py-4'>Our Production House</h1>
-            <p>Phantom Fx is looking for a Mid-Senior Creature Animator with extensive experience animating animal movement and behaviour. As a  Creature Animator, you will be part of a diverse team of animators that collaborates closely with Visual Design and Code to create engaging creatures for our current projects. As a Creature Animator for this dedicated creature team, we will look to you to deliver world-class creature animation quality.
+            <h1 className='font-bold text-xl py-4'>Multi-Platform Development</h1>
+            <p>Reach audiences on web and mobile platforms, ensuring wider accessibility and engagement.
+            </p>
+          </div>
+          <div className='py-5'>
+            <h1 className='font-bold text-xl py-4'>Seamless UI/UX Design</h1>
+            <p>Craft intuitive, user-friendly interfaces for seamless interaction and enjoyable experiences.
+            </p>
+          </div>
+          <div className='py-5'>
+            <h1 className='font-bold text-xl py-4'>Innovative Technology</h1>
+            <p>Stay at the forefront of emerging technologies, pushing the boundaries of interactivity and engagement.
             </p>
           </div>
         </div>

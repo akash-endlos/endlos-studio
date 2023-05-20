@@ -5,6 +5,15 @@ const HomeBlogImages = () => {
     return (
 
         <div className='grid pt-10 bg-[#111111]'>
+            <div className="bg-[#111111] flex justify-center items-center py-16 p-5 border-t-2 border-gray-900">
+            <div className="inset-0 flex justify-center items-center">
+              <div className="text-center">
+                <h1 className="text-5xl font-bold text-white">
+                 Blog
+                </h1>
+              </div>
+            </div>
+          </div>
             <div className='grid grid-cols-1'>
                <Link href='/blog/1'>
                <div className="relative">

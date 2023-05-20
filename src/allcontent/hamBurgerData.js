@@ -4,7 +4,6 @@ export const hammenuItems = [
   {
     main: "Portfolio",
     link:"",
-    haschild:false,
     children: [
       {
         childmenu: "Archviz",
@@ -27,7 +26,7 @@ export const hammenuItems = [
         childmenu: "Virtual production",
         link:"",
         id:"",
-        haschild:false,
+  
         subchildren: [
           {
             subchild: "Enviorment Design",
@@ -57,7 +56,6 @@ export const hammenuItems = [
     main: "Company",
     link:"",
     id:"",
-    haschild:false,
     children: [
       {
         childmenu: "About Us",
@@ -73,7 +71,7 @@ export const hammenuItems = [
         childmenu: "Services",
         link:"",
         id:"",
-        haschild:false,
+  
         subchildren: [
           {
             subchild: "Pre Visualization",
@@ -94,7 +92,7 @@ export const hammenuItems = [
             subchild: "Archviz",
             link:"",
             id:"",
-            haschild:false,
+      
             subgrandchildren: [
               {
                 subchild: "Walkthrough",
@@ -126,7 +124,6 @@ export const hammenuItems = [
     main: "Contact Us",
     link:"",
     id:"",
-    haschild:false,
     children: [
       {
         childmenu: "Write to us",

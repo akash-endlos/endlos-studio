@@ -14,7 +14,7 @@ const index = () => {
             <div className="relative">
                 <div className="h-screen bg-cover bg-fixed" style={{
                     backgroundImage: `url(${bg.src})`,
-                    backgroundSize: "contain",
+                    backgroundSize: "cover",
                     backgroundRepeat: "no-repeat",
                     width: "100vw",
                     height: "495px",

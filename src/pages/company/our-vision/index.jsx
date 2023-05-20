@@ -32,7 +32,7 @@ const index = () => {
                 <div className="inset-0 flex justify-center items-center">
                     <div className="text-center">
                         <h1 className="text-2xl font-bold text-white">CAST & CREW</h1>
-                        <p className="mt-4 text-lg text-white font-serif max-w-screen-xl text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam exercitationem voluptas sunt dolores reprehenderit, quo saepe earum nesciunt magnam officiis incidunt totam dolorem suscipit veniam temporibus adipisci molestias ipsa rem. Odit optio rerum atque neque nulla ipsam quaerat reiciendis hic perferendis, et harum veritatis, architecto quidem eveniet</p>
+                        <p className="mt-4 text-lg text-white font-serif max-w-screen-lg leading-10 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam exercitationem voluptas sunt dolores reprehenderit, quo saepe earum nesciunt magnam officiis incidunt totam dolorem suscipit veniam temporibus adipisci molestias ipsa rem. Odit optio rerum atque neque nulla ipsam quaerat reiciendis hic perferendis, et harum veritatis, architecto quidem eveniet</p>
                     </div>
                 </div>
             </div>

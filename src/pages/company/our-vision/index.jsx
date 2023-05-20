@@ -22,7 +22,7 @@ const index = () => {
                     <div className="absolute inset-0 bg-black opacity-60"></div>
                     <div className="absolute inset-0 flex justify-center items-center">
                         <div className="text-center">
-                            <h1 className="text-5xl font-bold text-white">Our Vision</h1>
+                            <h1 className="text-3xl font-bold text-white">Our Vision</h1>
                         </div>
                     </div>
                 </div>
@@ -31,8 +31,8 @@ const index = () => {
             <div className="bg-black flex justify-center items-center max-h-max md:h-80 lg:h-96 p-5">
                 <div className="inset-0 flex justify-center items-center">
                     <div className="text-center">
-                        <h1 className="text-5xl font-bold text-white">CAST & CREW</h1>
-                        <p className="mt-4 text-lg text-white font-serif max-w-screen-xl text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam exercitationem voluptas sunt dolores reprehenderit, quo saepe earum nesciunt magnam officiis incidunt totam dolorem suscipit veniam temporibus adipisci molestias ipsa rem. Odit optio rerum atque neque nulla ipsam quaerat reiciendis hic perferendis, et harum veritatis, architecto quidem eveniet</p>
+                        <h1 className="text-2xl font-bold text-white">CAST & CREW</h1>
+                        <p className="mt-4 text-lg text-white font-serif max-w-screen-xl text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam exercitationem voluptas sunt dolores reprehenderit, quo saepe earum nesciunt magnam officiis incidunt totam dolorem suscipit veniam temporibus adipisci molestias ipsa rem. Odit optio rerum atque neque nulla ipsam quaerat reiciendis hic perferendis, et harum veritatis, architecto quidem eveniet</p>
                     </div>
                 </div>
             </div>

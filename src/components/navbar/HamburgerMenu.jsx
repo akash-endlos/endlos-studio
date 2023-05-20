@@ -3,7 +3,6 @@ import { RxHamburgerMenu } from "react-icons/rx";
 import { RxCross2 } from "react-icons/rx";
 import { AiFillCaretDown } from "react-icons/ai";
 import { hammenuItems } from "@/allcontent/hamBurgerData";
-import { menuItems } from "@/allcontent/navdata";
 
 const HamburgerMenu = () => {
   const [toggle, setToggle] = useState(false);
@@ -26,7 +25,7 @@ const HamburgerMenu = () => {
 
       {toggle ? (
         <div className="fixed top-[90px] z-50 left-0 w-full h-auto max-h-[300px] pb-10 transition duration-100 bg-[#161616] opacity-90 text-white overflow-scroll">
-          {menuItems.map((item, index) => (
+          {hammenuItems.map((item, index) => (
               <div className=" px-5">
                 <div className="flex   justify-between items-center py-4 px-5 relative">
                   <span>{item.main}</span>
@@ -42,7 +41,6 @@ const HamburgerMenu = () => {
                     {subitem?.subchildren?.map((subChildren)=>(
                         <div className="flex justify-between items-center  mt-2 ">
                         <span className="py-4">{subChildren.subchild}</span>
-                        {/* <AiFillCaretDown /> */}
                       </div>
                     ))}
                     </>

@@ -3,135 +3,135 @@
 export const hammenuItems = [
   {
     main: "Portfolio",
-    link: "",
-    id: "",
+    link:"",
+    haschild:false,
     children: [
       {
-        main: "Archviz",
-        link: "",
-        id: "",
-        children: [
+        childmenu: "Archviz",
+        link:"",
+        id:"",
+        subchildren: [
           {
-            main: "Walkthrough",
-            link: "/portfolio/archviz",
-            id: "archvizwalkthrough"
-          },
-          {
-            main: "Interactive Archviz",
-            link: "/portfolio/archviz",
-            id: "archvizinteractive"
+            subchild: "Interactive Archviz",
+            link:"/portfolio/archviz",
+            id:"archvizinteractive"
           },
         ],
       },
       {
-        main: "Pre Visualization",
-        link: "/portfolio/pre-visualization",
-        id: "",
+        childmenu: "Pre Visualization",
+        link:"/portfolio/pre-visualization",
+        id:"",
       },
       {
-        main: "Virtual production",
-        link: "",
-        id: "",
-        children: [
+        childmenu: "Virtual production",
+        link:"",
+        id:"",
+        haschild:false,
+        subchildren: [
           {
-            main: "Enviorment Design",
-            link: "/portfolio/virtual-production",
-            id: "environment"
+            subchild: "Enviorment Design",
+            link:"/portfolio/virtual-production",
+            id:"environment"
           },
           {
-            main: "AR & VR",
-            link: "/portfolio/virtual-production",
-            id: "arvr"
+            subchild: "AR & VR",
+            link:"/portfolio/virtual-production",
+            id:"arvr"
           },
         ],
       },
       {
-        main: "Game Development",
-        link: "/portfolio/game-development",
-        id: "",
+        childmenu: "Game Development",
+        link:"/portfolio/game-development",
+        id:"",
       },
     ],
   },
   {
     main: "Blog",
-    link: "/blog",
-    id: "",
+    link:"/blog",
+    id:"",
   },
   {
     main: "Company",
-    link: "",
-    id: "",
+    link:"",
+    id:"",
+    haschild:false,
     children: [
       {
-        main: "About Us",
-        link: "/company/about-us",
-        id: "",
+        childmenu: "About Us",
+        link:"/company/about-us",
+        id:"",
       },
       {
-        main: "Careers",
-        link: "/company/careers",
-        id: "",
+        childmenu: "Careers",
+        link:"/company/careers",
+        id:"",
       },
       {
-        main: "Services",
-        link: "",
-        id: "",
-        children: [
+        childmenu: "Services",
+        link:"",
+        id:"",
+        haschild:false,
+        subchildren: [
           {
-            main: "Pre Visualization",
-            link: "/company/services",
-            id: "servicespv"
+            subchild: "Pre Visualization",
+            link:"/company/services",
+            id:"servicespv"
           },
           {
-            main: "Virtual production",
-            link: "/company/services",
-            id: "servicesvp"
+            subchild: "Virtual production",
+            link:"/company/services",
+            id:"servicesvp"
           },
           {
-            main: "Game Development",
-            link: "/company/services",
-            id: "servicesgamedevelopment",
+            subchild: "Game Development",
+            link:"/company/services",
+            id:"servicesgamedevelopment",
           },
           {
-            main: "Archviz",
-            link: "",
-            id: "",
+            subchild: "Archviz",
+            link:"",
+            id:"",
+            haschild:false,
             subgrandchildren: [
               {
-                main: "Walkthrough",
-                link: "/company/services",
-                id: "serviceswalktrough",
+                subchild: "Walkthrough",
+                link:"/company/services",
+                id:"serviceswalktrough",
               },
               {
-                main: "AR & VR application",
-                link: "/company/services",
-                id: "servicesarchviz",
+                subchild: "AR & VR application",
+                link:"/company/services",
+                id:"servicesarchviz",
               },
             ],
           },
         ],
       },
       {
-        main: "Our Vision",
-        link: "/company/our-vision",
-        id: "",
+        childmenu: "Our Vision",
+        link:"/company/our-vision",
+        id:"",
       },
       {
-        main: "FAQ",
-        link: "/company/faq",
-        id: "",
+        childmenu: "FAQ",
+        link:"/company/faq",
+        id:"",
       },
     ],
   },
   {
     main: "Contact Us",
-    link: "",
-    id: "",
+    link:"",
+    id:"",
+    haschild:false,
     children: [
       {
-        main: "Write to us",
-        link: "/contact-us/write-to-us",
-        id: "",
+        childmenu: "Write to us",
+        link:"/contact-us/write-to-us",
+        id:"",
       },
     ],
   },

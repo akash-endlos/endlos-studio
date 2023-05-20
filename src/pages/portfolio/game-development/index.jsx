@@ -28,12 +28,12 @@ const index = () => {
               <div className="absolute inset-0 bg-black opacity-60"></div>
               <div className="absolute inset-0 flex justify-center items-center">
                 <div className="text-center">
-                  <h1 className="text-5xl font-bold text-white">
+                  <h1 className="text-3xl font-bold text-white">
                     Game Development
                   </h1>
-                  <p className="mt-4 text-lg text-white font-serif">
+                  {/* <p className="mt-4 text-lg text-white font-serif">
                     Can You Handle The Truth
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -41,7 +41,7 @@ const index = () => {
           <div className="flex justify-center items-center py-10">
             <img src="/assets/gd-1.jpg" />
           </div>
-          <div className="max-w-screen-xl mx-auto py-10">
+          <div className="max-w-screen-xl mx-auto py-10 px-5">
             <h2 className="font-bold text-2xl">Key features:</h2>
             <div className="py-5">
               <h1 className="font-bold text-xl py-4">Creative Conceptualization</h1>
@@ -109,14 +109,14 @@ const index = () => {
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="flex flex-col items-center gap-2">
                 <p className="text-xl text-white">FILMING CREW</p>
-                <h1 className="text-white text-4xl font-bold font-serif">
+                <h1 className="text-white text-center text-3xl font-bold font-serif">
                   MEET THE TEAM
                 </h1>
               </div>
             </div>
           </div>
           <div className="mx-auto max-w-screen-xl py-5  ">
-            <p className="text-center font-bold text-4xl text-white py-10">
+            <p className="text-center font-bold text-3xl text-white py-10">
               OUR DEVELOPMENT
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 pb-10">

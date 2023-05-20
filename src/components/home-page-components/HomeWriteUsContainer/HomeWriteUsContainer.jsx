@@ -4,6 +4,15 @@ import FormContainer from '@/components/form-container/FormContainer';
 const HomeWriteUsContainer = () => {
     return (
         <div className="w-full bg-[#111111]">
+            <div className="bg-[#111111] flex justify-center items-center py-16 p-5 border-t-2 border-gray-900">
+            <div className="inset-0 flex justify-center items-center">
+              <div className="text-center">
+                <h1 className="text-5xl font-bold text-white">
+                 What You Think About Me
+                </h1>
+              </div>
+            </div>
+          </div>
             <div
                 style={{
                     backgroundImage: `url(${bg.src})`,

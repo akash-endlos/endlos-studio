@@ -55,7 +55,7 @@ const HamburgerMenu = () => {
                       <div
                         onClick={() => handleDropdownSecondToggle(childIndex)}
                       >
-                        <div>{childItem.childmenu}</div>
+                        <div className="py-2">{childItem.childmenu}</div>
                       </div>
                     </Link>
                     {openSecondIndex === childIndex &&

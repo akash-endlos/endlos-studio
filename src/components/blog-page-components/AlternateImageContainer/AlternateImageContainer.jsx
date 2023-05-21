@@ -2,7 +2,7 @@ import Link from 'next/link';
 import React from 'react'
 import { useSelector } from 'react-redux';
 
-const AlternateImageContainer = () => {
+const AlternateImageContainer = ({filteredData}) => {
     const blogData = useSelector((state)=>state.allblogs.blog)
     const LeftContainer = ({id,name,src}) => (
         <>
@@ -57,7 +57,7 @@ const AlternateImageContainer = () => {
     return (
         <div className='bg-[#111111] text-white'>
             <div className='max-w-screen-2xl mx-auto px-10'>
-               {blogData && blogData.map((item,key)=>{
+               {filteredData && filteredData.map((item,key)=>{
                 if(item.value==='left')
                 {return(
                     <LeftContainer id={item?.id} name={item.name} src={item.src} />

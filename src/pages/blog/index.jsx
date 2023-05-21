@@ -72,7 +72,7 @@ const index = () => {
               onChange={(e) => setsearchValue(e.target.value)} className=" border border-gray-300 text-white bg-black text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full  p-2.5  dark:bg-gray-700 outline-none dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search Mockups, Logos, Design Templates..." required />
             </div>
                     <div className='max-h-[1000px] no-scrollbar overflow-y-scroll'>
-                    <AlternateImageContainer  />
+                    <AlternateImageContainer filteredData={filteredData}  />
                     </div>
                     {/* <AlternateImageContainer />
                     <AlternateImageContainer /> */}

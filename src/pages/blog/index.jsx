@@ -84,7 +84,7 @@ const index = () => {
             <div id="guide" className='bg-[#111111]'>
                 <BlogGuideSection />
             </div>
-            <div id="customer" className='bg-[#111111] pb-28'>
+            <div id="customer" className='bg-[#111111] pb-28 px-5'>
                 <CustomerReviewSection />
             </div>
            <div className='bg-[#111111] '>

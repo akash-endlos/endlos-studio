@@ -3,10 +3,10 @@ import React from 'react'
 const BlogRightSection = () => {
     return (
         <div className='px-1 py-5 w-full'>
-            <h1 className="text-3xl font-bold pb-5 px-5">Search</h1>
+            {/* <h1 className="text-3xl font-bold pb-5 px-5">Search</h1>
             <div className=' text-white gap-4 px-5'>
                 <input type="text" className=" border border-gray-300 text-white bg-black text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full  p-2.5  dark:bg-gray-700 outline-none dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search Mockups, Logos, Design Templates..." required />
-            </div>
+            </div> */}
             <div className="flex flex-col xl:items-start px-5 py-10">
                 <h1 className="text-3xl font-bold">About</h1>
                 <div className=' text-white gap-4 text-justify pt-5'>

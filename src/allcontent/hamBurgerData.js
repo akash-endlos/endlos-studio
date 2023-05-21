@@ -29,7 +29,7 @@ export const hammenuItems = [
         link:"",
         id:"",
   
-        expand:"portfolio",
+        expand:"pvp",
         subchildren: [
           {
             subchild: "Enviorment Design",
@@ -76,7 +76,7 @@ export const hammenuItems = [
         link:"",
         id:"",
   
-        expand:"portfolio",
+        expand:"cs",
         subchildren: [
           {
             subchild: "Pre Visualization",
@@ -98,7 +98,7 @@ export const hammenuItems = [
             link:"",
             id:"",
       
-            expand:"portfolio",
+            expand:"aarchviz",
             subgrandchildren: [
               {
                 subchild: "Walkthrough",

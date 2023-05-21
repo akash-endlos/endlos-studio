@@ -5,6 +5,7 @@ import BlogParallaxComponent from '@/components/blog-page-components/BlogParalla
 import BlogRightSection from '@/components/blog-page-components/BlogRightSection/BlogRightSection'
 import CustomerReviewSection from '@/components/blog-page-components/CustomerReviewSection/CustomerReviewSection'
 import Footer from '@/components/footer/Footer'
+import FormContainer from '@/components/form-container/FormContainer'
 import Navbar from '@/components/navbar/Navbar'
 import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
@@ -68,31 +69,7 @@ const index = () => {
                 <CustomerReviewSection />
             </div>
            <div className='bg-[#111111] '>
-           <form class="max-w-5xl mx-auto px-10">
-                <div class="mb-4">
-                    <label class="block text-white font-bold mb-2" for="name">
-                        Name
-                    </label>
-                    <input class=" border rounded w-full py-2 px-3 text-white bg-black leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Enter your  name" />
-                </div>
-                <div class="mb-4">
-                    <label class="block text-white font-bold mb-2" for="email">
-                        Email
-                    </label>
-                    <input class=" border rounded w-full py-2 px-3 text-white bg-black leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Enter your email" />
-                </div>
-                <div class="mb-4">
-                    <label class="block text-white font-bold mb-2" for="message">
-                        Message
-                    </label>
-                    <textarea class=" border rounded w-full py-2 px-3 text-white bg-black leading-tight focus:outline-none focus:shadow-outline" id="message" placeholder="Enter your message"></textarea>
-                </div>
-                <div class="flex items-center justify-between">
-                    <button class="bg-[#111111] hover:bg-white border hover:text-[#111111] text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
-                        Submit
-                    </button>
-                </div>
-            </form>
+         <FormContainer/>
            </div>
 
             <Footer />

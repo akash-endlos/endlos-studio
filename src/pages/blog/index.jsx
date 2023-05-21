@@ -68,8 +68,10 @@ const index = () => {
             <div id="customer" className='bg-[#111111] pb-28'>
                 <CustomerReviewSection />
             </div>
-           <div className='bg-[#111111] flex justify-center items-center'>
+           <div className='bg-[#111111] '>
+         <div className='max-w-7xl mx-auto px-5'>
          <FormContainer/>
+         </div>
            </div>
 
             <Footer />

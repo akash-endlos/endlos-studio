@@ -10,7 +10,7 @@ const HomeCarousel = () => {
   const pagination = {
     clickable: true,
   };
-   const IndustriesCarouselSection = [
+   const CarouselSection = [
     {
       title:
         "Endlos Innovation helps you to automate production to be more flexible and adapted to the requirements of your organization.",
@@ -48,7 +48,7 @@ const HomeCarousel = () => {
         slidesPerView={1}
         modules={[Autoplay, Pagination, Navigation]}
       >
-        {IndustriesCarouselSection.map((item,index) => (
+        {CarouselSection.map((item,index) => (
           <SwiperSlide key={index}>
             <video
               src={item.src}

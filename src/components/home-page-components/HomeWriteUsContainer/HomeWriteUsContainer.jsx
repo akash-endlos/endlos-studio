@@ -26,8 +26,8 @@ const HomeWriteUsContainer = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                         <FormContainer />
                         {/* <img data-aos="fade-left" data-aos-delay="500"   src="https://images.freeimages.com/images/previews/ac9/railway-hdr-1361893.jpg" /> */}
-                        <div class="relative aspect-video overflow-hidden rounded-3xl">
-                            <video class="w-full opacity-100" src='../assets/write_us_video.mp4' autoPlay muted loop></video>
+                        <div className="relative aspect-video overflow-hidden rounded-3xl">
+                            <video className="w-full opacity-100" src='../assets/write_us_video.mp4' autoPlay muted loop></video>
                         </div>
                     </div>
                 </div>

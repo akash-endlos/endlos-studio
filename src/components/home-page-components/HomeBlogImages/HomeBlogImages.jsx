@@ -18,7 +18,7 @@ const HomeBlogImages = () => {
                <Link href='/blog/1'>
                <div className="relative">
                     <div className="card cursor-pointer">
-                    <img src="/assets/home_vr_1.jpg" class="w-full h-auto " alt="example image" />
+                    <img src="/assets/home_vr_1.jpg" className="w-full h-auto " alt="example image" />
                         <div className="absolute inset-0 bg-black bg-opacity-50 text-white flex items-end justify-start opacity-0 transition duration-300 ease-in-out hover:opacity-100">
                             <span className="xl:text-4xl md:text-sm font-bold absolute bottom-16 left-10">Make Our World Beautiful With Virtual Reality</span>
                         </div>

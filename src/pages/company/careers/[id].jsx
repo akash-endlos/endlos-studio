@@ -34,12 +34,12 @@ const CareerDetails = () => {
               </div>
               <div className='py-5'>
                 <h1 className='font-bold text-xl py-4'>Job Description</h1>
-                <p>Phantom Fx is looking for a Mid-Senior Creature Animator with extensive experience animating animal movement and behaviour. As a  Creature Animator, you will be part of a diverse team of animators that collaborates closely with Visual Design and Code to create engaging creatures for our current projects. As a Creature Animator for this dedicated creature team, we will look to you to deliver world-class creature animation quality.
+                <p>Phantom Fx is looking for a Mid-Senior Creature Animator with extensive experience animating animal movement and behaviour. As a  Creature Animator, you will be part of a diverse team of animators that collaborates closely with Visual Design and Code to create engaging creatures for our current projects. As a Creature Animator for this dedicated creature team, we will look to you to deliver world-className creature animation quality.
                 </p>
               </div>
               <div className='py-5'>
                 <h1 className='font-bold text-md py-4'>Job Description</h1>
-                <p>Phantom Fx is looking for a Mid-Senior Creature Animator with extensive experience animating animal movement and behaviour. As a  Creature Animator, you will be part of a diverse team of animators that collaborates closely with Visual Design and Code to create engaging creatures for our current projects. As a Creature Animator for this dedicated creature team, we will look to you to deliver world-class creature animation quality.
+                <p>Phantom Fx is looking for a Mid-Senior Creature Animator with extensive experience animating animal movement and behaviour. As a  Creature Animator, you will be part of a diverse team of animators that collaborates closely with Visual Design and Code to create engaging creatures for our current projects. As a Creature Animator for this dedicated creature team, we will look to you to deliver world-className creature animation quality.
                 </p>
               </div>
               <div className='py-5'>

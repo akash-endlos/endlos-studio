@@ -60,7 +60,7 @@ const Index = () => {
         </div>
       <div  className='py-16 max-w-screen-xl mx-auto px-5 text-justify'>
       <p className='mb-5'>These FAQs provide a glimpse into our services. If you have any further questions or would like more information, please feel free to contact us.</p>
-      <Link href='/contact-us/write-to-us'><button type="button" class="bg-gray-900 hover:bg-white hover:text-black text-md font-bold rounded-md px-5 py-2.5 text-center mr-2 mb-2 ">Contact Us</button></Link>
+      <Link href='/contact-us/write-to-us'><button type="button" className="bg-gray-900 hover:bg-white hover:text-black text-md font-bold rounded-md px-5 py-2.5 text-center mr-2 mb-2 ">Contact Us</button></Link>
       </div>
       </div>
          

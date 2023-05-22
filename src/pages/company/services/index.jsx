@@ -239,7 +239,7 @@ const index = () => {
               <p className='text-xl max-w-screen-lg text-justify font-serif px-5'>We specialize in photorealistic renderings and animations that showcase every detail of your project. We ensure your vision is brought to life with stunning realism. Our clients can experience spaces before construction with interactive virtual tours and walkthroughs.</p>
             </div>
           </div>
-          <video class="w-full opacity-100" src='../assets/Service Walkthrough.mp4' autoPlay muted loop></video>
+          <video className="w-full opacity-100" src='../assets/Service Walkthrough.mp4' autoPlay muted loop></video>
       <div className="bg-[#111111] text-white">
       <div className='max-w-screen-xl mx-auto py-10 px-5'>
           <h2 className="font-bold text-2xl">Key features:</h2>

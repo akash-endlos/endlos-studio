@@ -27,7 +27,7 @@ const Blog = ({ }) => {
           </div>
           <div className="flex justify-between items-center">
             <div className="flex justify-center py-5 gap-5">
-              <img class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500" src="/assets/home-7-img-1.jpg" alt="Bordered avatar" />
+              <img className="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500" src="/assets/home-7-img-1.jpg" alt="Bordered avatar" />
               <div className="flex flex-col">
                 <small>Yash patel</small>
                 <small>Founder Of The Company</small>
@@ -50,7 +50,7 @@ const Blog = ({ }) => {
             </div>
           </div>
           <div className="max-w-7xl mx-auto py-10">
-            <img src="/assets/home_blog_1.jpg" class="mx-auto max-w-full h-auto" alt="example image" />
+            <img src="/assets/home_blog_1.jpg" className="mx-auto max-w-full h-auto" alt="example image" />
 
             <p className="text-justify py-10 leading-loose">
 
@@ -64,8 +64,8 @@ const Blog = ({ }) => {
 
               Overall, staying connected through top VR blogs is an essential part of being involved in this exciting industry. There are a plethora of VR blogs out there, but not all of them offer the same quality of content. For those who want to stay up-to-date on the latest VR technology and trends, it’s important to find blogs that offer in-depth reviews, news, and insights.
             </p>
-            <div class="relative aspect-video overflow-hidden rounded-3xl">
-              <video class="w-full opacity-100" src='../assets/write_us_video.mp4' autoPlay muted loop></video>
+            <div className="relative aspect-video overflow-hidden rounded-3xl">
+              <video className="w-full opacity-100" src='../assets/write_us_video.mp4' autoPlay muted loop></video>
             </div>
             <p className="text-justify py-10 leading-loose">
 
@@ -82,8 +82,8 @@ const Blog = ({ }) => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
 
               {/* <img data-aos="fade-left" data-aos-delay="500"   src="https://images.freeimages.com/images/previews/ac9/railway-hdr-1361893.jpg" /> */}
-              <div class="relative aspect-video overflow-hidden rounded-3xl">
-                <video class="w-full opacity-100" src='../assets/write_us_video.mp4' autoPlay muted loop></video>
+              <div className="relative aspect-video overflow-hidden rounded-3xl">
+                <video className="w-full opacity-100" src='../assets/write_us_video.mp4' autoPlay muted loop></video>
               </div>
               <p className="text-justify leading-loose ">
 
@@ -108,7 +108,7 @@ const Blog = ({ }) => {
 
                 They also provide information on the best VR games and experiences to try out as well as tips on how to make the most out of your virtual reality experience. These blogs have a wealth of information on all things VR and have become go-to sources for those looking to learn more about this exciting technology. As virtual reality continues to grow in popularity, these blogs will undoubtedly continue to provide valuable insights into this ever-changing field.Following VR blogs is essential for enthusiasts, developers, and businesses alike.
               </p>
-              <div class="relative aspect-video overflow-hidden rounded-3xl">
+              <div className="relative aspect-video overflow-hidden rounded-3xl">
                 <img data-aos="fade-left" data-aos-delay="500" src="https://images.freeimages.com/images/previews/ac9/railway-hdr-1361893.jpg" />
               </div>
             </div>

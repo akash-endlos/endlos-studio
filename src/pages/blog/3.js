@@ -27,7 +27,7 @@ const Blog = ({ }) => {
           </div>
           <div className="flex justify-between items-center">
             <div className="flex justify-center py-5 gap-5">
-              <img class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500" src="/assets/home-7-img-1.jpg" alt="Bordered avatar" />
+              <img className="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500" src="/assets/home-7-img-1.jpg" alt="Bordered avatar" />
               <div className="flex flex-col">
                 <small>Yash patel</small>
                 <small>Founder Of The Company</small>
@@ -50,7 +50,7 @@ const Blog = ({ }) => {
             </div>
           </div>
           <div className="max-w-7xl mx-auto py-10">
-            <img src="/assets/blog_inside_vr_3.jpg" class="mx-auto max-w-full h-auto" alt="example image" />
+            <img src="/assets/blog_inside_vr_3.jpg" className="mx-auto max-w-full h-auto" alt="example image" />
             <p className="py-2 pt-5">Unreal Engine 5 revolutionized the CGI environment. Unreal Engine 5.2 is now used to let creatives achieve even greater results.</p>
             <p className="py-2">
             Epic Games published the public plan of Unreal Engine 5.2 before GDC 2023 event in March. It's an excellent addition to a point release. It's Unreal Engine 5, so you shouldn't expect anything surprising.

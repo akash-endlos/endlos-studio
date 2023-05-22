@@ -25,7 +25,6 @@ const index = () => {
         setfilteredData(blogData)
       }
     }, [searchValue])
-    console.log(filteredData);
 
     const [isFixed, setIsFixed] = useState(false);
 

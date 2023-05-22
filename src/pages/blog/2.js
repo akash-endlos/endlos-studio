@@ -27,7 +27,7 @@ const Blog = ({ }) => {
           </div>
           <div className="flex justify-between items-center">
             <div className="flex justify-center py-5 gap-5">
-              <img class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500" src="/assets/home-7-img-1.jpg" alt="Bordered avatar" />
+              <img className="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500" src="/assets/home-7-img-1.jpg" alt="Bordered avatar" />
               <div className="flex flex-col">
                 <small>Yash patel</small>
                 <small>Founder Of The Company</small>
@@ -50,7 +50,7 @@ const Blog = ({ }) => {
             </div>
           </div>
           <div className="max-w-7xl mx-auto py-10">
-            <img src="/assets/blog_inside_vr_2.jpg" class="mx-auto max-w-full h-auto" alt="example image" />
+            <img src="/assets/blog_inside_vr_2.jpg" className="mx-auto max-w-full h-auto" alt="example image" />
             <p className="py-2 pt-5">One of the biggest recent years has been creating architectural applications to use virtual reality. In the future, it was stated that VR wouldn't just be a key element when the presentation of a design; however, it would also be an integral part of the process of designing.</p>
             <p className="py-2">
               The most common challenge for most design-oriented businesses is convincing customers that their product looks identical to - or even superior to a representation in 3D or 2D.

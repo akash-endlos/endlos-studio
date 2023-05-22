@@ -28,7 +28,7 @@ const index = () => {
               <div className="absolute inset-0 bg-black opacity-60"></div>
               <div className="absolute inset-0 flex justify-center items-center">
                 <div className="text-center">
-                  <h1 className="text-3xl font-bold text-white">
+                  <h1 className="text-4xl font-bold text-white">
                     Game Development
                   </h1>
                   {/* <p className="mt-4 text-lg text-white font-serif">
@@ -42,21 +42,21 @@ const index = () => {
             <img src="/assets/gd-1.jpg" />
           </div>
           <div className="max-w-screen-xl mx-auto py-10 px-5">
-            <h2 className="font-bold text-2xl">Key features:</h2>
+            {/* <h2 className="font-bold text-2xl">Key features:</h2> */}
             <div className="py-5">
-              <h1 className="font-bold text-xl py-4">Creative Conceptualization</h1>
+              <h1 className="font-bold text-2xl py-4">Creative Conceptualization</h1>
               <p>
               Our work strategy in game development begins with creative conceptualization. We collaborate closely with our clients to understand their game vision, target audience, and desired gameplay mechanics, ensuring a solid foundation for the development process.
               </p>
             </div>
             <div className="py-5">
-              <h1 className="font-bold text-xl py-4">Iterative Development and Testing</h1>
+              <h1 className="font-bold text-2xl py-4">Iterative Development and Testing</h1>
               <p>
               We follow an iterative and testing approach in game development. By building prototypes, conducting playtesting, and gathering feedback, we refine the gameplay, mechanics, and overall user experience to create captivating and enjoyable games.
               </p>
             </div>
             <div className="py-5">
-              <h1 className="font-bold text-xl py-4">
+              <h1 className="font-bold text-2xl py-4">
               Cross-Platform Compatibility
               </h1>
               <p>
@@ -64,7 +64,7 @@ const index = () => {
               </p>
             </div>
             <div className="py-5">
-              <h1 className="font-bold text-xl py-4">
+              <h1 className="font-bold text-2xl py-4">
               Quality Assurance
               </h1>
               <p>

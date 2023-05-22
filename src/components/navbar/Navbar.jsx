@@ -6,6 +6,7 @@ import {
   AiFillInstagram,
   AiOutlineTwitter,
   AiFillFacebook,
+  AiFillLinkedin
 } from "react-icons/ai";
 import NewNavbar from "./NewNavbar";
 import { PopupButton } from "react-calendly";
@@ -52,7 +53,7 @@ function Navbar({ Navclass = 'bg-transparent text-white' }) {
             /></div>
           <div className=" justify-between items-center hidden xl:flex">
             <span className="font-semibold tracking-widest text-md pr-5 cursor-pointer">
-              <AiFillYoutube size={20} color="white" />
+              <AiFillLinkedin size={20} color="white" />
             </span>
             <span className="font-semibold tracking-widest text-md pr-5 cursor-pointer">
               <AiFillInstagram size={20} color="white" />

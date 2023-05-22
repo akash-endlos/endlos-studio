@@ -20,7 +20,7 @@ const HomeBlogImages = () => {
                     <div className="card cursor-pointer">
                     <img src="/assets/home_vr_1.jpg" className="w-full h-auto " alt="example image" />
                         <div className="absolute inset-0 bg-black bg-opacity-50 text-white flex items-end justify-start opacity-0 transition duration-300 ease-in-out hover:opacity-100">
-                            <span className="xl:text-4xl md:text-sm font-bold absolute bottom-16 left-10">Artificial Intelligence in Gaming: Enhancing Immersion and Gameplay.</span>
+                            <span className="xl:text-4xl md:text-sm font-bold absolute xl:bottom-16 sm:bottom:0 left-10">Artificial Intelligence in Gaming: Enhancing Immersion and Gameplay.</span>
                         </div>
                     </div>
                 </div>
@@ -32,7 +32,7 @@ const HomeBlogImages = () => {
                         <div className="card cursor-pointer">
                             <img src="/assets/home_vr_2.jpg" className="w-full h-auto" alt="example image" />
                             <div className="absolute inset-0 bg-black bg-opacity-50 text-white flex items-center justify-center opacity-0 transition duration-300 ease-in-out hover:opacity-100">
-                                <span className="xl:text-4xl md:text-sm font-bold absolute bottom-16 left-10">The Impact of Virtual Reality on Architecture and Design</span>
+                                <span className="xl:text-4xl md:text-sm font-bold absolute xl:bottom-16 sm:bottom:0 left-10">The Impact of Virtual Reality on Architecture and Design</span>
                             </div>
                         </div>
                     </div>
@@ -42,7 +42,7 @@ const HomeBlogImages = () => {
                         <div className="card cursor-pointer">
                             <img src="/assets/home_vr_3.jpg" className="w-full h-auto" alt="example image" />
                             <div className="absolute inset-0 bg-black bg-opacity-50 text-white flex items-center justify-center opacity-0 transition duration-300 ease-in-out hover:opacity-100">
-                                <span className="xl:text-4xl md:text-sm font-bold absolute bottom-16 left-10">The Unreal Engine 5.2 is available!</span>
+                                <span className="xl:text-4xl md:text-sm  font-bold absolute xl:bottom-16 sm:bottom:0 left-10">The Unreal Engine 5.2 is available!</span>
                             </div>
                         </div>
                         </Link>

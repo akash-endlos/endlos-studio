@@ -66,7 +66,7 @@ const index = () => {
           </div>
         </div>
       </div>
-        <ArchwizGallery />
+        {/* <ArchwizGallery /> */}
       </div>
 
       {/* <div id="archvizwalkthrough">

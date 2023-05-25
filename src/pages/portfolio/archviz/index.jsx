@@ -36,20 +36,43 @@ const index = () => {
                     backgroundSize: "cover",
                     backgroundRepeat: "no-repeat",
                     width: "100vw",
+                    height: "450px",
+                }}>
+                    <div className="absolute inset-0 bg-black opacity-60"></div>
+                    <div className="absolute inset-0 flex justify-center items-center">
+                        <div className="text-center">
+                            <h1 className="text-5xl font-bold text-white">Portfolio</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="bg-black flex justify-center items-center py-10 p-5">
+          <div className="inset-0 flex justify-center items-center">
+            <div className="text-center">
+              <h2 className="text-4xl font-bold text-white">
+                We Show What We Done
+              </h2>
+            </div>
+          </div>
+        </div>
+      <div className="relative">
+                <div className="h-screen bg-cover bg-fixed" style={{
+                    backgroundImage: `url(${bg.src})`,
+                    backgroundSize: "cover",
+                    backgroundRepeat: "no-repeat",
+                    width: "100vw",
                     height: "300px",
                 }}>
                     <div className="absolute inset-0 bg-black opacity-60"></div>
                     <div className="absolute inset-0 flex justify-center items-center">
                         <div className="text-center">
                             <h1 className="text-5xl font-bold text-white">Archviz</h1>
-                            {/* <p className="mt-4 text-lg text-white font-serif">{subtitle}</p> */}
                         </div>
                     </div>
                 </div>
             </div>
             <div className="bg-[#111111] text-white">
         <div className='max-w-screen-xl mx-auto py-10 px-5'>
-          {/* <h2 className="font-bold text-2xl">Key features:</h2> */}
           <div className='py-5'>
             <h1 className='font-bold text-xl py-4'>Attention to Detail</h1>
             <p>Our work strategy in architecture visualization emphasizes a meticulous approach to detail. We focus on accurately representing architectural designs, materials, lighting, and spatial relationships to create realistic and immersive visualizations.</p>

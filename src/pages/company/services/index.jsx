@@ -37,7 +37,7 @@ const index = () => {
               <div className="absolute inset-0 bg-black opacity-60"></div>
               <div className="absolute inset-0 flex justify-center items-center">
                 <div className="text-center">
-                  <h1 className="text-3xl font-bold text-white">
+                  <h1 className="text-5xl font-bold text-white">
                     Services
                   </h1>
                 </div>
@@ -46,7 +46,7 @@ const index = () => {
           </div>
           <div className="bg-[#111111]">
             <div className='flex flex-col gap-5 justify-center items-center text-white py-10'>
-              <h1 className='text-2xl font-bold'>What We Provide</h1>
+              <h1 className='text-3xl font-bold'>What We Provide</h1>
               {/* <p className='text-xl max-w-screen-lg text-center font-serif'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut numquam non ea vero quas, libero voluptatibus atque ad asperiores magni</p> */}
             </div>
           </div>
@@ -66,7 +66,7 @@ const index = () => {
               <div className="absolute inset-0 bg-black opacity-60"></div>
               <div className="absolute inset-0 flex justify-center items-center">
                 <div className="text-center">
-                  <h1 className="text-3xl font-bold text-white">
+                  <h1 className="text-4xl font-bold text-white">
                     Pre Visualization
                   </h1>
                 </div>
@@ -84,7 +84,7 @@ const index = () => {
         <div className='max-w-screen-xl mx-auto py-10 px-5'>
           {/* <h2 className="font-bold text-2xl">Key features:</h2> */}
           <div className='py-5'>
-            <h1 className='font-bold text-2xl py-4'>Visual Storytelling</h1>
+            <h3 className='font-bold text-3xl py-4'>Visual Storytelling</h3>
             <p>We emphasize the power of visual storytelling in pre-visualization. </p>
           </div>
         </div>
@@ -107,9 +107,9 @@ const index = () => {
             <div className="absolute inset-0 bg-black opacity-60"></div>
             <div className="absolute inset-0 flex justify-center items-center">
               <div className="text-center">
-                <h1 className="text-3xl font-bold text-white">
+                <h3 className="text-4xl font-bold text-white">
                   Virtual Production
-                </h1>
+                </h3>
               </div>
             </div>
           </div>
@@ -126,26 +126,26 @@ const index = () => {
         <div className='max-w-screen-xl mx-auto py-10 px-5'>
           {/* <h2 className="font-bold text-2xl">Key features:</h2> */}
           <div className='py-5'>
-            <h1 className='font-bold text-2xl py-4'>Immersive Virtual Environments </h1>
+            <h3 className='font-bold text-2xl py-4'>Immersive Virtual Environments </h3>
             <p>Transport your audience to captivating virtual worlds with our state-of-the-art technology.</p>
           </div>
           <div className='py-5'>
-            <h1 className='font-bold text-2xl py-4'>Real-Time Visual Effects</h1>
+            <h3 className='font-bold text-2xl py-4'>Real-Time Visual Effects</h3>
             <p>Enhance storytelling and production efficiency with instant feedback and on-the-fly adjustments.
             </p>
           </div>
           <div className='py-5'>
-            <h1 className='font-bold text-2xl py-4'>Virtual Camera Systems</h1>
+            <h3 className='font-bold text-2xl py-4'>Virtual Camera Systems</h3>
             <p>Capture dynamic shots in virtual sets and locations for added realism and creative freedom.
             </p>
           </div>
           <div className='py-5'>
-            <h1 className='font-bold text-2xl py-4'>Seamless Integration</h1>
+            <h3 className='font-bold text-2xl py-4'>Seamless Integration</h3>
             <p>Achieve a perfect blend of physical and digital elements for a cohesive and visually stunning final product.
             </p>
           </div>
           <div className='py-5'>
-            <h1 className='font-bold text-2xl py-4'>Collaborative Approach</h1>
+            <h3 className='font-bold text-2xl py-4'>Collaborative Approach</h3>
             <p>Work closely with our team to bring your creative vision to life, leveraging the expertise of filmmakers, artists, and technicians.
             </p>
           </div>
@@ -166,9 +166,9 @@ const index = () => {
             <div className="absolute inset-0 bg-black opacity-60"></div>
             <div className="absolute inset-0 flex justify-center items-center">
               <div className="text-center">
-                <h1 className="text-3xl font-bold text-white">
+                <h2 className="text-4xl font-bold text-white">
                   Game Development
-                </h1>
+                </h2>
               </div>
             </div>
           </div>
@@ -225,9 +225,9 @@ const index = () => {
             <div className="absolute inset-0 bg-black opacity-60"></div>
             <div className="absolute inset-0 flex justify-center items-center">
               <div className="text-center">
-                <h1 className="text-3xl font-bold text-white">
+                <h2 className="text-4xl font-bold text-white">
                 Architecture Visualization
-                </h1>
+                </h2>
               </div>
             </div>
           </div>
@@ -244,21 +244,21 @@ const index = () => {
       <div className='max-w-screen-xl mx-auto py-10 px-5'>
           {/* <h2 className="font-bold text-2xl">Key features:</h2> */}
           <div className='py-5'>
-            <h1 className='font-bold text-xl py-4'>Full-Cycle Development </h1>
+            <h1 className='font-bold text-2xl py-4'>Full-Cycle Development </h1>
             <p>Showcase your architectural designs with lifelike visuals that capture every detail.</p>
           </div>
           <div className='py-5'>
-            <h1 className='font-bold text-xl py-4'>Accurate Representation</h1>
+            <h1 className='font-bold text-2xl py-4'>Accurate Representation</h1>
             <p>Highlight materials, lighting, and spatial relationships to create realistic visualizations.
             </p>
           </div>
           <div className='py-5'>
-            <h1 className='font-bold text-xl py-4'>Interactive Archviz Virtual Production</h1>
+            <h1 className='font-bold text-2xl py-4'>Interactive Archviz Virtual Production</h1>
             <p>Our platform offers interactive virtual tours allowing clients to explore and experience spaces virtually while facilitating real-time design changes and customization options during client interactions.
             </p>
           </div>
           <div className='py-5'>
-            <h1 className='font-bold text-xl py-4'>Effective Communication</h1>
+            <h1 className='font-bold text-2xl py-4'>Effective Communication</h1>
             <p>Convey design intent to stakeholders, investors, and the general public, fostering understanding and support.
             </p>
           </div>
@@ -279,7 +279,7 @@ const index = () => {
             <div className="absolute inset-0 bg-black opacity-60"></div>
             <div className="absolute inset-0 flex justify-center items-center">
               <div className="text-center">
-                <h1 className="text-3xl font-bold text-white">Interactive Archviz</h1>
+                <h2 className="text-4xl font-bold text-white">Interactive Archviz</h2>
               </div>
             </div>
           </div>

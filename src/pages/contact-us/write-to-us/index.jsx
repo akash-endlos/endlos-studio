@@ -14,7 +14,7 @@ const index = () => {
           className="mx-auto w-full h-[500px]"
         />
         <div className="absolute inset-0 flex items-center justify-center">
-          <h1 className="text-4xl font-bold text-white">Contact Us</h1>
+          <h1 className="text-5xl font-bold text-white">Contact Us</h1>
         </div>
       </div>
       <div className="bg-[#111111]">

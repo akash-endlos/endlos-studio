@@ -25,18 +25,6 @@ const Footer = () => {
                   <p> +91 9327777854</p>
                   <p>info@endlos.tech</p>
                 </div>
-          {/* <h2 className="mb-6 text-lg font-semibold">Portfolio</h2>
-          <ul >
-            <li className="mb-4">
-              <a >Pre visualization</a>
-            </li>
-            <li className="mb-4">
-              <a >Virtual production</a>
-            </li>
-            <li className="mb-4">
-              <a >Game development</a>
-            </li>
-          </ul> */}
         </div>
         <div>
           <h2 className="mb-6 text-lg font-semibold">Services</h2>

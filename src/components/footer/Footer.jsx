@@ -23,7 +23,7 @@ const Footer = () => {
                   Gujarat, India
                   </p>
                   <p> +91 9327777854</p>
-                  <p>info@endlos.tech</p>
+                  <p>info@endlos.studio</p>
                 </div>
         </div>
         <div>

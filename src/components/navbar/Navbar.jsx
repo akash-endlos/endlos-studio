@@ -51,20 +51,6 @@ function Navbar({ Navclass = 'bg-transparent text-white' }) {
               text="Book a meeting"
               className="floating-btn"
             /></div>
-          <div className=" justify-between items-center hidden xl:flex">
-            <span className="font-semibold tracking-widest text-md pr-5 cursor-pointer">
-              <AiFillLinkedin size={20} color="white" />
-            </span>
-            <span className="font-semibold tracking-widest text-md pr-5 cursor-pointer">
-              <AiFillInstagram size={20} color="white" />
-            </span>
-            <span className="font-semibold tracking-widest text-md pr-5 cursor-pointer">
-              <AiOutlineTwitter size={20} color="white" />
-            </span>
-            <span className="font-semibold tracking-widest text-md pr-5 cursor-pointer">
-              <AiFillFacebook size={20} color="white" />
-            </span>
-          </div>
         </div>
         <HamburgerMenu />
       </div>

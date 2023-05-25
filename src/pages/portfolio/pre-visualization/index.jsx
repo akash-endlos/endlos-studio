@@ -22,13 +22,13 @@ const index = () => {
                 backgroundSize: "cover",
                 backgroundRepeat: "no-repeat",
                 width: "100vw",
-                height: "300px",
+                height: "450px",
               }}
             >
               <div className="absolute inset-0 bg-black opacity-60"></div>
               <div className="absolute inset-0 flex justify-center items-center">
                 <div className="text-center">
-                  <h1 className="xl:mx-5xl md:text-4xl font-bold text-white">
+                  <h1 className=" xl:text-5xl sm:text-4xl font-bold text-white">
                     Previsualization
                   </h1>
                 </div>
@@ -45,9 +45,9 @@ const index = () => {
             </div>
           </div> */}
           <div className="max-w-screen-xl mx-auto py-10 px-5">
-            <h2 className="font-bold text-2xl">Key features:</h2>
+            {/* <h2 className="font-bold text-2xl">Key features:</h2> */}
             <div className="py-5">
-              <h1 className="font-bold text-xl py-4">
+              <h1 className="font-bold text-2xl py-4">
               	Meticulous Planning
               </h1>
               <p>
@@ -55,7 +55,7 @@ const index = () => {
               </p>
             </div>
             <div className="py-5">
-              <h1 className="font-bold text-xl py-4">
+              <h1 className="font-bold text-2xl py-4">
               Visual Storytelling
               </h1>
               <p>
@@ -63,7 +63,7 @@ const index = () => {
               </p>
             </div>
             <div className="py-5">
-              <h1 className="font-bold text-xl py-4">Collaboration and Feedback</h1>
+              <h1 className="font-bold text-2xl py-4">Collaboration and Feedback</h1>
               <p>
               Our work strategy encourages collaboration and feedback throughout pre-visualization. We actively involve our clients, seeking their input and incorporating their ideas into the visualization. This collaborative approach ensures that the final result aligns with their vision.
               </p>

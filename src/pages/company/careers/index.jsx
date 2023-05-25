@@ -22,7 +22,7 @@ const Careers = () => {
   return (
     <>
       <Navbar />
-      <div className="bg-black text-white py-5">
+      <div className="bg-black text-white ">
         <div className="relative">
           <div
             className="h-screen bg-cover bg-fixed"
@@ -42,7 +42,8 @@ const Careers = () => {
             </div>
           </div>
         </div>
-        <div className="pt-24 pb-10">
+        <p className="text-5xl text-center py-16">Coming Soon....</p>
+        {/* <div className="pt-24 pb-10">
           <div className="flex items-center space-x-2 w-full relative max-w-screen-md mx-auto px-5">
             <input
               type="text"
@@ -80,7 +81,8 @@ const Careers = () => {
             ))}
           </div>) : <h1 className="text-center text-2xl font-semibold">There is No Data What you Want to Search</h1>}
 
-        </div>
+        </div> */}
+       
       </div>
       <Footer />
     </>
@@ -89,23 +91,3 @@ const Careers = () => {
 
 export default Careers;
 
-{/* <div key={index} className="rounded-md border border-gray-400 px-4 md:flex mb-2 py-2">
-              <div className="md:w-full md:pl-4  py-2">
-                <div className="flex justify-between items-center">
-                  <h3 className="text-lg font-semibold">{item.designation}</h3>
-                  <div className="flex flex-col items-center">
-                    <strong>{item.jobType}</strong>
-                    <small>{item.date}</small>
-                  </div>
-                </div>
-
-                <p className=" text-justify py-5 max-w-sm">
-                  {item.description}
-                </p>
-                <Link href={`careers/${item.id}`}>
-                <button className="mt-4 bg-black hover:bg-white text-white hover:text-black px-4 py-2 rounded-md">
-                  See Details
-                </button>
-                </Link>
-              </div>
-            </div> */}

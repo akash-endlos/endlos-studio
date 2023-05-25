@@ -24,7 +24,7 @@ const index = () => {
           <div className="absolute inset-0 bg-black opacity-60"></div>
           <div className="absolute inset-0 flex justify-center items-center">
             <div className="text-justify">
-              <h1 className="text-3xl font-bold text-white">Our Vision</h1>
+              <h1 className="text-5xl font-bold text-white">Our Vision</h1>
             </div>
           </div>
         </div>
@@ -46,7 +46,7 @@ const index = () => {
       </div>
 
       <div className="bg-[#111111] text-white">
-      <h1 className="text-4xl font-bold text-white py-10 text-center">Core Values</h1>
+      <h1 className="text-3xl font-bold text-white py-10 text-center">Core Values</h1>
         <div className=" grid  lg:grid-cols-4 md:grid-cols-2 py-5 max-w-7xl mx-auto gap-20 px-5">
           <div className="flex justify-center items-center flex-col">
             <TbBulb size={45} />

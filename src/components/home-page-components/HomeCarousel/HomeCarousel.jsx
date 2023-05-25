@@ -4,12 +4,8 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper";
-// import { BsArrowRightCircle } from "react-icons/bs";
 import styles from  '../../../styles/HomeCarousel.module.css'
 const HomeCarousel = () => {
-  const pagination = {
-    clickable: true,
-  };
    const CarouselSection = [
     {
       title:
@@ -23,18 +19,6 @@ const HomeCarousel = () => {
       src: "/assets/2.mp4",
       link: "",
     },
-    // {
-    //   title:
-    //     "Endlos Innovation helps you to automate production to be more flexible and adapted to the requirements of your organization.",
-    //   src: "/assets/1.mp4",
-    //   link: "",
-    // },
-    // {
-    //   title:
-    //     "Endlos Innovation helps you to automate production to be more flexible and adapted to the requirements of your organization.",
-    //   src: "/assets/1.mp4",
-    //   link: "",
-    // },
   ];
   return (
     <>

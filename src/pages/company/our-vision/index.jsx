@@ -47,7 +47,7 @@ const index = () => {
 
       <div className="bg-[#111111] text-white">
       <h1 className="text-3xl font-bold text-white py-10 text-center">Core Values</h1>
-        <div className=" grid  lg:grid-cols-4 md:grid-cols-2 py-5 max-w-7xl mx-auto gap-20 px-5">
+        <div className=" grid  lg:grid-cols-3 md:grid-cols-2 pt-10 pb-16 max-w-7xl mx-auto gap-20 px-5">
           <div className="flex justify-center items-center flex-col">
             <TbBulb size={45} />
             <p className="text-justify py-2">Innovation</p>
@@ -68,8 +68,8 @@ const index = () => {
               undertake surpasses expectations.
             </p>
           </div>
-          <div className="flex justify-center items-center flex-col pt-14">
-            <FiThumbsUp size={45} />
+          <div className="flex justify-center items-center flex-col pt-10">
+            <FiThumbsUp size={40} />
             <p className="text-justify py-2">Collaboration</p>
             <p className="lead text-justify">
               We believe in the power of collaboration. Endlos Studio fosters

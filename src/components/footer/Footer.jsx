@@ -50,16 +50,16 @@ const Footer = () => {
      <div className="flex justify-between items-center px-10">
      <div className=" justify-between items-center hidden xl:flex">
         <span className="font-semibold tracking-widest text-md pr-5 cursor-pointer">
-          <AiFillLinkedin size={20} color="white" />
+        <Link href='https://www.linkedin.com/company/endlos-studio/' target="_blank"><AiFillLinkedin size={20} color="white" /></Link>
         </span>
         <span className="font-semibold tracking-widest text-md pr-5 cursor-pointer">
-          <AiFillInstagram size={20} color="white" />
+        <Link href='https://www.instagram.com/endlos.studio/' target="_blank"> <AiFillInstagram size={20} color="white" /></Link>
         </span>
         <span className="font-semibold tracking-widest text-md pr-5 cursor-pointer">
-          <AiOutlineTwitter size={20} color="white" />
+        <Link href='https://www.facebook.com/endlos.studio/' target="_blank"><AiOutlineTwitter size={20} color="white" /></Link>
         </span>
         <span className="font-semibold tracking-widest text-md pr-5 cursor-pointer">
-          <AiFillFacebook size={20} color="white" />
+          <Link href='https://www.facebook.com/endlos.studio/' target="_blank"><AiFillFacebook size={20} color="white" /></Link>
         </span>
       </div>
      <div className="text-white py-6 text-center">

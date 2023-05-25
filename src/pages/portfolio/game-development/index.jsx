@@ -28,7 +28,7 @@ const index = () => {
               <div className="absolute inset-0 bg-black opacity-60"></div>
               <div className="absolute inset-0 flex justify-center items-center">
                 <div className="text-center">
-                  <h1 className="text-4xl font-bold text-white">
+                  <h1 className="text-5xl font-bold text-white">
                     Game Development
                   </h1>
                   {/* <p className="mt-4 text-lg text-white font-serif">

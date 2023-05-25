@@ -11,6 +11,11 @@ export const menuItems = [
           id:"",
           subchildren: [
             {
+              subchild: "About Archviz",
+              link:"/portfolio/archviz",
+              id:"archviz"
+            },
+            {
               subchild: "Interactive Archviz",
               link:"/portfolio/archviz",
               id:"archvizinteractive"

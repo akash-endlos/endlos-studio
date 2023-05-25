@@ -52,7 +52,7 @@ const index = () => {
             </div>
           </div>
         </div>
-      <div className="relative">
+      <div className="relative" id="archviz">
                 <div className="h-screen bg-cover bg-fixed" style={{
                     backgroundImage: `url(${bg.src})`,
                     backgroundSize: "cover",

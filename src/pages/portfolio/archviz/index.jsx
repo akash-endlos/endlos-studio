@@ -46,9 +46,9 @@ const index = () => {
             <div className="bg-black flex justify-center items-center py-10 p-5">
           <div className="inset-0 flex justify-center items-center">
             <div className="text-center">
-              <h2 className="text-4xl font-bold text-white">
+              {/* <h2 className="text-4xl font-bold text-white">
                 We Show What We Done
-              </h2>
+              </h2> */}
             </div>
           </div>
         </div>

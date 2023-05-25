@@ -37,10 +37,10 @@ const index = () => {
             <div className="absolute inset-0 bg-black opacity-60"></div>
             <div className="absolute inset-0 flex justify-center items-center">
               <div className="text-center">
-                <h1 className="text-3xl font-bold text-white">
+                <h1 className="text-5xl font-bold text-white">
                   Virtual Production
                 </h1>
-                {/* <p className="mt-4 text-lg text-white font-serif">{subtitle}</p> */}
+                {/* <p className="mt-4 text-lg text-white ">{subtitle}</p> */}
               </div>
             </div>
           </div>
@@ -48,10 +48,10 @@ const index = () => {
         <div className="bg-black flex justify-center items-center py-10 p-5">
           <div className="inset-0 flex justify-center items-center">
             <div className="text-center">
-              <h1 className="text-2xl font-bold text-white">
+              <h1 className="text-3xl font-bold text-white">
                 Types Of Virtual Production
               </h1>
-              {/* <p className="mt-4 text-lg text-white font-serif max-w-screen-xl text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam exercitationem voluptas sunt dolores reprehenderit, quo saepe earum nesciunt magnam officiis incidunt totam dolorem suscipit veniam temporibus adipisci molestias ipsa rem. Odit optio rerum atque neque nulla ipsam quaerat reiciendis hic perferendis, et harum veritatis, architecto quidem eveniet</p> */}
+              {/* <p className="mt-4 text-lg text-white  max-w-screen-xl text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam exercitationem voluptas sunt dolores reprehenderit, quo saepe earum nesciunt magnam officiis incidunt totam dolorem suscipit veniam temporibus adipisci molestias ipsa rem. Odit optio rerum atque neque nulla ipsam quaerat reiciendis hic perferendis, et harum veritatis, architecto quidem eveniet</p> */}
               {/* {btn && <button className="px-16 uppercase py-3 border-2 border-white text-white my-10 font-semibold tracking-widest">
                             Official Trailer
                         </button>} */}
@@ -62,10 +62,10 @@ const index = () => {
         <div className="max-w-screen-xl mx-auto">
           <div className="py-10">
             <video src="/assets/1.mp4" controls width="100%"></video>
-            <div className="text-xl py-5 font-serif text-justify px-5">
+            <div className="text-xl py-5  text-justify px-5">
               {/* <h2 className="font-bold text-2xl">Key features:</h2> */}
               <div className="py-5">
-                <h1 className="font-bold text-xl py-4">
+                <h1 className="font-bold text-2xl py-4">
                   Technological Expertise
                 </h1>
                 <p>
@@ -77,7 +77,7 @@ const index = () => {
                 </p>
               </div>
               <div className="py-5">
-                <h1 className="font-bold text-xl py-4">
+                <h1 className="font-bold text-2xl py-4">
                   Collaborative Approach
                 </h1>
                 <p>
@@ -89,7 +89,7 @@ const index = () => {
                 </p>
               </div>
               <div className="py-5">
-                <h1 className="font-bold text-xl py-4">Iterative Process</h1>
+                <h1 className="font-bold text-2xl py-4">Iterative Process</h1>
                 <p>
                   We follow an iterative process in virtual production, allowing
                   for continuous refinement and improvement. By leveraging
@@ -116,8 +116,8 @@ const index = () => {
               <div className="absolute inset-0 bg-black opacity-60"></div>
               <div className="absolute inset-0 flex justify-center items-center">
                 <div className="text-center">
-                  <h1 className="text-5xl font-bold text-white">Environment</h1>
-                  {/* <p className="mt-4 text-lg text-white font-serif">{subtitle}</p> */}
+                  <h1 className="text-4xl font-bold text-white">Environment</h1>
+                  {/* <p className="mt-4 text-lg text-white ">{subtitle}</p> */}
                 </div>
               </div>
             </div>
@@ -126,7 +126,7 @@ const index = () => {
             <div className="inset-0 flex justify-center items-center">
               <div className="text-center">
                 {/* <h1 className="text-5xl font-bold text-white">Environment</h1> */}
-                <p className="mt-4 text-lg text-white font-serif max-w-screen-xl text-justify">
+                <p className="mt-4 text-lg text-white  max-w-screen-xl text-justify">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Laboriosam exercitationem voluptas sunt dolores reprehenderit,
                   quo saepe earum nesciunt magnam officiis incidunt totam
@@ -157,8 +157,8 @@ const index = () => {
               <div className="absolute inset-0 bg-black opacity-60"></div>
               <div className="absolute inset-0 flex justify-center items-center">
                 <div className="text-center">
-                  <h1 className="text-5xl font-bold text-white">AR & VR</h1>
-                  {/* <p className="mt-4 text-lg text-white font-serif">{subtitle}</p> */}
+                  <h1 className="text-4xl font-bold text-white">AR & VR</h1>
+                  {/* <p className="mt-4 text-lg text-white ">{subtitle}</p> */}
                 </div>
               </div>
             </div>
@@ -167,7 +167,7 @@ const index = () => {
             <div className="inset-0 flex justify-center items-center">
               <div className="text-center">
                 {/* <h1 className="text-5xl font-bold text-white">AR & VR</h1> */}
-                <p className="mt-4 text-lg text-white font-serif max-w-screen-xl text-justify">
+                <p className="mt-4 text-lg text-white  max-w-screen-xl text-justify">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Laboriosam exercitationem voluptas sunt dolores reprehenderit,
                   quo saepe earum nesciunt magnam officiis incidunt totam
@@ -186,7 +186,7 @@ const index = () => {
           <div className="max-w-screen-xl mx-auto">
             <div className="py-10">
               <video src="/assets/1.mp4" controls width="100%"></video>
-              <div className="text-xl py-5 font-serif text-justify px-5">
+              <div className="text-xl py-5  text-justify px-5">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Laboriosam exercitationem voluptas sunt dolores reprehenderit,
                 quo saepe earum nesciunt magnam officiis incidunt totam dolorem

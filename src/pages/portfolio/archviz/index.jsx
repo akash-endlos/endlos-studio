@@ -2,9 +2,6 @@ import Footer from "@/components/footer/Footer";
 import Navbar from "@/components/navbar/Navbar";
 import { useRouter } from "next/router";
 import React, { useEffect } from "react";
-import PortFolioParallax from "@/components/portfolio-page-components/PortFolioParallax/PortFolioParallax";
-import ArchwizGallery from "@/components/portfolio-page-components/ArchwizGallery/ArchwizGallery";
-import PortFolioCarousel from "@/components/portfolio-page-components/PortFolioCarousel/PortFolioCarousel";
 import bg from "../../../../public/assets/img1.jpg";
 
 const index = () => {

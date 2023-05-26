@@ -9,6 +9,7 @@ import {
   AiFillLinkedin
 } from "react-icons/ai";
 import Link from "next/link";
+import { footernav } from "@/allcontent/footernavdata";
 
 const Footer = () => {
   return (
@@ -26,7 +27,24 @@ const Footer = () => {
                   <p>info@endlos.studio</p>
                 </div>
         </div>
-        <div>
+        {footernav.map((item,index)=>(
+          <div key={index}>
+          <h2 className="mb-6 text-lg font-semibold">{item.childmenu}</h2>
+          {item.subchildren && item.subchildren.map((subchildren,index)=>(
+            <ul key={index}>
+            <li className="mb-4">
+            <Link href={{
+                pathname: `${subchildren.link}`,
+                query: {
+                  id: `${subchildren.id}`
+                }
+              }}>{subchildren.subchild}</Link>
+            </li>
+          </ul>
+          ))}
+        </div>
+        ))}
+        {/* <div>
           <h2 className="mb-6 text-lg font-semibold">Services</h2>
           <ul >
             <li className="mb-4">
@@ -42,7 +60,7 @@ const Footer = () => {
               <a >Archviz</a>
             </li>
           </ul>
-        </div>
+        </div> */}
         <div>
           <Link href='/contact-us/write-to-us'><button type="button" className="bg-gray-900 hover:bg-white hover:text-black text-md font-bold rounded-md px-10 py-2.5 text-center mr-2 mb-2 ">Review Us</button></Link>
         </div>

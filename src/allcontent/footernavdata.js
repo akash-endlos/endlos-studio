@@ -1,4 +1,4 @@
-const footernav=[ {
+export const footernav=[ {
     childmenu: "Services",
     link:"",
     id:"",
@@ -20,20 +20,8 @@ const footernav=[ {
       },
       {
         subchild: "Archviz",
-        link:"",
-        id:"",
-        subgrandchildren: [
-          {
-            subchild: "Walkthrough",
-            link:"/company/services",
-            id:"serviceswalktrough",
-          },
-          {
-            subchild: "AR & VR application",
-            link:"/company/services",
-            id:"servicesarchviz",
-          },
-        ],
+        link:"/company/services",
+        id:"serviceswalktrough",
       },
     ],
   },]

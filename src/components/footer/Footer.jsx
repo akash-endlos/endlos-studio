@@ -56,7 +56,7 @@ const Footer = () => {
         <Link href='https://www.instagram.com/endlos.studio/' target="_blank"> <AiFillInstagram size={20} color="white" /></Link>
         </span>
         <span className="font-semibold tracking-widest text-md pr-5 cursor-pointer">
-        <Link href='https://www.facebook.com/endlos.studio/' target="_blank"><AiOutlineTwitter size={20} color="white" /></Link>
+        <Link href='https://twitter.com/endlosstudio?s=21&t=eHDVOSrswcXZ_34Q0DJWFA' target="_blank"><AiOutlineTwitter size={20} color="white" /></Link>
         </span>
         <span className="font-semibold tracking-widest text-md pr-5 cursor-pointer">
           <Link href='https://www.facebook.com/endlos.studio/' target="_blank"><AiFillFacebook size={20} color="white" /></Link>

@@ -12,7 +12,7 @@ import {
   AiOutlineWhatsApp
 } from "react-icons/ai";
 
-const Blog = ({ }) => {
+const ThirdBlog = ({ }) => {
   return (
     <div className="w-full">
       <Navbar Navclass="bg-[#111111] text-white" />
@@ -104,4 +104,4 @@ const Blog = ({ }) => {
   );
 };
 
-export default Blog;
+export default ThirdBlog;

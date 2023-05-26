@@ -15,7 +15,7 @@ const HomeBlogImages = () => {
             </div>
           </div>
             <div className='grid grid-cols-1'>
-               <Link href='/blog/1'>
+               <Link href='/blog/Artificial Intelligence in Gaming'>
                <div className="relative">
                     <div className="card cursor-pointer">
                     <img src="/assets/home_vr_1.jpg" className="w-full h-auto " alt="example image" />
@@ -27,7 +27,7 @@ const HomeBlogImages = () => {
                </Link>
 
                 <div className='grid grid-cols-2'>
-                   <Link href='/blog/2'>
+                   <Link href='/blog/The Impact of Virtual Reality'>
                    <div className="relative">
                         <div className="card cursor-pointer">
                             <img src="/assets/home_vr_2.jpg" className="w-full h-auto" alt="example image" />
@@ -38,7 +38,7 @@ const HomeBlogImages = () => {
                     </div>
                    </Link>
                     <div className="relative">
-                        <Link href='/blog/3'>
+                        <Link href='/blog/The Unreal Engine 5.2 is available'>
                         <div className="card cursor-pointer">
                             <img src="/assets/home_vr_3.jpg" className="w-full h-auto" alt="example image" />
                             <div className="absolute inset-0 bg-black bg-opacity-50 text-white flex items-center justify-center opacity-0 transition duration-300 ease-in-out hover:opacity-100">

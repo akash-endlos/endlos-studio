@@ -22,7 +22,7 @@ const BlogRightSection = () => {
                 </div>
                 ))}
             </div>
-            <div className='flex flex-col xl:items-start px-5 '>
+            {/* <div className='flex flex-col xl:items-start px-5 '>
                 <h1 className="text-2xl font-bold py-5">Categories</h1>
                 <div className=' text-white gap-4  pt-5'>
                     <ul>
@@ -32,7 +32,7 @@ const BlogRightSection = () => {
                         <li className='text-bold text-xl font-serif'>Video</li>
                     </ul>
                 </div>
-            </div>
+            </div> */}
         </div>
 
     )

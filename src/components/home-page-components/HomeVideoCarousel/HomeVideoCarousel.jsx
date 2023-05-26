@@ -57,7 +57,7 @@ export default function HomeVideoCarousel() {
             <div className="inset-0 flex justify-center items-center">
               <div className="text-center">
                 <h1 className="text-4xl font-bold text-white">
-                Our Work
+                Our works
                 </h1>
               </div>
             </div>

@@ -8,7 +8,7 @@ const HomeWriteUsContainer = () => {
             <div className="inset-0 flex justify-center items-center">
               <div className="text-center">
                 <h1 className="text-4xl font-bold text-white">
-                 What You Think About Us
+                 What do you think about us
                 </h1>
               </div>
             </div>
@@ -25,7 +25,6 @@ const HomeWriteUsContainer = () => {
                 <div className='container mx-auto py-10 px-5'>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                         <FormContainer />
-                        {/* <img data-aos="fade-left" data-aos-delay="500"   src="https://images.freeimages.com/images/previews/ac9/railway-hdr-1361893.jpg" /> */}
                         <div className="relative aspect-video overflow-hidden rounded-3xl">
                             <video className="w-full opacity-100" src='../assets/write_us_video.mp4' autoPlay muted loop></video>
                         </div>

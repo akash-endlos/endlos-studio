@@ -95,7 +95,7 @@ const index = () => {
               />
             </div>
           </div>
-          <div className="relative h-screen">
+          {/* <div className="relative h-screen">
             <div
               style={{
                 backgroundImage: `url(${bg.src})`,
@@ -114,8 +114,8 @@ const index = () => {
                 </h1>
               </div>
             </div>
-          </div>
-          <div className="mx-auto max-w-screen-xl py-5  ">
+          </div> */}
+          {/* <div className="mx-auto max-w-screen-xl py-5  ">
             <p className="text-center font-bold text-3xl text-white py-10">
               OUR DEVELOPMENT
             </p>
@@ -163,7 +163,7 @@ const index = () => {
                 <button className="btn text-[#b6b6b6]">Read More</button>
               </div>
             </div>
-          </div>
+          </div> */}
           <HomeProductionHouse />
         </div>
       </div>

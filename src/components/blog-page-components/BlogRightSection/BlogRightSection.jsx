@@ -16,32 +16,9 @@ const BlogRightSection = () => {
                         <img className="object-cover w-full h-100 md:h-auto xl:w-36" src={item.src} alt="" />
                         <div className="flex flex-col justify-between px-2 leading-normal">
                             <h2 className="mb-2  font-bold tracking-tight ">{item.name}</h2>
-                            <Link href={`/news/${item.id}`}><span className='cursor-pointer'>Read More</span></Link>
+                            <Link href={`/news/${item.id}`}><span className='cursor-pointer py-1 border rounded-md border-gray-700 hover:bg-white hover:text-black px-2 bg-gray-950'>Read More</span></Link>
                         </div>
                     </div>
-                    {/* <a className="flex flex-col items-center  shadow xl:flex-row md:max-w-xl  dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-                        <img className="object-cover w-full h-100 md:h-auto xl:w-36" src="/assets/home-7-img-1.jpg" alt="" />
-                        <div className="flex flex-col justify-between px-2 leading-normal">
-                            <h2 className="mb-2 font-bold tracking-tight ">Noteworthy technology</h2>
-                            <p>Read More</p>
-                        </div>
-                    </a>
-                    <a className="flex flex-col items-center  shadow xl:flex-row md:max-w-xl  dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-                        <img className="object-cover w-full h-100 md:h-auto xl:w-36" src="/assets/home-7-img-1.jpg" alt="" />
-                        <div className="flex flex-col justify-between px-2 leading-normal">
-                            <h2 className="mb-2 font-bold tracking-tight ">Noteworthy technology</h2>
-                            <p>Read More</p>
-                        </div>
-                    </a>
-                    <a className="flex flex-col items-center  shadow xl:flex-row md:max-w-xl  dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-                        <img className="object-cover w-full h-100 md:h-auto xl:w-36" src="/assets/home-7-img-1.jpg" alt="" />
-                        <div className="flex flex-col justify-between px-2 leading-normal">
-                            <h2 className="mb-2 font-bold tracking-tight ">Noteworthy technology</h2>
-                            <p>Read More</p>
-                        </div>
-                    </a> */}
-
-
                 </div>
                 ))}
             </div>

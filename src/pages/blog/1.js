@@ -60,7 +60,7 @@ const Blog = ({ }) => {
             <p className="py-2">AI in gaming provides dynamic and personalized gaming experiences using non-player characters (NPCs) that perform innovatively and intelligently. They are created to resemble human players, and their actions are guided by AI algorithms that allow them to react and adapt to the gaming context.</p>
             <p className="py-2">The excitement surrounding AI for gaming has been growing steadily over a long time. Take a look at Cortana in Halo (yes, Microsoft virtual assistant in honor of this person!) This isn't the only game based on artificial intelligence.</p>
             <p className="py-2">What could be in AI gaming? Are they just games that deal with artificial intelligence?</p>
-            <p className="py-2">What could be in AI gaming? Are they just games that deal with artificial intelligence?</p>
+            {/* <p className="py-2">What could be in AI gaming? Are they just games that deal with artificial intelligence?</p> */}
             <h2 className="text-3xl font-bold max-w-7xl mx-auto py-5 px-5">What are the advantages of AI for games?</h2>
             <p className="py-2">Making realistic developments in the context of a situation to advance the game brings excitement. The increasing complexity of AI games guarantees that gamers remain glued to the action. With the number of games, gamers expect to experience a full-bodied gaming experience on various gadgets</p>
             {/*  */}

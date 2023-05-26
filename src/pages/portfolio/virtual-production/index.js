@@ -116,24 +116,24 @@ const index = () => {
               <div className="absolute inset-0 bg-black opacity-60"></div>
               <div className="absolute inset-0 flex justify-center items-center">
                 <div className="text-center">
-                  <h1 className="text-4xl font-bold text-white">Environment</h1>
+                  <h1 className="text-4xl font-bold text-white">Virtual Production Environment Design</h1>
                   {/* <p className="mt-4 text-lg text-white ">{subtitle}</p> */}
                 </div>
               </div>
             </div>
           </div>
-          <div className="bg-black flex justify-center items-center max-h-max md:h-80 lg:h-96 p-5">
+          <div className="bg-black flex justify-center items-center max-h-auto py-16 px-5">
             <div className="inset-0 flex justify-center items-center">
               <div className="text-center">
                 {/* <h1 className="text-5xl font-bold text-white">Environment</h1> */}
                 <p className="mt-4 text-lg text-white  max-w-screen-xl text-justify">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Laboriosam exercitationem voluptas sunt dolores reprehenderit,
-                  quo saepe earum nesciunt magnam officiis incidunt totam
-                  dolorem suscipit veniam temporibus adipisci molestias ipsa
-                  rem. Odit optio rerum atque neque nulla ipsam quaerat
-                  reiciendis hic perferendis, et harum veritatis, architecto
-                  quidem eveniet
+                Immerse yourself in our portfolio of virtual production environment designs, showcasing our expertise in creating realistic and captivating virtual worlds for film, television, and other visual media.
+                </p>
+                <p className="mt-4 text-lg text-white  max-w-screen-xl text-justify">
+                Explore meticulously crafted virtual sets and locations seamlessly blending physical and digital elements, enhancing storytelling and production efficiency. Our environment designs bring narratives to life with stunning visuals, dynamic lighting, and intricate details.
+                </p>
+                <p className="mt-4 text-lg text-white  max-w-screen-xl text-justify">
+                Witness the power of virtual production as we showcase our ability to create diverse environments, from realistic urban landscapes and historical settings to imaginative fantasy realms and futuristic worlds.
                 </p>
               </div>
             </div>
@@ -157,8 +157,7 @@ const index = () => {
               <div className="absolute inset-0 bg-black opacity-60"></div>
               <div className="absolute inset-0 flex justify-center items-center">
                 <div className="text-center">
-                  <h1 className="text-4xl font-bold text-white">AR & VR</h1>
-                  {/* <p className="mt-4 text-lg text-white ">{subtitle}</p> */}
+                  <h1 className="text-4xl font-bold text-white">AR and VR Environment Design</h1>
                 </div>
               </div>
             </div>
@@ -166,15 +165,11 @@ const index = () => {
           <div className="bg-black flex justify-center items-center max-h-max md:h-80 lg:h-96 p-5">
             <div className="inset-0 flex justify-center items-center">
               <div className="text-center">
-                {/* <h1 className="text-5xl font-bold text-white">AR & VR</h1> */}
                 <p className="mt-4 text-lg text-white  max-w-screen-xl text-justify">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Laboriosam exercitationem voluptas sunt dolores reprehenderit,
-                  quo saepe earum nesciunt magnam officiis incidunt totam
-                  dolorem suscipit veniam temporibus adipisci molestias ipsa
-                  rem. Odit optio rerum atque neque nulla ipsam quaerat
-                  reiciendis hic perferendis, et harum veritatis, architecto
-                  quidem eveniet
+                Step into augmented reality (AR) and virtual reality (VR) with our portfolio of environment designs. Experience interactive and immersive environments that bridge the gap between the real and virtual worlds.
+                </p>
+                <p className="mt-4 text-lg text-white  max-w-screen-xl text-justify">
+                Discover our AR applications that overlay digital content onto the physical environment, offering informative and engaging experiences. From interactive museum exhibits to captivating AR gaming experiences, our environment designs blend virtual elements seamlessly with the real world.
                 </p>
               </div>
             </div>

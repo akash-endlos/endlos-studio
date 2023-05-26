@@ -1,6 +1,10 @@
 
 
 export const menuItems = [
+  {
+     main:"Home",
+     link:"/"
+  },
     {
       main: "Portfolio",
       link:"",

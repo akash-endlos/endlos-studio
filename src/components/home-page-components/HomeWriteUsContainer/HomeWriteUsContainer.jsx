@@ -13,15 +13,6 @@ const HomeWriteUsContainer = () => {
               </div>
             </div>
           </div>
-            {/* <div
-                style={{
-                    backgroundImage: `url(${bg.src})`,
-                    backgroundSize: "cover",
-                    backgroundRepeat: "no-repeat",
-                    width: "100vw",
-                    height: "auto",
-                }}
-            > */}
                 <div className='container mx-auto py-10 px-5'>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                         <FormContainer />
@@ -30,7 +21,6 @@ const HomeWriteUsContainer = () => {
                         </div>
                     </div>
                 </div>
-            {/* </div> */}
         </div>
     )
 }

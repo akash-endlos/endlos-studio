@@ -3,53 +3,6 @@ import React from "react";
 const HomeNewReleases = () => {
   return (
     <div className="bg-[#111111]">
-      {/* <div className="mx-auto max-w-screen-xl py-5  ">
-                <p className='text-center font-bold text-4xl text-white py-10'>NEW RELEASES</p>
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 pb-10">
-                    <div className="bg-[#111111] p-4 ">
-                        <img className="w-full h-48 object-cover mb-2" src="https://source.unsplash.com/random/800x600" alt="Card Image" />
-                        <h2 className="text-lg font-semibold mb-2 text-[#b6b6b6]">DIRECTOR</h2>
-                        <p className="text-[#b6b6b6]">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            <button className="btn text-[#b6b6b6]">Read More</button>
-                    </div>
-                    <div className="bg-[#111111] p-4 ">
-                        <img className="w-full h-48 object-cover mb-2" src="https://source.unsplash.com/random/800x600" alt="Card Image" />
-                        <h2 className="text-lg font-semibold mb-2 text-[#b6b6b6]">DIRECTOR</h2>
-                        <p className="text-[#b6b6b6]">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            <button className="btn text-[#b6b6b6]">Read More</button>
-                    </div>
-                    <div className="bg-[#111111] p-4 ">
-                        <img className="w-full h-48 object-cover mb-2" src="https://source.unsplash.com/random/800x600" alt="Card Image" />
-                        <h2 className="text-lg font-semibold mb-2 text-[#b6b6b6]">DIRECTOR</h2>
-                        <p className="text-[#b6b6b6]">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            <button className="btn text-[#b6b6b6]">Read More</button>
-                    </div>
-                    <div className="bg-[#111111] p-4 ">
-                        <img className="w-full h-48 object-cover mb-2" src="https://source.unsplash.com/random/800x600" alt="Card Image" />
-                        <h2 className="text-lg font-semibold mb-2 text-[#b6b6b6]">DIRECTOR</h2>
-                        <p className="text-[#b6b6b6]">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            <button className="btn text-[#b6b6b6]">Read More</button>
-                    </div>
-                    <div className="bg-[#111111] p-4 ">
-                        <img className="w-full h-48 object-cover mb-2" src="https://source.unsplash.com/random/800x600" alt="Card Image" />
-                        <h2 className="text-lg font-semibold mb-2 text-[#b6b6b6]">DIRECTOR</h2>
-                        <p className="text-[#b6b6b6]">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            <button className="btn text-[#b6b6b6]">Read More</button>
-                    </div>
-                    <div className="bg-[#111111] p-4 ">
-                        <img className="w-full h-48 object-cover mb-2" src="https://source.unsplash.com/random/800x600" alt="Card Image" />
-                        <h2 className="text-lg font-semibold mb-2 text-[#b6b6b6]">DIRECTOR</h2>
-                        <p className="text-[#b6b6b6]">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            <button className="btn text-[#b6b6b6]">Read More</button>
-                    </div>
-                    <div className="bg-[#111111] p-4 ">
-                        <img className="w-full h-48 object-cover mb-2" src="https://source.unsplash.com/random/800x600" alt="Card Image" />
-                        <h2 className="text-lg font-semibold mb-2 text-[#b6b6b6]">DIRECTOR</h2>
-                        <p className="text-[#b6b6b6]">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            <button className="btn text-[#b6b6b6]">Read More</button>
-                    </div>
-                </div>
-            </div> */}
       <section className="text-gray-700 body-font">
         <div className="container px-5 py-5 mx-auto">
           <div className="flex flex-wrap -m-4 text-center">

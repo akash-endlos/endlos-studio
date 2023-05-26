@@ -14,9 +14,4 @@ export const news = [
         name: "Exploring Hillside: A Virtual Habitat 67",
         src:"/assets/blog_home_vr_3.jpg"
     },
-    // {
-    //     id:4,
-    //     name: "The Unreal Engine 5.2 is available!",
-    //     src:"/assets/blog_home_vr_3.jpg"
-    // },
 ]

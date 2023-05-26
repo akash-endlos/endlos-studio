@@ -1,15 +1,11 @@
 import React, { useRef, useState } from "react";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
-// Import Swiper styles
 import "swiper/swiper.min.css";
 
-// import Swiper core and required modules
 import SwiperCore, { EffectCoverflow, Pagination } from "swiper/core";
 import { Autoplay, Navigation } from "swiper";
 
-// install Swiper modules
 SwiperCore.use([EffectCoverflow, Pagination, Navigation, Autoplay]);
 
 export default function AboutPageCarousel() {

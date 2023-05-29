@@ -66,7 +66,7 @@ const Footer = () => {
         </div>
       </div>
      <div className="flex justify-between items-center px-10">
-     <div className=" justify-between items-center hidden xl:flex">
+     <div className=" justify-between items-center  xl:flex">
         <span className="font-semibold tracking-widest text-md pr-5 cursor-pointer">
         <Link href='https://www.linkedin.com/company/endlos-studio/' target="_blank"><AiFillLinkedin size={20} color="white" /></Link>
         </span>
@@ -81,7 +81,7 @@ const Footer = () => {
         </span>
       </div>
      <div className="text-white py-6 text-center">
-    <span>   © 2023 Endlos Studio. All Rights Reserved.</span> <span className="ml-2">Term & Condition </span> <span className="ml-5"> Privacy Policy</span>
+    <span>   © 2023 Endlos Studio. All Rights Reserved.</span> <Link href='/terms-and-conditions'><span className="ml-2">Term & Condition </span></Link> <Link href='/privacy-policies'><span className="ml-5"> Privacy Policy</span></Link>
   </div>
       <div></div>
      </div>

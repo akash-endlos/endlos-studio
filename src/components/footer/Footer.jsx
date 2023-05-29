@@ -81,7 +81,7 @@ const Footer = () => {
         </span>
       </div>
      <div className="text-white py-6 text-center">
-    <span>   © 2023 Endlos Studio. All Rights Reserved.</span>
+    <span>   © 2023 Endlos Studio. All Rights Reserved.</span> <span className="ml-2">Term & Condition </span> <span className="ml-5"> Privacy Policy</span>
   </div>
       <div></div>
      </div>

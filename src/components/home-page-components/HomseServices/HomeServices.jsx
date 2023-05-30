@@ -4,7 +4,7 @@ const HomeServices = () => {
   return (
     <div className='bg-[#111111]'>
       <div className="mx-auto max-w-screen-2xl py-5  " >
-        <p className='text-center font-bold text-4xl text-white py-10'>OUR SERVICES</p>
+        <p className='text-center font-bold text-4xl text-white pt-10 pb-16'>OUR SERVICES</p>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 pb-10">
           <div className="bg-[#111111] p-4 text-center">
             <img className="w-full h-48 object-cover mb-2" src="/assets/icons-01.jpg" alt="Card Image" />

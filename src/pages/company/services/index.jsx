@@ -70,7 +70,7 @@ const index = () => {
           </div>
           <div className="bg-[#111111]">
             <div className='flex flex-col gap-5 justify-center items-center text-white py-20'>
-              <p className='text-xl max-w-screen-lg text-justify font-serif px-5'>Our pre-visualization services offer a comprehensive and detailed approach to planning and visualizing complex scenes and sequences before they are brought to life. By leveraging advanced 3D technology and creative expertise, we help you streamline your production process, enhance communication, and optimize resource allocation. From storyboarding and animatics to virtual set design, our pre-visualization services empower you to visualize your project precisely and confidently.
+              <p className='text-xl max-w-screen-lg text-justify  px-5'>Our pre-visualization services offer a comprehensive and detailed approach to planning and visualizing complex scenes and sequences before they are brought to life. By leveraging advanced 3D technology and creative expertise, we help you streamline your production process, enhance communication, and optimize resource allocation. From storyboarding and animatics to virtual set design, our pre-visualization services empower you to visualize your project precisely and confidently.
               </p>
             </div>
           </div>
@@ -126,7 +126,7 @@ const index = () => {
       </div>
       <div className="bg-[#111111]">
         <div className='flex flex-col gap-5 justify-center items-center text-white py-20'>
-          <p className='text-xl max-w-screen-xl leading-10 px-5  font-serif text-justify'>Experience the future of filmmaking with our virtual production services. Harnessing cutting-edge technology and techniques, we seamlessly integrate physical and digital elements to create immersive virtual environments and deliver stunning real-time visual effects. Our virtual camera systems allow for dynamic shots in virtual sets and locations, while our real-time rendering and compositing capabilities provide instant feedback and iteration during the production process. Collaborate with our talented filmmakers, artists, and technicians to bring your creative visions to life like never before.</p>
+          <p className='text-xl max-w-screen-xl leading-10 px-5   text-justify'>Experience the future of filmmaking with our virtual production services. Harnessing cutting-edge technology and techniques, we seamlessly integrate physical and digital elements to create immersive virtual environments and deliver stunning real-time visual effects. Our virtual camera systems allow for dynamic shots in virtual sets and locations, while our real-time rendering and compositing capabilities provide instant feedback and iteration during the production process. Collaborate with our talented filmmakers, artists, and technicians to bring your creative visions to life like never before.</p>
         </div>
       </div>
       <img className="w-full h-[500px] object-cover" src="/assets/service_vp.jpg" alt="Card Image" />
@@ -183,7 +183,7 @@ const index = () => {
       </div>
       <div className="bg-[#111111]">
         <div className='flex flex-col gap-5 justify-center items-center text-white py-20'>
-          <p className='text-xl max-w-screen-xl leading-10 text-justify font-serif px-5'>Embark on a thrilling gaming journey with our comprehensive game development services. From concept to launch and beyond, we specialize in creating immersive and memorable gaming experiences across platforms. With a focus on real-time 3D graphics, physics simulations, multiplayer functionality, and captivating game design, our team of experts brings your game ideas to life, ensuring hours of entertainment for players.</p>
+          <p className='text-xl max-w-screen-xl leading-10 text-justify  px-5'>Embark on a thrilling gaming journey with our comprehensive game development services. From concept to launch and beyond, we specialize in creating immersive and memorable gaming experiences across platforms. With a focus on real-time 3D graphics, physics simulations, multiplayer functionality, and captivating game design, our team of experts brings your game ideas to life, ensuring hours of entertainment for players.</p>
         </div>
       </div>
       <img className="w-full h-[500px] object-cover" src="/assets/service_gm.jpg" alt="Card Image" />
@@ -240,7 +240,7 @@ const index = () => {
       </div>
       <div className="bg-[#111111]">
         <div className='flex flex-col gap-5 justify-center items-center text-white py-20'>
-          <p className='text-xl max-w-screen-lg text-justify font-serif px-5'>We specialize in photorealistic renderings and animations that showcase every detail of your project. We ensure your vision is brought to life with stunning realism. Our clients can experience spaces before construction with interactive virtual tours and walkthroughs.</p>
+          <p className='text-xl max-w-screen-lg text-justify  px-5'>We specialize in photorealistic renderings and animations that showcase every detail of your project. We ensure your vision is brought to life with stunning realism. Our clients can experience spaces before construction with interactive virtual tours and walkthroughs.</p>
         </div>
       </div>
       <video className="w-full opacity-100" src='../assets/Service Walkthrough.mp4' autoPlay muted loop></video>
@@ -291,7 +291,7 @@ const index = () => {
 
       <div className="bg-[#111111]">
         <div className='flex flex-col gap-5 justify-center items-center text-white py-20'>
-          <p className='text-xl max-w-screen-lg text-justify font-serif px-5'>Engage and captivate our audience with interactive experiences that push the boundaries of technology and creativity. Our interactive services cover various applications, including virtual reality (VR) and augmented reality (AR) experiences, custom installations for events and exhibitions, and multi-platform development for web and mobile. With our expertise in user interface (UI) and user experience (UX) design, we create intuitive and enjoyable interactive experiences that leave a lasting impression.</p>
+          <p className='text-xl max-w-screen-lg text-justify  px-5'>Engage and captivate our audience with interactive experiences that push the boundaries of technology and creativity. Our interactive services cover various applications, including virtual reality (VR) and augmented reality (AR) experiences, custom installations for events and exhibitions, and multi-platform development for web and mobile. With our expertise in user interface (UI) and user experience (UX) design, we create intuitive and enjoyable interactive experiences that leave a lasting impression.</p>
         </div>
       </div>
 

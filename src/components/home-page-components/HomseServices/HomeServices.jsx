@@ -14,12 +14,12 @@ const HomeServices = () => {
           </div>
           <div className="bg-[#111111] p-4 text-center">
             <img className="w-full h-48 object-cover mb-2" src="/assets/icons-02.jpg" alt="Card Image" />
-            <h2 className="text-2xl font-semibold mb-2 text-[#b6b6b6] ">Architecture Visualization</h2>
+            <h2 className="text-2xl font-semibold mb-2 text-[#b6b6b6] ">Archviz</h2>
             <p className="text-[#b6b6b6] text-justify">Unleash the power of architectural visualization, transforming concepts into vivid reality with stunning visuals and immersive virtual environments. Experience the future of architectural design and presentation with Endlos Studio's expertise in creating captivating and lifelike visualizations that bring projects to life.</p>
           </div>
           <div className="bg-[#111111] p-4 text-center">
-            <img className="w-full h-48 object-cover mb-2" src="/assets/icons-03.jpg" alt="Card Image" />
-            <h2 className="text-2xl font-semibold mb-2 text-[#b6b6b6]">Interactive</h2>
+            <img className="w-full h-48 object-cover mb-2" src="/assets/icons-04.jpg" alt="Card Image" />
+            <h2 className="text-2xl font-semibold mb-2 text-[#b6b6b6]">Pre Visualization</h2>
             <p className="text-[#b6b6b6] text-justify">Embark on interactive adventures that blur the line between imagination and reality as Endlos Studio crafts immersive experiences that respond to your every move. Explore new dimensions of entertainment with our expertise in interactive storytelling and cutting-edge technologies.
             </p>
           </div>

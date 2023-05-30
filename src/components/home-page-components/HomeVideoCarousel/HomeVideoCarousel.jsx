@@ -56,9 +56,9 @@ export default function HomeVideoCarousel() {
       <div className="bg-[#111111] flex justify-center items-center py-16 p-5 border-t-2 border-gray-900">
             <div className="inset-0 flex justify-center items-center">
               <div className="text-center">
-                <h1 className="text-4xl font-bold text-white">
+                <h2 className="text-4xl font-bold text-white">
                 Our works
-                </h1>
+                </h2>
               </div>
             </div>
           </div>

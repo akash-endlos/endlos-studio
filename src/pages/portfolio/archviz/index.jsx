@@ -46,9 +46,6 @@ const index = () => {
         <div className="bg-black flex justify-center items-center py-10 p-5">
           <div className="inset-0 flex justify-center items-center">
             <div className="text-center">
-              {/* <h2 className="text-4xl font-bold text-white">
-                We Show What We Done
-              </h2> */}
             </div>
           </div>
         </div>
@@ -86,17 +83,7 @@ const index = () => {
             </div>
           </div>
         </div>
-        {/* <ArchwizGallery /> */}
       </div>
-
-      {/* <div id="archvizwalkthrough">
-        <PortFolioParallax
-          title={"WalkThrough"}
-          subtitle={"Can You Handle The Truth"}
-          btn={true}
-        />
-        <PortFolioCarousel />
-      </div> */}
       <div id="archvizinteractive">
         <div className="relative">
           <div className="h-screen bg-cover bg-fixed" style={{
@@ -119,16 +106,16 @@ const index = () => {
           <div className='max-w-screen-xl mx-auto py-10 px-5'>
             {/* <h2 className="font-bold text-2xl">Key features:</h2> */}
             <div className='py-5'>
-              <h1 className='font-bold text-2xl py-4'>User-Centric Design </h1>
+              <h2 className='font-bold text-2xl py-4'>User-Centric Design </h2>
               <p>Our work strategy in interactive experiences focuses on user-centric design. We prioritize understanding the target audience's needs to create engaging and intuitive user experiences across various platforms, such as virtual reality (VR), augmented reality (AR), and interactive installations.</p>
             </div>
             <div className='py-5'>
-              <h1 className='font-bold text-2xl py-4'>Immersive Interactivity</h1>
+              <h2 className='font-bold text-2xl py-4'>Immersive Interactivity</h2>
               <p>We strive to create immersive interactive experiences that captivate and engage users. By leveraging advanced technologies, we develop interactive applications and installations that give users a sense of presence and immersion, allowing them to participate in the experience actively.ts.
               </p>
             </div>
             <div className='py-5'>
-              <h1 className='font-bold text-2xl py-4'>Iterative Development</h1>
+              <h2 className='font-bold text-2xl py-4'>Iterative Development</h2>
               <p>Our work strategy in interactive experiences embraces an iterative development process. We continuously gather user feedback, conduct testing, and make improvements to ensure the final product delivers a seamless and enjoyable interactive experience.
               </p>
             </div>

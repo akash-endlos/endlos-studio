@@ -34,9 +34,9 @@ const index = () => {
               <div className="absolute inset-0 bg-black opacity-60"></div>
               <div className="absolute inset-0 flex justify-center items-center">
                 <div className="text-center">
-                  <h1 className="text-5xl font-bold text-white">
+                  <h3 className="text-5xl font-bold text-white">
                     OUR SERVICES
-                  </h1>
+                  </h3>
                 </div>
               </div>
             </div>
@@ -61,9 +61,9 @@ const index = () => {
               <div className="absolute inset-0 bg-black opacity-60"></div>
               <div className="absolute inset-0 flex justify-center items-center">
                 <div className="text-center">
-                  <h1 className="text-4xl font-bold text-white">
+                  <h3 className="text-4xl font-bold text-white">
                     Pre Visualization
-                  </h1>
+                  </h3>
                 </div>
               </div>
             </div>
@@ -190,26 +190,26 @@ const index = () => {
       <div className="bg-[#111111] text-white">
         <div className='max-w-screen-xl mx-auto py-10 px-5'>
           <div className='py-5'>
-            <h1 className='font-bold text-2xl py-4'>Full-Cycle Development </h1>
+            <h3 className='font-bold text-2xl py-4'>Full-Cycle Development </h3>
             <p>From concept ideation and design to programming, testing, and launch, we handle every aspect of game development.</p>
           </div>
           <div className='py-5'>
-            <h1 className='font-bold text-2xl py-4'>Cross-Platform Compatibility</h1>
+            <h3 className='font-bold text-2xl py-4'>Cross-Platform Compatibility</h3>
             <p>Reach a wider audience by developing games for consoles, PCs, and mobile devices.
             </p>
           </div>
           <div className='py-5'>
-            <h1 className='font-bold text-2xl py-4'>Real-Time 3D Graphics</h1>
+            <h3 className='font-bold text-2xl py-4'>Real-Time 3D Graphics</h3>
             <p>Immerse players in visually stunning worlds with high-quality graphics and seamless animations.
             </p>
           </div>
           <div className='py-5'>
-            <h1 className='font-bold text-2xl py-4'>Multiplayer Functionality</h1>
+            <h3 className='font-bold text-2xl py-4'>Multiplayer Functionality</h3>
             <p>Foster social interaction and competitiveness with multiplayer and online gameplay features.
             </p>
           </div>
           <div className='py-5'>
-            <h1 className='font-bold text-2xl py-4'>Engaging Game Design</h1>
+            <h3 className='font-bold text-2xl py-4'>Engaging Game Design</h3>
             <p>Craft compelling stories, levels, and characters to deliver captivating and memorable gaming experiences.
             </p>
           </div>
@@ -247,21 +247,21 @@ const index = () => {
       <div className="bg-[#111111] text-white">
         <div className='max-w-screen-xl mx-auto py-10 px-5'>
           <div className='py-5'>
-            <h1 className='font-bold text-2xl py-4'>Full-Cycle Development </h1>
+            <h3 className='font-bold text-2xl py-4'>Full-Cycle Development </h3>
             <p>Showcase your architectural designs with lifelike visuals that capture every detail.</p>
           </div>
           <div className='py-5'>
-            <h1 className='font-bold text-2xl py-4'>Accurate Representation</h1>
+            <h3 className='font-bold text-2xl py-4'>Accurate Representation</h3>
             <p>Highlight materials, lighting, and spatial relationships to create realistic visualizations.
             </p>
           </div>
           <div className='py-5'>
-            <h1 className='font-bold text-2xl py-4'>Interactive Archviz Virtual Production</h1>
+            <h3 className='font-bold text-2xl py-4'>Interactive Archviz Virtual Production</h3>
             <p>Our platform offers interactive virtual tours allowing clients to explore and experience spaces virtually while facilitating real-time design changes and customization options during client interactions.
             </p>
           </div>
           <div className='py-5'>
-            <h1 className='font-bold text-2xl py-4'>Effective Communication</h1>
+            <h3 className='font-bold text-2xl py-4'>Effective Communication</h3>
             <p>Convey design intent to stakeholders, investors, and the general public, fostering understanding and support.
             </p>
           </div>
@@ -299,26 +299,26 @@ const index = () => {
       <div className="bg-[#111111] text-white">
         <div className='max-w-screen-xl mx-auto py-10 px-5'>
           <div className='py-5'>
-            <h1 className='font-bold text-2xl py-4'>Immersive VR/AR Experiences</h1>
+            <h3 className='font-bold text-2xl py-4'>Immersive VR/AR Experiences</h3>
             <p>Dive into virtual worlds or overlay digital content in the real world for captivating interactive adventures.</p>
           </div>
           <div className='py-5'>
-            <h1 className='font-bold text-2xl py-4'>Custom Installations</h1>
+            <h3 className='font-bold text-2xl py-4'>Custom Installations</h3>
             <p>Create interactive exhibits and installations that mesmerize audiences and make a lasting impact.
             </p>
           </div>
           <div className='py-5'>
-            <h1 className='font-bold text-2xl py-4'>Multi-Platform Development</h1>
+            <h3 className='font-bold text-2xl py-4'>Multi-Platform Development</h3>
             <p>Reach audiences on web and mobile platforms, ensuring wider accessibility and engagement.
             </p>
           </div>
           <div className='py-5'>
-            <h1 className='font-bold text-2xl py-4'>Seamless UI/UX Design</h1>
+            <h3 className='font-bold text-2xl py-4'>Seamless UI/UX Design</h3>
             <p>Craft intuitive, user-friendly interfaces for seamless interaction and enjoyable experiences.
             </p>
           </div>
           <div className='py-5'>
-            <h1 className='font-bold text-2xl py-4'>Innovative Technology</h1>
+            <h3 className='font-bold text-2xl py-4'>Innovative Technology</h3>
             <p>Stay at the forefront of emerging technologies, pushing the boundaries of interactivity and engagement.
             </p>
           </div>

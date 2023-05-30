@@ -44,23 +44,6 @@ const Footer = () => {
           ))}
         </div>
         ))}
-        {/* <div>
-          <h2 className="mb-6 text-lg font-semibold">Services</h2>
-          <ul >
-            <li className="mb-4">
-              <a >Pre visualization</a>
-            </li>
-            <li className="mb-4">
-              <a >Virtual production</a>
-            </li>
-            <li className="mb-4">
-              <a >Game development</a>
-            </li>
-            <li className="mb-4">
-              <a >Archviz</a>
-            </li>
-          </ul>
-        </div> */}
         <div>
           <Link href='/contact-us/write-to-us'><button type="button" className="bg-gray-900 hover:bg-white hover:text-black text-md font-bold rounded-md px-10 py-2.5 text-center mr-2 mb-2 ">Review Us</button></Link>
         </div>

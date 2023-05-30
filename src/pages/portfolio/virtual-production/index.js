@@ -37,9 +37,9 @@ const index = () => {
             <div className="absolute inset-0 bg-black opacity-60"></div>
             <div className="absolute inset-0 flex justify-center items-center">
               <div className="text-center">
-                <h1 className="text-5xl font-bold text-white">
+                <h2 className="text-5xl font-bold text-white">
                   Virtual Production
-                </h1>
+                </h2>
                 {/* <p className="mt-4 text-lg text-white ">{subtitle}</p> */}
               </div>
             </div>
@@ -48,13 +48,9 @@ const index = () => {
         <div className="bg-black flex justify-center items-center py-10 p-5">
           <div className="inset-0 flex justify-center items-center">
             <div className="text-center">
-              <h1 className="text-3xl font-bold text-white">
+              <h3 className="text-3xl font-bold text-white">
                 Types Of Virtual Production
-              </h1>
-              {/* <p className="mt-4 text-lg text-white  max-w-screen-xl text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam exercitationem voluptas sunt dolores reprehenderit, quo saepe earum nesciunt magnam officiis incidunt totam dolorem suscipit veniam temporibus adipisci molestias ipsa rem. Odit optio rerum atque neque nulla ipsam quaerat reiciendis hic perferendis, et harum veritatis, architecto quidem eveniet</p> */}
-              {/* {btn && <button className="px-16 uppercase py-3 border-2 border-white text-white my-10 font-semibold tracking-widest">
-                            Official Trailer
-                        </button>} */}
+              </h3>
             </div>
           </div>
         </div>
@@ -65,9 +61,9 @@ const index = () => {
             <div className="text-xl py-5  text-justify px-5">
               {/* <h2 className="font-bold text-2xl">Key features:</h2> */}
               <div className="py-5">
-                <h1 className="font-bold text-2xl py-4">
+                <h3 className="font-bold text-2xl py-4">
                   Technological Expertise
-                </h1>
+                </h3>
                 <p>
                   Our company's work strategy in virtual production revolves
                   around staying up to date with the latest advancements in
@@ -77,9 +73,9 @@ const index = () => {
                 </p>
               </div>
               <div className="py-5">
-                <h1 className="font-bold text-2xl py-4">
+                <h3 className="font-bold text-2xl py-4">
                   Collaborative Approach
-                </h1>
+                </h3>
                 <p>
                   Collaboration is at the core of our work strategy. We work
                   closely with filmmakers, artists, and technicians to
@@ -89,7 +85,7 @@ const index = () => {
                 </p>
               </div>
               <div className="py-5">
-                <h1 className="font-bold text-2xl py-4">Iterative Process</h1>
+                <h3 className="font-bold text-2xl py-4">Iterative Process</h3>
                 <p>
                   We follow an iterative process in virtual production, allowing
                   for continuous refinement and improvement. By leveraging
@@ -116,7 +112,7 @@ const index = () => {
               <div className="absolute inset-0 bg-black opacity-60"></div>
               <div className="absolute inset-0 flex justify-center items-center">
                 <div className="text-center">
-                  <h1 className="text-4xl font-bold text-white">Virtual Production Environment Design</h1>
+                  <h3 className="text-4xl font-bold text-white">Virtual Production Environment Design</h3>
                   {/* <p className="mt-4 text-lg text-white ">{subtitle}</p> */}
                 </div>
               </div>
@@ -125,7 +121,7 @@ const index = () => {
           <div className="bg-black flex justify-center items-center max-h-auto py-16 px-5">
             <div className="inset-0 flex justify-center items-center">
               <div className="text-center">
-                {/* <h1 className="text-5xl font-bold text-white">Environment</h1> */}
+                {/* <h3 className="text-5xl font-bold text-white">Environment</h3> */}
                 <p className="mt-4 text-lg text-white  max-w-screen-xl text-justify">
                 Immerse yourself in our portfolio of virtual production environment designs, showcasing our expertise in creating realistic and captivating virtual worlds for film, television, and other visual media.
                 </p>
@@ -157,7 +153,7 @@ const index = () => {
               <div className="absolute inset-0 bg-black opacity-60"></div>
               <div className="absolute inset-0 flex justify-center items-center">
                 <div className="text-center">
-                  <h1 className="text-4xl font-bold text-white">AR and VR Environment Design</h1>
+                  <h3 className="text-4xl font-bold text-white">AR and VR Environment Design</h3>
                 </div>
               </div>
             </div>

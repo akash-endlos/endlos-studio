@@ -23,7 +23,7 @@ const index = () => {
             <div className="text-center">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-white">
                 <div className=" p-4">
-                  <h1 className="font-bold">ADDRESS</h1>
+                  <h2 className="font-bold">ADDRESS</h2>
                   <p className="py-2">
                   1108, Shivalik Shilp, Iskcon <br />
                   Cross Rd, Sanidhya, Ahmedabad 380015, <br />
@@ -32,51 +32,6 @@ const index = () => {
                   <p> +91 9327777854</p>
                   <p>info@endlos.tech</p>
                 </div>
-                {/* <div className=" p-4">
-                  <h1 className="font-bold">NEW YORK</h1>
-                  <p className="py-2">
-                    3 Wakehurst Street <br />
-                    New York, NY 10002
-                  </p>
-                  <p>+1-202-555-0133</p>
-                  <p>cinerama@qodethemes.com</p>
-                </div> */}
-                {/* <div className=" p-4">
-                  <h1 className="font-bold">PRESS/MARKETING</h1>
-                  <p className="py-2">
-                    3 Wakehurst Street <br />
-                    New York, NY 10002
-                  </p>
-                  <p>+1-202-555-0133</p>
-                  <p>cinerama@qodethemes.com</p>
-                </div> */}
-                {/* <div className=" p-4">
-                  <h1 className="font-bold">FESTIVALS</h1>
-                  <p className="py-2">
-                    3 Wakehurst Street <br />
-                    New York, NY 10002
-                  </p>
-                  <p>+1-202-555-0133</p>
-                  <p>cinerama@qodethemes.com</p>
-                </div> */}
-                {/* <div className=" p-4">
-                  <h1 className="font-bold">SALES</h1>
-                  <p className="py-2">
-                    3 Wakehurst Street <br />
-                    New York, NY 10002
-                  </p>
-                  <p>+1-202-555-0133</p>
-                  <p>cinerama@qodethemes.com</p>
-                </div> */}
-                {/* <div className=" p-4">
-                  <h1 className="font-bold">SERVICING</h1>
-                  <p className="py-2">
-                    3 Wakehurst Street <br />
-                    New York, NY 10002
-                  </p>
-                  <p>+1-202-555-0133</p>
-                  <p>cinerama@qodethemes.com</p>
-                </div> */}
               </div>
             </div>
 

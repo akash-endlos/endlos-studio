@@ -44,29 +44,29 @@ const index = () => {
           <div className="max-w-screen-xl mx-auto py-10 px-5">
             {/* <h2 className="font-bold text-2xl">Key features:</h2> */}
             <div className="py-5">
-              <h1 className="font-bold text-2xl py-4">Creative Conceptualization</h1>
+              <h2 className="font-bold text-2xl py-4">Creative Conceptualization</h2>
               <p>
               Our work strategy in game development begins with creative conceptualization. We collaborate closely with our clients to understand their game vision, target audience, and desired gameplay mechanics, ensuring a solid foundation for the development process.
               </p>
             </div>
             <div className="py-5">
-              <h1 className="font-bold text-2xl py-4">Iterative Development and Testing</h1>
+              <h2 className="font-bold text-2xl py-4">Iterative Development and Testing</h2>
               <p>
               We follow an iterative and testing approach in game development. By building prototypes, conducting playtesting, and gathering feedback, we refine the gameplay, mechanics, and overall user experience to create captivating and enjoyable games.
               </p>
             </div>
             <div className="py-5">
-              <h1 className="font-bold text-2xl py-4">
+              <h2 className="font-bold text-2xl py-4">
               Cross-Platform Compatibility
-              </h1>
+              </h2>
               <p>
               Our work strategy emphasizes cross-platform compatibility. We develop games that can be played across multiple platforms, including consoles, PCs, and mobile devices, ensuring maximum reach and accessibility for the target audience.
               </p>
             </div>
             <div className="py-5">
-              <h1 className="font-bold text-2xl py-4">
+              <h2 className="font-bold text-2xl py-4">
               Quality Assurance
-              </h1>
+              </h2>
               <p>
               Quality assurance is an integral part of our work strategy in game development. We conduct rigorous testing and debugging to ensure the final product meets the highest performance, functionality, and user satisfaction standards.
               </p>

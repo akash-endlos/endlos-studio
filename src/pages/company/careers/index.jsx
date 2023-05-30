@@ -79,7 +79,7 @@ const Careers = () => {
                 </div>
               </div>
             ))}
-          </div>) : <h1 className="text-center text-2xl font-semibold">There is No Data What you Want to Search</h1>}
+          </div>) : <h3 className="text-center text-2xl font-semibold">There is No Data What you Want to Search</h3>}
 
         </div> */}
        

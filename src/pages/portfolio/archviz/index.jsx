@@ -1,31 +1,30 @@
 import Footer from "@/components/footer/Footer";
 import Navbar from "@/components/navbar/Navbar";
 import { useRouter } from "next/router";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import bg from "../../../../public/assets/img1.jpg";
 
 const index = () => {
-  const router = useRouter();
-  const { id } = router.query;
-  useEffect(() => {
-    if (id) {
-      const sectionElement = document.getElementById(id);
-      if (sectionElement) {
-        setTimeout(() => {
-          const scrollPosition = sectionElement.offsetTop;
-          window.scrollTo({
-            top: scrollPosition,
-            behavior: "smooth",
-          });
-        }, 100);
-      }
-    }
-  }, [id]);
+  const [setScrollState, setsetScrollState] = useState('')
+  // useEffect(() => {
+  //   if (setScrollState) {
+  //     const sectionElement = document.getElementById(setScrollState);
+  //     if (sectionElement) {
+  //       setTimeout(() => {
+  //         const scrollPosition = sectionElement.offsetTop;
+  //         window.scrollTo({
+  //           top: scrollPosition,
+  //           behavior: "smooth",
+  //         });
+  //       }, 100);
+  //     }
+  //   }
+  // }, [setScrollState]);
 
 
   return (
     <>
-      <Navbar Navclass="bg-[#111111] text-white" />
+      <Navbar Navclass="bg-[#111111] text-white" setsetScrollState={setsetScrollState}/>
       <div className="pt-24 bg-[#111111] text-white">
         <div className="relative">
           <div className="h-screen bg-cover bg-fixed" style={{

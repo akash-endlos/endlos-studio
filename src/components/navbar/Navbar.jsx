@@ -12,7 +12,7 @@ import NewNavbar from "./NewNavbar";
 import { PopupButton } from "react-calendly";
 import HamburgerMenu from "./HamburgerMenu";
 
-function Navbar({ Navclass = 'bg-transparent text-white' }) {
+function Navbar({ Navclass = 'bg-transparent text-white',setsetScrollState }) {
 
   const [isscroll, setIsScroll] = useState(false);
   const [Body, setBody] = useState("");
@@ -42,7 +42,7 @@ function Navbar({ Navclass = 'bg-transparent text-white' }) {
         <Link href="/"><span className="font-bold tracking-[.2em] cursor-pointer text-2xl align-middle font-serif">
           <img src="/assets/logo.png" className="w-60" alt="endlos_logo" />
         </span></Link>
-        <NewNavbar />
+        <NewNavbar setsetScrollState={setsetScrollState}/>
         <div className="flex justify-center items-center gap-5">
           <div className="px-5 py-2 border rounded-lg bg-bg-transparent hover:bg-[#111111] hover:text-white hover:border-none outline-none">
             <PopupButton

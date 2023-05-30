@@ -10,8 +10,30 @@ import {
 } from "react-icons/ai";
 import Link from "next/link";
 import { footernav } from "@/allcontent/footernavdata";
+import { useDispatch, useSelector } from "react-redux";
+import { useEffect } from "react";
+import { setScrollingState } from "@/redux/action/scrolling/creator";
 
 const Footer = () => {
+  const dispatch = useDispatch();
+  const scrollingData = useSelector((state) => state.scrollState.scrollState);
+  const handleClick = (id) => {
+    dispatch(setScrollingState(id));
+  };
+  useEffect(() => {
+    if (scrollingData) {
+      const sectionElement = document.getElementById(scrollingData);
+      if (sectionElement) {
+        setTimeout(() => {
+          const scrollPosition = sectionElement.offsetTop;
+          window.scrollTo({
+            top: scrollPosition,
+            behavior: "smooth",
+          });
+        }, 100);
+      }
+    }
+  }, [scrollingData]);
   return (
     <footer className="bg-[#111111] text-white">
       <div className="flex justify-between items-center flex-wrap px-5 max-w-screen-2xl mx-auto py-6">
@@ -33,12 +55,7 @@ const Footer = () => {
           {item.subchildren && item.subchildren.map((subchildren,index)=>(
             <ul key={index}>
             <li className="mb-4">
-            <Link href={{
-                pathname: `${subchildren.link}`,
-                query: {
-                  id: `${subchildren.id}`
-                }
-              }}>{subchildren.subchild}</Link>
+            <Link onClick={()=>handleClick(subchildren.id)} href={subchildren.link}>{subchildren.subchild}</Link>
             </li>
           </ul>
           ))}

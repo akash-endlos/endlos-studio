@@ -8,14 +8,14 @@ const ArchwizGallery = () => {
           <img
             className="h-auto max-w-full rounded-lg"
             src="/assets/archviz_1.jpg"
-            alt=""
+           alt="Card Image"
           />
         </div>
         <div>
           <img
             className="h-auto max-w-full rounded-lg"
             src="/assets/archviz_5.jpg"
-            alt=""
+           alt="Card Image"
           />
         </div>
       </div>
@@ -24,14 +24,14 @@ const ArchwizGallery = () => {
           <img
             className="h-auto max-w-full rounded-lg"
             src="/assets/archviz_2.jpg"
-            alt=""
+           alt="Card Image"
           />
         </div>
         <div>
           <img
             className="h-auto max-w-full rounded-lg"
             src="/assets/archviz_6.jpg"
-            alt=""
+           alt="Card Image"
           />
         </div>
       </div>
@@ -40,14 +40,14 @@ const ArchwizGallery = () => {
           <img
             className="h-auto max-w-full rounded-lg"
             src="/assets/archviz_3.jpg"
-            alt=""
+           alt="Card Image"
           />
         </div>
         <div>
           <img
             className="h-auto max-w-full rounded-lg"
             src="/assets/archviz_7.jpg"
-            alt=""
+           alt="Card Image"
           />
         </div>
       </div>
@@ -56,14 +56,14 @@ const ArchwizGallery = () => {
           <img
             className="h-auto max-w-full rounded-lg"
             src="/assets/archviz_4.jpg"
-            alt=""
+           alt="Card Image"
           />
         </div>
         <div>
           <img
             className="h-auto max-w-full rounded-lg"
             src="/assets/archviz_8.jpg"
-            alt=""
+           alt="Card Image"
           />
         </div>
       </div>

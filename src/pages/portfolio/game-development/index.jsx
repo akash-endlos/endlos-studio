@@ -39,7 +39,7 @@ const index = () => {
             </div>
           </div>
           <div className="flex justify-center items-center py-10">
-            <img src="/assets/gd-1.jpg" />
+            <img src="/assets/gd-1.jpg" alt="Card Image" />
           </div>
           <div className="max-w-screen-xl mx-auto py-10 px-5">
             {/* <h2 className="font-bold text-2xl">Key features:</h2> */}
@@ -95,75 +95,6 @@ const index = () => {
               />
             </div>
           </div>
-          {/* <div className="relative h-screen">
-            <div
-              style={{
-                backgroundImage: `url(${bg.src})`,
-                backgroundSize: "cover",
-                backgroundRepeat: "no-repeat",
-                width: "100vw",
-                height: "100vh",
-              }}
-              className="absolute top-0 left-0 w-full h-full bg-fixed bg-center bg-gradient-to-b from-gray-900 to-gray-600"
-            ></div>
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div className="flex flex-col items-center gap-2">
-                <p className="text-xl text-white">FILMING CREW</p>
-                <h1 className="text-white text-center text-3xl font-bold font-serif">
-                  MEET THE TEAM
-                </h1>
-              </div>
-            </div>
-          </div> */}
-          {/* <div className="mx-auto max-w-screen-xl py-5  ">
-            <p className="text-center font-bold text-3xl text-white py-10">
-              OUR DEVELOPMENT
-            </p>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 pb-10">
-              <div className=" p-4 ">
-                <img
-                  className="w-full h-48 object-cover mb-2"
-                  src="https://source.unsplash.com/random/800x600"
-                  alt="Card Image"
-                />
-                <h2 className="text-lg font-semibold mb-2 text-[#b6b6b6]">
-                  DIRECTOR
-                </h2>
-                <p className="text-[#b6b6b6]">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-                <button className="btn text-[#b6b6b6]">Read More</button>
-              </div>
-              <div className=" p-4 ">
-                <img
-                  className="w-full h-48 object-cover mb-2"
-                  src="https://source.unsplash.com/random/800x600"
-                  alt="Card Image"
-                />
-                <h2 className="text-lg font-semibold mb-2 text-[#b6b6b6]">
-                  DIRECTOR
-                </h2>
-                <p className="text-[#b6b6b6]">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-                <button className="btn text-[#b6b6b6]">Read More</button>
-              </div>
-              <div className=" p-4 ">
-                <img
-                  className="w-full h-48 object-cover mb-2"
-                  src="https://source.unsplash.com/random/800x600"
-                  alt="Card Image"
-                />
-                <h2 className="text-lg font-semibold mb-2 text-[#b6b6b6]">
-                  DIRECTOR
-                </h2>
-                <p className="text-[#b6b6b6]">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-                <button className="btn text-[#b6b6b6]">Read More</button>
-              </div>
-            </div>
-          </div> */}
           <HomeProductionHouse />
         </div>
       </div>

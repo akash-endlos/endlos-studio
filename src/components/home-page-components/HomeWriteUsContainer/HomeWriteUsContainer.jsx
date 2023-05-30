@@ -7,19 +7,16 @@ const HomeWriteUsContainer = () => {
             <div className="bg-[#111111] flex justify-center items-center py-16 p-5 border-t-2 border-gray-900 rounded-sm">
             <div className="inset-0 flex justify-center items-center">
               <div className="text-center">
-                <h1 className="text-4xl font-bold text-white">
+                <h2 className="text-4xl font-bold text-white">
                  What do you think about us
-                </h1>
+                </h2>
               </div>
             </div>
           </div>
                 <div className='container mx-auto py-10 px-5'>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                         <FormContainer />
-                        <img src='/assets/write_us_pic.jpg' alt='writeuse'/>
-                        {/* <div className="relative aspect-video overflow-hidden rounded-3xl">
-                            <video className="w-full opacity-100" src='../assets/write_us_video.mp4' autoPlay muted loop></video>
-                        </div> */}
+                        <img src='/assets/write_us_pic.jpg' alt='writeus'/>
                     </div>
                 </div>
         </div>

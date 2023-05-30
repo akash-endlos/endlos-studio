@@ -11,6 +11,7 @@ const HomeImageContainer = () => {
             className="float-right ml-6"
             src="/assets/home-2-img.jpg"
             alt="img_5"
+            width={900}
           />
         </div>
         <div className="w-full text-justify">

@@ -4,26 +4,6 @@ import React from "react";
 import { AiFillCaretRight } from "react-icons/ai";
 
 const NewNavbar = () => {
-  const MultiSubNestedMenu = ({ subchildrenMenu }) => (
-    <ul className="absolute right-0 top-0  w-[170px] py-2">
-      {subchildrenMenu &&
-        subchildrenMenu.map((item) => (
-          <li className="px-2 py-3 relative cursor-pointer pl-5 opacity-90 bg-[#111111] text-white hover:bg-white hover:text-[#111111] rounded-lg" key={item.subchild}>
-            {/* <span className="font-semibold text-sm">{item.subchild}</span> */}
-            <Link href={{
-                pathname: `${item.link}`,
-                query: {
-                  id: `${item.id}`
-                }
-              }}><div className="flex justify-between">
-              <div className="font-semibold text-sm">{item.subchild}</div>
-              {item.subgrandchildren && <AiFillCaretRight />}
-            </div>
-            </Link>
-          </li>
-        ))}
-    </ul>
-  );
 
   const SubNestedMenu = ({ subchildrenMenu }) => (
     <ul className="absolute right-0 top-0  w-[170px] py-2">
@@ -41,7 +21,7 @@ const NewNavbar = () => {
               {item.subgrandchildren && <AiFillCaretRight />}
             </div></Link>
             {item.subgrandchildren && (
-              <MultiSubNestedMenu subchildrenMenu={item.subgrandchildren} />
+              <SubNestedMenu subchildrenMenu={item.subgrandchildren} />
             )}
           </li>
         ))}

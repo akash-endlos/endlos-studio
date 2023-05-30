@@ -9,6 +9,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import { Provider } from "react-redux";
 import store from "@/redux/store";
 import { ToastContainer } from "react-toastify";
+import Head from "next/head";
 
 export default function App({ Component, pageProps }) {
   useEffect(() => {
@@ -16,12 +17,30 @@ export default function App({ Component, pageProps }) {
     });
   }, []);
   return (
-      <>
+    <>
       <Provider store={store}>
-      <ToastContainer />
-				<Component {...pageProps} />
-			</Provider>
-      <ScrollToTop/>
-      </>
+        <ToastContainer />
+        <Head>
+          <title> Unreal Engine 5.2 is now available! | Endlos Studio</title>
+          <meta name="description" content="Endlos Studio offers virtual production, architectural visualization & game development expertise. Experience the power of Unreal Engine 5.2 with us." />
+          <meta name="keywords" content="unreal engine, Virtual Production, Architectural Visualization, Game Development, unreal engine 5.2, Endlos Studio" />
+          <meta property="og:title" content="Unreal Engine 5.2 is now available! | Endlos Studio" />
+          <meta property="og:description" content="Endlos Studio offers virtual production, architectural visualization & game development expertise. Experience the power of Unreal Engine 5.2 with us." />
+          <meta property="og:site_name" content="Endlos Studio " />
+          <meta property="og:type" content="article" />
+          <meta property="og:image" content="http://localhost:3000/assets/logo.png" />
+          <meta property="og:url" content="https://endlos.studio/ " />
+          <meta name="twitter:title" content="Unreal Engine 5.2 is now available! | Endlos Studio" />
+          <meta name="twitter:description" content="Endlos Studio offers virtual production, architectural visualization & game development expertise. Experience the power of Unreal Engine 5.2 with us." />
+          <meta name="twitter:card" content="summary" />
+          <meta name="twitter:url" content="https://endlos.studio/" />
+          <meta name="twitter:image" content="http://localhost:3000/assets/logo.png" />
+          <meta name="robots" content="index, follow" />
+          <link rel="canonical" href="https://endlos.studio/  " />
+        </Head>
+        <Component {...pageProps} />
+      </Provider>
+      <ScrollToTop />
+    </>
   );
 }

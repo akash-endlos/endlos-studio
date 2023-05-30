@@ -33,15 +33,15 @@ const HomeCarousel = () => {
         modules={[Autoplay, Pagination, Navigation]}
       >
         {CarouselSection.map((item,index) => (
-          <SwiperSlide key={index}>
-            <video
-              src={item.src}
-              className={styles.videocontainer}
-              autoPlay
-              loop
-              muted
-            />
-          </SwiperSlide>
+         <SwiperSlide key={index}>
+         <div className="relative">
+           <video src={item.src} autoPlay loop muted  className={styles.videocontainer} />
+           <div className="absolute top-0 left-0 w-full h-full flex items-end justify-start px-5 py-16">
+             <p className="text-white xl:text-5xl md:text-4xl font-bold">Endlos Possibilities</p>
+           </div>
+         </div>
+       </SwiperSlide>
+       
         ))}
       </Swiper>
     </>

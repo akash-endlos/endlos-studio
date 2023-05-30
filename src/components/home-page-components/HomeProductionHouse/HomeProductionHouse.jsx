@@ -16,10 +16,10 @@ const HomeProductionHouse = () => {
   };
   const clientLogos = [
     { src: "/assets/tool-1.jpg", alt: "Logo 1" },
-    { src: "/assets/tool-2.jpg", alt: "Logo 1" },
-    { src: "/assets/tool-3.jpg", alt: "Logo 1" },
-    { src: "/assets/tool-4.jpg", alt: "Logo 1" },
-    { src: "/assets/tool-5.jpg", alt: "Logo 1" },
+    { src: "/assets/tool-2.jpg", alt: "Logo 2" },
+    { src: "/assets/tool-3.jpg", alt: "Logo 3" },
+    { src: "/assets/tool-4.jpg", alt: "Logo 4" },
+    { src: "/assets/tool-5.jpg", alt: "Logo 5" },
     // { src: "/assets/3.png", alt: "Logo 1" },
   ];
   return (

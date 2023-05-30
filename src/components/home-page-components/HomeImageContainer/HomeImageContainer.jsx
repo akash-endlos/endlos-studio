@@ -6,7 +6,7 @@ const HomeImageContainer = () => {
   return (
     <div className="bg-[#111111] h-auto relative rounded-sm">
         <div className="flex justify-end px-10 items-center py-10 " >
-          <img className="opacity-100" src="/assets/home-2-img.jpg"  />
+          <img className="opacity-100" src="/assets/home-2-img.jpg" alt="img_5" />
         </div>
         <h1 className='flex justify-start max-w-4xl px-10 py-2 text-white font-semibold text-4xl text-justify  h-auto'>
           About Endlos Studio

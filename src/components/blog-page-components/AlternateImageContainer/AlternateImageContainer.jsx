@@ -10,7 +10,7 @@ const AlternateImageContainer = ({filteredData}) => {
                 <div className="col-start-1 md:col-start-1 lg:col-start-1 row-start-1 row-end-2 md:row-end-auto pt-5">
                     <div className="max-w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                         <a href="#">
-                            <img className="rounded-t-lg" src={src} alt="" />
+                            <img className="rounded-t-lg" src={src} alt="img_1" />
                         </a>
                         <div className="p-5">
                             <a href="#">
@@ -35,7 +35,7 @@ const AlternateImageContainer = ({filteredData}) => {
 
                         <div className="max-w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                             <a href="#">
-                                <img className="rounded-t-lg" src={src} alt="" />
+                                <img className="rounded-t-lg" src={src} alt="img_2" />
                             </a>
                             <div className="p-5">
                                 <a href="#">

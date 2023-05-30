@@ -23,7 +23,7 @@ const FirstNews = ({ }) => {
         </div>
         <div className="max-w-screen-2xl mx-auto px-5">
           <div className="max-w-7xl mx-auto py-10">
-            <img src="/assets/blog_inside_vr_1.jpg" className="mx-auto max-w-full h-auto" alt="example image" />
+            <img src="/assets/blog_inside_vr_1.jpg" className="mx-auto max-w-full h-auto" alt="blog_img" />
             <p className="pt-16">The latest Unreal Engine 5.2 demo, featuring a burned-dead forest environment, has left viewers in awe with its stunningly realistic visuals and remarkable lighting effects. The demo showcases the power and capabilities of Unreal Engine 5, pushing the boundaries of real-time rendering and immersing viewers in an eerie and atmospheric world.</p>
             <p className="py-5">The attention to detail in the burned trees, charred vegetation, and realistic debris creates a hauntingly beautiful environment. The lighting effects, including the dynamic interplay of sunlight and shadows, add depth and realism, evoking a sense of melancholy and desolation.</p>
             <p className="py-5">Unreal Engine 5's advanced lighting system, Lumen, is showcased in this demo, delivering impressive global illumination and accurate light-bouncing effects. The result is a visually striking scene that feels almost tangible, blurring the line between virtual and reality.</p>

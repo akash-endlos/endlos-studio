@@ -16,9 +16,10 @@ const HomeWriteUsContainer = () => {
                 <div className='container mx-auto py-10 px-5'>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                         <FormContainer />
-                        <div className="relative aspect-video overflow-hidden rounded-3xl">
+                        <img src='/assets/write_us_pic.jpg' alt='writeuse'/>
+                        {/* <div className="relative aspect-video overflow-hidden rounded-3xl">
                             <video className="w-full opacity-100" src='../assets/write_us_video.mp4' autoPlay muted loop></video>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
         </div>

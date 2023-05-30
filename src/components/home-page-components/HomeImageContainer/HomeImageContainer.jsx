@@ -8,13 +8,13 @@ const HomeImageContainer = () => {
       <div className="px-10 py-10">
         <div className="w-full">
           <img
-            className="float-right ml-4"
+            className="float-right ml-6"
             src="/assets/home-2-img.jpg"
             alt="img_5"
           />
         </div>
         <div className="w-full text-justify">
-          <h1 className='flex justify-start   pb-5  text-white font-semibold text-4xl text-justify  h-auto'>
+          <h1 className='pb-5  text-white font-semibold text-4xl text-justify  h-auto'>
             About Endlos Studio
           </h1>
           <p className='  text-justify  text-white font-semibold text-xl   h-auto py-5'>Welcome to Endlos Studio, a leading creative powerhouse specializing in harnessing the full potential of Unreal Engine. We are a passionate team of developers, artists, and storytellers dedicated to crafting unforgettable interactive experiences and pushing the boundaries of visual innovation.

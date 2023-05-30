@@ -6,7 +6,7 @@ import axios from 'axios';
 import { ToastContainer, toast } from 'react-toastify';
 
 const FormContainer = () => {
-    
+    const [isSubmitting, setIsSubmitting] = useState(false); 
     const schema = Yup.object().shape({
         name: Yup.string().required('Name is required'),
         email: Yup.string().email('Invalid email address').required('Email is required'),
@@ -23,18 +23,22 @@ const FormContainer = () => {
 
     const onSubmit = async (data) => {
         const { name, email, message } = data;
+        setIsSubmitting(true); 
+
         try {
             await axios.post('/api/send-email', { name, email, message });
-            reset()
-            toast.success('Successfully Sent',{theme:"colored",position:"top-right"})
+            reset();
+            toast.success('Successfully Sent', { theme: 'colored', position: 'top-right' });
         } catch (error) {
             console.error(error);
-            toast.error('Something went wrong',{theme:"colored"})
+            toast.error('Something went wrong', { theme: 'colored' });
+        } finally {
+            setIsSubmitting(false); 
         }
     };
     return (
         <form className="w-full " onSubmit={handleSubmit(onSubmit)} >
-            
+
             <div className='text-white pb-10'><span className="font-bold tracking-[.2em] cursor-pointer text-2xl align-middle ">Write Us</span></div>
             <div className="flex flex-wrap -mx-3 mb-6">
                 <div className="w-full md:w-3/4 px-3 mb-6 md:mb-0">
@@ -63,7 +67,9 @@ const FormContainer = () => {
                 </div>
             </div>
             <div>
-                <button type='submit' className="bg-white text-black hover:text-white hover:bg-black py-2 px-4 rounded">Submit</button>
+            <button type="submit" disabled={isSubmitting} className="bg-white text-black hover:text-white hover:bg-black py-2 px-4 rounded">
+                    {isSubmitting ? 'Submitting...' : 'Submit'}
+                </button>
             </div>
         </form>
     )

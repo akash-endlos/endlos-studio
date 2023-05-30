@@ -37,8 +37,7 @@ const HomeCarousel = () => {
          <div className="relative">
            <video src={item.src} autoPlay loop muted  className={styles.videocontainer} />
            <div className="absolute top-10 left-0 w-full h-full flex items-center justify-center px-5 py-16">
-           <p className="py-5 xl:text-5xl md:text-xl  font-bold bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 text-transparent bg-clip-text">Shaping Digital Realities for Endless Possibilities</p>
-
+             <p className="text-white xl:text-5xl md:text-xl shadow-2xl rounded-lg  font-bold">Shaping Digital Realities for Endless Possibilities</p>
            </div>
          </div>
        </SwiperSlide>

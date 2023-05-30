@@ -4,7 +4,6 @@ import { useSelector } from 'react-redux'
 
 const BlogRightSection = () => {
     const news = useSelector((state)=>state.allnews.news)
-    console.log(news);
     return (
         <div className='px-1 py-5 w-full'>
             <div className="flex flex-col xl:items-start px-5 py-10">
@@ -22,17 +21,6 @@ const BlogRightSection = () => {
                 </div>
                 ))}
             </div>
-            {/* <div className='flex flex-col xl:items-start px-5 '>
-                <h1 className="text-2xl font-bold py-5">Categories</h1>
-                <div className=' text-white gap-4  pt-5'>
-                    <ul>
-                        <li className='text-bold text-xl font-serif'>Award</li>
-                        <li className='text-bold text-xl font-serif'>Camera</li>
-                        <li className='text-bold text-xl font-serif'>Festival</li>
-                        <li className='text-bold text-xl font-serif'>Video</li>
-                    </ul>
-                </div>
-            </div> */}
         </div>
 
     )

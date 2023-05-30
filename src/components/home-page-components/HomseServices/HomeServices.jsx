@@ -20,7 +20,7 @@ const HomeServices = () => {
           <div className="bg-[#111111] p-4 text-center">
             <img className="w-full h-48 object-cover mb-2" src="/assets/icons-03.jpg" alt="Card Image" />
             <h2 className="text-2xl font-semibold mb-2 text-[#b6b6b6]">Pre Visualization</h2>
-            <p className="text-[#b6b6b6] text-justify">Embark on interactive adventures that blur the line between imagination and reality as Endlos Studio crafts immersive experiences that respond to your every move. Explore new dimensions of entertainment with our expertise in interactive storytelling and cutting-edge technologies.
+            <p className="text-[#b6b6b6] text-justify">Discover our pre-visualization projects that offer a glimpse into the meticulous planning and visualization process. From detailed storyboards and animatics to 3D asset creation and virtual set designs, our portfolio demonstrates the power of pre-visualization in streamlining production workflows.
             </p>
           </div>
           <div className="bg-[#111111] p-4 text-center">

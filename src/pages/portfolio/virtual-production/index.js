@@ -177,14 +177,14 @@ const index = () => {
           <div className="max-w-screen-xl mx-auto">
             <div className="py-10">
               <video src="/assets/1.mp4" controls width="100%"></video>
-              <div className="text-xl py-5  text-justify px-5">
+              {/* <div className="text-xl py-5  text-justify px-5">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Laboriosam exercitationem voluptas sunt dolores reprehenderit,
                 quo saepe earum nesciunt magnam officiis incidunt totam dolorem
                 suscipit veniam temporibus adipisci molestias ipsa rem. Odit
                 optio rerum atque neque nulla ipsam quaerat reiciendis hic
                 perferendis, et harum veritatis, architecto quidem eveniet
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

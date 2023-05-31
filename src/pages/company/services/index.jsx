@@ -19,7 +19,7 @@ const index = () => {
     <div>
       <Navbar Navclass="bg-[#111111] text-white" />
       <div className="pt-24 bg-[#111111] text-white">
-        <div>
+        {/* <div>
           <div className="relative">
             <div
               className="h-screen bg-cover bg-fixed"
@@ -45,7 +45,7 @@ const index = () => {
             <div className='flex flex-col gap-5 justify-center items-center text-white py-10'>
             </div>
           </div>
-        </div>
+        </div> */}
         <div id="servicespv">
           <div className="relative">
             <div
@@ -61,9 +61,9 @@ const index = () => {
               <div className="absolute inset-0 bg-black opacity-60"></div>
               <div className="absolute inset-0 flex justify-center items-center">
                 <div className="text-center">
-                  <h3 className="text-4xl font-bold text-white">
+                  <h1 className="text-4xl font-bold text-white">
                     Pre Visualization
-                  </h3>
+                  </h1>
                 </div>
               </div>
             </div>

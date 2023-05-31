@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.min.css";
 import SwiperCore, { EffectCoverflow, Pagination, Navigation } from "swiper/core";
@@ -6,21 +6,7 @@ import { Autoplay } from "swiper";
 
 SwiperCore.use([EffectCoverflow, Pagination, Navigation,Autoplay]);
 
-export default function PortFolioCarousel() {
-  const [currentSlide, setCurrentSlide] = useState(null);
-  const videoRefs = useRef([]);
-
-  const handleSlideMouseEnter = (index) => {
-    setCurrentSlide(index);
-    videoRefs.current[index].play();
-  };
-
-  const handleSlideMouseLeave = (index) => {
-    setCurrentSlide(null);
-    videoRefs.current[index].pause();
-    videoRefs.current[index].currentTime = 0;
-  };
-
+export default function PortFolioCarousel({data}) {
   const CarouselSection = [
     {
       title:
@@ -53,6 +39,29 @@ export default function PortFolioCarousel() {
       link: "",
     },
   ];
+  const [currentSlide, setCurrentSlide] = useState(null);
+  const [carouselData, setcarouselData] = useState(CarouselSection)
+  useEffect(() => {
+    if(data)
+    {
+      setcarouselData(data)
+    }
+  }, [data])
+  
+  const videoRefs = useRef([]);
+
+  const handleSlideMouseEnter = (index) => {
+    setCurrentSlide(index);
+    videoRefs.current[index].play();
+  };
+
+  const handleSlideMouseLeave = (index) => {
+    setCurrentSlide(null);
+    videoRefs.current[index].pause();
+    videoRefs.current[index].currentTime = 0;
+  };
+
+  
 
   return (
     <div className=" bg-[#111111]">
@@ -78,7 +87,7 @@ export default function PortFolioCarousel() {
         navigation={true}
         className="mySwiper"
       >
-        {CarouselSection.map((item,index) => (
+        {carouselData.map((item,index) => (
           <SwiperSlide
             key={index}
             onMouseEnter={() => handleSlideMouseEnter(index)}

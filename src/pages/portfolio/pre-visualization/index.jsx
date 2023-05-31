@@ -8,6 +8,7 @@ import PortFolioCardsContainer from "@/components/portfolio-page-components/Port
 import HomeProductionHouse from "@/components/home-page-components/HomeProductionHouse/HomeProductionHouse";
 import bg from "../../../../public/assets/img1.jpg";
 import Head from "next/head";
+import { CarouselData } from "@/allcontent/carouselData";
 
 const index = () => {
   return (
@@ -79,7 +80,7 @@ const index = () => {
             </div>
           </div>
 
-          <PortFolioCarousel />
+          <PortFolioCarousel data={CarouselData} />
           <div className="flex justify-center items-center py-10 px-5">
             <video src="/assets/1.mp4" controls width="100%"></video>
           </div>

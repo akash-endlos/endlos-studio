@@ -20,7 +20,7 @@ const index = () => {
             <div className="absolute inset-0 bg-black opacity-60"></div>
             <div className="absolute inset-0 flex justify-center items-center">
               <div className="text-center">
-                <h1 className="text-5xl font-bold text-white">Portfolio</h1>
+                <p className="text-5xl font-bold text-white">Portfolio</p>
               </div>
             </div>
           </div>
@@ -42,7 +42,7 @@ const index = () => {
             <div className="absolute inset-0 bg-black opacity-60"></div>
             <div className="absolute inset-0 flex justify-center items-center">
               <div className="text-center">
-                <h2 className="text-4xl font-bold text-white">Archviz</h2>
+                <h1 className="text-4xl font-bold text-white">Archviz</h1>
               </div>
             </div>
           </div>

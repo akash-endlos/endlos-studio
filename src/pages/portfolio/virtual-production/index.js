@@ -112,7 +112,7 @@ const index = () => {
               <div className="absolute inset-0 bg-black opacity-60"></div>
               <div className="absolute inset-0 flex justify-center items-center">
                 <div className="text-center">
-                  <h3 className="text-4xl font-bold text-white">Virtual Production Environment Design</h3>
+                  <h3 className="text-4xl font-bold text-white">Virtual Production </h3>
                   {/* <p className="mt-4 text-lg text-white ">{subtitle}</p> */}
                 </div>
               </div>
@@ -153,7 +153,7 @@ const index = () => {
               <div className="absolute inset-0 bg-black opacity-60"></div>
               <div className="absolute inset-0 flex justify-center items-center">
                 <div className="text-center">
-                  <h3 className="text-4xl font-bold text-white">AR and VR Environment Design</h3>
+                  <h3 className="text-4xl font-bold text-white">AR and VR</h3>
                 </div>
               </div>
             </div>

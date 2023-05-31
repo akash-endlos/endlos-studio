@@ -2,7 +2,7 @@ import Footer from "@/components/footer/Footer";
 import Navbar from "@/components/navbar/Navbar";
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
-import bg from "../../../../public/assets/img1.jpg";
+import bg from "../../../../public/assets/parchviz.jpg";
 import Head from "next/head";
 
 const index = () => {
@@ -50,22 +50,37 @@ const index = () => {
             </div>
           </div>
         </div> */}
-        <div className="relative" id="archviz">
+        <div className="relative">
+          <img
+            src={bg.src}
+            alt="dummy-img"
+            style={{
+              backgroundSize: "contain",
+              backgroundRepeat: "no-repeat",
+            }}
+            className="mx-auto w-full h-auto"
+          />
+          <div className="absolute inset-0 bg-black opacity-60"></div>
+          <div className="absolute inset-0 flex items-center justify-center">
+            <h1 className="text-4xl font-bold text-white">Archviz</h1>
+          </div>
+        </div>
+        {/* <div className="relative" id="archviz">
           <div className="h-screen bg-cover bg-fixed" style={{
             backgroundImage: `url(${bg.src})`,
-            backgroundSize: "cover",
+            backgroundSize: "contain",
             backgroundRepeat: "no-repeat",
             width: "100vw",
-            height: "300px",
+            height: "500px",
           }}>
-            <div className="absolute inset-0 bg-black opacity-60"></div>
+            <div className="absolute inset-0 bg-transparent opacity-60"></div>
             <div className="absolute inset-0 flex justify-center items-center">
               <div className="text-center">
                 <h1 className="text-4xl font-bold text-white">Archviz</h1>
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="bg-[#111111] text-white">
           <div className='max-w-screen-2xl mx-auto py-10 px-5'>
             <div className='py-5'>

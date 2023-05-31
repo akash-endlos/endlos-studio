@@ -6,12 +6,13 @@ import React from "react";
 const index = () => {
   return (
     <>
-      <Navbar />
+      <Navbar Navclass="bg-[#111111] text-white" />
+      <div className="pt-24 bg-[#111111] text-white">
       <div className="relative">
         <img
           src="/assets/contact_us.jpg"
           alt="dummy-img"
-          className="mx-auto w-full h-[500px]"
+          className="mx-auto w-full h-auto"
         />
         <div className="absolute inset-0 flex items-center justify-center">
           <h1 className="text-5xl font-bold text-white">Contact Us</h1>
@@ -25,9 +26,9 @@ const index = () => {
                 <div className=" p-4">
                   <h2 className="font-bold">ADDRESS</h2>
                   <p className="py-2">
-                  1108, Shivalik Shilp, Iskcon <br />
-                  Cross Rd, Sanidhya, Ahmedabad 380015, <br />
-                  Gujarat, India
+                    1108, Shivalik Shilp, Iskcon <br />
+                    Cross Rd, Sanidhya, Ahmedabad 380015, <br />
+                    Gujarat, India
                   </p>
                   <p> +91 9327777854</p>
                   <p>info@endlos.tech</p>
@@ -36,7 +37,7 @@ const index = () => {
             </div>
 
             <div className="px-10">
-            <FormContainer/>
+              <FormContainer />
             </div>
           </div>
         </div>
@@ -50,6 +51,7 @@ const index = () => {
         aria-hidden="false"
         tabindex="0"
       ></iframe>
+      </div>
       <Footer />
     </>
   );

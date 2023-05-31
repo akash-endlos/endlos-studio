@@ -95,7 +95,6 @@ const index = () => {
               />
             </div>
           </div>
-          <HomeProductionHouse />
         </div>
       </div>
       <Footer />

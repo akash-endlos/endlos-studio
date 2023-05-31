@@ -7,6 +7,7 @@ import HomeBlogImages from "@/components/home-page-components/HomeBlogImages/Hom
 import HomeWriteUsContainer from "@/components/home-page-components/HomeWriteUsContainer/HomeWriteUsContainer";
 import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/footer/Footer";
+import HomeProductionHouse from "@/components/home-page-components/HomeProductionHouse/HomeProductionHouse";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,6 +17,7 @@ export default function Home() {
       <Navbar />
       <HomeCarousel />
       <HomeImageContainer />
+      {/* <HomeProductionHouse /> */}
       <HomeServices />
       <HomeBlogImages />
       <HomeVideoCarousel /> 

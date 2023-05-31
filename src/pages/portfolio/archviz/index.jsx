@@ -3,6 +3,7 @@ import Navbar from "@/components/navbar/Navbar";
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
 import bg from "../../../../public/assets/parchviz.jpg";
+import piarchviz from "../../../../public/assets/piarchviz.jpg";
 import Head from "next/head";
 
 const index = () => {
@@ -103,7 +104,7 @@ const index = () => {
       <div id="archvizinteractive">
         <div className="relative">
           <div className="h-screen bg-cover bg-fixed" style={{
-            backgroundImage: `url(${bg.src})`,
+            backgroundImage: `url(${piarchviz.src})`,
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
             width: "100vw",
@@ -112,7 +113,7 @@ const index = () => {
             <div className="absolute inset-0 bg-black opacity-60"></div>
             <div className="absolute inset-0 flex justify-center items-center">
               <div className="text-center">
-                <h2 className="text-4xl font-bold text-white">Interactive Archviz</h2>
+                <h2 className="text-4xl font-bold text-white px-5">Interactive Archviz</h2>
                 {/* <p className="mt-4 text-lg text-white font-serif">{subtitle}</p> */}
               </div>
             </div>

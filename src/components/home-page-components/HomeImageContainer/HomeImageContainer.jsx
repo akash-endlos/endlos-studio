@@ -15,7 +15,7 @@ const HomeImageContainer = () => {
           />
         </div>
         <div className="w-full text-justify">
-          <h1 className='pb-5  text-white  text-4xl text-justify  h-auto'>
+          <h1 className=' font-bold text-4xl text-white '>
             About Endlos Studio
           </h1>
           <p className='  text-justify  text-[#b6b6b6]     h-auto py-5'>Welcome to Endlos Studio, a leading creative powerhouse specializing in harnessing the full potential of Unreal Engine. We are a passionate team of developers, artists, and storytellers dedicated to crafting unforgettable interactive experiences and pushing the boundaries of visual innovation.

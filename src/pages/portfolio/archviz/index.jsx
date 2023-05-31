@@ -5,26 +5,9 @@ import React, { useEffect, useState } from "react";
 import bg from "../../../../public/assets/img1.jpg";
 
 const index = () => {
-  const [setScrollState, setsetScrollState] = useState('')
-  // useEffect(() => {
-  //   if (setScrollState) {
-  //     const sectionElement = document.getElementById(setScrollState);
-  //     if (sectionElement) {
-  //       setTimeout(() => {
-  //         const scrollPosition = sectionElement.offsetTop;
-  //         window.scrollTo({
-  //           top: scrollPosition,
-  //           behavior: "smooth",
-  //         });
-  //       }, 100);
-  //     }
-  //   }
-  // }, [setScrollState]);
-
-
   return (
     <>
-      <Navbar Navclass="bg-[#111111] text-white" setsetScrollState={setsetScrollState}/>
+      <Navbar Navclass="bg-[#111111] text-white"/>
       <div className="pt-24 bg-[#111111] text-white">
         <div className="relative">
           <div className="h-screen bg-cover bg-fixed" style={{

@@ -21,7 +21,7 @@ export default function App({ Component, pageProps }) {
       <Provider store={store}>
         <ToastContainer />
         <Head>
-          <title> Unreal Engine 5.2 is now available! | Endlos Studio</title>
+          <title>Endlos Studio | Unreal Engine Possibilities</title>
           <meta name="description" content="Endlos Studio offers virtual production, architectural visualization & game development expertise. Experience the power of Unreal Engine 5.2 with us." />
           <meta name="keywords" content="unreal engine, Virtual Production, Architectural Visualization, Game Development, unreal engine 5.2, Endlos Studio" />
           <meta property="og:title" content="Unreal Engine 5.2 is now available! | Endlos Studio" />

@@ -3,11 +3,30 @@ import Navbar from "@/components/navbar/Navbar";
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
 import bg from "../../../../public/assets/img1.jpg";
+import Head from "next/head";
 
 const index = () => {
   return (
     <>
-      <Navbar Navclass="bg-[#111111] text-white"/>
+      <Head>
+        <title>Archviz - Portfolio | Endlos Studio</title>
+        <meta name="description" content="Elevate your architectural vision with our captivating archviz portfolio.Explore stunning 3D renders & animations that redefine archviz." />
+        <meta name="keywords" content="Archviz,virtual reality,augmented reality,architectural visualisation,Endlos Studio" />
+        <meta property="og:title" content="Archviz - Portfolio | Endlos Studio" />
+        <meta property="og:description" content="Elevate your architectural vision with our captivating archviz portfolio.Explore stunning 3D renders & animations that redefine archviz." />
+        <meta property="og:site_name" content="Endlos Studio " />
+        <meta property="og:type" content="article" />
+        <meta property="og:image" content="https://endlos.studio/assets/logo.png" />
+        <meta property="og:url" content="https://endlos.studio/portfolio/archviz" />
+        <meta name="twitter:title" content="Archviz - Portfolio | Endlos Studio" />
+        <meta name="twitter:description" content="Elevate your architectural vision with our captivating archviz portfolio.Explore stunning 3D renders & animations that redefine archviz." />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:url" content="https://endlos.studio/portfolio/archviz" />
+        <meta name="twitter:image" content="https://endlos.studio/assets/logo.png" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://endlos.studio/portfolio/archviz" />
+      </Head>
+      <Navbar Navclass="bg-[#111111] text-white" />
       <div className="pt-24 bg-[#111111] text-white">
         {/* <div className="relative">
           <div className="h-screen bg-cover bg-fixed" style={{

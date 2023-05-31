@@ -6,6 +6,7 @@ import PortFolioParallax from "@/components/portfolio-page-components/PortFolioP
 import PortFolioCarousel from "@/components/portfolio-page-components/PortFolioCarousel/PortFolioCarousel";
 import PortFolioCardsContainer from "@/components/portfolio-page-components/PortFolioCardsContainer/PortFolioCardsContainer";
 import bg from "../../../../public/assets/write_us_bg.jpg";
+import Head from "next/head";
 
 const index = () => {
   const router = useRouter();
@@ -21,6 +22,24 @@ const index = () => {
 
   return (
     <>
+    <Head>
+        <title>Virtual Production - Portfolio | Endlos Studio</title>
+        <meta name="description" content="Step into the word of virtual production with our portfolio.We create immersive experiences through real-time 3D environments and virtual sets." />
+        <meta name="keywords" content="Virtual Production,virtual reality,augmented reality,visualization,motion capture" />
+        <meta property="og:title" content="Virtual Production - Portfolio | Endlos Studio" />
+        <meta property="og:description" content="Step into the word of virtual production with our portfolio.We create immersive experiences through real-time 3D environments and virtual sets." />
+        <meta property="og:site_name" content="Endlos Studio" />
+        <meta property="og:type" content="article" />
+        <meta property="og:image" content="https://endlos.studio/assets/logo.png" />
+        <meta property="og:url" content="https://endlos.studio/portfolio/virtual-production" />
+        <meta name="twitter:title" content="Virtual Production - Portfolio | Endlos Studio" />
+        <meta name="twitter:description" content="Step into the word of virtual production with our portfolio.We create immersive experiences through real-time 3D environments and virtual sets." />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:url" content="https://endlos.studio/portfolio/virtual-production" />
+        <meta name="twitter:image" content="https://endlos.studio/assets/logo.png" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://endlos.studio/portfolio/virtual-production" />
+      </Head>
       <Navbar Navclass="bg-[#111111] text-white" />
       <div className="pt-24 bg-[#111111] text-white">
         <div className="relative">

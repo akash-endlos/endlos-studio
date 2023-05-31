@@ -7,10 +7,29 @@ import PortFolioCarousel from "@/components/portfolio-page-components/PortFolioC
 import PortFolioCardsContainer from "@/components/portfolio-page-components/PortFolioCardsContainer/PortFolioCardsContainer";
 import HomeProductionHouse from "@/components/home-page-components/HomeProductionHouse/HomeProductionHouse";
 import bg from "../../../../public/assets/game-development.jpg";
+import Head from "next/head";
 
 const index = () => {
   return (
     <>
+    <Head>
+        <title>Game Development - Portfolio | Endlos Studio</title>
+        <meta name="description" content="Dive into our extraordinary Game Development portfolio.Explore rich and immersive worlds, thrilling gameplay and cutting-edge graphics." />
+        <meta name="keywords" content="Game Development,unreal engine" />
+        <meta property="og:title" content="Game Development - Portfolio | Endlos Studio" />
+        <meta property="og:description" content="Dive into our extraordinary Game Development portfolio.Explore rich and immersive worlds, thrilling gameplay and cutting-edge graphics." />
+        <meta property="og:site_name" content="Endlos Studio" />
+        <meta property="og:type" content="article" />
+        <meta property="og:image" content="https://endlos.studio/assets/logo.png" />
+        <meta property="og:url" content="https://endlos.studio/portfolio/game-development" />
+        <meta name="twitter:title" content="Game Development - Portfolio | Endlos Studio" />
+        <meta name="twitter:description" content="Dive into our extraordinary Game Development portfolio.Explore rich and immersive worlds, thrilling gameplay and cutting-edge graphics." />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:url" content="https://endlos.studio/portfolio/game-development" />
+        <meta name="twitter:image" content="https://endlos.studio/assets/logo.png" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://endlos.studio/portfolio/game-development" />
+      </Head>
       <Navbar Navclass="bg-[#111111] text-white" />
       <div className="pt-24 bg-[#111111] text-white">
         <div>

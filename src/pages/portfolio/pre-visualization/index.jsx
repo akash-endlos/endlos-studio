@@ -7,10 +7,29 @@ import PortFolioCarousel from "@/components/portfolio-page-components/PortFolioC
 import PortFolioCardsContainer from "@/components/portfolio-page-components/PortFolioCardsContainer/PortFolioCardsContainer";
 import HomeProductionHouse from "@/components/home-page-components/HomeProductionHouse/HomeProductionHouse";
 import bg from "../../../../public/assets/img1.jpg";
+import Head from "next/head";
 
 const index = () => {
   return (
     <>
+     <Head>
+        <title>Previsualization - Portfolio | Endlos Studio</title>
+        <meta name="description" content="Explore the power of previsualization with our dynamic portfolio.Experience the magic of 3D " />
+        <meta name="keywords" content="previsualization,visual storytelling" />
+        <meta property="og:title" content="Previsualization - Portfolio | Endlos Studio" />
+        <meta property="og:description" content="Explore the power of previsualization with our dynamic portfolio.Experience the magic of 3D" />
+        <meta property="og:site_name" content="Endlos Studio" />
+        <meta property="og:type" content="article" />
+        <meta property="og:image" content="https://endlos.studio/assets/logo.png" />
+        <meta property="og:url" content="https://endlos.studio/portfolio/pre-visualization" />
+        <meta name="twitter:title" content="Previsualization - Portfolio | Endlos Studio" />
+        <meta name="twitter:description" content="Explore the power of previsualization with our dynamic portfolio.Experience the magic of 3D " />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:url" content="https://endlos.studio/portfolio/pre-visualization" />
+        <meta name="twitter:image" content="https://endlos.studio/assets/logo.png" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://endlos.studio/portfolio/pre-visualization" />
+      </Head>
       <Navbar Navclass="bg-[#111111] text-white" />
       <div className="pt-24 bg-[#111111] text-white">
         <div>

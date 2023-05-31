@@ -20,7 +20,7 @@ export default function App({ Component, pageProps }) {
     <>
       <Provider store={store}>
         <ToastContainer />
-        <Head>
+        {/* <Head>
           <title>Endlos Studio | Unreal Engine Possibilities</title>
           <meta name="description" content="Endlos Studio offers virtual production, architectural visualization & game development expertise. Experience the power of Unreal Engine 5.2 with us." />
           <meta name="keywords" content="unreal engine, Virtual Production, Architectural Visualization, Game Development, unreal engine 5.2, Endlos Studio" />
@@ -28,7 +28,7 @@ export default function App({ Component, pageProps }) {
           <meta property="og:description" content="Endlos Studio offers virtual production, architectural visualization & game development expertise. Experience the power of Unreal Engine 5.2 with us." />
           <meta property="og:site_name" content="Endlos Studio " />
           <meta property="og:type" content="article" />
-          <meta property="og:image" content="http://localhost:3000/assets/logo.png" />
+          <meta property="og:image" content="https://endlos.studio/assets/logo.png" />
           <meta property="og:url" content="https://endlos.studio/ " />
           <meta name="twitter:title" content="Unreal Engine 5.2 is now available! | Endlos Studio" />
           <meta name="twitter:description" content="Endlos Studio offers virtual production, architectural visualization & game development expertise. Experience the power of Unreal Engine 5.2 with us." />
@@ -37,7 +37,7 @@ export default function App({ Component, pageProps }) {
           <meta name="twitter:image" content="http://localhost:3000/assets/logo.png" />
           <meta name="robots" content="index, follow" />
           <link rel="canonical" href="https://endlos.studio/  " />
-        </Head>
+        </Head> */}
         <Component {...pageProps} />
       </Provider>
       <ScrollToTop />

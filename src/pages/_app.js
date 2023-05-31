@@ -11,6 +11,7 @@ import store from "@/redux/store";
 import { ToastContainer } from "react-toastify";
 import Head from "next/head";
 
+
 export default function App({ Component, pageProps }) {
   useEffect(() => {
     AOS.init({

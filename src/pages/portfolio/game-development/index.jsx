@@ -57,8 +57,8 @@ const index = () => {
               </div>
             </div>
           </div>
-          <div className="flex justify-center items-center py-10 px-10">
-            <img src="/assets/gd-1.jpg" alt="Card Image" />
+          <div className="flex justify-center items-center py-10  px-10">
+            <img src="/assets/gd-1.jpg" className="h-[650px] rounded-xl w-full" alt="Card Image" />
           </div>
           <div className="max-w-screen-full mx-auto py-10 px-10">
             {/* <h2 className="font-bold text-2xl">Key features:</h2> */}

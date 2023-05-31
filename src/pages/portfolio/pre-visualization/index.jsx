@@ -29,7 +29,7 @@ const index = () => {
               <div className="absolute inset-0 flex justify-center items-center">
                 <div className="text-center">
                   <h1 className=" xl:text-5xl sm:text-4xl font-bold text-white">
-                    Previsualization
+                    Pre Visualization
                   </h1>
                 </div>
               </div>
@@ -41,7 +41,7 @@ const index = () => {
               	Meticulous Planning
               </h2>
               <p>
-              Our work strategy in pre-visualization emphasizes meticulous planning and attention to detail. We focus on understanding our client's needs and objectives, enabling us to create comprehensive pre-visualization plans that encompass all aspects of the project.
+              Our work strategy in pre visualization emphasizes meticulous planning and attention to detail. We focus on understanding our client's needs and objectives, enabling us to create comprehensive pre visualization plans that encompass all aspects of the project.
               </p>
             </div>
             <div className="py-5">
@@ -49,13 +49,13 @@ const index = () => {
               Visual Storytelling
               </h2>
               <p>
-              We emphasize the power of visual storytelling in pre-visualization. Through storyboards, animatics, and 3D asset creation, we ensure that our clients can effectively communicate their narrative and pacing, allowing for informed decision-making and refining of their creative vision.
+              We emphasize the power of visual storytelling in pre visualization. Through storyboards, animatics, and 3D asset creation, we ensure that our clients can effectively communicate their narrative and pacing, allowing for informed decision-making and refining of their creative vision.
               </p>
             </div>
             <div className="py-5">
               <h2 className="font-bold text-2xl py-4">Collaboration and Feedback</h2>
               <p>
-              Our work strategy encourages collaboration and feedback throughout pre-visualization. We actively involve our clients, seeking their input and incorporating their ideas into the visualization. This collaborative approach ensures that the final result aligns with their vision.
+              Our work strategy encourages collaboration and feedback throughout pre visualization. We actively involve our clients, seeking their input and incorporating their ideas into the visualization. This collaborative approach ensures that the final result aligns with their vision.
               </p>
             </div>
           </div>

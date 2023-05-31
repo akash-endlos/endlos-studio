@@ -70,7 +70,7 @@ const index = () => {
           </div>
           <div className="bg-[#111111]">
             <div className='flex flex-col gap-5 justify-center items-center text-white py-20'>
-              <p className='text-xl max-w-screen-lg text-justify  px-5'>Our pre-visualization services offer a comprehensive and detailed approach to planning and visualizing complex scenes and sequences before they are brought to life. By leveraging advanced 3D technology and creative expertise, we help you streamline your production process, enhance communication, and optimize resource allocation. From storyboarding and animatics to virtual set design, our pre-visualization services empower you to visualize your project precisely and confidently.
+              <p className='text-xl max-w-screen-lg text-justify  px-5'>Our pre visualization services offer a comprehensive and detailed approach to planning and visualizing complex scenes and sequences before they are brought to life. By leveraging advanced 3D technology and creative expertise, we help you streamline your production process, enhance communication, and optimize resource allocation. From storyboarding and animatics to virtual set design, our pre visualization services empower you to visualize your project precisely and confidently.
               </p>
             </div>
           </div>
@@ -79,7 +79,7 @@ const index = () => {
             <div className='max-w-screen-xl mx-auto py-10 px-5'>
               <div className='py-5'>
                 <h3 className='font-bold text-2xl py-4'>Detailed Pre-Production Visualization</h3>
-                <p>We create highly detailed pre-visualizations that enable you to plan every aspect of your project, from camera angles and lighting to action and pacing.  </p>
+                <p>We create highly detailed previsualizations that enable you to plan every aspect of your project, from camera angles and lighting to action and pacing.  </p>
               </div>
               <div className='py-5'>
                 <h3 className='font-bold text-2xl py-4'>3D Asset Creation and Scene Layout</h3>
@@ -88,7 +88,7 @@ const index = () => {
               </div>
               <div className='py-5'>
                 <h3 className='font-bold text-2xl py-4'>Storyboarding and Animatics</h3>
-                <p>Visual storytelling is at the core of our pre-visualization process. We develop storyboards and animatics that showcase the narrative and pacing of your project, allowing you to make informed decisions and refine your vision before production begins.
+                <p>Visual storytelling is at the core of our pre visualization process. We develop storyboards and animatics that showcase the narrative and pacing of your project, allowing you to make informed decisions and refine your vision before production begins.
 </p>
               </div>
               <div className='py-5'>

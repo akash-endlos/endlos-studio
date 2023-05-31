@@ -9,7 +9,7 @@ const index = () => {
     <>
       <Navbar Navclass="bg-[#111111] text-white"/>
       <div className="pt-24 bg-[#111111] text-white">
-        <div className="relative">
+        {/* <div className="relative">
           <div className="h-screen bg-cover bg-fixed" style={{
             backgroundImage: `url(${bg.src})`,
             backgroundSize: "cover",
@@ -30,7 +30,7 @@ const index = () => {
             <div className="text-center">
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="relative" id="archviz">
           <div className="h-screen bg-cover bg-fixed" style={{
             backgroundImage: `url(${bg.src})`,

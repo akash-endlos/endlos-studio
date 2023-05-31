@@ -74,7 +74,7 @@ const index = () => {
           </div>
         </div>
         <PortFolioCardsContainer />
-        <div className="max-w-screen-xl mx-auto">
+        <div className="max-w-screen-2xl mx-auto">
           <div className="py-10">
             <video src="/assets/1.mp4" controls width="100%"></video>
             <div className="text-xl py-5  text-justify px-5">
@@ -141,19 +141,19 @@ const index = () => {
             <div className="inset-0 flex justify-center items-center">
               <div className="text-center">
                 {/* <h3 className="text-5xl font-bold text-white">Environment</h3> */}
-                <p className="mt-4 text-lg text-white  max-w-screen-xl text-justify">
+                <p className="mt-4 text-lg text-white  max-w-screen-2xl text-justify">
                 Immerse yourself in our portfolio of virtual production environment designs, showcasing our expertise in creating realistic and captivating virtual worlds for film, television, and other visual media.
                 </p>
-                <p className="mt-4 text-lg text-white  max-w-screen-xl text-justify">
+                <p className="mt-4 text-lg text-white  max-w-screen-2xl text-justify">
                 Explore meticulously crafted virtual sets and locations seamlessly blending physical and digital elements, enhancing storytelling and production efficiency. Our environment designs bring narratives to life with stunning visuals, dynamic lighting, and intricate details.
                 </p>
-                <p className="mt-4 text-lg text-white  max-w-screen-xl text-justify">
+                <p className="mt-4 text-lg text-white  max-w-screen-2xl text-justify">
                 Witness the power of virtual production as we showcase our ability to create diverse environments, from realistic urban landscapes and historical settings to imaginative fantasy realms and futuristic worlds.
                 </p>
               </div>
             </div>
           </div>
-          <div className="flex justify-center items-center">
+          <div className="flex max-w-screen-2xl mx-auto py-5 justify-center items-center">
             <video src="/assets/1.mp4" controls width="100%"></video>
           </div>
         </div>
@@ -180,20 +180,20 @@ const index = () => {
           <div className="bg-black flex justify-center items-center max-h-max md:h-80 lg:h-96 p-5">
             <div className="inset-0 flex justify-center items-center">
               <div className="text-center">
-                <p className="mt-4 text-lg text-white  max-w-screen-xl text-justify">
+                <p className="mt-4 text-lg text-white  max-w-screen-2xl text-justify">
                 Step into augmented reality (AR) and virtual reality (VR) with our portfolio of environment designs. Experience interactive and immersive environments that bridge the gap between the real and virtual worlds.
                 </p>
-                <p className="mt-4 text-lg text-white  max-w-screen-xl text-justify">
+                <p className="mt-4 text-lg text-white  max-w-screen-2xl text-justify">
                 Discover our AR applications that overlay digital content onto the physical environment, offering informative and engaging experiences. From interactive museum exhibits to captivating AR gaming experiences, our environment designs blend virtual elements seamlessly with the real world.
                 </p>
               </div>
             </div>
           </div>
-          <div className="flex justify-center items-center">
+          <div className="flex max-w-screen-2xl mx-auto py-5 justify-center items-center">
             <video src="/assets/1.mp4" controls width="100%"></video>
           </div>
           <PortFolioCarousel />
-          <div className="max-w-screen-xl mx-auto">
+          <div className="max-w-screen-2xl mx-auto">
             <div className="py-10">
               <video src="/assets/1.mp4" controls width="100%"></video>
               {/* <div className="text-xl py-5  text-justify px-5">

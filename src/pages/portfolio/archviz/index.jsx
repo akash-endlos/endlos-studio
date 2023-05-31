@@ -120,7 +120,7 @@ const index = () => {
           </div>
         </div>
         <div className="bg-[#111111] text-white">
-          <div className='max-w-screen-xl mx-auto py-10 px-5'>
+          <div className='max-w-screen-2xl mx-auto py-10 px-5'>
             {/* <h2 className="font-bold text-2xl">Key features:</h2> */}
             <div className='py-5'>
               <h2 className='font-bold text-2xl py-4'>User-Centric Design </h2>

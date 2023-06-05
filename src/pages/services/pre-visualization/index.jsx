@@ -21,8 +21,8 @@ const index = () => {
         <h2 className='px-5 py-5 text-justify text-lg max-w-screen-2xl mx-auto'>Previsualization, often referred to as previs, is the process of creating a preliminary visual representation of a film, animation, or any visual media project before it goes into production. It involves using various techniques such as storyboards, computer-generated imagery (CGI), animatics, and 3D models to visually plan and conceptualize the scenes, camera angles, composition, and overall visual style of the project.The purpose of previsualization is to help the filmmakers and creative team visualize and refine their ideas, identify potential challenges, and make informed decisions before investing time and resources into production. It allows them to explore different creative possibilities, experiment with camera movements and visual effects, and communicate their vision to the rest of the production team.By creating a previs, filmmakers can better understand the flow of the story, anticipate technical requirements, plan for complex action sequences, and even evaluate the feasibility of certain shots or visual effects. It serves as a valuable tool for collaboration, as it enables the director, cinematographer, production designer, and other key members of the creative team to align their vision and make adjustments early on.Overall, previsualization acts as a blueprint for the final product, helping streamline the production process, save time and resources, and ensure a more cohesive and visually compelling end result. It allows filmmakers to make critical decisions in the pre-production stage, leading to a smoother production and ultimately enhancing the overall quality of the finished project.</h2>
       </div>
       <div className='bg-[#111111] '>
-        <h2 className='px-5 py-5 text-center text-5xl font-bold text-white'>Where We Can Use Previsualization</h2>
-        <div class=" text-white grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-4 max-w-screen-2xl mx-auto py-5">
+        <h2 className='px-5 py-20 text-center text-5xl font-bold text-white'>Where We Can Use Previsualization</h2>
+        <div class=" text-white px-5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-4 max-w-screen-2xl mx-auto py-5">
           <div class="bg-[#333333] shadow-lg cursor-pointer rounded-lg overflow-hidden hover:-translate-y-1 hover:shadow-xl hover:rotate-1 hover:scale-105 transition-all duration-300">
             <img src="/assets/contact_us.jpg" alt="Image description" class="w-full h-40" />
             <div class="p-4">
@@ -47,27 +47,53 @@ const index = () => {
               <p class="text-white text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati illo facilis omnis saepe voluptatum repudiandae nam. Distinctio, fuga quisquam dicta, optio asperiores deserunt ipsum facere officiis dolorum est obcaecati accusantium? Consequuntur doloribus obcaecati praesentium aliquid cupiditate alias, in eos ad error veniam eaque ut sequi sunt necessitatibus</p>
             </div>
           </div>
-
-          {/*  */}
-          {/*  */}
         </div>
-        <div className='mx-auto max-w-screen-2xl'>
-          <div className="grid grid-cols-12 gap-1">
-            <div className="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-6 xxl:col-span-6">
-              <div className="relative bg-pink-900 h-full bg-opacity-50 rounded-tr-lg rounded-br-lg overflow-hidden">
-                <img className="w-full h-full object-cover object-center"  src="/assets/contact_us.jpg" alt="Image description" />
+        <h2 className='font-bold text-3xl text-center text-white py-10'>HOW CAN THIS SERVICE HELP YOU</h2>
+        <p className='py-10 text-white max-w-screen-2xl mx-auto text-center'>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet, a cursus ipsum ante quis turpis urna non tincidunt mattis, tortor neque adipiscing.</p>
+
+        <div className='max-w-screen-2xl mx-auto py-10'>
+          <div class="grid grid-cols-12 gap-4">
+            <div class="col-span-7">
+              <img src="/assets/blog_inside_vr_2.jpg" alt="Image" class="w-full h-auto rounded-2xl" />
+            </div>
+            <div class="col-span-5">
+              <div class="flex flex-col justify-center items-center h-full ">
+                <h2 class="text-2xl font-bold text-white mb-4">superdark photoshoot session creative</h2>
+                <p class="mb-4 text-white py-5 text-center max-w-screen-md mx-auto">Aesthetic helvetica cred ennui hella subway tile. Migas hexagon actually street art, chia truffaut food truck meh letterpress flexitarian vegan hot chicken kombucha cred.</p>
+                <button className='bg-white hover:bg-black hover:text-white text-black font-bold py-2 px-4 rounded'>Know More</button>
               </div>
             </div>
-            <div className="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-6 xxl:col-span-6">
-              <div className="p-8">
-                <p className="text-white text-xs text-justify sm:text-sm md:text-lg lg:text-xl mb-4">
-                  Forests are truly amazing places. Combining impressive biodiversity with natural beauty, the woods of the world can be both captivating and perplexing. A hike through a forest can be a relaxing way to pass an afternoon or, sometimes, a glimpse into the unknown.
-                </p>
+          </div>
+        </div>
+
+
+        {/*  */}
+        <div className='max-w-screen-2xl mx-auto py-1'>
+          <div class="grid grid-cols-12 gap-4">
+            <div class="col-span-6">
+              <div class="flex flex-col justify-start text-white h-full">
+                <h2 class="text-2xl font-bold mb-4">Previsualization</h2>
+                <p class="mb-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, dolorem quod ex assumenda dolorum voluptas beatae, officiis alias, tempore voluptatibus nam. Eligendi similique illum rerum quos voluptatibus alias dolore asperiores. Blanditiis ducimus ea, magni, praesentium eligendi a tempora distinctio aspernatur laboriosam illo ipsum laudantium voluptatem at obcaecati accusantium eos maxime. At magni provident fuga maiores maxime officiis quidem quae, neque quas atque voluptatem placeat voluptatibus labore non laudantium. Tempora eveniet assumenda beatae, quas quaerat amet ullam enim ipsa, illo similique repellat cumque, soluta nihil eligendi sit adipisci placeat labore consectetur. Ipsa, libero obcaecati eaque perspiciatis dignissimos vitae expedita quam voluptatibus et, voluptatum reprehenderit animi minus esse id cupiditate doloremque! Rem iusto officiis placeat odit ipsum, iste unde. Quasi, quae consequuntur eaque iste exercitationem incidunt quas quia libero laborum, veniam beatae ipsum explicabo sapiente, deleniti corporis aperiam at sed magnam pariatur unde? Explicabo neque, iusto architecto quam voluptas tenetur ea! Explicabo autem assumenda, quasi vitae iure quia nemo ab dicta, distinctio soluta voluptates! Ut sequi maxime, quia, mollitia blanditiis ea ullam nulla laudantium optio nam aspernatur voluptatum voluptatem modi officiis temporibus nisi dolor magni accusantium vitae. Distinctio, possimus doloremque sint quibusdam, ut, molestias quas nostrum est ratione nisi ducimus cum? Expedita?</p>
               </div>
             </div>
+            <div class="col-span-6">
+              <img src="/assets/blog_inside_vr_2.jpg" alt="Image" class="w-full h-[450px] rounded-2xl" />
+            </div>
           </div>
+          <div class="grid grid-cols-12 gap-4 py-10">
+            <div class="col-span-6">
+              <img src="/assets/blog_inside_vr_2.jpg" alt="Image" class="w-full h-[450px] rounded-2xl" />
+            </div>
+            <div class="col-span-6">
+              <div class="flex flex-col justify-start text-white h-full">
+                <h2 class="text-2xl font-bold mb-4">Previsualization</h2>
+                <p class="mb-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, dolorem quod ex assumenda dolorum voluptas beatae, officiis alias, tempore voluptatibus nam. Eligendi similique illum rerum quos voluptatibus alias dolore asperiores. Blanditiis ducimus ea, magni, praesentium eligendi a tempora distinctio aspernatur laboriosam illo ipsum laudantium voluptatem at obcaecati accusantium eos maxime. At magni provident fuga maiores maxime officiis quidem quae, neque quas atque voluptatem placeat voluptatibus labore non laudantium. Tempora eveniet assumenda beatae, quas quaerat amet ullam enim ipsa, illo similique repellat cumque, soluta nihil eligendi sit adipisci placeat labore consectetur. Ipsa, libero obcaecati eaque perspiciatis dignissimos vitae expedita quam voluptatibus et, voluptatum reprehenderit animi minus esse id cupiditate doloremque! Rem iusto officiis placeat odit ipsum, iste unde. Quasi, quae consequuntur eaque iste exercitationem incidunt quas quia libero laborum, veniam beatae ipsum explicabo sapiente, deleniti corporis aperiam at sed magnam pariatur unde? Explicabo neque, iusto architecto quam voluptas tenetur ea! Explicabo autem assumenda, quasi vitae iure quia nemo ab dicta, distinctio soluta voluptates! Ut sequi maxime, quia, mollitia blanditiis ea ullam nulla laudantium optio nam aspernatur voluptatum voluptatem modi officiis temporibus nisi dolor magni accusantium vitae. Distinctio, possimus doloremque sint quibusdam, ut, molestias quas nostrum est ratione nisi ducimus cum? Expedita?</p>
+              </div>
+            </div>
 
+          </div>
         </div>
+
       </div>
 
       <Footer />

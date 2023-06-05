@@ -18,14 +18,14 @@ const index = () => {
           </div>
         </div>
 
-<div class="z-30 relative items-center justify-center w-full h-full overflow-auto">
-    <div class="inset-0 h-screen bg-cover bg-center" 
+<div class="z-30 relative items-center justify-center w-full h-full ">
+    <div class="inset-0 h-[600px] bg-cover bg-center" 
         style={{
           backgroundImage: `url("https://wallpapercave.com/wp/wp6689710.jpg")`,
         }}
     >
     </div>
-    <div class="absolute inset-0 z-20 flex items-center justify-center h-screen w-full bg-gray-900 bg-opacity-75"></div>
+    <div class="absolute inset-0 z-20 flex items-center justify-center h-[600px] w-full bg-gray-900 bg-opacity-75"></div>
     <div class="absolute inset-0  z-30  flex flex-col items-center justify-center">
         <div class="shadow-2xl rounded-lg w-4/5 h-96 bg-cover bg-center"
              style={{
@@ -63,8 +63,8 @@ const index = () => {
         </div>
     </div>
 </div>
-        <h2 className='px-5 py-5 text-center text-5xl font-bold'>Previsualization</h2>
-        <h2 className='px-5 py-5 text-justify text-lg max-w-screen-2xl mx-auto'>Previsualization, often referred to as previs, is the process of creating a preliminary visual representation of a film, animation, or any visual media project before it goes into production. It involves using various techniques such as storyboards, computer-generated imagery (CGI), animatics, and 3D models to visually plan and conceptualize the scenes, camera angles, composition, and overall visual style of the project.The purpose of previsualization is to help the filmmakers and creative team visualize and refine their ideas, identify potential challenges, and make informed decisions before investing time and resources into production. It allows them to explore different creative possibilities, experiment with camera movements and visual effects, and communicate their vision to the rest of the production team.By creating a previs, filmmakers can better understand the flow of the story, anticipate technical requirements, plan for complex action sequences, and even evaluate the feasibility of certain shots or visual effects. It serves as a valuable tool for collaboration, as it enables the director, cinematographer, production designer, and other key members of the creative team to align their vision and make adjustments early on.Overall, previsualization acts as a blueprint for the final product, helping streamline the production process, save time and resources, and ensure a more cohesive and visually compelling end result. It allows filmmakers to make critical decisions in the pre-production stage, leading to a smoother production and ultimately enhancing the overall quality of the finished project.</h2>
+        {/* <h2 className='px-5 py-5 text-center text-5xl font-bold'>Previsualization</h2>
+        <h2 className='px-5 py-5 text-justify text-lg max-w-screen-2xl mx-auto'>Previsualization, often referred to as previs, is the process of creating a preliminary visual representation of a film, animation, or any visual media project before it goes into production. It involves using various techniques such as storyboards, computer-generated imagery (CGI), animatics, and 3D models to visually plan and conceptualize the scenes, camera angles, composition, and overall visual style of the project.The purpose of previsualization is to help the filmmakers and creative team visualize and refine their ideas, identify potential challenges, and make informed decisions before investing time and resources into production. It allows them to explore different creative possibilities, experiment with camera movements and visual effects, and communicate their vision to the rest of the production team.By creating a previs, filmmakers can better understand the flow of the story, anticipate technical requirements, plan for complex action sequences, and even evaluate the feasibility of certain shots or visual effects. It serves as a valuable tool for collaboration, as it enables the director, cinematographer, production designer, and other key members of the creative team to align their vision and make adjustments early on.Overall, previsualization acts as a blueprint for the final product, helping streamline the production process, save time and resources, and ensure a more cohesive and visually compelling end result. It allows filmmakers to make critical decisions in the pre-production stage, leading to a smoother production and ultimately enhancing the overall quality of the finished project.</h2> */}
       </div>
       <div className='bg-[#111111] '>
         <h2 className='px-5 py-20 text-center text-5xl font-bold text-white'>Where We Can Use Previsualization</h2>

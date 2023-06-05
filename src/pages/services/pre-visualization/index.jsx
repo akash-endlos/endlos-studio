@@ -18,51 +18,51 @@ const index = () => {
           </div>
         </div>
 
-<div class="z-30 relative items-center justify-center w-full h-full ">
-    <div class="inset-0 h-[600px] bg-cover bg-center" 
-        style={{
-          backgroundImage: `url("/assets/contact_us.jpg")`,
-        }}
-    >
-    </div>
-    <div class="absolute inset-0 z-20 flex items-center justify-center h-[600px] w-full bg-gray-900 bg-opacity-75"></div>
-    <div class="absolute inset-0  z-30  flex flex-col items-center justify-center">
-        <div class="shadow-2xl rounded-lg w-4/5 h-96 bg-cover bg-center"
-             style={{
+        <div class="z-30 relative items-center justify-center w-full h-full ">
+          <div class="inset-0 h-[600px] bg-cover bg-center"
+            style={{
               backgroundImage: `url("/assets/contact_us.jpg")`,
-            }}>
+            }}
+          >
+          </div>
+          <div class="absolute inset-0 z-20 flex items-center justify-center h-[600px] w-full bg-gray-900 bg-opacity-75"></div>
+          <div class="absolute inset-0  z-30  flex flex-col items-center justify-center">
+            <div class="shadow-2xl rounded-lg w-4/5 h-96 bg-cover bg-center"
+              style={{
+                backgroundImage: `url("/assets/contact_us.jpg")`,
+              }}>
 
-            <div class="grid grid-cols-12 gap-1">
+              <div class="grid grid-cols-12 gap-1">
                 <div class="relative my-6 px-8 col-span-12 sm:col-span-12 md:col-span-7 lg:col-span-7 xxl:col-span-7">
-                    <div class="border-l-4 border-gray-200 py-20 px-5 mx-2 absolute left-0">
-                        <p class="italic text-white text-xl md:text-4xl lg:text-6xl uppercase text-center  font-semibold ">
-                        Previsualization
-                        </p>
-                    </div>
-                    <div class="text-white font-semibold text-xl mb-4">Previsualization</div>
-                    <div class="absolute border-gray-200 border-t-4 bottom-0 py-1 px-4 w-4/5"></div>
+                  <div class="border-l-4 border-gray-200 py-20 px-5 mx-2 absolute left-0">
+                    <p class="italic text-white text-xl md:text-4xl lg:text-6xl uppercase text-center  font-semibold ">
+                      Previsualization
+                    </p>
+                  </div>
+                  <div class="text-white font-semibold text-xl mb-4">Previsualization</div>
+                  <div class="absolute border-gray-200 border-t-4 bottom-0 py-1 px-4 w-4/5"></div>
                 </div>
                 <div class="col-span-12 sm:col-span-12 md:col-span-5 lg:col-span-5 xxl:col-span-5">
-                    <div class="relative bg-green-900 h-full md:h-96 w-full bg-opacity-50 rounded-tr-lg rounded-br-lg">
-                        <div class="p-8">
-                            <p class="text-gray-100 text-xs md:text-sm lg:text-xl mb-4">
-                            Previsualization, often referred to as previs, is the process of creating a preliminary visual representation of a film, animation, or any visual media project before it goes into production.
-                            </p>
-                            <div class="bottom-0 absolute p-2 right-0">
-                                <button class="opacity-75  hover:bg-gray-900 hover:text-white text-sm font-bold py-2 px-4 rounded inline-flex items-center">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                    </svg>
-                                    <span>LEARN MORE</span>
-                                </button> 
-                            </div>
-                        </div>
+                  <div class="relative bg-green-900 h-full md:h-96 w-full bg-opacity-50 rounded-tr-lg rounded-br-lg">
+                    <div class="p-8">
+                      <p class="text-gray-100 text-xs md:text-sm lg:text-xl mb-4">
+                        Previsualization, often referred to as previs, is the process of creating a preliminary visual representation of a film, animation, or any visual media project before it goes into production.
+                      </p>
+                      <div class="bottom-0 absolute p-2 right-0">
+                        <button class="opacity-75  hover:bg-gray-900 hover:text-white text-sm font-bold py-2 px-4 rounded inline-flex items-center">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                          </svg>
+                          <span>LEARN MORE</span>
+                        </button>
+                      </div>
                     </div>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-</div>
         {/* <h2 className='px-5 py-5 text-center text-5xl font-bold'>Previsualization</h2>
         <h2 className='px-5 py-5 text-justify text-lg max-w-screen-2xl mx-auto'>Previsualization, often referred to as previs, is the process of creating a preliminary visual representation of a film, animation, or any visual media project before it goes into production. It involves using various techniques such as storyboards, computer-generated imagery (CGI), animatics, and 3D models to visually plan and conceptualize the scenes, camera angles, composition, and overall visual style of the project.The purpose of previsualization is to help the filmmakers and creative team visualize and refine their ideas, identify potential challenges, and make informed decisions before investing time and resources into production. It allows them to explore different creative possibilities, experiment with camera movements and visual effects, and communicate their vision to the rest of the production team.By creating a previs, filmmakers can better understand the flow of the story, anticipate technical requirements, plan for complex action sequences, and even evaluate the feasibility of certain shots or visual effects. It serves as a valuable tool for collaboration, as it enables the director, cinematographer, production designer, and other key members of the creative team to align their vision and make adjustments early on.Overall, previsualization acts as a blueprint for the final product, helping streamline the production process, save time and resources, and ensure a more cohesive and visually compelling end result. It allows filmmakers to make critical decisions in the pre-production stage, leading to a smoother production and ultimately enhancing the overall quality of the finished project.</h2> */}
       </div>
@@ -139,8 +139,8 @@ const index = () => {
 
           </div>
         </div>
-
       </div>
+      <div className='border-b border-gray-200'></div>
 
       <Footer />
     </>

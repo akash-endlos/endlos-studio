@@ -14,7 +14,7 @@ const index = () => {
             className="mx-auto w-full h-auto"
           />
           <div className="absolute inset-0 flex items-center justify-center">
-            <h1 className="xl:text-5xl font-bold text-white">Services</h1>
+            <h1 className="xl:text-5xl font-bold text-white">Previsualization</h1>
           </div>
         </div>
 

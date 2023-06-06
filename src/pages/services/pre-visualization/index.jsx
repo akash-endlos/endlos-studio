@@ -63,12 +63,10 @@ const index = () => {
             </div>
           </div>
         </div>
-        {/* <h2 className='px-5 py-5 text-center text-5xl font-bold'>Previsualization</h2>
-        <h2 className='px-5 py-5 text-justify text-lg max-w-screen-2xl mx-auto'>Previsualization, often referred to as previs, is the process of creating a preliminary visual representation of a film, animation, or any visual media project before it goes into production. It involves using various techniques such as storyboards, computer-generated imagery (CGI), animatics, and 3D models to visually plan and conceptualize the scenes, camera angles, composition, and overall visual style of the project.The purpose of previsualization is to help the filmmakers and creative team visualize and refine their ideas, identify potential challenges, and make informed decisions before investing time and resources into production. It allows them to explore different creative possibilities, experiment with camera movements and visual effects, and communicate their vision to the rest of the production team.By creating a previs, filmmakers can better understand the flow of the story, anticipate technical requirements, plan for complex action sequences, and even evaluate the feasibility of certain shots or visual effects. It serves as a valuable tool for collaboration, as it enables the director, cinematographer, production designer, and other key members of the creative team to align their vision and make adjustments early on.Overall, previsualization acts as a blueprint for the final product, helping streamline the production process, save time and resources, and ensure a more cohesive and visually compelling end result. It allows filmmakers to make critical decisions in the pre-production stage, leading to a smoother production and ultimately enhancing the overall quality of the finished project.</h2> */}
       </div>
       <div className='bg-[#111111] '>
-        <h2 className='px-5 py-20 text-center text-5xl font-bold text-white'>Where We Can Use Previsualization</h2>
-        <div class=" text-white px-5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-4 max-w-screen-2xl mx-auto py-5">
+        {/* <h2 className='px-5 py-20 text-center text-5xl font-bold text-white'>Where We Can Use Previsualization</h2> */}
+        {/* <div class=" text-white px-5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-4 max-w-screen-2xl mx-auto py-5">
           <div class="bg-[#333333] shadow-lg cursor-pointer rounded-lg overflow-hidden hover:-translate-y-1 hover:shadow-xl hover:rotate-1 hover:scale-105 transition-all duration-300">
             <img src="/assets/contact_us.jpg" alt="Image description" class="w-full h-40" />
             <div class="p-4">
@@ -93,7 +91,29 @@ const index = () => {
               <p class="text-white text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati illo facilis omnis saepe voluptatum repudiandae nam. Distinctio, fuga quisquam dicta, optio asperiores deserunt ipsum facere officiis dolorum est obcaecati accusantium? Consequuntur doloribus obcaecati praesentium aliquid cupiditate alias, in eos ad error veniam eaque ut sequi sunt necessitatibus</p>
             </div>
           </div>
-        </div>
+        </div> */}
+
+<div className='max-w-screen-2xl mx-auto'>
+<p className='text-white font-semibold'>HOW WE DO IT</p>
+          <div class="grid grid-cols-12  py-10">
+            <div class="col-span-4">
+              <div className='flex flex-col items-start justify-center'>
+                <h2 class="text-5xl text-white max-w-screen-sm font-bold mb-4">Your Vision.
+                </h2>
+                <span class="text-5xl text-white max-w-screen-sm font-bold mb-4">Our Studio Network.</span>
+              </div>
+            </div>
+            <div class="col-span-8">
+              <div class="flex flex-col justify-start text-white h-full text-xl leading-10">
+                <p class="mb-4 text-justify">With the Vū Network™, we combine the power of creativity and technology to create an environment for collaboration, creative control and freedom. Blurring the lines between what's physical and what's digital, we can take you anywhere you want to go - all from a single location.</p>
+              </div>
+            </div>
+
+
+          </div>
+</div>
+
+
         <h2 className='font-bold text-3xl text-center text-white py-10'>HOW CAN THIS SERVICE HELP YOU</h2>
         <p className='py-10 text-white max-w-screen-2xl mx-auto text-center'>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet, a cursus ipsum ante quis turpis urna non tincidunt mattis, tortor neque adipiscing.</p>
 
@@ -126,7 +146,7 @@ const index = () => {
               <img src="/assets/blog_inside_vr_2.jpg" alt="Image" class="w-full h-[450px] rounded-2xl" />
             </div>
           </div>
-          <div class="grid grid-cols-12 gap-4 py-10">
+          {/* <div class="grid grid-cols-12 gap-4 py-10">
             <div class="col-span-6">
               <img src="/assets/blog_inside_vr_2.jpg" alt="Image" class="w-full h-[450px] rounded-2xl" />
             </div>
@@ -137,7 +157,7 @@ const index = () => {
               </div>
             </div>
 
-          </div>
+          </div> */}
         </div>
 
         <div className='max-w-screen-2xl mx-auto'>
@@ -207,7 +227,6 @@ const index = () => {
             </div>
             <div class="col-span-8">
               <div class="flex flex-col justify-start text-white h-full text-xl leading-10">
-                {/* <h2 class="text-2xl font-bold mb-4">Previsualization</h2> */}
                 <p class="mb-4 text-justify">With the Vū Network™, we combine the power of creativity and technology to create an environment for collaboration, creative control and freedom. Blurring the lines between what's physical and what's digital, we can take you anywhere you want to go - all from a single location.</p>
               </div>
             </div>

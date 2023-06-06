@@ -10,17 +10,17 @@ export const menuItems = [
     link: "",
     children: [
       {
-        childmenu: "Pre Visualization",
-        link: "/services/pre-visualization",
-      },
-      {
         childmenu: "Virtual production",
         link: "",
       },
       {
-        childmenu: "Game Development",
-        link: "",
+        childmenu: "Pre Visualization",
+        link: "/services/pre-visualization",
       },
+      // {
+      //   childmenu: "Game Development",
+      //   link: "",
+      // },
       {
         childmenu: "Archviz",
         link: "",

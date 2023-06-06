@@ -5,6 +5,9 @@ import Footer from "@/components/footer/Footer";
 import { FiUserCheck, FiThumbsUp } from "react-icons/fi";
 import { BiCheckShield } from "react-icons/bi";
 import { TbBulb } from "react-icons/tb";
+import {SiAdobecreativecloud} from 'react-icons/si'
+import {HiOutlineUser} from 'react-icons/hi'
+import {GiGrowth} from 'react-icons/gi'
 
 const index = () => {
   return (
@@ -79,7 +82,7 @@ const index = () => {
             </p>
           </div>
           <div className="flex justify-center items-center flex-col">
-            <TbBulb size={45} />
+            <SiAdobecreativecloud size={40} />
             <p className="text-justify py-2">Creativity</p>
             <p className="lead text-justify">
               Creativity is at the core of our work. We encourage out-of-the-box
@@ -89,7 +92,7 @@ const index = () => {
             </p>
           </div>
           <div className="flex justify-center items-center flex-col">
-            <TbBulb size={45} />
+            <HiOutlineUser size={45} />
             <p className="text-justify py-2">Client-Centric Approach</p>
             <p className="lead text-justify">
               Our clients are at the heart of everything we do. We listen
@@ -100,7 +103,7 @@ const index = () => {
             </p>
           </div>
           <div className="flex justify-center items-center flex-col">
-            <TbBulb size={45} />
+            <GiGrowth size={45} />
             <p className="text-justify py-2">Continuous Growth</p>
             <p className="lead text-justify">
               We are committed to constant growth and learning. We invest in

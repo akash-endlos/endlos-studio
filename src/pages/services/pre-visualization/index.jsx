@@ -139,6 +139,65 @@ const index = () => {
 
           </div>
         </div>
+
+       <div className='max-w-screen-2xl mx-auto'>
+       <div class="grid grid-cols-12 gap-4 py-10">
+            <div class="col-span-6">
+            <img src="/assets/blog_inside_vr_2.jpg" alt="Your Image" class="rounded-full w-full h-auto" />
+            </div>
+            <div class="col-span-6">
+              <div class="flex flex-col justify-start text-white h-full">
+                <h2 class="text-2xl font-bold mb-4">Previsualization</h2>
+                <p class="mb-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, dolorem quod ex assumenda dolorum voluptas beatae, officiis alias, tempore voluptatibus nam. Eligendi similique illum rerum quos voluptatibus alias dolore asperiores. Blanditiis ducimus ea, magni, praesentium eligendi a tempora distinctio aspernatur laboriosam illo ipsum laudantium voluptatem at obcaecati accusantium eos maxime. At magni provident fuga maiores maxime officiis quidem quae, neque quas atque voluptatem placeat voluptatibus labore non laudantium. Tempora eveniet assumenda beatae, quas quaerat amet ullam enim ipsa, illo similique repellat cumque, </p>
+              </div>
+            </div>
+
+          </div>
+          <div class="grid grid-cols-12 gap-4 py-10">
+            
+            <div class="col-span-6">
+              <div class="flex flex-col justify-start text-white h-full">
+                <h2 class="text-2xl font-bold mb-4">Previsualization</h2>
+                <p class="mb-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, dolorem quod ex assumenda dolorum voluptas beatae, officiis alias, tempore voluptatibus nam. Eligendi similique illum rerum quos voluptatibus alias dolore asperiores. Blanditiis ducimus ea, magni, praesentium eligendi a tempora distinctio aspernatur laboriosam illo ipsum laudantium voluptatem at obcaecati accusantium eos maxime. At magni provident fuga maiores maxime officiis quidem quae, neque quas atque voluptatem placeat voluptatibus labore non laudantium. Tempora eveniet assumenda beatae, quas quaerat amet ullam enim ipsa, illo similique repellat cumque, </p>
+              </div>
+            </div>
+            <div class="col-span-6">
+            <img src="/assets/blog_inside_vr_2.jpg" alt="Your Image" class="rounded-full w-full h-auto" />
+            </div>
+
+          </div>
+          <div class="grid grid-cols-12 gap-4 py-10">
+            
+            <div class="col-span-6">
+              <div class="flex flex-col justify-start text-white h-full">
+                <h2 class="text-2xl font-bold mb-4">Previsualization</h2>
+                <p class="mb-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, dolorem quod ex assumenda dolorum voluptas beatae, officiis alias, tempore voluptatibus nam. Eligendi similique illum rerum quos voluptatibus alias dolore asperiores. Blanditiis ducimus ea, magni, praesentium eligendi a tempora distinctio aspernatur laboriosam illo ipsum laudantium voluptatem at obcaecati accusantium eos maxime. At magni provident fuga maiores maxime officiis quidem quae, neque quas atque voluptatem placeat voluptatibus labore non laudantium. Tempora eveniet assumenda beatae, quas quaerat amet ullam enim ipsa, illo similique repellat cumque, </p>
+              </div>
+            </div>
+            <div class="col-span-6">
+            <div className='flex items-end justify-center'>
+            <img src="/assets/blog_inside_vr_2.jpg" alt="Your Image" class="rounded-full w-96 h-96" />
+            </div>
+            </div>
+
+          </div>
+          <div class="grid grid-cols-12 gap-4 py-10">
+          <div class="col-span-6">
+            <div className='flex items-end justify-center'>
+            <img src="/assets/blog_inside_vr_2.jpg" alt="Your Image" class="rounded-full w-96 h-96" />
+            </div>
+            </div>
+            <div class="col-span-6">
+              <div class="flex flex-col justify-start text-white h-full">
+                <h2 class="text-2xl font-bold mb-4">Previsualization</h2>
+                <p class="mb-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, dolorem quod ex assumenda dolorum voluptas beatae, officiis alias, tempore voluptatibus nam. Eligendi similique illum rerum quos voluptatibus alias dolore asperiores. Blanditiis ducimus ea, magni, praesentium eligendi a tempora distinctio aspernatur laboriosam illo ipsum laudantium voluptatem at obcaecati accusantium eos maxime. At magni provident fuga maiores maxime officiis quidem quae, neque quas atque voluptatem placeat voluptatibus labore non laudantium. Tempora eveniet assumenda beatae, quas quaerat amet ullam enim ipsa, illo similique repellat cumque, </p>
+              </div>
+            </div>
+           
+
+          </div>
+       </div>
+
       </div>
       <div className='border-b border-gray-200'></div>
 

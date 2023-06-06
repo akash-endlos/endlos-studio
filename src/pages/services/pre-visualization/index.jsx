@@ -93,8 +93,8 @@ const index = () => {
           </div>
         </div> */}
 
-<div className='max-w-screen-2xl mx-auto'>
-<p className='text-white font-semibold'>HOW WE DO IT</p>
+        <div className='max-w-screen-2xl mx-auto'>
+          <p className='text-white font-semibold py-10'>HOW WE DO IT</p>
           <div class="grid grid-cols-12  py-10">
             <div class="col-span-4">
               <div className='flex flex-col items-start justify-center'>
@@ -111,112 +111,42 @@ const index = () => {
 
 
           </div>
-</div>
+        </div>
 
 
         <h2 className='font-bold text-3xl text-center text-white py-10'>HOW CAN THIS SERVICE HELP YOU</h2>
         <p className='py-10 text-white max-w-screen-2xl mx-auto text-center'>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet, a cursus ipsum ante quis turpis urna non tincidunt mattis, tortor neque adipiscing.</p>
-
-        <div className='max-w-screen-2xl mx-auto py-10'>
-          <div class="grid grid-cols-12 gap-4">
-            <div class="col-span-7">
-              <img src="/assets/blog_inside_vr_2.jpg" alt="Image" class="w-full h-auto rounded-2xl" />
-            </div>
-            <div class="col-span-5">
-              <div class="flex flex-col justify-center items-center h-full ">
-                <h2 class="text-2xl font-bold text-white mb-4">superdark photoshoot session creative</h2>
-                <p class="mb-4 text-white py-5 text-center max-w-screen-md mx-auto">Aesthetic helvetica cred ennui hella subway tile. Migas hexagon actually street art, chia truffaut food truck meh letterpress flexitarian vegan hot chicken kombucha cred.</p>
-                <button className='bg-white hover:bg-black hover:text-white text-black font-bold py-2 px-4 rounded'>Know More</button>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-        {/*  */}
         <div className='max-w-screen-2xl mx-auto py-1'>
-          <div class="grid grid-cols-12 gap-4">
-            <div class="col-span-6">
-              <div class="flex flex-col justify-start text-white h-full">
-                <h2 class="text-2xl font-bold mb-4">Previsualization</h2>
-                <p class="mb-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, dolorem quod ex assumenda dolorum voluptas beatae, officiis alias, tempore voluptatibus nam. Eligendi similique illum rerum quos voluptatibus alias dolore asperiores. Blanditiis ducimus ea, magni, praesentium eligendi a tempora distinctio aspernatur laboriosam illo ipsum laudantium voluptatem at obcaecati accusantium eos maxime. At magni provident fuga maiores maxime officiis quidem quae, neque quas atque voluptatem placeat voluptatibus labore non laudantium. Tempora eveniet assumenda beatae, quas quaerat amet ullam enim ipsa, illo similique repellat cumque, </p>
-              </div>
-            </div>
-            <div class="col-span-6">
-              <img src="/assets/blog_inside_vr_2.jpg" alt="Image" class="w-full h-[450px] rounded-2xl" />
-            </div>
-          </div>
-          {/* <div class="grid grid-cols-12 gap-4 py-10">
-            <div class="col-span-6">
-              <img src="/assets/blog_inside_vr_2.jpg" alt="Image" class="w-full h-[450px] rounded-2xl" />
-            </div>
-            <div class="col-span-6">
-              <div class="flex flex-col justify-start text-white h-full">
-                <h2 class="text-2xl font-bold mb-4">Previsualization</h2>
-                <p class="mb-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, dolorem quod ex assumenda dolorum voluptas beatae, officiis alias, tempore voluptatibus nam. Eligendi similique illum rerum quos voluptatibus alias dolore asperiores. Blanditiis ducimus ea, magni, praesentium eligendi a tempora distinctio aspernatur laboriosam illo ipsum laudantium voluptatem at obcaecati accusantium eos maxime. At magni provident fuga maiores maxime officiis quidem quae, neque quas atque voluptatem placeat voluptatibus labore non laudantium. Tempora eveniet assumenda beatae, quas quaerat amet ullam enim ipsa, illo similique repellat cumque, </p>
-              </div>
-            </div>
-
-          </div> */}
-        </div>
-
-        <div className='max-w-screen-2xl mx-auto'>
           <div class="grid grid-cols-12 gap-4 py-10">
             <div class="col-span-6">
-              <img src="/assets/blog_inside_vr_2.jpg" alt="Your Image" class="rounded-full w-full h-auto" />
-            </div>
-            <div class="col-span-6">
               <div class="flex flex-col justify-start text-white h-full">
-                <h2 class="text-2xl font-bold mb-4">Previsualization</h2>
-                <p class="mb-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, dolorem quod ex assumenda dolorum voluptas beatae, officiis alias, tempore voluptatibus nam. Eligendi similique illum rerum quos voluptatibus alias dolore asperiores. Blanditiis ducimus ea, magni, praesentium eligendi a tempora distinctio aspernatur laboriosam illo ipsum laudantium voluptatem at obcaecati accusantium eos maxime. At magni provident fuga maiores maxime officiis quidem quae, neque quas atque voluptatem placeat voluptatibus labore non laudantium. Tempora eveniet assumenda beatae, quas quaerat amet ullam enim ipsa, illo similique repellat cumque, </p>
-              </div>
-            </div>
-
-          </div>
-          <div class="grid grid-cols-12 gap-4 py-10">
-
-            <div class="col-span-6">
-              <div class="flex flex-col justify-start text-white h-full">
-                <h2 class="text-2xl font-bold mb-4">Previsualization</h2>
-                <p class="mb-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, dolorem quod ex assumenda dolorum voluptas beatae, officiis alias, tempore voluptatibus nam. Eligendi similique illum rerum quos voluptatibus alias dolore asperiores. Blanditiis ducimus ea, magni, praesentium eligendi a tempora distinctio aspernatur laboriosam illo ipsum laudantium voluptatem at obcaecati accusantium eos maxime. At magni provident fuga maiores maxime officiis quidem quae, neque quas atque voluptatem placeat voluptatibus labore non laudantium. Tempora eveniet assumenda beatae, quas quaerat amet ullam enim ipsa, illo similique repellat cumque, </p>
+                <h2 class="text-6xl max-w-screen-sm font-bold mb-4">Environment Design and Production Management</h2>
+                <h2 class="text-2xl max-w-screen-sm font-bold mb-4">Unreal Environment Design</h2>
+                <p class="mb-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, dolorem quod ex assumenda dolorum voluptas beatae, officiis alias, tempore voluptatibus nam. Eligendi similique illum rerum quos voluptatibus alias dolore asperiores. Blanditiis ducimus ea, magni, praesentium eligendi a tempora distinctio aspernatur laboriosam illo ipsum laudantium voluptatem at obcaecati accusantium eos maxime. </p>
+                <h2 class="text-2xl max-w-screen-sm font-bold mb-4">Unreal Environment Design</h2>
+                <p class="mb-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, dolorem quod ex assumenda dolorum voluptas beatae, officiis alias, tempore voluptatibus nam. Eligendi similique illum rerum quos voluptatibus alias dolore asperiores. </p>
               </div>
             </div>
             <div class="col-span-6">
-              <img src="/assets/blog_inside_vr_2.jpg" alt="Your Image" class="rounded-full w-full h-auto" />
+              <img src="/assets/blog_inside_vr_2.jpg" alt="Image" class="w-full h-[500px] rounded-2xl" />
             </div>
-
-          </div>
-          <div class="grid grid-cols-12 gap-4 py-10">
-
-            <div class="col-span-6">
-              <div class="flex flex-col justify-start text-white h-full">
-                <h2 class="text-2xl font-bold mb-4">Previsualization</h2>
-                <p class="mb-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, dolorem quod ex assumenda dolorum voluptas beatae, officiis alias, tempore voluptatibus nam. Eligendi similique illum rerum quos voluptatibus alias dolore asperiores. Blanditiis ducimus ea, magni, praesentium eligendi a tempora distinctio aspernatur laboriosam illo ipsum laudantium voluptatem at obcaecati accusantium eos maxime. At magni provident fuga maiores maxime officiis quidem quae, neque quas atque voluptatem placeat voluptatibus labore non laudantium. Tempora eveniet assumenda beatae, quas quaerat amet ullam enim ipsa, illo similique repellat cumque, </p>
-              </div>
-            </div>
-            <div class="col-span-6">
-              <div className='flex items-end justify-center'>
-                <img src="/assets/blog_inside_vr_2.jpg" alt="Your Image" class="rounded-full w-96 h-96" />
-              </div>
-            </div>
-
           </div>
           <div class="grid grid-cols-12 gap-4 py-10">
             <div class="col-span-6">
-              <div className='flex items-end justify-center'>
-                <img src="/assets/blog_inside_vr_2.jpg" alt="Your Image" class="rounded-full w-96 h-96" />
-              </div>
+              <img src="/assets/blog_inside_vr_2.jpg" alt="Image" class="w-full h-[500px] rounded-2xl" />
             </div>
             <div class="col-span-6">
               <div class="flex flex-col justify-start text-white h-full">
-                <h2 class="text-2xl font-bold mb-4">Previsualization</h2>
-                <p class="mb-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, dolorem quod ex assumenda dolorum voluptas beatae, officiis alias, tempore voluptatibus nam. Eligendi similique illum rerum quos voluptatibus alias dolore asperiores. Blanditiis ducimus ea, magni, praesentium eligendi a tempora distinctio aspernatur laboriosam illo ipsum laudantium voluptatem at obcaecati accusantium eos maxime. At magni provident fuga maiores maxime officiis quidem quae, neque quas atque voluptatem placeat voluptatibus labore non laudantium. Tempora eveniet assumenda beatae, quas quaerat amet ullam enim ipsa, illo similique repellat cumque, </p>
+                <h2 class="text-6xl max-w-screen-sm font-bold mb-4">Environment Design and Production Management</h2>
+                <h2 class="text-2xl max-w-screen-sm font-bold mb-4">Unreal Environment Design</h2>
+                <p class="mb-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, dolorem quod ex assumenda dolorum voluptas beatae, officiis alias, tempore voluptatibus nam. Eligendi similique illum rerum quos voluptatibus alias dolore asperiores. Blanditiis ducimus ea, magni, praesentium eligendi a tempora distinctio aspernatur laboriosam illo ipsum laudantium voluptatem at obcaecati accusantium eos maxime. </p>
+                <h2 class="text-2xl max-w-screen-sm font-bold mb-4">Unreal Environment Design</h2>
+                <p class="mb-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, dolorem quod ex assumenda dolorum voluptas beatae, officiis alias, tempore voluptatibus nam. Eligendi similique illum rerum quos voluptatibus alias dolore asperiores. </p>
               </div>
             </div>
 
-
           </div>
-          <p className='text-white font-semibold'>HOW WE DO IT</p>
+          <p className='text-white font-semibold py-10'>HOW WE DO IT</p>
           <div class="grid grid-cols-12  py-10">
             <div class="col-span-4">
               <div className='flex flex-col items-start justify-center'>
@@ -230,26 +160,17 @@ const index = () => {
                 <p class="mb-4 text-justify">With the Vū Network™, we combine the power of creativity and technology to create an environment for collaboration, creative control and freedom. Blurring the lines between what's physical and what's digital, we can take you anywhere you want to go - all from a single location.</p>
               </div>
             </div>
-
-
-          </div>
-          <div class="grid grid-cols-12 gap-4 py-10">
-
-            <div class="col-span-6">
-              <div class="flex flex-col justify-start text-white h-full">
-                <h2 class="text-2xl font-bold mb-4">Previsualization</h2>
-                <p class="mb-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, dolorem quod ex assumenda dolorum voluptas beatae, officiis alias, tempore voluptatibus nam. Eligendi similique illum rerum quos voluptatibus alias dolore asperiores. Blanditiis ducimus ea, magni, praesentium eligendi a tempora distinctio aspernatur laboriosam illo ipsum laudantium voluptatem at obcaecati accusantium eos maxime. At magni provident fuga maiores maxime officiis quidem quae, neque quas atque voluptatem placeat voluptatibus labore non laudantium. Tempora eveniet assumenda beatae, quas quaerat amet ullam enim ipsa, illo similique repellat cumque, </p>
-              </div>
-            </div>
-            <div class="col-span-6">
-              <div className='flex items-end justify-center'>
-                <img src="/assets/blog_inside_vr_2.jpg" alt="Your Image" class="w-full h-auto rounded-md" />
-              </div>
-            </div>
-
           </div>
         </div>
-
+        <div className="bg-[#111111] max-w-screen-2xl mx-auto py-10">
+          <div class="flex justify-center items-center px-10">
+            <div class="xl:w-full">
+              <div class="rounded-3xl overflow-hidden">
+                <video src='../assets/write_us_video.mp4' class="w-full h-auto" controls></video>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <div className='border-b border-gray-200'></div>
 

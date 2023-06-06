@@ -41,9 +41,10 @@ const HomeCarousel = () => {
                 <p className="text-white xl:text-5xl md:text-xl max-w-screen-md px-5 font-extrabold">Shaping Digital Realities for</p>
                 <span className="text-white xl:text-5xl md:text-xl max-w-screen-md px-5 font-extrabold">Endless Possibilities</span>
                 <p className="text-white xl:text-2xl md:text-xl max-w-screen-md px-5 font-extrabold leading-10">Welcome to Endlos Studio, a leading creative powerhouse specializing in harnessing the full potential of Unreal Engine.</p>
-                <div className="px-5"> <Link href='/contact-us/write-to-us'><button className="px-5 py-3 text-white bg-gradient-to-br rounded-lg font-semibold from-pink-900 to-cyan-600 hover:bg-gradient-to-br hover:from-pink-900 hover:to-cyan-800">
-                  Contact Us
-                </button>
+                <div className="px-5"> <Link href='/contact-us/write-to-us'><button className="px-5 py-3 text-white bg-gradient-to-br rounded-lg font-semibold from-pink-900 to-cyan-600 hover:bg-gradient-to-br hover:from-pink-800 hover:to-cyan-500  hover:shadow-lg">
+  Contact Us
+</button>
+
                 </Link></div>
 
 

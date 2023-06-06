@@ -18,80 +18,60 @@ const index = () => {
           </div>
         </div>
 
-        <div class="z-30 relative items-center justify-center w-full h-full ">
-          <div class="inset-0 h-[600px] bg-cover bg-center"
-            style={{
-              backgroundImage: `url("/assets/spice_route.jpg")`,
-            }}
-          >
-          </div>
-          <div class="absolute inset-0 z-20 flex items-center justify-center h-[600px] w-full bg-gray-900 bg-opacity-75"></div>
-          <div class="absolute inset-0  z-30  flex flex-col items-center justify-center">
-            <div class="shadow-2xl rounded-lg w-4/5 h-96 bg-cover bg-center"
-              style={{
-                backgroundImage: `url("/assets/spice_route.jpg")`,
-              }}>
-
-              <div class="grid grid-cols-12 gap-1 bg-gray-900 bg-opacity-50">
-                <div class="relative  my-6 px-8 col-span-12 sm:col-span-12 md:col-span-7 lg:col-span-7 xxl:col-span-7">
-                  <div class="border-l-4  border-gray-200 py-20 px-5 mx-2 absolute left-0">
-                    <p class="italic  text-white text-xl md:text-4xl lg:text-6xl uppercase text-center  font-semibold ">
-                      Previsualization
-                    </p>
-                  </div>
-                  <div class="text-white font-semibold text-xl mb-4">Previsualization</div>
-                  <div class="absolute border-gray-200 border-t-4 bottom-0 py-1 px-4 w-4/5"></div>
-                </div>
-                <div class="col-span-12 sm:col-span-12 md:col-span-5 lg:col-span-5 xxl:col-span-5">
-                  <div class="relative bg-green-900 h-full md:h-96 w-full bg-opacity-50 rounded-tr-lg rounded-br-lg">
-                    <div class="p-8">
-                      <p class="text-gray-100 text-xs md:text-sm lg:text-xl mb-4">
-                        Previsualization, often referred to as previs, is the process of creating a preliminary visual representation of a film, animation, or any visual media project before it goes into production.
-                      </p>
-                      <div class="bottom-0 absolute p-2 right-0">
-                        <button class="opacity-75  hover:bg-gray-900 hover:text-white text-sm font-bold py-2 px-4 rounded inline-flex items-center">
-                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-                          </svg>
-                          <span>LEARN MORE</span>
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+        <div class="max-w-screen-2xl mx-auto px-5">
+          <div class="grid xl:grid-cols-12 lg:grid-flow-row py-10">
+            <div class="col-span-12 lg:col-span-4">
+              <div class="flex flex-col items-start justify-center">
+                <h2 class="text-4xl  text-white max-w-sm font-bold mb-4">Your Vision Our Studio Network</h2>
+              </div>
+            </div>
+            <div class="col-span-12 lg:col-span-8">
+              <div class="flex flex-col justify-start text-white h-full text-xl  leading-8">
+                <p class="mb-4 text-justify">With the Vū Network™, we combine the power of creativity and technology to create an environment for collaboration, creative control and freedom. Blurring the lines between what's physical and what's digital, we can take you anywhere you want to go - all from a single location.</p>
               </div>
             </div>
           </div>
         </div>
+
       </div>
       <div className='bg-[#111111] '>
-        {/* <h2 className='px-5 py-20 text-center text-5xl font-bold text-white'>Where We Can Use Previsualization</h2> */}
-        {/* <div class=" text-white px-5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-4 max-w-screen-2xl mx-auto py-5">
-          <div class="bg-[#333333] shadow-lg cursor-pointer rounded-lg overflow-hidden hover:-translate-y-1 hover:shadow-xl hover:rotate-1 hover:scale-105 transition-all duration-300">
-            <img src="/assets/contact_us.jpg" alt="Image description" class="w-full h-40" />
-            <div class="p-4">
-              <p class="text-white text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati illo facilis omnis saepe voluptatum repudiandae nam. Distinctio, fuga quisquam dicta, optio asperiores deserunt ipsum facere officiis dolorum est obcaecati accusantium? Consequuntur doloribus obcaecati praesentium aliquid cupiditate alias, in eos ad error veniam eaque ut sequi sunt necessitatibus</p>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-screen-2xl mx-auto py-10">
+          <div class="grid gap-4">
+            <div>
+              <img class="h-auto max-w-full rounded-lg" src="/assets/archviz_1.jpg" alt="" />
+            </div>
+            <div>
+              <img class="h-auto max-w-full rounded-lg" src="/assets/archviz_2.jpg" alt="" />
             </div>
           </div>
-          <div class="bg-[#333333] shadow-lg cursor-pointer rounded-lg overflow-hidden hover:-translate-y-1 hover:shadow-xl hover:rotate-1 hover:scale-105 transition-all duration-300">
-            <img src="/assets/contact_us.jpg" alt="Image description" class="w-full h-40" />
-            <div class="p-4">
-              <p class="text-white text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati illo facilis omnis saepe voluptatum repudiandae nam. Distinctio, fuga quisquam dicta, optio asperiores deserunt ipsum facere officiis dolorum est obcaecati accusantium? Consequuntur doloribus obcaecati praesentium aliquid cupiditate alias, in eos ad error veniam eaque ut sequi sunt necessitatibus</p>
+          <div class="grid gap-4">
+            <div>
+              <img class="h-auto max-w-full rounded-lg" src="/assets/archviz_5.jpg" alt="" />
+            </div>
+            <div>
+              <img class="h-auto max-w-full rounded-lg" src="/assets/archviz_6.jpg" alt="" />
             </div>
           </div>
-          <div class="bg-[#333333] shadow-lg cursor-pointer rounded-lg overflow-hidden hover:-translate-y-1 hover:shadow-xl hover:rotate-1 hover:scale-105 transition-all duration-300">
-            <img src="/assets/contact_us.jpg" alt="Image description" class="w-full h-40" />
-            <div class="p-4">
-              <p class="text-white text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati illo facilis omnis saepe voluptatum repudiandae nam. Distinctio, fuga quisquam dicta, optio asperiores deserunt ipsum facere officiis dolorum est obcaecati accusantium? Consequuntur doloribus obcaecati praesentium aliquid cupiditate alias, in eos ad error veniam eaque ut sequi sunt necessitatibus</p>
+          <div class="grid gap-4">
+            <div>
+              <img class="h-auto max-w-full rounded-lg" src="/assets/archviz_7.jpg" alt="" />
+            </div>
+            <div>
+              <img class="h-auto max-w-full rounded-lg" src="/assets/archviz_1.jpg" alt="" />
             </div>
           </div>
-          <div class="bg-[#333333] shadow-lg cursor-pointer rounded-lg overflow-hidden hover:-translate-y-1 hover:shadow-xl hover:rotate-1 hover:scale-105 transition-all duration-300">
-            <img src="/assets/contact_us.jpg" alt="Image description" class="w-full h-40" />
-            <div class="p-4">
-              <p class="text-white text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati illo facilis omnis saepe voluptatum repudiandae nam. Distinctio, fuga quisquam dicta, optio asperiores deserunt ipsum facere officiis dolorum est obcaecati accusantium? Consequuntur doloribus obcaecati praesentium aliquid cupiditate alias, in eos ad error veniam eaque ut sequi sunt necessitatibus</p>
+          <div class="grid gap-4">
+            <div>
+              <img class="h-auto max-w-full rounded-lg" src="/assets/archviz_3.jpg" alt="" />
+            </div>
+            <div>
+              <img class="h-auto max-w-full rounded-lg" src="/assets/archviz_5.jpg" alt="" />
             </div>
           </div>
-        </div> */}
+        </div>
+
+
+
 
         <div className='max-w-screen-2xl mx-auto'>
           <p className='text-white font-semibold py-10'>HOW WE DO IT</p>
@@ -161,8 +141,20 @@ const index = () => {
             </div>
 
           </div>
-        </div>
-        <div className='max-w-screen-2xl mx-auto'>
+          <div class="grid grid-cols-12 gap-10 py-10">
+            <div class="col-span-6">
+              <div class="flex flex-col justify-start text-white h-full">
+                <h2 class="text-6xl max-w-screen-sm font-bold mb-4">Environment Design and Production Management</h2>
+                <h2 class="text-2xl max-w-screen-sm font-bold mb-4">Unreal Environment Design</h2>
+                <p class="mb-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, dolorem quod ex assumenda dolorum voluptas beatae, officiis alias, tempore voluptatibus nam. Eligendi similique illum rerum quos voluptatibus alias dolore asperiores. Blanditiis ducimus ea, magni, praesentium eligendi a tempora distinctio aspernatur laboriosam illo ipsum laudantium voluptatem at obcaecati accusantium eos maxime. </p>
+                <h2 class="text-2xl max-w-screen-sm font-bold mb-4">Unreal Environment Design</h2>
+                <p class="mb-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, dolorem quod ex assumenda dolorum voluptas beatae, officiis alias, tempore voluptatibus nam. Eligendi similique illum rerum quos voluptatibus alias dolore asperiores. </p>
+              </div>
+            </div>
+            <div class="col-span-6">
+              <img src="/assets/blog_inside_vr_2.jpg" alt="Image" class="w-full h-[500px] rounded-2xl" />
+            </div>
+          </div>
           <p className='text-white font-semibold py-10'>HOW WE DO IT</p>
           <div class="grid grid-cols-12  py-10">
             <div class="col-span-4">
@@ -177,15 +169,34 @@ const index = () => {
                 <p class="mb-4 text-justify">With the Vū Network™, we combine the power of creativity and technology to create an environment for collaboration, creative control and freedom. Blurring the lines between what's physical and what's digital, we can take you anywhere you want to go - all from a single location.</p>
               </div>
             </div>
-
+          </div>
+          <div class="grid grid-cols-12 gap-10 py-10">
+            <div class="col-span-6">
+              <img src="/assets/blog_inside_vr_2.jpg" alt="Image" class="w-full h-[500px] rounded-2xl" />
+            </div>
+            <div class="col-span-6">
+              <div class="flex flex-col justify-end text-white h-full">
+                <h2 class="text-6xl max-w-screen-sm font-bold mb-4">Environment Design and Production Management</h2>
+                <h2 class="text-2xl max-w-screen-sm font-bold mb-4">Unreal Environment Design</h2>
+                <p class="mb-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, dolorem quod ex assumenda dolorum voluptas beatae, officiis alias, tempore voluptatibus nam. Eligendi similique illum rerum quos voluptatibus alias dolore asperiores. Blanditiis ducimus ea, magni, praesentium eligendi a tempora distinctio aspernatur laboriosam illo ipsum laudantium voluptatem at obcaecati accusantium eos maxime. </p>
+                <h2 class="text-2xl max-w-screen-sm font-bold mb-4">Unreal Environment Design</h2>
+                <p class="mb-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, dolorem quod ex assumenda dolorum voluptas beatae, officiis alias, tempore voluptatibus nam. Eligendi similique illum rerum quos voluptatibus alias dolore asperiores. </p>
+              </div>
+            </div>
 
           </div>
         </div>
-        <div className="bg-[#111111] max-w-screen-2xl mx-auto py-10">
-          <div class="flex justify-center items-center px-10">
-            <div class="xl:w-full">
-              <div class="rounded-3xl overflow-hidden">
-                <video src='../assets/write_us_video.mp4' class="w-full h-auto" controls></video>
+        <div class="max-w-screen-2xl mx-auto px-5">
+          <div class="grid xl:grid-cols-12 lg:grid-flow-row py-10">
+            <div class="col-span-12 lg:col-span-4">
+              <div class="flex flex-col items-start justify-center">
+                <h2 class="text-4xl  text-white max-w-sm font-bold mb-4">Connect For Endless Possibilities</h2>
+              </div>
+              <button className='rounded-lg bg-black text-white py-3 px-4 font-semibold hover:bg-white hover:text-black'>Connect With Us</button>
+            </div>
+            <div class="col-span-12 lg:col-span-8">
+              <div class="flex flex-col justify-start text-white h-full text-xl  leading-8">
+                <p class="mb-4 text-justify">We are providing Unreal Engine Solutions. If you need any assitance for same feel free to connect because we are Here for you</p>
               </div>
             </div>
           </div>

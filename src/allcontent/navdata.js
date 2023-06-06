@@ -31,7 +31,7 @@ export const menuItems = [
           },
           {
             subchild: "AR & VR application",
-            link: "",
+            link: "/services/archviz/ar-vr",
           },
         ]
       },

@@ -140,10 +140,10 @@ const index = () => {
           </div>
         </div>
 
-       <div className='max-w-screen-2xl mx-auto'>
-       <div class="grid grid-cols-12 gap-4 py-10">
+        <div className='max-w-screen-2xl mx-auto'>
+          <div class="grid grid-cols-12 gap-4 py-10">
             <div class="col-span-6">
-            <img src="/assets/blog_inside_vr_2.jpg" alt="Your Image" class="rounded-full w-full h-auto" />
+              <img src="/assets/blog_inside_vr_2.jpg" alt="Your Image" class="rounded-full w-full h-auto" />
             </div>
             <div class="col-span-6">
               <div class="flex flex-col justify-start text-white h-full">
@@ -154,7 +154,7 @@ const index = () => {
 
           </div>
           <div class="grid grid-cols-12 gap-4 py-10">
-            
+
             <div class="col-span-6">
               <div class="flex flex-col justify-start text-white h-full">
                 <h2 class="text-2xl font-bold mb-4">Previsualization</h2>
@@ -162,12 +162,12 @@ const index = () => {
               </div>
             </div>
             <div class="col-span-6">
-            <img src="/assets/blog_inside_vr_2.jpg" alt="Your Image" class="rounded-full w-full h-auto" />
+              <img src="/assets/blog_inside_vr_2.jpg" alt="Your Image" class="rounded-full w-full h-auto" />
             </div>
 
           </div>
           <div class="grid grid-cols-12 gap-4 py-10">
-            
+
             <div class="col-span-6">
               <div class="flex flex-col justify-start text-white h-full">
                 <h2 class="text-2xl font-bold mb-4">Previsualization</h2>
@@ -175,17 +175,17 @@ const index = () => {
               </div>
             </div>
             <div class="col-span-6">
-            <div className='flex items-end justify-center'>
-            <img src="/assets/blog_inside_vr_2.jpg" alt="Your Image" class="rounded-full w-96 h-96" />
-            </div>
+              <div className='flex items-end justify-center'>
+                <img src="/assets/blog_inside_vr_2.jpg" alt="Your Image" class="rounded-full w-96 h-96" />
+              </div>
             </div>
 
           </div>
           <div class="grid grid-cols-12 gap-4 py-10">
-          <div class="col-span-6">
-            <div className='flex items-end justify-center'>
-            <img src="/assets/blog_inside_vr_2.jpg" alt="Your Image" class="rounded-full w-96 h-96" />
-            </div>
+            <div class="col-span-6">
+              <div className='flex items-end justify-center'>
+                <img src="/assets/blog_inside_vr_2.jpg" alt="Your Image" class="rounded-full w-96 h-96" />
+              </div>
             </div>
             <div class="col-span-6">
               <div class="flex flex-col justify-start text-white h-full">
@@ -193,10 +193,43 @@ const index = () => {
                 <p class="mb-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, dolorem quod ex assumenda dolorum voluptas beatae, officiis alias, tempore voluptatibus nam. Eligendi similique illum rerum quos voluptatibus alias dolore asperiores. Blanditiis ducimus ea, magni, praesentium eligendi a tempora distinctio aspernatur laboriosam illo ipsum laudantium voluptatem at obcaecati accusantium eos maxime. At magni provident fuga maiores maxime officiis quidem quae, neque quas atque voluptatem placeat voluptatibus labore non laudantium. Tempora eveniet assumenda beatae, quas quaerat amet ullam enim ipsa, illo similique repellat cumque, </p>
               </div>
             </div>
-           
+
 
           </div>
-       </div>
+          <p className='text-white font-semibold'>HOW WE DO IT</p>
+          <div class="grid grid-cols-12  py-10">
+            <div class="col-span-4">
+              <div className='flex flex-col items-start justify-center'>
+                <h2 class="text-5xl text-white max-w-screen-sm font-bold mb-4">Your Vision.
+                </h2>
+                <span class="text-5xl text-white max-w-screen-sm font-bold mb-4">Our Studio Network.</span>
+              </div>
+            </div>
+            <div class="col-span-8">
+              <div class="flex flex-col justify-start text-white h-full text-xl leading-10">
+                {/* <h2 class="text-2xl font-bold mb-4">Previsualization</h2> */}
+                <p class="mb-4 text-justify">With the Vū Network™, we combine the power of creativity and technology to create an environment for collaboration, creative control and freedom. Blurring the lines between what's physical and what's digital, we can take you anywhere you want to go - all from a single location.</p>
+              </div>
+            </div>
+
+
+          </div>
+          <div class="grid grid-cols-12 gap-4 py-10">
+
+            <div class="col-span-6">
+              <div class="flex flex-col justify-start text-white h-full">
+                <h2 class="text-2xl font-bold mb-4">Previsualization</h2>
+                <p class="mb-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, dolorem quod ex assumenda dolorum voluptas beatae, officiis alias, tempore voluptatibus nam. Eligendi similique illum rerum quos voluptatibus alias dolore asperiores. Blanditiis ducimus ea, magni, praesentium eligendi a tempora distinctio aspernatur laboriosam illo ipsum laudantium voluptatem at obcaecati accusantium eos maxime. At magni provident fuga maiores maxime officiis quidem quae, neque quas atque voluptatem placeat voluptatibus labore non laudantium. Tempora eveniet assumenda beatae, quas quaerat amet ullam enim ipsa, illo similique repellat cumque, </p>
+              </div>
+            </div>
+            <div class="col-span-6">
+              <div className='flex items-end justify-center'>
+                <img src="/assets/blog_inside_vr_2.jpg" alt="Your Image" class="w-full h-auto rounded-md" />
+              </div>
+            </div>
+
+          </div>
+        </div>
 
       </div>
       <div className='border-b border-gray-200'></div>

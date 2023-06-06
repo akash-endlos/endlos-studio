@@ -40,7 +40,11 @@ const HomeCarousel = () => {
     <p className="text-white xl:text-5xl md:text-xl max-w-screen-md px-5 font-extrabold">Shaping Digital Realities for</p>
     <span className="text-white xl:text-5xl md:text-xl max-w-screen-md px-5 font-extrabold">Endless Possibilities</span>
     <p className="text-white xl:text-2xl md:text-xl max-w-screen-md px-5 font-extrabold leading-10">Welcome to Endlos Studio, a leading creative powerhouse specializing in harnessing the full potential of Unreal Engine.</p>
-    <div className="px-5"><button className="px-5 py-3 rounded-lg font-semibold border border-transparent bg-[#111111] text-white hover:bg-white hover:text-black">Contact Us</button></div>
+    <div className="px-5"> <button className="px-5 py-3 text-white bg-gradient-to-br rounded-lg font-semibold from-pink-900 to-cyan-600">
+  Contact Us
+</button></div>
+   
+
   </div>
 </div>
 

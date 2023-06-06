@@ -6,9 +6,9 @@ const HomeImageContainer = () => {
   return (
     <div className="bg-[#111111] h-auto min-h-screen relative rounded-sm">
       <div className="px-10 py-10">
-        <div className="w-full">
+        <div className="w-full pb-5">
           <img
-            className="float-right ml-6"
+            className="float-right rounded-full ml-6 pt-10"
             src="/assets/home-2-img.jpg"
             alt="img_5"
             width={900}
@@ -25,7 +25,13 @@ const HomeImageContainer = () => {
           <p className='  text-justify  text-[#b6b6b6]     h-auto py-5'>Our multidisciplinary team comprises talented individuals with diverse backgrounds in game design, 3D modeling, animation, programming, and more. We combine a harmonious blend of artistic vision and technical expertise, ensuring that every project we undertake is a seamless fusion of creativity and technical excellence.From the initial concept to the final product, we work closely with our clients to understand their unique goals and aspirations. Whether you're a game developer looking to create an immersive and engaging gaming experience, an architect seeking to visualize your design with photorealistic precision, or a business owner exploring the potential of VR and AR for marketing and training, we have the skills and expertise to bring your vision to life.
             Our commitment to quality is unwavering. We believe in delivering nothing short of excellence in every aspect of our work. With a keen eye for detail, meticulous craftsmanship, and a dedication to staying at the forefront of industry trends, we ensure that every project surpasses expectations and stands out from the crowd.
           </p>
-          <p className='  text-justify  text-[#b6b6b6]     h-auto py-5'>Endlos Studio is not just a service provider; we are your trusted partner in turning dreams into reality. We value collaboration, communication, and long-lasting relationships with our clients. Our team works closely with you throughout development, providing regular updates, soliciting feedback, and fine-tuning every element to align with your vision.
+          <img
+            className="float-left pt-5 mr-6 rounded-full"
+            src="/assets/home-2-img.jpg"
+            alt="img_5"
+            width={900}
+          />
+          <p className='  text-justify  text-[#b6b6b6]     h-auto pt-20 pb-5'>Endlos Studio is not just a service provider; we are your trusted partner in turning dreams into reality. We value collaboration, communication, and long-lasting relationships with our clients. Our team works closely with you throughout development, providing regular updates, soliciting feedback, and fine-tuning every element to align with your vision.
           </p>
           <p className='  text-justify  text-[#b6b6b6]     h-auto py-5'>As a forward-thinking studio, we are committed to innovation and continuous improvement. We stay abreast of the latest advancements in Unreal Engine technology, embracing new features and techniques that push the boundaries of what is possible. Our passion for learning and exploration drives us to deliver cutting-edge solutions that leave a lasting impression.
           </p>

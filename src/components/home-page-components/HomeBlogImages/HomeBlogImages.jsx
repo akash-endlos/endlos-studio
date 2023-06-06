@@ -5,7 +5,7 @@ const HomeBlogImages = () => {
     return (
 
         <div className='grid pt-10 bg-[#111111]'>
-            <div className="bg-[#111111] flex justify-center items-center py-16 p-5 border-t-2 border-gray-900">
+            <div className="bg-[#111111] flex justify-center items-center pb-16  border-gray-900">
             <div className="inset-0 flex justify-center items-center">
               <div className="text-center">
                 <h2 className="text-4xl font-bold text-white">

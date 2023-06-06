@@ -2,6 +2,7 @@ import Footer from '@/components/footer/Footer'
 import Navbar from '@/components/navbar/Navbar'
 import React from 'react'
 import styles from '../../../../styles/HomeCarousel.module.css'
+import Link from 'next/link'
 const index = () => {
   return (
     <>
@@ -189,13 +190,15 @@ const index = () => {
           <div class="grid xl:grid-cols-12 lg:grid-flow-row py-10">
             <div class="col-span-12 lg:col-span-4">
               <div class="flex flex-col items-start justify-center">
-                <h2 class="text-4xl  text-white max-w-sm font-bold mb-4">Connect For Endless Possibilities</h2>
+                <h2 class="text-4xl  text-white max-w-sm font-bold mb-4">Connect with Us and Unlock a World of Creativity!</h2>
               </div>
+              <Link href='/contact-us/write-to-us'>
               <button className='rounded-lg bg-black text-white py-3 px-4 font-semibold hover:bg-white hover:text-black'>Connect With Us</button>
+              </Link>
             </div>
             <div class="col-span-12 lg:col-span-8">
               <div class="flex flex-col justify-start text-white h-full text-xl  leading-8">
-                <p class="mb-4 text-justify">We are providing Unreal Engine Solutions. If you need any assitance for same feel free to connect because we are Here for you</p>
+                <p class="mb-4 text-justify">Get ready to collaborate with passionate individuals who are dedicated to pushing the boundaries of creativity. Our community is a hub for artistic synergy and collective growth. Together, we can achieve greatness!</p>
               </div>
             </div>
           </div>

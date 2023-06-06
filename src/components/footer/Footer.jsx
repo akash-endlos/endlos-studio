@@ -36,6 +36,7 @@ const Footer = () => {
   }, [scrollingData]);
   return (
     <footer className="bg-[#111111] text-white">
+      <div className='border-b border-gray-50'></div>
       <div className="flex justify-between items-center flex-wrap px-5 max-w-screen-2xl mx-auto py-6">
         <div>
         <div className=" py-4">

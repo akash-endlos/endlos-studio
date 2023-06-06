@@ -3,7 +3,7 @@ import React from 'react'
 const HomeServices = () => {
   return (
     <div className='bg-[#111111]'>
-      <div className="mx-auto max-w-screen-2xl pb-5 pt-24  " >
+      <div className="mx-auto max-w-screen-2xl pb-5  " >
         <p className='text-center font-bold text-4xl text-white pt-10 pb-16'>OUR SERVICES</p>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 pb-10">
           <div className="bg-[#111111] p-4 text-center">

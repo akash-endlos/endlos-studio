@@ -8,7 +8,7 @@ const HomeImageContainer = () => {
       <div className="px-10 py-10">
         <div className="w-full pb-5">
           <img
-            className="float-right rounded-full ml-6 pt-10"
+            className="float-right rounded-lg ml-6 "
             src="/assets/home-2-img.jpg"
             alt="img_5"
             width={900}
@@ -26,12 +26,12 @@ const HomeImageContainer = () => {
             Our commitment to quality is unwavering. We believe in delivering nothing short of excellence in every aspect of our work. With a keen eye for detail, meticulous craftsmanship, and a dedication to staying at the forefront of industry trends, we ensure that every project surpasses expectations and stands out from the crowd.
           </p>
           <img
-            className="float-left pt-5 mr-6 rounded-full"
+            className="float-left  mr-6 rounded-lg"
             src="/assets/home-2-img.jpg"
             alt="img_5"
             width={900}
           />
-          <p className='  text-justify  text-[#b6b6b6]     h-auto pt-20 pb-5'>Endlos Studio is not just a service provider; we are your trusted partner in turning dreams into reality. We value collaboration, communication, and long-lasting relationships with our clients. Our team works closely with you throughout development, providing regular updates, soliciting feedback, and fine-tuning every element to align with your vision.
+          <p className='  text-justify  text-[#b6b6b6]     h-auto pt-5 pb-5'>Endlos Studio is not just a service provider; we are your trusted partner in turning dreams into reality. We value collaboration, communication, and long-lasting relationships with our clients. Our team works closely with you throughout development, providing regular updates, soliciting feedback, and fine-tuning every element to align with your vision.
           </p>
           <p className='  text-justify  text-[#b6b6b6]     h-auto py-5'>As a forward-thinking studio, we are committed to innovation and continuous improvement. We stay abreast of the latest advancements in Unreal Engine technology, embracing new features and techniques that push the boundaries of what is possible. Our passion for learning and exploration drives us to deliver cutting-edge solutions that leave a lasting impression.
           </p>

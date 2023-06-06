@@ -1,20 +1,19 @@
 import Footer from '@/components/footer/Footer'
 import Navbar from '@/components/navbar/Navbar'
 import React from 'react'
-
+import styles from '../../../styles/HomeCarousel.module.css'
 const index = () => {
   return (
     <>
       <Navbar />
       <div className='bg-[#111111] text-white'>
         <div className="relative">
-          <img
-            src="/assets/contact_us.jpg"
-            alt="dummy-img"
-            className="mx-auto w-full h-auto"
-          />
-          <div className="absolute inset-0 flex items-center justify-center">
-            <h1 className="xl:text-5xl font-bold text-white">Previsualization</h1>
+          <video src='/assets/Endlos_Furniture.mp4' autoPlay loop muted className={`${styles.videocontainer}  `} />
+          <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center gap-4 justify-center px-5 bg-opacity-60 bg-black ">
+            <p className="text-white xl:text-5xl md:text-xl max-w-screen-md px-5 font-extrabold">Previsualization</p>
+
+
+
           </div>
         </div>
 

@@ -11,7 +11,7 @@ export const menuItems = [
     children: [
       {
         childmenu: "Virtual production",
-        link: "",
+        link: "/services/virtual-production",
       },
       {
         childmenu: "Pre Visualization",
@@ -27,7 +27,7 @@ export const menuItems = [
         subchildren: [
           {
             subchild: "Walkthrough",
-            link: "",
+            link: "/services/archviz/walkthrough",
           },
           {
             subchild: "AR & VR application",

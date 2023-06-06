@@ -13,10 +13,10 @@ const HomeWriteUsContainer = () => {
               </div>
             </div>
           </div>
-                <div className='container mx-auto py-10 px-5'>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div className='max-w-screen-2xl mx-auto py-10 px-5'>
+                    <div className="grid xl:grid-rows-1 lg:grid-cols-2 gap-4">
                         <FormContainer />
-                        <img src='/assets/write_us_pic.jpg' alt='writeus'/>
+                        <img src='/assets/endlos_company.jpg' className='rounded-lg w-full h-auto' alt='writeus'/>
                     </div>
                 </div>
         </div>

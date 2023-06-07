@@ -12,29 +12,30 @@ import HomeWriteUsContainer from "@/components/home-page-components/HomeWriteUsC
 import Footer from "@/components/footer/Footer";
 import HomeProductionHouse from "@/components/home-page-components/HomeProductionHouse/HomeProductionHouse";
 import { useRouter } from "next/router";
+import { getMetatags } from "@/redux/action/metatags/creator";
+import { useDispatch, useSelector } from "react-redux";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
-  const path = useRouter().pathname
-  const [metaTags, setMetaTags] = useState("");
+  const path = useRouter().pathname;
+  const metaTags = useSelector(state => state.allMetatags.payload);
+  const dispatch = useDispatch();
 
   useEffect(() => {
-    axios
-      .get(`https://seo-api.endlos.live/api/v1/head/get?webPageUrl=${path}`)
-      .then((res) => {
-        const headTag = res.data.data.WebDetails.headTag;
-        setMetaTags(headTag);
-      })
-      .catch((error) => {
-        console.error("Failed to fetch meta tags:", error);
-      });
-  }, []);
+   if(window)
+   {
+    const host = window.location.host
+    const hostWithPath = `${host}${path}`
+    dispatch(getMetatags('SET_META_TAGS', hostWithPath));
+   }
+  }, [dispatch, path]);
+
   useEffect(() => {
     if (metaTags) {
-      const headTagElement = document.createElement("div");
+      const headTagElement = document.createElement('div');
       headTagElement.innerHTML = metaTags;
-      const headElement = document.querySelector("head");
+      const headElement = document.querySelector('head');
       headElement.appendChild(headTagElement);
     }
   }, [metaTags]);

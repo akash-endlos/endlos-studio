@@ -4,11 +4,13 @@ import { blogReducer } from './blog/reducer'
 import { careerReducer } from './career/reducer'
 import { newsReducer } from './news/reducer'
 import { scrollReducer } from './scrolling/reducer'
+import { metaTagReducer } from './metatags/reducer'
 
 export default combineReducers({
 	counter: counterReducer,
 	allblogs: blogReducer,
 	allcareers:careerReducer,
 	allnews:newsReducer,
-	scrollState:scrollReducer
+	scrollState:scrollReducer,
+	allMetatags:metaTagReducer
 })

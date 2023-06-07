@@ -5,9 +5,9 @@ import Footer from "@/components/footer/Footer";
 import { FiUserCheck, FiThumbsUp } from "react-icons/fi";
 import { BiCheckShield } from "react-icons/bi";
 import { TbBulb } from "react-icons/tb";
-import {SiAdobecreativecloud} from 'react-icons/si'
-import {HiOutlineUser} from 'react-icons/hi'
-import {GiGrowth} from 'react-icons/gi'
+import { SiAdobecreativecloud } from 'react-icons/si'
+import { HiOutlineUser } from 'react-icons/hi'
+import { GiGrowth } from 'react-icons/gi'
 import { HeadTag } from "@/components/HeaadTag/HeadTag";
 import { getMetatags } from "@/redux/action/metatags/creator";
 import { useDispatch } from "react-redux";
@@ -25,8 +25,8 @@ const index = () => {
     }
   }, [dispatch, path]);
   return (
-    <div>
-      <HeadTag/>
+    <>
+      <HeadTag />
       <Navbar />
       <div className="relative">
         <div
@@ -63,7 +63,7 @@ const index = () => {
       </div>
 
       <div className="bg-[#111111] text-white">
-      <h2 className="text-3xl font-bold text-white py-10 text-center">Core Values</h2>
+        <h2 className="text-3xl font-bold text-white py-10 text-center">Core Values</h2>
         <div className=" grid  lg:grid-cols-3 md:grid-cols-2 pt-10 pb-16 max-w-7xl mx-auto gap-20 px-5">
           <div className="flex justify-center items-center flex-col">
             <TbBulb size={45} />
@@ -132,7 +132,7 @@ const index = () => {
       </div>
 
       <Footer />
-    </div>
+    </>
   );
 };
 

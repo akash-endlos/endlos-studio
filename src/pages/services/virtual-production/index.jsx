@@ -3,6 +3,8 @@ import Navbar from '@/components/navbar/Navbar'
 import React from 'react'
 import styles from '../../../styles/HomeCarousel.module.css'
 import Link from 'next/link'
+import piarchviz from "../../../../public/assets/piarchviz.jpg";
+
 const index = () => {
   return (
     <>
@@ -185,13 +187,35 @@ const index = () => {
           </div>
         </div>
         <div className='border-t border-gray-700'></div>
-        <div className="max-w-screen-2xl mx-auto px-5">
+        {/* <div className="max-w-screen-2xl mx-auto px-5">
            <div className='h-52 flex flex-col gap-5 justify-center items-center'>
             <p className='text-white font-bold text-4xl text-justify'>Connect with Us and Unlock a World of Creativity!</p>
             <Link href='/contact-us/write-to-us'>
                <button className='rounded-lg bg-black text-white py-3 px-4 font-semibold hover:bg-white hover:text-black'>Connect With Us</button>
             </Link>
            </div>
+        </div> */}
+        <div className="relative">
+          <div className="h-screen bg-cover bg-fixed" style={{
+            backgroundImage: `url(${piarchviz.src})`,
+            backgroundSize: "cover",
+            backgroundRepeat: "no-repeat",
+            width: "100vw",
+            height: "450px",
+          }}>
+            <div className="absolute inset-0 bg-black opacity-60"></div>
+            <div className="absolute inset-0 flex justify-center items-center">
+              <div className="text-center">
+              <div className='h-52 flex flex-col gap-5 justify-center items-center'>
+            <p className='text-white font-bold text-4xl text-justify'>Connect with Us and Unlock a World of Creativity!</p>
+            <Link href='/contact-us/write-to-us'>
+               <button className='rounded-lg bg-black text-white py-3 px-4 font-semibold hover:bg-white hover:text-black'>Connect With Us</button>
+            </Link>
+           </div>
+                {/* <p className="mt-4 text-lg text-white font-serif">{subtitle}</p> */}
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 

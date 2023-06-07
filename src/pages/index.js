@@ -11,15 +11,17 @@ import HomeBlogImages from "@/components/home-page-components/HomeBlogImages/Hom
 import HomeWriteUsContainer from "@/components/home-page-components/HomeWriteUsContainer/HomeWriteUsContainer";
 import Footer from "@/components/footer/Footer";
 import HomeProductionHouse from "@/components/home-page-components/HomeProductionHouse/HomeProductionHouse";
+import { useRouter } from "next/router";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
+  const path = useRouter().pathname
   const [metaTags, setMetaTags] = useState("");
 
   useEffect(() => {
     axios
-      .get("https://seo-api.endlos.live/api/v1/head/get?webPageUrl=http://localhost:3000")
+      .get(`https://seo-api.endlos.live/api/v1/head/get?webPageUrl=${path}`)
       .then((res) => {
         const headTag = res.data.data.WebDetails.headTag;
         setMetaTags(headTag);
@@ -28,7 +30,6 @@ export default function Home() {
         console.error("Failed to fetch meta tags:", error);
       });
   }, []);
-
   useEffect(() => {
     if (metaTags) {
       const headTagElement = document.createElement("div");

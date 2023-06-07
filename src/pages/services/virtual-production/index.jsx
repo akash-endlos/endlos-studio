@@ -1,10 +1,33 @@
 import Footer from '@/components/footer/Footer'
 import Navbar from '@/components/navbar/Navbar'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import styles from '../../../styles/HomeCarousel.module.css'
 import Link from 'next/link'
+import axios from 'axios'
+import { useRouter } from 'next/router'
 
 const index = () => {
+  const path = useRouter().pathname
+  const [metaTags, setMetaTags] = useState("");
+  useEffect(() => {
+    axios
+      .get(`https://seo-api.endlos.live/api/v1/head/get?webPageUrl=${path}`)
+      .then((res) => {
+        const headTag = res.data.data.WebDetails.headTag;
+        setMetaTags(headTag);
+      })
+      .catch((error) => {
+        console.error("Failed to fetch meta tags:", error);
+      });
+  }, []);
+  useEffect(() => {
+    if (metaTags) {
+      const headTagElement = document.createElement("div");
+      headTagElement.innerHTML = metaTags;
+      const headElement = document.querySelector("head");
+      headElement.appendChild(headTagElement);
+    }
+  }, [metaTags]);
   return (
     <>
       <Navbar />

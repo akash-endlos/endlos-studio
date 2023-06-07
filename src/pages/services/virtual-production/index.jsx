@@ -186,36 +186,18 @@ const index = () => {
 
           </div>
         </div>
-        <div className='border-t border-gray-700'></div>
-        {/* <div className="max-w-screen-2xl mx-auto px-5">
-           <div className='h-52 flex flex-col gap-5 justify-center items-center'>
-            <p className='text-white font-bold text-4xl text-justify'>Connect with Us and Unlock a World of Creativity!</p>
+        <div className="max-w-screen-2xl mx-auto px-5 py-5">
+           <div className='h-auto flex flex-col xl:flex-row md:flex-row gap-5 justify-between items-center'>
+            <div className='flex flex-col justify-center gap-5'>
+            <p className='text-white font-bold xl:text-2xl text-md text-justify max-w-screen-md leading-10'>Get ready to collaborate with passionate individuals who are dedicated to pushing the boundaries of creativity. Our community is a hub for artistic synergy and collective growth. Together, we can achieve greatness!</p>
             <Link href='/contact-us/write-to-us'>
-               <button className='rounded-lg bg-black text-white py-3 px-4 font-semibold hover:bg-white hover:text-black'>Connect With Us</button>
+               <button className='rounded-lg bg-black text-white py-3 px-3 font-semibold hover:bg-white hover:text-black'>Connect With Us</button>
             </Link>
-           </div>
-        </div> */}
-        <div className="relative">
-          <div className="h-screen bg-cover bg-fixed" style={{
-            backgroundImage: `url(${piarchviz.src})`,
-            backgroundSize: "cover",
-            backgroundRepeat: "no-repeat",
-            width: "100vw",
-            height: "450px",
-          }}>
-            <div className="absolute inset-0 bg-black opacity-60"></div>
-            <div className="absolute inset-0 flex justify-center items-center">
-              <div className="text-center">
-              <div className='h-52 flex flex-col gap-5 justify-center items-center'>
-            <p className='text-white font-bold text-4xl text-justify'>Connect with Us and Unlock a World of Creativity!</p>
-            <Link href='/contact-us/write-to-us'>
-               <button className='rounded-lg bg-black text-white py-3 px-4 font-semibold hover:bg-white hover:text-black'>Connect With Us</button>
-            </Link>
-           </div>
-                {/* <p className="mt-4 text-lg text-white font-serif">{subtitle}</p> */}
-              </div>
             </div>
-          </div>
+            <div>
+            <img src="/assets/blog_inside_vr_2.jpg" alt="Image" className="w-[250px] h-[250px] rounded-2xl" />
+            </div>
+           </div>
         </div>
       </div>
 

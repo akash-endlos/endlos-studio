@@ -23,12 +23,6 @@ export default function HomeVideoCarousel() {
     {
       title:
         "Endlos Innovation helps you to automate production to be more flexible and adapted to the requirements of your organization.",
-      src: "/assets/Color Matte.mp4",
-      link: "",
-    },
-    {
-      title:
-        "Endlos Innovation helps you to automate production to be more flexible and adapted to the requirements of your organization.",
       src: "/assets/Color Matte_1.mp4",
       link: "",
     },
@@ -48,6 +42,12 @@ export default function HomeVideoCarousel() {
       title:
         "Endlos Innovation helps you to automate production to be more flexible and adapted to the requirements of your organization.",
       src: "/assets/Color Matte_4.mp4",
+      link: "",
+    },
+    {
+      title:
+        "Endlos Innovation helps you to automate production to be more flexible and adapted to the requirements of your organization.",
+      src: "/assets/Color Matte_5.mp4",
       link: "",
     },
   ];
@@ -87,6 +87,7 @@ export default function HomeVideoCarousel() {
             onMouseLeave={() => handleSlideMouseLeave(index)}
           >
             <video
+             className="w-full h-[450px]"
               src={item.src}
               ref={(ref) => (videoRefs.current[index] = ref)}
               autoPlay={index === currentSlide}

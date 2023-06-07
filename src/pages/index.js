@@ -19,7 +19,7 @@ export default function Home() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/api/v1/head/get?webPageUrl=http://localhost:3001")
+      .get("https://seo-api.endlos.live/api/v1/head/get?webPageUrl=http://localhost:3000")
       .then((res) => {
         const headTag = res.data.data.WebDetails.headTag;
         setMetaTags(headTag);

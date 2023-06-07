@@ -56,7 +56,7 @@ const Footer = () => {
           {item.subchildren && item.subchildren.map((subchildren,index)=>(
             <ul key={index}>
             <li className="mb-4">
-            <Link onClick={()=>handleClick(subchildren.id)} href={subchildren.link}>{subchildren.subchild}</Link>
+            <Link href={subchildren.link}>{subchildren.subchild}</Link>
             </li>
           </ul>
           ))}

@@ -1,27 +1,22 @@
 export const footernav=[ {
     childmenu: "Services",
     link:"",
-    id:"",
     subchildren: [
       {
-        subchild: "Pre Visualization",
-        link:"/company/services",
-        id:"servicespv"
-      },
-      {
         subchild: "Virtual production",
-        link:"/company/services",
-        id:"servicesvp"
+        link:"/services/virtual-production",
       },
       {
-        subchild: "Game Development",
-        link:"/company/services",
-        id:"servicesgamedevelopment",
+        subchild: "Pre Visualization",
+        link:"/services/pre-visualization",
       },
       {
-        subchild: "Archviz",
-        link:"/company/services",
-        id:"serviceswalktrough",
+        subchild: "WalkThrough",
+        link:"/services/archviz/walkthrough",
+      },
+      {
+        subchild: "AR & VR",
+        link:"/services/archviz/ar-vr",
       },
     ],
   },]

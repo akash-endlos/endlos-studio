@@ -87,7 +87,7 @@ export default function HomeVideoCarousel() {
             onMouseLeave={() => handleSlideMouseLeave(index)}
           >
             <video
-             className="w-full h-[450px]"
+             className="w-full h-[650px]"
               src={item.src}
               ref={(ref) => (videoRefs.current[index] = ref)}
               autoPlay={index === currentSlide}

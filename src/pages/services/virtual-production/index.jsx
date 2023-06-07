@@ -184,22 +184,14 @@ const index = () => {
 
           </div>
         </div>
+        <div className='border-t border-gray-700'></div>
         <div className="max-w-screen-2xl mx-auto px-5">
-          <div className="grid xl:grid-cols-12 lg:grid-flow-row py-10">
-            <div className="col-span-12 lg:col-span-4">
-              <div className="flex flex-col items-start justify-center">
-                <h2 className="text-4xl  text-white max-w-sm font-bold mb-4">Connect with Us and Unlock a World of Creativity!</h2>
-              </div>
-              <Link href='/contact-us/write-to-us'>
-              <button className='rounded-lg bg-black text-white py-3 px-4 font-semibold hover:bg-white hover:text-black'>Connect With Us</button>
-              </Link>
-            </div>
-            <div className="col-span-12 lg:col-span-8">
-              <div className="flex flex-col justify-start text-white h-full text-xl  leading-8">
-                <p className="mb-4 text-justify">Get ready to collaborate with passionate individuals who are dedicated to pushing the boundaries of creativity. Our community is a hub for artistic synergy and collective growth. Together, we can achieve greatness!</p>
-              </div>
-            </div>
-          </div>
+           <div className='h-52 flex flex-col gap-5 justify-center items-center'>
+            <p className='text-white font-bold text-4xl text-justify'>Connect with Us and Unlock a World of Creativity!</p>
+            <Link href='/contact-us/write-to-us'>
+               <button className='rounded-lg bg-black text-white py-3 px-4 font-semibold hover:bg-white hover:text-black'>Connect With Us</button>
+            </Link>
+           </div>
         </div>
       </div>
 
@@ -210,3 +202,20 @@ const index = () => {
 }
 
 export default index
+
+
+// <div className="grid xl:grid-cols-12 lg:grid-flow-row py-10">
+//             <div className="col-span-12 lg:col-span-4">
+//               <div className="flex flex-col items-start justify-center">
+//                 <h2 className="text-4xl  text-white max-w-sm font-bold mb-4">Connect with Us and Unlock a World of Creativity!</h2>
+//               </div>
+//               <Link href='/contact-us/write-to-us'>
+//               <button className='rounded-lg bg-black text-white py-3 px-4 font-semibold hover:bg-white hover:text-black'>Connect With Us</button>
+//               </Link>
+//             </div>
+//             <div className="col-span-12 lg:col-span-8">
+//               <div className="flex flex-col justify-start text-white h-full text-xl  leading-8">
+//                 <p className="mb-4 text-justify">Get ready to collaborate with passionate individuals who are dedicated to pushing the boundaries of creativity. Our community is a hub for artistic synergy and collective growth. Together, we can achieve greatness!</p>
+//               </div>
+//             </div>
+//           </div>

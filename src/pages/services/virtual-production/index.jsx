@@ -5,40 +5,49 @@ import styles from '../../../styles/HomeCarousel.module.css'
 import Link from 'next/link'
 import axios from 'axios'
 import { useRouter } from 'next/router'
+import { useDispatch, useSelector } from 'react-redux'
+import { getMetatags } from '@/redux/action/metatags/creator'
+import Head from 'next/head'
+import { HeadTag } from '@/components/HeaadTag/HeadTag'
 
 const index = () => {
-  const path = useRouter().pathname
-  const [metaTags, setMetaTags] = useState("");
+  const path = useRouter().pathname;
+  const dispatch = useDispatch();
+
   useEffect(() => {
-    axios
-      .get(`https://seo-api.endlos.live/api/v1/head/get?webPageUrl=${path}`)
-      .then((res) => {
-        const headTag = res.data.data.WebDetails.headTag;
-        setMetaTags(headTag);
-      })
-      .catch((error) => {
-        console.error("Failed to fetch meta tags:", error);
-      });
-  }, []);
-  useEffect(() => {
-    if (metaTags) {
-      const headTagElement = document.createElement("div");
-      headTagElement.innerHTML = metaTags;
-      const headElement = document.querySelector("head");
-      headElement.appendChild(headTagElement);
+    if (window) {
+      const host = window.location.host;
+      const hostWithPath = `${host}${path}`;
+      dispatch(getMetatags("SET_META_TAGS", hostWithPath));
     }
-  }, [metaTags]);
+  }, [dispatch, path]);
+
+  // const path = useRouter().pathname;
+  // const metaTags = useSelector(state => state.allMetatags.payload);
+  // const dispatch = useDispatch();
+
+  // useEffect(() => {
+  //  if(window)
+  //  {
+  //   const host = window.location.host
+  //   const hostWithPath = `${host}${path}`
+  //   dispatch(getMetatags('SET_META_TAGS', hostWithPath));
+  //  }
+  // }, [dispatch, path]);
+  {/* <Head>
+        {metaTags && (
+          <meta dangerouslySetInnerHTML={{ __html: metaTags }} />
+        )}
+      </Head> */}
   return (
     <>
+      <HeadTag />
       <Navbar />
       <div className='bg-[#111111] text-white'>
         <div className="relative">
           <video src='/assets/Endlos_Furniture.mp4' autoPlay loop muted className={`${styles.videocontainer}  `} />
           <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center gap-4 justify-center px-5 bg-opacity-60 bg-black ">
             <p className="text-white xl:text-5xl md:text-xl max-w-screen-md px-5 font-extrabold">Virtual Production</p>
-
-
-
           </div>
         </div>
 

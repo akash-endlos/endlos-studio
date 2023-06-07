@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import bg from "../../../../public/assets/our_vision.jpg";
 import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/footer/Footer";
@@ -8,10 +8,25 @@ import { TbBulb } from "react-icons/tb";
 import {SiAdobecreativecloud} from 'react-icons/si'
 import {HiOutlineUser} from 'react-icons/hi'
 import {GiGrowth} from 'react-icons/gi'
+import { HeadTag } from "@/components/HeaadTag/HeadTag";
+import { getMetatags } from "@/redux/action/metatags/creator";
+import { useDispatch } from "react-redux";
+import { useRouter } from "next/router";
 
 const index = () => {
+  const path = useRouter().pathname;
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    if (window) {
+      const host = window.location.host;
+      const hostWithPath = `${host}${path}`;
+      dispatch(getMetatags("SET_META_TAGS", hostWithPath));
+    }
+  }, [dispatch, path]);
   return (
     <div>
+      <HeadTag/>
       <Navbar />
       <div className="relative">
         <div

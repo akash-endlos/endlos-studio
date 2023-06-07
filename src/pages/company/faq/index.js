@@ -1,13 +1,27 @@
 import { faqData } from '@/allcontent/faqData'
 import Footer from '@/components/footer/Footer'
 import Navbar from '@/components/navbar/Navbar'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { AiOutlineCaretDown } from 'react-icons/ai'
 import bg from "../../../../public/assets/img1.jpg";
 import Link from 'next/link'
+import { useRouter } from 'next/router'
+import { useDispatch } from 'react-redux'
+import { getMetatags } from '@/redux/action/metatags/creator'
+import { HeadTag } from '@/components/HeaadTag/HeadTag'
 
 
 const Index = () => {
+  const path = useRouter().pathname;
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    if (window) {
+      const host = window.location.host;
+      const hostWithPath = `${host}${path}`;
+      dispatch(getMetatags("SET_META_TAGS", hostWithPath));
+    }
+  }, [dispatch, path]);
   const [activeIndex, setActiveIndex] = useState(null)
   const [iconRotation, setIconRotation] = useState(0)
 
@@ -18,6 +32,7 @@ const Index = () => {
 
   return (
     <>
+    <HeadTag/>
       <Navbar />
       <div className="relative">
                 <div className="h-screen bg-cover bg-fixed" style={{

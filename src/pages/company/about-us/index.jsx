@@ -6,12 +6,27 @@ import Footer from '@/components/footer/Footer'
 import HomeImageContainer from '@/components/home-page-components/HomeImageContainer/HomeImageContainer'
 import HomeVideoCarousel from '@/components/home-page-components/HomeVideoCarousel/HomeVideoCarousel'
 import Navbar from '@/components/navbar/Navbar'
-import React from 'react'
+import React, { useEffect } from 'react'
 import bg from "../../../../public/assets/img1.jpg";
+import { useRouter } from 'next/router'
+import { useDispatch } from 'react-redux'
+import { getMetatags } from '@/redux/action/metatags/creator'
+import { HeadTag } from '@/components/HeaadTag/HeadTag'
 
 const page = () => {
+  const path = useRouter().pathname;
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    if (window) {
+      const host = window.location.host;
+      const hostWithPath = `${host}${path}`;
+      dispatch(getMetatags("SET_META_TAGS", hostWithPath));
+    }
+  }, [dispatch, path]);
   return (
     <>
+    <HeadTag/>
       <Navbar />
       <div className="relative">
                 <div className="h-screen bg-cover bg-fixed" style={{

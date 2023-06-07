@@ -1,11 +1,26 @@
+import { HeadTag } from "@/components/HeaadTag/HeadTag";
 import Footer from "@/components/footer/Footer";
 import FormContainer from "@/components/form-container/FormContainer";
 import Navbar from "@/components/navbar/Navbar";
-import React from "react";
+import { getMetatags } from "@/redux/action/metatags/creator";
+import { useRouter } from "next/router";
+import React, { useEffect } from "react";
+import { useDispatch } from "react-redux";
 
 const index = () => {
+  const path = useRouter().pathname;
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    if (window) {
+      const host = window.location.host;
+      const hostWithPath = `${host}${path}`;
+      dispatch(getMetatags("SET_META_TAGS", hostWithPath));
+    }
+  }, [dispatch, path]);
   return (
     <>
+    <HeadTag/>
       <Navbar Navclass="bg-[#111111] text-white" />
       <div className="pt-24 bg-[#111111] text-white">
       <div className="relative">

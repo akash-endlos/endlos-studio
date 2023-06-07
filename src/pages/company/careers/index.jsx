@@ -3,10 +3,23 @@ import Navbar from "@/components/navbar/Navbar";
 import React, { useEffect, useState } from "react";
 import { AiOutlineSearch } from "react-icons/ai";
 import bg from "../../../../public/assets/img1.jpg";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import Link from "next/link";
+import { useRouter } from "next/router";
+import { getMetatags } from "@/redux/action/metatags/creator";
+import { HeadTag } from "@/components/HeaadTag/HeadTag";
 
 const Careers = () => {
+  const path = useRouter().pathname;
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    if (window) {
+      const host = window.location.host;
+      const hostWithPath = `${host}${path}`;
+      dispatch(getMetatags("SET_META_TAGS", hostWithPath));
+    }
+  }, [dispatch, path]);
   const careers = useSelector((state) => state.allcareers.career)
   const [searchValue, setsearchValue] = useState('')
   const [filteredData, setfilteredData] = useState([])
@@ -21,6 +34,7 @@ const Careers = () => {
   }, [searchValue])
   return (
     <>
+    <HeadTag/>
       <Navbar />
       <div className="bg-black text-white ">
         <div className="relative">

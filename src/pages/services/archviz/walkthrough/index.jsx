@@ -1,12 +1,27 @@
 import Footer from '@/components/footer/Footer'
 import Navbar from '@/components/navbar/Navbar'
-import React from 'react'
+import React, { useEffect } from 'react'
 import styles from '../../../../styles/HomeCarousel.module.css'
 import Link from 'next/link'
+import { HeadTag } from '@/components/HeaadTag/HeadTag'
+import { getMetatags } from '@/redux/action/metatags/creator'
+import { useDispatch } from 'react-redux'
+import { useRouter } from 'next/router'
 
 const index = () => {
+  const path = useRouter().pathname;
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    if (window) {
+      const host = window.location.host;
+      const hostWithPath = `${host}${path}`;
+      dispatch(getMetatags("SET_META_TAGS", hostWithPath));
+    }
+  }, [dispatch, path]);
   return (
     <>
+    <HeadTag/>
       <Navbar />
       <div className='bg-[#111111] text-white'>
         <div className="relative">

@@ -139,10 +139,10 @@ const index = () => {
           </div>
         </div>
         <div className="bg-[#111111]">
-          <div class="flex justify-center items-center px-10">
-            <div class="w-full md:w-2/3  xl:w-full">
-              <div class="rounded-3xl overflow-hidden">
-                <video src='../assets/write_us_video.mp4' class="w-full h-auto" controls></video>
+          <div className="flex justify-center items-center px-10">
+            <div className="w-full md:w-2/3  xl:w-full">
+              <div className="rounded-3xl overflow-hidden">
+                <video src='../assets/write_us_video.mp4' className="w-full h-auto" controls></video>
               </div>
             </div>
           </div>

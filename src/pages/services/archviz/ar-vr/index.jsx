@@ -3,6 +3,7 @@ import Navbar from '@/components/navbar/Navbar'
 import React from 'react'
 import styles from '../../../../styles/HomeCarousel.module.css'
 import Link from 'next/link'
+
 const index = () => {
   return (
     <>
@@ -34,7 +35,7 @@ const index = () => {
         </div>
 
       </div>
-      <div className='bg-[#111111] '>
+      <div className='bg-[#111111] px-5'>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-screen-2xl mx-auto py-10">
           <div className="grid gap-4">
             <div>
@@ -74,65 +75,61 @@ const index = () => {
 
 
         <div className='max-w-screen-2xl mx-auto'>
-          <p className='text-white font-semibold py-10'>HOW WE DO IT</p>
-          <div className="grid grid-cols-12  py-10">
-            <div className="col-span-4">
-              <div className='flex flex-col items-start justify-center'>
-                <h2 className="text-5xl text-white max-w-screen-sm font-bold mb-4">Your Vision.
-                </h2>
-                <span className="text-5xl text-white max-w-screen-sm font-bold mb-4">Our Studio Network.</span>
+          <p className='text-white font-semibold py-10 flex justify-center xl:justify-start '>HOW WE DO IT</p>
+          <div className="max-w-screen-2xl mx-auto px-5">
+            <div className="grid xl:grid-cols-12 lg:grid-flow-row py-10">
+              <div className="col-span-12 lg:col-span-4">
+                <div className="flex flex-col items-start justify-center">
+                  <h2 className="text-4xl  text-white max-w-sm font-bold mb-4">Your Vision Our Studio Network</h2>
+                </div>
+              </div>
+              <div className="col-span-12 lg:col-span-8">
+                <div className="flex flex-col justify-start text-white h-full text-xl  leading-8">
+                  <p className="mb-4 text-justify">With the Vū Network™, we combine the power of creativity and technology to create an environment for collaboration, creative control and freedom. Blurring the lines between what's physical and what's digital, we can take you anywhere you want to go - all from a single location.</p>
+                </div>
               </div>
             </div>
-            <div className="col-span-8">
-              <div className="flex flex-col justify-start text-white h-full text-xl leading-10">
-                <p className="mb-4 text-justify">With the Vū Network™, we combine the power of creativity and technology to create an environment for collaboration, creative control and freedom. Blurring the lines between what's physical and what's digital, we can take you anywhere you want to go - all from a single location.</p>
-              </div>
-            </div>
-
-
           </div>
         </div>
-
-
-        {/* <h2 className='font-bold text-3xl text-center text-white py-10'>HOW CAN THIS SERVICE HELP YOU</h2>
-        <p className='py-10 text-white max-w-screen-2xl mx-auto text-center'>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet, a cursus ipsum ante quis turpis urna non tincidunt mattis, tortor neque adipiscing.</p> */}
         <div className='max-w-screen-2xl mx-auto py-1'>
-          <div className="grid grid-cols-12 gap-10 py-10">
-            <div className="col-span-6">
-              <div className="flex flex-col justify-start text-white h-full">
-                <h2 className="text-6xl max-w-screen-sm font-bold mb-4">Environment Design and Production Management</h2>
+          <div className="grid grid-cols-12  py-10">
+            <div className="xl:col-span-6 col-span-12">
+              <div className="flex flex-col justify-start items-center xl:items-start text-white h-full">
+                <h2 className="text-5xl max-w-screen-sm font-bold mb-4">Environment Design and Production Management</h2>
                 <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Unreal Environment Design</h2>
                 <p className="mb-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, dolorem quod ex assumenda dolorum voluptas beatae, officiis alias, tempore voluptatibus nam. Eligendi similique illum rerum quos voluptatibus alias dolore asperiores. Blanditiis ducimus ea, magni, praesentium eligendi a tempora distinctio aspernatur laboriosam illo ipsum laudantium voluptatem at obcaecati accusantium eos maxime. </p>
                 <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Unreal Environment Design</h2>
                 <p className="mb-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, dolorem quod ex assumenda dolorum voluptas beatae, officiis alias, tempore voluptatibus nam. Eligendi similique illum rerum quos voluptatibus alias dolore asperiores. </p>
               </div>
             </div>
-            <div className="col-span-6">
-              <img src="/assets/blog_inside_vr_2.jpg" alt="Image" className="w-full h-[500px] rounded-2xl" />
+            <div className="xl:col-span-6 col-span-12 xl:pl-5">
+              <img src="/assets/gd-3.jpg" alt="Image" className="w-full h-auto rounded-2xl" />
             </div>
           </div>
-          <p className='text-white font-semibold py-10'>HOW WE DO IT</p>
-          <div className="grid grid-cols-12  py-10">
-            <div className="col-span-4">
-              <div className='flex flex-col items-start justify-center'>
-                <h2 className="text-5xl text-white max-w-screen-sm font-bold mb-4">Your Vision.
-                </h2>
-                <span className="text-5xl text-white max-w-screen-sm font-bold mb-4">Our Studio Network.</span>
-              </div>
-            </div>
-            <div className="col-span-8">
-              <div className="flex flex-col justify-start text-white h-full text-xl leading-10">
-                <p className="mb-4 text-justify">With the Vū Network™, we combine the power of creativity and technology to create an environment for collaboration, creative control and freedom. Blurring the lines between what's physical and what's digital, we can take you anywhere you want to go - all from a single location.</p>
+          <div className='max-w-screen-2xl mx-auto'>
+            <p className='text-white font-semibold py-10 flex justify-center xl:justify-start '>HOW WE DO IT</p>
+            <div className="max-w-screen-2xl mx-auto px-5">
+              <div className="grid xl:grid-cols-12 lg:grid-flow-row py-10">
+                <div className="col-span-12 lg:col-span-4">
+                  <div className="flex flex-col items-start justify-center">
+                    <h2 className="text-4xl  text-white max-w-sm font-bold mb-4">Your Vision Our Studio Network</h2>
+                  </div>
+                </div>
+                <div className="col-span-12 lg:col-span-8">
+                  <div className="flex flex-col justify-start text-white h-full text-xl  leading-8">
+                    <p className="mb-4 text-justify">With the Vū Network™, we combine the power of creativity and technology to create an environment for collaboration, creative control and freedom. Blurring the lines between what's physical and what's digital, we can take you anywhere you want to go - all from a single location.</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div className="grid grid-cols-12 gap-10 py-10">
-            <div className="col-span-6">
-              <img src="/assets/blog_inside_vr_2.jpg" alt="Image" className="w-full h-[500px] rounded-2xl" />
+          <div className="grid grid-cols-12 py-10">
+            <div className="xl:col-span-6 col-span-12">
+              <img src="/assets/gd-3.jpg" alt="Image" className="w-full h-auto rounded-2xl" />
             </div>
-            <div className="col-span-6">
+            <div className="xl:col-span-6 col-span-12 xl:pl-5">
               <div className="flex flex-col justify-end text-white h-full">
-                <h2 className="text-6xl max-w-screen-sm font-bold mb-4">Environment Design and Production Management</h2>
+                <h2 className="text-5xl max-w-screen-sm font-bold mb-4">Environment Design and Production Management</h2>
                 <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Unreal Environment Design</h2>
                 <p className="mb-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, dolorem quod ex assumenda dolorum voluptas beatae, officiis alias, tempore voluptatibus nam. Eligendi similique illum rerum quos voluptatibus alias dolore asperiores. Blanditiis ducimus ea, magni, praesentium eligendi a tempora distinctio aspernatur laboriosam illo ipsum laudantium voluptatem at obcaecati accusantium eos maxime. </p>
                 <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Unreal Environment Design</h2>
@@ -141,42 +138,44 @@ const index = () => {
             </div>
 
           </div>
-          <div className="grid grid-cols-12 gap-10 py-10">
-            <div className="col-span-6">
-              <div className="flex flex-col justify-start text-white h-full">
-                <h2 className="text-6xl max-w-screen-sm font-bold mb-4">Environment Design and Production Management</h2>
+          <div className="grid grid-cols-12  py-10">
+            <div className="xl:col-span-6 col-span-12">
+              <div className="flex flex-col justify-start items-center xl:items-start text-white h-full">
+                <h2 className="text-5xl max-w-screen-sm font-bold mb-4">Environment Design and Production Management</h2>
                 <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Unreal Environment Design</h2>
                 <p className="mb-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, dolorem quod ex assumenda dolorum voluptas beatae, officiis alias, tempore voluptatibus nam. Eligendi similique illum rerum quos voluptatibus alias dolore asperiores. Blanditiis ducimus ea, magni, praesentium eligendi a tempora distinctio aspernatur laboriosam illo ipsum laudantium voluptatem at obcaecati accusantium eos maxime. </p>
                 <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Unreal Environment Design</h2>
                 <p className="mb-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, dolorem quod ex assumenda dolorum voluptas beatae, officiis alias, tempore voluptatibus nam. Eligendi similique illum rerum quos voluptatibus alias dolore asperiores. </p>
               </div>
             </div>
-            <div className="col-span-6">
-              <img src="/assets/blog_inside_vr_2.jpg" alt="Image" className="w-full h-[500px] rounded-2xl" />
+            <div className="xl:col-span-6 col-span-12 xl:pl-5">
+              <img src="/assets/gd-3.jpg" alt="Image" className="w-full h-auto rounded-2xl" />
             </div>
           </div>
-          <p className='text-white font-semibold py-10'>HOW WE DO IT</p>
-          <div className="grid grid-cols-12  py-10">
-            <div className="col-span-4">
-              <div className='flex flex-col items-start justify-center'>
-                <h2 className="text-5xl text-white max-w-screen-sm font-bold mb-4">Your Vision.
-                </h2>
-                <span className="text-5xl text-white max-w-screen-sm font-bold mb-4">Our Studio Network.</span>
-              </div>
-            </div>
-            <div className="col-span-8">
-              <div className="flex flex-col justify-start text-white h-full text-xl leading-10">
-                <p className="mb-4 text-justify">With the Vū Network™, we combine the power of creativity and technology to create an environment for collaboration, creative control and freedom. Blurring the lines between what's physical and what's digital, we can take you anywhere you want to go - all from a single location.</p>
+          <div className='max-w-screen-2xl mx-auto'>
+            <p className='text-white font-semibold py-10 flex justify-center xl:justify-start '>HOW WE DO IT</p>
+            <div className="max-w-screen-2xl mx-auto px-5">
+              <div className="grid xl:grid-cols-12 lg:grid-flow-row py-10">
+                <div className="col-span-12 lg:col-span-4">
+                  <div className="flex flex-col items-start justify-center">
+                    <h2 className="text-4xl  text-white max-w-sm font-bold mb-4">Your Vision Our Studio Network</h2>
+                  </div>
+                </div>
+                <div className="col-span-12 lg:col-span-8">
+                  <div className="flex flex-col justify-start text-white h-full text-xl  leading-8">
+                    <p className="mb-4 text-justify">With the Vū Network™, we combine the power of creativity and technology to create an environment for collaboration, creative control and freedom. Blurring the lines between what's physical and what's digital, we can take you anywhere you want to go - all from a single location.</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div className="grid grid-cols-12 gap-10 py-10">
-            <div className="col-span-6">
-              <img src="/assets/blog_inside_vr_2.jpg" alt="Image" className="w-full h-[500px] rounded-2xl" />
+          <div className="grid grid-cols-12 py-10">
+            <div className="xl:col-span-6 col-span-12">
+              <img src="/assets/gd-3.jpg" alt="Image" className="w-full h-auto rounded-2xl" />
             </div>
-            <div className="col-span-6">
+            <div className="xl:col-span-6 col-span-12 xl:pl-5">
               <div className="flex flex-col justify-end text-white h-full">
-                <h2 className="text-6xl max-w-screen-sm font-bold mb-4">Environment Design and Production Management</h2>
+                <h2 className="text-5xl max-w-screen-sm font-bold mb-4">Environment Design and Production Management</h2>
                 <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Unreal Environment Design</h2>
                 <p className="mb-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, dolorem quod ex assumenda dolorum voluptas beatae, officiis alias, tempore voluptatibus nam. Eligendi similique illum rerum quos voluptatibus alias dolore asperiores. Blanditiis ducimus ea, magni, praesentium eligendi a tempora distinctio aspernatur laboriosam illo ipsum laudantium voluptatem at obcaecati accusantium eos maxime. </p>
                 <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Unreal Environment Design</h2>
@@ -186,26 +185,20 @@ const index = () => {
 
           </div>
         </div>
-        <div className="max-w-screen-2xl mx-auto px-5">
-          <div className="grid xl:grid-cols-12 lg:grid-flow-row py-10">
-            <div className="col-span-12 lg:col-span-4">
-              <div className="flex flex-col items-start justify-center">
-                <h2 className="text-4xl  text-white max-w-sm font-bold mb-4">Connect with Us and Unlock a World of Creativity!</h2>
-              </div>
+        <div className="max-w-screen-2xl mx-auto px-5 py-5">
+          <div className='h-auto flex flex-col xl:flex-row md:flex-row gap-5 justify-between items-center'>
+            <div className='flex flex-col justify-center gap-5'>
+              <p className='text-white font-bold xl:text-2xl text-md text-justify max-w-screen-md leading-10'>Get ready to collaborate with passionate individuals who are dedicated to pushing the boundaries of creativity. Our community is a hub for artistic synergy and collective growth. Together, we can achieve greatness!</p>
               <Link href='/contact-us/write-to-us'>
-              <button className='rounded-lg bg-black text-white py-3 px-4 font-semibold hover:bg-white hover:text-black'>Connect With Us</button>
+                <button className='rounded-lg bg-black text-white py-3 px-3 font-semibold hover:bg-white hover:text-black'>Connect With Us</button>
               </Link>
             </div>
-            <div className="col-span-12 lg:col-span-8">
-              <div className="flex flex-col justify-start text-white h-full text-xl  leading-8">
-                <p className="mb-4 text-justify">Get ready to collaborate with passionate individuals who are dedicated to pushing the boundaries of creativity. Our community is a hub for artistic synergy and collective growth. Together, we can achieve greatness!</p>
-              </div>
+            <div>
+              <img src="/assets/blog_inside_vr_2.jpg" alt="Image" className="w-[250px] h-[250px] rounded-2xl" />
             </div>
           </div>
         </div>
       </div>
-      <div className='border-b border-gray-200'></div>
-
       <Footer />
     </>
   )

@@ -55,12 +55,12 @@ const index = () => {
           <div className="grid xl:grid-cols-12 lg:grid-flow-row py-10">
             <div className="col-span-12 lg:col-span-4">
               <div className="flex flex-col items-start justify-center">
-                <h2 className="text-4xl  text-white max-w-sm font-bold mb-4">Your Vision Our Studio Network</h2>
+                <h2 className="text-4xl  text-white max-w-sm font-bold mb-4">Virtual Production Services</h2>
               </div>
             </div>
             <div className="col-span-12 lg:col-span-8">
               <div className="flex flex-col justify-start text-white h-full text-xl  leading-8">
-                <p className="mb-4 text-justify">With the Vū Network™, we combine the power of creativity and technology to create an environment for collaboration, creative control and freedom. Blurring the lines between what's physical and what's digital, we can take you anywhere you want to go - all from a single location.</p>
+                <p className="mb-4 text-justify">At Endlos Studio, we offer cutting-edge Virtual Production services that revolutionize how films, TV shows, and commercials are produced. Our team combines the power of advanced technology, creative expertise, and industry experience to bring your vision to life with unrivaled precision and efficiency.</p>
               </div>
             </div>
           </div>
@@ -112,7 +112,7 @@ const index = () => {
             <div className="grid xl:grid-cols-12 lg:grid-flow-row py-10">
               <div className="col-span-12 lg:col-span-4">
                 <div className="flex flex-col items-start justify-center">
-                  <h2 className="text-4xl  text-white max-w-sm font-bold mb-4">Your Vision Our Studio Network</h2>
+                  <h2 className="text-4xl  text-white max-w-sm font-bold mb-4">Real-Time Virtual Environments</h2>
                 </div>
               </div>
               <div className="col-span-12 lg:col-span-8">

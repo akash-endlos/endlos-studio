@@ -117,7 +117,7 @@ const index = () => {
               </div>
               <div className="col-span-12 lg:col-span-8">
                 <div className="flex flex-col justify-start text-white h-full text-xl  leading-8">
-                  <p className="mb-4 text-justify">With the Vū Network™, we combine the power of creativity and technology to create an environment for collaboration, creative control and freedom. Blurring the lines between what's physical and what's digital, we can take you anywhere you want to go - all from a single location.</p>
+                  <p className="mb-4 text-justify">Our state-of-the-art camera tracking systems enable the real-time integration of virtual elements into live footage. This allows for precise camera movements, accurate perspective matching, and seamless interaction between actors and virtual objects, resulting in a more authentic and engaging visual experience.</p>
                 </div>
               </div>
             </div>
@@ -129,7 +129,7 @@ const index = () => {
               <div className="flex flex-col justify-start items-center xl:items-start text-white h-full">
                 <h2 className="text-5xl max-w-screen-sm font-bold mb-4">Environment Design and Production Management</h2>
                 <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Unreal Environment Design</h2>
-                <p className="mb-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, dolorem quod ex assumenda dolorum voluptas beatae, officiis alias, tempore voluptatibus nam. Eligendi similique illum rerum quos voluptatibus alias dolore asperiores. Blanditiis ducimus ea, magni, praesentium eligendi a tempora distinctio aspernatur laboriosam illo ipsum laudantium voluptatem at obcaecati accusantium eos maxime. </p>
+                <p className="mb-4 text-justify">Our Virtual Production services encompass dynamic lighting and effects that respond in real-time. From realistic shadows and reflections to dynamic environmental lighting, we ensure that the virtual and real elements coexist, creating a cohesive and visually stunning final product.</p>
                 <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Unreal Environment Design</h2>
                 <p className="mb-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, dolorem quod ex assumenda dolorum voluptas beatae, officiis alias, tempore voluptatibus nam. Eligendi similique illum rerum quos voluptatibus alias dolore asperiores. </p>
               </div>
@@ -149,7 +149,7 @@ const index = () => {
                 </div>
                 <div className="col-span-12 lg:col-span-8">
                   <div className="flex flex-col justify-start text-white h-full text-xl  leading-8">
-                    <p className="mb-4 text-justify">With the Vū Network™, we combine the power of creativity and technology to create an environment for collaboration, creative control and freedom. Blurring the lines between what's physical and what's digital, we can take you anywhere you want to go - all from a single location.</p>
+                    <p className="mb-4 text-justify">Our experienced team of virtual cinematographers leverages the power of Virtual Production to capture stunning shots in the virtual environment. Through virtual cameras and real-time rendering, we can explore unique camera angles, experiment with different lenses, and create captivating compositions that enhance the overall visual narrative.</p>
                   </div>
                 </div>
               </div>
@@ -163,9 +163,9 @@ const index = () => {
               <div className="flex flex-col justify-end text-white h-full">
                 <h2 className="text-5xl max-w-screen-sm font-bold mb-4">Environment Design and Production Management</h2>
                 <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Unreal Environment Design</h2>
-                <p className="mb-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, dolorem quod ex assumenda dolorum voluptas beatae, officiis alias, tempore voluptatibus nam. Eligendi similique illum rerum quos voluptatibus alias dolore asperiores. Blanditiis ducimus ea, magni, praesentium eligendi a tempora distinctio aspernatur laboriosam illo ipsum laudantium voluptatem at obcaecati accusantium eos maxime. </p>
+                <p className="mb-4 text-justify">Virtual Production offers the flexibility to make design changes on the fly. We can modify virtual sets, adjust lighting conditions, and explore alternative creative choices in real-time, reducing production time and costs associated with traditional post-production workflows.</p>
                 <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Unreal Environment Design</h2>
-                <p className="mb-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, dolorem quod ex assumenda dolorum voluptas beatae, officiis alias, tempore voluptatibus nam. Eligendi similique illum rerum quos voluptatibus alias dolore asperiores. </p>
+                <p className="mb-4 text-justify">With Virtual Production, collaboration becomes seamless. Our team works closely with directors, cinematographers, and production crews to ensure smooth communication and efficient execution of the creative vision. By enabling real-time visualization and interaction, we foster a collaborative environment where everyone can contribute their expertise and make informed decisions.</p>
               </div>
             </div>
 
@@ -175,9 +175,9 @@ const index = () => {
               <div className="flex flex-col justify-start items-center xl:items-start text-white h-full">
                 <h2 className="text-5xl max-w-screen-sm font-bold mb-4">Environment Design and Production Management</h2>
                 <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Unreal Environment Design</h2>
-                <p className="mb-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, dolorem quod ex assumenda dolorum voluptas beatae, officiis alias, tempore voluptatibus nam. Eligendi similique illum rerum quos voluptatibus alias dolore asperiores. Blanditiis ducimus ea, magni, praesentium eligendi a tempora distinctio aspernatur laboriosam illo ipsum laudantium voluptatem at obcaecati accusantium eos maxime. </p>
-                <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Unreal Environment Design</h2>
-                <p className="mb-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, dolorem quod ex assumenda dolorum voluptas beatae, officiis alias, tempore voluptatibus nam. Eligendi similique illum rerum quos voluptatibus alias dolore asperiores. </p>
+                <p className="mb-4 text-justify">Virtual Production has become a game-changer in the entertainment industry, enabling filmmakers to streamline Production, enhance creative possibilities, and deliver visually stunning results. At Endlos Studio, we are committed to pushing the boundaries of Virtual Production to create captivating and immersive experiences that captivate audiences and elevate your storytelling to new heights. </p>
+                <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Our Virtual Production Portfolio</h2>
+                <p className="mb-4 text-justify">Virtual Production has revolutionized how films and other visual media are created, allowing filmmakers to seamlessly blend physical and digital elements to bring stories to life. Our portfolio in Virtual Production showcases our expertise in this cutting-edge field, highlighting the successful projects we have delivered. </p>
               </div>
             </div>
             <div className="xl:col-span-6 col-span-12 xl:pl-5">
@@ -190,12 +190,12 @@ const index = () => {
               <div className="grid xl:grid-cols-12 lg:grid-flow-row py-10">
                 <div className="col-span-12 lg:col-span-4">
                   <div className="flex flex-col items-start justify-center">
-                    <h2 className="text-4xl  text-white max-w-sm font-bold mb-4">Your Vision Our Studio Network</h2>
+                    <h2 className="text-4xl  text-white max-w-sm font-bold mb-4">Integrated Workflow</h2>
                   </div>
                 </div>
                 <div className="col-span-12 lg:col-span-8">
                   <div className="flex flex-col justify-start text-white h-full text-xl  leading-8">
-                    <p className="mb-4 text-justify">With the Vū Network™, we combine the power of creativity and technology to create an environment for collaboration, creative control and freedom. Blurring the lines between what's physical and what's digital, we can take you anywhere you want to go - all from a single location.</p>
+                    <p className="mb-4 text-justify">We excel at creating an integrated workflow that combines live-action footage with real-time rendering and virtual environments. Our portfolio demonstrates how we seamlessly merge physical sets with digital assets, enabling directors and cinematographers to visualize and capture scenes in real-time.</p>
                   </div>
                 </div>
               </div>
@@ -208,10 +208,10 @@ const index = () => {
             <div className="xl:col-span-6 col-span-12 xl:pl-5">
               <div className="flex flex-col justify-end text-white h-full">
                 <h2 className="text-5xl max-w-screen-sm font-bold mb-4">Environment Design and Production Management</h2>
+                <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Streamlined Previsualization</h2>
+                <p className="mb-4 text-justify">Our portfolio highlights the importance of previsualization in virtual Production. We demonstrate how we collaborate with directors and production teams to create detailed previsualization assets that aid in planning shots, camera movements, and overall scene composition. </p>
                 <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Unreal Environment Design</h2>
-                <p className="mb-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, dolorem quod ex assumenda dolorum voluptas beatae, officiis alias, tempore voluptatibus nam. Eligendi similique illum rerum quos voluptatibus alias dolore asperiores. Blanditiis ducimus ea, magni, praesentium eligendi a tempora distinctio aspernatur laboriosam illo ipsum laudantium voluptatem at obcaecati accusantium eos maxime. </p>
-                <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Unreal Environment Design</h2>
-                <p className="mb-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, dolorem quod ex assumenda dolorum voluptas beatae, officiis alias, tempore voluptatibus nam. Eligendi similique illum rerum quos voluptatibus alias dolore asperiores. </p>
+                <p className="mb-4 text-justify">Witness the power of real-time iteration in our virtual production projects. Our portfolio showcases our ability to make instant adjustments, providing directors and cinematographers with immediate feedback and the freedom to experiment with different creative choices. </p>
               </div>
             </div>
 

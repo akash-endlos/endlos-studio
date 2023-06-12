@@ -55,7 +55,8 @@ const index = () => {
           <div className="grid xl:grid-cols-12 lg:grid-flow-row py-10">
             <div className="col-span-12 lg:col-span-4">
               <div className="flex flex-col items-start justify-center">
-                <h2 className="text-4xl  text-white max-w-sm font-bold mb-4">Virtual Production Services</h2>
+                <h2 className="text-4xl  text-white max-w-sm font-bold mb-4">Why Choose Endlos Studio</h2>
+                {/* Virtual Production Services */}
               </div>
             </div>
             <div className="col-span-12 lg:col-span-8">
@@ -107,12 +108,12 @@ const index = () => {
 
 
         <div className='max-w-screen-2xl mx-auto'>
-          <p className='text-white font-semibold py-10 flex justify-center xl:justify-start '>HOW WE DO IT</p>
+          <p className='text-white font-semibold py-10 flex justify-center xl:justify-start '>WHAT WE DO IT</p>
           <div className="max-w-screen-2xl mx-auto px-5">
             <div className="grid xl:grid-cols-12 lg:grid-flow-row py-10">
               <div className="col-span-12 lg:col-span-4">
                 <div className="flex flex-col items-start justify-center">
-                  <h2 className="text-4xl  text-white max-w-sm font-bold mb-4">Real-Time Virtual Environments</h2>
+                  <h2 className="text-4xl  text-white max-w-sm font-bold mb-4">Virtual Production Services</h2>
                 </div>
               </div>
               <div className="col-span-12 lg:col-span-8">
@@ -195,7 +196,7 @@ const index = () => {
               <div className="grid xl:grid-cols-12 lg:grid-flow-row py-10">
                 <div className="col-span-12 lg:col-span-4">
                   <div className="flex flex-col items-start justify-center">
-                    <h2 className="text-4xl  text-white max-w-sm font-bold mb-4">Integrated Workflow</h2>
+                    <h2 className="text-4xl  text-white max-w-sm font-bold mb-4">Our Virtual Production Porfolio</h2>
                   </div>
                 </div>
                 <div className="col-span-12 lg:col-span-8">

@@ -244,8 +244,8 @@ const index = () => {
           <div className='h-auto flex flex-col xl:flex-row md:flex-row gap-5 justify-between items-center'>
             <div className='flex flex-col justify-center gap-5'>
             <h2 className="text-2xl max-w-screen-sm font-bold mb-4 text-white">Collaboration and Expertise</h2>
-              <p className='text-white  text-md text-justify max-w-screen-md '>We pride ourselves on our collaborative approach and ability to work closely with directors, cinematographers, and production teams. Our portfolio highlights successful collaborations, showcasing the seamless integration of our expertise with the vision and requirements of our clients.</p>
-              <p className='text-white  text-md text-justify max-w-screen-md '>Experience the future of filmmaking through our Virtual Production portfolio. Each project exemplifies our commitment to innovation, creativity, and delivering exceptional results that exceed expectations.</p>
+              <p className='text-white  text-md text-justify max-w-screen-lg '>We pride ourselves on our collaborative approach and ability to work closely with directors, cinematographers, and production teams. Our portfolio highlights successful collaborations, showcasing the seamless integration of our expertise with the vision and requirements of our clients.</p>
+              <p className='text-white  text-md text-justify max-w-screen-lg '>Experience the future of filmmaking through our Virtual Production portfolio. Each project exemplifies our commitment to innovation, creativity, and delivering exceptional results that exceed expectations.</p>
               <Link href='/contact-us/write-to-us'>
                 <button className='rounded-lg bg-black text-white py-3 px-3 font-semibold hover:bg-white hover:text-black'>Connect With Us</button>
               </Link>

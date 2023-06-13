@@ -128,7 +128,6 @@ const index = () => {
           <div className="grid grid-cols-12  py-10">
             <div className="xl:col-span-6 col-span-12">
               <div className="flex flex-col justify-start items-center xl:items-start text-white h-full">
-                {/* <h2 className="text-5xl max-w-screen-sm font-bold mb-4">Environment Design and Production Management</h2> */}
                 <h3 className="text-2xl max-w-screen-sm font-bold mb-4">Real-Time Virtual Environments </h3>
                 <p className="mb-4 text-justify">We create highly realistic virtual environments seamlessly blending with live-action footage, providing a dynamic and immersive experience. Our team designs and constructs digital sets, landscapes, and locations, ensuring they align perfectly with your storytelling requirements.</p>
                 <h3 className="text-2xl max-w-screen-sm font-bold mb-4">Live Camera Tracking</h3>
@@ -141,30 +140,12 @@ const index = () => {
               <img src="/assets/Virtual_1.jpg" alt="Image" className="w-full h-auto rounded-2xl" />
             </div>
           </div>
-          {/* <div className='max-w-screen-2xl mx-auto'>
-            <p className='text-white font-semibold py-10 flex justify-center xl:justify-start '>HOW WE DO IT</p>
-            <div className="max-w-screen-2xl mx-auto px-5">
-              <div className="grid xl:grid-cols-12 lg:grid-flow-row py-10">
-                <div className="col-span-12 lg:col-span-4">
-                  <div className="flex flex-col items-start justify-center">
-                    <h2 className="text-4xl  text-white max-w-sm font-bold mb-4">Your Vision Our Studio Network</h2>
-                  </div>
-                </div>
-                <div className="col-span-12 lg:col-span-8">
-                  <div className="flex flex-col justify-start text-white h-full text-xl  leading-8">
-                    <p className="mb-4 text-justify">Our experienced team of virtual cinematographers leverages the power of Virtual Production to capture stunning shots in the virtual environment. Through virtual cameras and real-time rendering, we can explore unique camera angles, experiment with different lenses, and create captivating compositions that enhance the overall visual narrative.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> */}
           <div className="grid grid-cols-12 py-10">
             <div className="xl:col-span-6 col-span-12">
               <img src="/assets/Virtual_2.jpg" alt="Image" className="w-full h-[550px] rounded-2xl" />
             </div>
             <div className="xl:col-span-6 col-span-12 xl:pl-5">
               <div className="flex flex-col justify-start text-white h-full">
-                {/* <h2 className="text-5xl max-w-screen-sm font-bold mb-4">Environment Design and Production Management</h2> */}
                 <h3 className="text-2xl max-w-screen-sm font-bold mb-4">Virtual Cinematography</h3>
                 <p className="mb-4 text-justify">Our experienced team of virtual cinematographers leverages the power of Virtual Production to capture stunning shots in the virtual environment. Through virtual cameras and real-time rendering, we can explore unique camera angles, experiment with different lenses, and create captivating compositions that enhance the overall visual narrative.</p>
                 <h3 className="text-2xl max-w-screen-sm font-bold mb-4">Real-Time Design Iteration</h3>
@@ -176,20 +157,6 @@ const index = () => {
             </div>
 
           </div>
-          {/* <div className="grid grid-cols-12  py-10">
-            <div className="xl:col-span-6 col-span-12">
-              <div className="flex flex-col justify-start items-center xl:items-start text-white h-full">
-                <h2 className="text-5xl max-w-screen-sm font-bold mb-4">Environment Design and Production Management</h2>
-                <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Unreal Environment Design</h2>
-                <p className="mb-4 text-justify">Virtual Production has become a game-changer in the entertainment industry, enabling filmmakers to streamline Production, enhance creative possibilities, and deliver visually stunning results. At Endlos Studio, we are committed to pushing the boundaries of Virtual Production to create captivating and immersive experiences that captivate audiences and elevate your storytelling to new heights. </p>
-                <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Our Virtual Production Portfolio</h2>
-                <p className="mb-4 text-justify">Virtual Production has revolutionized how films and other visual media are created, allowing filmmakers to seamlessly blend physical and digital elements to bring stories to life. Our portfolio in Virtual Production showcases our expertise in this cutting-edge field, highlighting the successful projects we have delivered. </p>
-              </div>
-            </div>
-            <div className="xl:col-span-6 col-span-12 xl:pl-5">
-              <img src="/assets/Virtual_3.jpg" alt="Image" className="w-full h-auto rounded-2xl" />
-            </div>
-          </div> */}
           <div className='max-w-screen-2xl mx-auto'>
             <p className='text-white font-semibold py-10 flex justify-center xl:justify-start '>HOW WE DO IT</p>
             <div className="max-w-screen-2xl mx-auto px-5">
@@ -213,7 +180,6 @@ const index = () => {
             </div>
             <div className="xl:col-span-6 col-span-12 xl:pl-5">
               <div className="flex flex-col justify-end text-white h-full">
-                {/* <h2 className="text-5xl max-w-screen-sm font-bold mb-4">Environment Design and Production Management</h2> */}
                 <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Integrated Workflow</h2>
                 <p className="mb-4 text-justify">We excel at creating an integrated workflow that combines live-action footage with real-time rendering and virtual environments. Our portfolio demonstrates how we seamlessly merge physical sets with digital assets, enabling directors and cinematographers to visualize and capture scenes in real-time.</p>
                 <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Realistic Virtual Sets</h2>
@@ -227,7 +193,6 @@ const index = () => {
           <div className="grid grid-cols-12  py-10">
             <div className="xl:col-span-6 col-span-12">
               <div className="flex flex-col justify-start items-center xl:items-start text-white h-full">
-                {/* <h2 className="text-5xl max-w-screen-sm font-bold mb-4">Environment Design and Production Management</h2> */}
                 <h3 className="text-2xl max-w-screen-sm font-bold mb-4">Streamlined Previsualization</h3>
                 <p className="mb-4 text-justify">Our portfolio highlights the importance of previsualization in virtual Production. We demonstrate how we collaborate with directors and production teams to create detailed previsualization assets that aid in planning shots, camera movements, and overall scene composition.</p>
                 <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Real-Time Iteration</h2>

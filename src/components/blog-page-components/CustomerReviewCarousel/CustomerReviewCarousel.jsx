@@ -31,7 +31,6 @@ export default function CustomerReviewCarousel() {
               <AiFillStar />
               <AiFillStar />
             </div>
-            {/* <h1 className="py-5 text-2xl font-serif">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1> */}
             <p className="text-xl font-serif max-w-lg py-2">
               Endlos Studio's work exceeded our expectations. Their attention to
               detail and commitment to quality made our project shine.
@@ -47,7 +46,6 @@ export default function CustomerReviewCarousel() {
               <AiFillStar />
               <AiFillStar />
             </div>
-            {/* <h1 className="py-5 text-2xl font-serif">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1> */}
             <p className="text-xl font-serif max-w-lg py-2">
               Working with Endlos Studio was a delight. They were responsive,
               professional, and delivered exceptional results.
@@ -63,7 +61,6 @@ export default function CustomerReviewCarousel() {
               <AiFillStar />
               <AiFillStar />
             </div>
-            {/* <h1 className="py-5 text-2xl font-serif">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1> */}
             <p className="text-xl font-serif max-w-lg py-2">
               The team at Endlos Studio is highly skilled and creative. They
               brought our vision to life with their innovative solutions.
@@ -79,7 +76,6 @@ export default function CustomerReviewCarousel() {
               <AiFillStar />
               <AiFillStar />
             </div>
-            {/* <h1 className="py-5 text-2xl font-serif">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1> */}
             <p className="text-xl font-serif max-w-lg py-2">
               Choosing Endlos Studio was one of the best decisions we made.
               Their professionalism and dedication made the entire process

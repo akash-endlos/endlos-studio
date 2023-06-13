@@ -81,7 +81,7 @@ const index = () => {
                     <h1 className="text-3xl font-bold pb-5 px-5 py-5 text-white">Search</h1>
                     <div className=' text-white gap-4 px-5 py-5'>
                         <input type="text" value={searchValue}
-                            onChange={(e) => setsearchValue(e.target.value)} className=" border border-gray-300 text-white bg-black text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full  p-2.5  dark:bg-gray-700 outline-none dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search Mockups, Logos, Design Templates..." required />
+                            onChange={(e) => setsearchValue(e.target.value)} className=" border border-gray-300 text-white bg-black text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full  p-2.5  dark:bg-gray-700 outline-none dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search Blogs..." required />
                     </div>
                     <div className='max-h-[1000px] no-scrollbar overflow-y-scroll'>
                         {filteredData.length > 0 ? <AlternateImageContainer filteredData={filteredData} /> : (<h2 className='text-center text-white text-4xl px-2'>What You Search Is Not Here</h2>)}

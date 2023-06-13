@@ -110,7 +110,6 @@ const index = () => {
           <div className="grid grid-cols-12  py-10">
             <div className="xl:col-span-6 col-span-12">
               <div className="flex flex-col justify-start items-center xl:items-start text-white h-full">
-                {/* <h2 className="text-5xl max-w-screen-sm font-bold mb-4">Environment Design and Production Management</h2> */}
                 <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Augmented Reality (AR) Applications</h2>
                 <p className="mb-4 text-justify">We develop AR applications that overlay digital content onto the real world, enhancing your perception and understanding of architectural spaces. Through mobile AR apps, interactive installations, and wearable AR devices, we bring your designs to life and provide a dynamic and interactive experience.</p>
                 <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Virtual Reality (VR) Applications</h2>
@@ -123,30 +122,12 @@ const index = () => {
               <img src="/assets/Ar_VR.jpg" alt="Image" className="w-full h-auto rounded-2xl" />
             </div>
           </div>
-          {/* <div className='max-w-screen-2xl mx-auto'>
-            <p className='text-white font-semibold py-10 flex justify-center xl:justify-start '>HOW WE DO IT</p>
-            <div className="max-w-screen-2xl mx-auto px-5">
-              <div className="grid xl:grid-cols-12 lg:grid-flow-row py-10">
-                <div className="col-span-12 lg:col-span-4">
-                  <div className="flex flex-col items-start justify-center">
-                    <h2 className="text-4xl  text-white max-w-sm font-bold mb-4">Your Vision Our Studio Network</h2>
-                  </div>
-                </div>
-                <div className="col-span-12 lg:col-span-8">
-                  <div className="flex flex-col justify-start text-white h-full text-xl  leading-8">
-                    <p className="mb-4 text-justify">With the Vū Network™, we combine the power of creativity and technology to create an environment for collaboration, creative control and freedom. Blurring the lines between what's physical and what's digital, we can take you anywhere you want to go - all from a single location.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> */}
           <div className="grid grid-cols-12 py-10">
             <div className="xl:col-span-6 col-span-12">
               <img src="/assets/Ar_VR_2.jpg" alt="Image" className="w-full h-auto rounded-2xl" />
             </div>
             <div className="xl:col-span-6 col-span-12 xl:pl-5">
               <div className="flex flex-col justify-end text-white h-full">
-                {/* <h2 className="text-5xl max-w-screen-sm font-bold mb-4">Environment Design and Production Management</h2> */}
                 <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Realistic Visualizations</h2>
                 <p className="mb-4 text-justify">We pride ourselves on creating realistic and visually stunning AR and VR experiences. Our team of skilled artists and designers meticulously craft virtual environments with accurate textures, lighting, and spatial relationships, ensuring high realism and immersion in the virtual world. </p>
                 <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Customization and Collaboration</h2>
@@ -156,20 +137,6 @@ const index = () => {
             </div>
 
           </div>
-          {/* <div className="grid grid-cols-12  py-10">
-            <div className="xl:col-span-6 col-span-12">
-              <div className="flex flex-col justify-start items-center xl:items-start text-white h-full">
-                <h2 className="text-5xl max-w-screen-sm font-bold mb-4">Environment Design and Production Management</h2>
-                <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Unreal Environment Design</h2>
-                <p className="mb-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, dolorem quod ex assumenda dolorum voluptas beatae, officiis alias, tempore voluptatibus nam. Eligendi similique illum rerum quos voluptatibus alias dolore asperiores. Blanditiis ducimus ea, magni, praesentium eligendi a tempora distinctio aspernatur laboriosam illo ipsum laudantium voluptatem at obcaecati accusantium eos maxime. </p>
-                <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Unreal Environment Design</h2>
-                <p className="mb-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, dolorem quod ex assumenda dolorum voluptas beatae, officiis alias, tempore voluptatibus nam. Eligendi similique illum rerum quos voluptatibus alias dolore asperiores. </p>
-              </div>
-            </div>
-            <div className="xl:col-span-6 col-span-12 xl:pl-5">
-              <img src="/assets/gd-3.jpg" alt="Image" className="w-full h-auto rounded-2xl" />
-            </div>
-          </div> */}
           <div className='max-w-screen-2xl mx-auto'>
             <p className='text-white font-semibold py-10 flex justify-center xl:justify-start '>HOW WE DO IT</p>
             <div className="max-w-screen-2xl mx-auto px-5">
@@ -193,7 +160,6 @@ const index = () => {
             </div>
             <div className="xl:col-span-6 col-span-12 xl:pl-5">
               <div className="flex flex-col justify-end text-white h-full">
-                {/* <h2 className="text-5xl max-w-screen-sm font-bold mb-4">Immersive Virtual Reality Experience</h2> */}
                 <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Immersive Virtual Reality Experience</h2>
                 <p className="mb-4 text-justify">Step into our portfolio and immerse yourself in virtual reality architectural visualization experiences. Explore architectural designs in a fully immersive virtual environment, where you can navigate and interact with the spaces as if you were physically there. Walk through rooms, examine details, and get a sense of scale and proportion. </p>
                 <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Interactive Augmented Reality Applications</h2>
@@ -206,7 +172,6 @@ const index = () => {
             <div className="grid grid-cols-12  py-10">
               <div className="xl:col-span-6 col-span-12">
                 <div className="flex flex-col justify-start items-center xl:items-start text-white h-full">
-                  {/* <h2 className="text-5xl max-w-screen-sm font-bold mb-4">Environment Design and Production Management</h2> */}
                   <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Customization and Personalization</h2>
                   <p className="mb-4 text-justify">Our portfolio highlights our ability to tailor AR and VR experiences to suit specific project requirements. We can customize the virtual environment, lighting conditions, and material options and even incorporate interactive elements, allowing clients a personalized and immersive architectural visualization experience. </p>
                   <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Collaboration and Communication</h2>

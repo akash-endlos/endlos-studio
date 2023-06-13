@@ -110,7 +110,6 @@ const index = () => {
           <div className="grid grid-cols-12  py-10">
             <div className="xl:col-span-6 col-span-12">
               <div className="flex flex-col justify-start items-center xl:items-start text-white h-full">
-                {/* <h2 className="text-5xl max-w-screen-sm font-bold mb-4">Environment Design and Production Management</h2> */}
                 <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Virtual Exploration</h2>
                 <p className="mb-4 text-justify">Our walkthroughs enable you to navigate architectural spaces virtually, providing a realistic and immersive experience. With advanced 3D rendering techniques, we create detailed environments that accurately represent your designs, allowing clients and stakeholders to engage and interact with the spaces. </p>
                 <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Attention to Detail</h2>
@@ -123,30 +122,12 @@ const index = () => {
               <img src="/assets/Walktrough_1.jpg" alt="Image" className="w-full h-auto rounded-2xl" />
             </div>
           </div>
-          {/* <div className='max-w-screen-2xl mx-auto'>
-            <p className='text-white font-semibold py-10 flex justify-center xl:justify-start '>HOW WE DO IT</p>
-            <div className="max-w-screen-2xl mx-auto px-5">
-              <div className="grid xl:grid-cols-12 lg:grid-flow-row py-10">
-                <div className="col-span-12 lg:col-span-4">
-                  <div className="flex flex-col items-start justify-center">
-                    <h2 className="text-4xl  text-white max-w-sm font-bold mb-4">Your Vision Our Studio Network</h2>
-                  </div>
-                </div>
-                <div className="col-span-12 lg:col-span-8">
-                  <div className="flex flex-col justify-start text-white h-full text-xl  leading-8">
-                    <p className="mb-4 text-justify">With the Vū Network™, we combine the power of creativity and technology to create an environment for collaboration, creative control and freedom. Blurring the lines between what's physical and what's digital, we can take you anywhere you want to go - all from a single location.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> */}
           <div className="grid grid-cols-12 py-10">
             <div className="xl:col-span-6 col-span-12">
               <img src="/assets/Walktrough_2.jpg" alt="Image" className="w-full h-auto rounded-2xl" />
             </div>
             <div className="xl:col-span-6 col-span-12 xl:pl-5">
               <div className="flex flex-col justify-end text-white h-full">
-                {/* <h2 className="text-5xl max-w-screen-sm font-bold mb-4">Environment Design and Production Management</h2> */}
                 <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Realistic Lighting and Atmosphere</h2>
                 <p className="mb-4 text-justify">We create realistic lighting scenarios that replicate natural daylight or artificial lighting sources, enhancing the visual appeal of the walkthrough. The interplay of light and shadow and the manipulation of atmosphere and mood add depth and realism to the virtual space. </p>
                 <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Customization and Flexibility</h2>
@@ -156,20 +137,6 @@ const index = () => {
             </div>
 
           </div>
-          {/* <div className="grid grid-cols-12  py-10">
-            <div className="xl:col-span-6 col-span-12">
-              <div className="flex flex-col justify-start items-center xl:items-start text-white h-full">
-                <h2 className="text-5xl max-w-screen-sm font-bold mb-4">Environment Design and Production Management</h2>
-                <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Unreal Environment Design</h2>
-                <p className="mb-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, dolorem quod ex assumenda dolorum voluptas beatae, officiis alias, tempore voluptatibus nam. Eligendi similique illum rerum quos voluptatibus alias dolore asperiores. Blanditiis ducimus ea, magni, praesentium eligendi a tempora distinctio aspernatur laboriosam illo ipsum laudantium voluptatem at obcaecati accusantium eos maxime. </p>
-                <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Unreal Environment Design</h2>
-                <p className="mb-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, dolorem quod ex assumenda dolorum voluptas beatae, officiis alias, tempore voluptatibus nam. Eligendi similique illum rerum quos voluptatibus alias dolore asperiores. </p>
-              </div>
-            </div>
-            <div className="xl:col-span-6 col-span-12 xl:pl-5">
-              <img src="/assets/Walktrough_3.jpg" alt="Image" className="w-full h-auto rounded-2xl" />
-            </div>
-          </div> */}
           <div className='max-w-screen-2xl mx-auto'>
             <p className='text-white font-semibold py-10 flex justify-center xl:justify-start '>HOW WE DO IT</p>
             <div className="max-w-screen-2xl mx-auto px-5">
@@ -194,7 +161,6 @@ const index = () => {
             </div>
             <div className="xl:col-span-6 col-span-12 xl:pl-5">
               <div className="flex flex-col justify-end text-white h-full">
-                {/* <h2 className="text-5xl max-w-screen-sm font-bold mb-4">Environment Design and Production Management</h2> */}
                 <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Realistic Visualization</h2>
                 <p className="mb-4 text-justify">We use state-of-the-art rendering techniques to create realistic and visually stunning walkthroughs. Our attention to detail in texturing, lighting, and materiality ensures that the virtual representation closely matches the intended real-world design.</p>
                 <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Interior and Exterior Exploration</h2>
@@ -208,7 +174,6 @@ const index = () => {
           <div className="grid grid-cols-12  py-10">
             <div className="xl:col-span-6 col-span-12">
               <div className="flex flex-col justify-start items-center xl:items-start text-white h-full">
-                {/* <h2 className="text-5xl max-w-screen-sm font-bold mb-4">Environment Design and Production Management</h2> */}
                 <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Attention to Detail</h2>
                 <p className="mb-4 text-justify">We pay meticulous attention to every aspect of the architectural design. Our walkthroughs showcase the intricate details of textures, furnishings, and architectural features, accurately representing the design's aesthetics and functionality. </p>
                 <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Animation and Cinematic Techniques</h2>

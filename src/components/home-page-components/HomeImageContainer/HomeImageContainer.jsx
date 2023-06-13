@@ -9,7 +9,7 @@ const HomeImageContainer = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 py-10">
           <div className="md:order-2">
-            <img src="/assets/About endlos _1.jpg" alt="unreal engine studio" className="w-full h-[500px] rounded-2xl" />
+            <img src="/assets/About endlos _1.jpg" alt="unreal engine studio" className="w-full h-auto rounded-2xl" />
           </div>
           <div className="md:order-1">
             <h1 className="font-bold text-4xl text-white">About Endlos Studio</h1>

@@ -30,7 +30,7 @@ const SecondBlog = ({ }) => {
               <img className="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500" src="/assets/home-7-img-1.jpg" alt="Bordered avatar" />
               <div className="flex flex-col">
               <small>Navodita Srivastava</small>
-                <small>Content Writer</small>
+                <small>Senior Digital Marketer</small>
               </div>
             </div>
             <div className=" justify-between items-center hidden xl:flex">

@@ -29,7 +29,7 @@ const index = () => {
         <div className="relative">
           <video src='/assets/Endlos_Furniture.mp4' autoPlay loop muted className={`${styles.videocontainer}  `} />
           <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center gap-4 justify-center px-5 bg-opacity-60 bg-black ">
-            <p className="text-white xl:text-5xl md:text-xl max-w-screen-md px-5 font-extrabold">Virtual Production</p>
+            <h1 className="text-white xl:text-5xl md:text-xl max-w-screen-md px-5 font-extrabold">Virtual Production</h1>
           </div>
         </div>
 

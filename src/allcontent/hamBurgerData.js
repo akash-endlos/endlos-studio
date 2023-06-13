@@ -2,10 +2,24 @@
 
 export const hammenuItems = [
   {
-    main: "Portfolio",
+    main: "Home",
+    link:"/",
+  },
+  {
+    main: "Services",
     link:"",
     expand:"portfolio",
     children: [
+      {
+        childmenu: "Virtual production",
+        link:"/services/virtual-production",
+        id:"",
+      },
+      {
+        childmenu: "Pre Visualization",
+        link:"/services/pre-visualization",
+        id:"",
+      },
       {
         childmenu: "Archviz",
         link:"",
@@ -13,41 +27,23 @@ export const hammenuItems = [
         expand:"parchviz",
         subchildren: [
           {
+            subchild: "Walkthrough",
+            link:"/services/archviz/walkthrough",
+            id:"archvizinteractive"
+          },
+          {
             subchild: "Interactive Archviz",
-            link:"/portfolio/archviz",
+            link:"/services/archviz/ar-vr",
             id:"archvizinteractive"
           },
         ],
       },
-      {
-        childmenu: "Pre Visualization",
-        link:"/portfolio/pre-visualization",
-        id:"",
-      },
-      {
-        childmenu: "Virtual production",
-        link:"",
-        id:"",
-  
-        expand:"pvp",
-        subchildren: [
-          {
-            subchild: "Enviorment Design",
-            link:"/portfolio/virtual-production",
-            id:"environment"
-          },
-          {
-            subchild: "AR & VR",
-            link:"/portfolio/virtual-production",
-            id:"arvr"
-          },
-        ],
-      },
-      {
-        childmenu: "Game Development",
-        link:"/portfolio/game-development",
-        id:"",
-      },
+     
+      // {
+      //   childmenu: "Game Development",
+      //   link:"/portfolio/game-development",
+      //   id:"",
+      // },
     ],
   },
   {

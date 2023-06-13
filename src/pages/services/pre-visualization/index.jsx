@@ -110,7 +110,6 @@ const index = () => {
           <div className="grid grid-cols-12  py-10">
             <div className="xl:col-span-6 col-span-12">
               <div className="flex flex-col justify-start items-center xl:items-start text-white h-full">
-                {/* <h2 className="text-5xl max-w-screen-sm font-bold mb-4">Environment Design and Production Management</h2> */}
                 <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Conceptualizing Ideas</h2>
                 <p className="mb-4 text-justify">Our team works closely with you to understand and translate your creative vision into a visual representation. Through storyboards, concept art, and 3D mock-ups, we bring your ideas to life, allowing you to visualize and refine your project from the early stages. </p>
                 <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Scene Layout and Blocking</h2>

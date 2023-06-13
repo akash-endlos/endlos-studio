@@ -223,7 +223,7 @@ const index = () => {
         <div className="max-w-screen-2xl mx-auto px-5 py-5">
           <div className='h-auto flex flex-col xl:flex-row md:flex-row gap-5 justify-between items-center'>
             <div className='flex flex-col justify-center gap-5'>
-              <p className='text-white font-bold xl:text-2xl text-md text-justify max-w-screen-md leading-10'>Experience the future of architectural visualization through our AR and VR portfolio. Each project exemplifies our commitment to harnessing the power of these technologies to transform how architectural designs are explored, evaluated, and communicated.</p>
+              <p className='text-white  text-md text-justify max-w-screen-lg'>Experience the future of architectural visualization through our AR and VR portfolio. Each project exemplifies our commitment to harnessing the power of these technologies to transform how architectural designs are explored, evaluated, and communicated.</p>
               <Link href='/contact-us/write-to-us'>
                 <button className='rounded-lg bg-black text-white py-3 px-3 font-semibold hover:bg-white hover:text-black'>Connect With Us</button>
               </Link>

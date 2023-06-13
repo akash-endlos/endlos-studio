@@ -16,7 +16,7 @@ const HomeWriteUsContainer = () => {
                 <div className='max-w-screen-2xl mx-auto py-10 px-5'>
                     <div className="grid xl:grid-rows-1 lg:grid-cols-2 gap-4">
                         <FormContainer />
-                        <img src='/assets/endlos_company.jpg' className='rounded-lg w-full h-auto' alt='writeus'/>
+                        <img src='/assets/endlos_company.jpg' className='rounded-lg w-full h-auto' alt='endlos studio image'/>
                     </div>
                 </div>
         </div>

@@ -9,7 +9,7 @@ const HomeImageContainer = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 py-10">
           <div className="md:order-2">
-            <img src="/assets/blog_inside_vr_2.jpg" alt="unreal engine studio" className="w-full h-[500px] rounded-2xl" />
+            <img src="/assets/About endlos _1.jpg" alt="unreal engine studio" className="w-full h-[500px] rounded-2xl" />
           </div>
           <div className="md:order-1">
             <h1 className="font-bold text-4xl text-white">About Endlos Studio</h1>
@@ -21,7 +21,7 @@ const HomeImageContainer = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 py-5">
           <div>
-            <img src="/assets/blog_inside_vr_2.jpg" alt="endlos unreal engine studio" className="w-full h-auto rounded-2xl" />
+            <img src="/assets/About endlos _2.jpg" alt="endlos unreal engine studio" className="w-full h-auto rounded-2xl" />
           </div>
           <div>
             <p className='  text-justify  text-[#b6b6b6]     h-auto pb-5'>Endlos Studio is not just a service provider; we are your trusted partner in turning dreams into reality. We value collaboration, communication, and long-lasting relationships with our clients. Our team works closely with you throughout development, providing regular updates, soliciting feedback, and fine-tuning every element to align with your vision.

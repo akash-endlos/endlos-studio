@@ -40,7 +40,7 @@ function Navbar({ Navclass = 'bg-transparent text-white',setsetScrollState }) {
           }`}
       >
         <Link href="/"><span className="font-bold tracking-[.2em] cursor-pointer text-2xl align-middle font-serif">
-          <img src="/assets/logo.png" className="w-60" alt="endlos_logo" />
+          <img src="/assets/logo.png" className="w-60" alt="endlos studio logo" />
         </span></Link>
         <NewNavbar setsetScrollState={setsetScrollState}/>
         <div className="flex justify-center items-center gap-5">

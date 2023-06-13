@@ -198,7 +198,7 @@ const index = () => {
               </Link>
             </div>
             <div>
-              <img src="/assets/blog_inside_vr_2.jpg" alt="Image" className="w-[250px] h-[250px] rounded-2xl" />
+              <img src="/assets/blog_inside_vr_2.jpg" alt="endlos unreal engine studio" className="w-[250px] h-[250px] rounded-2xl" />
             </div>
           </div>
         </div>

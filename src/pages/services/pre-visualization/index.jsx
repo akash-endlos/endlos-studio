@@ -123,30 +123,12 @@ const index = () => {
               <img src="/assets/Pre_Visualization_1.jpg" alt="Image" className="w-full h-auto rounded-2xl" />
             </div>
           </div>
-          {/* <div className='max-w-screen-2xl mx-auto'>
-            <p className='text-white font-semibold py-10 flex justify-center xl:justify-start '>HOW WE DO IT</p>
-            <div className="max-w-screen-2xl mx-auto px-5">
-              <div className="grid xl:grid-cols-12 lg:grid-flow-row py-10">
-                <div className="col-span-12 lg:col-span-4">
-                  <div className="flex flex-col items-start justify-center">
-                    <h2 className="text-4xl  text-white max-w-sm font-bold mb-4">Your Vision Our Studio Network</h2>
-                  </div>
-                </div>
-                <div className="col-span-12 lg:col-span-8">
-                  <div className="flex flex-col justify-start text-white h-full text-xl  leading-8">
-                    <p className="mb-4 text-justify">With the Vū Network™, we combine the power of creativity and technology to create an environment for collaboration, creative control and freedom. Blurring the lines between what's physical and what's digital, we can take you anywhere you want to go - all from a single location.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> */}
           <div className="grid grid-cols-12 py-10">
             <div className="xl:col-span-6 col-span-12">
               <img src="/assets/Pre_Visualization_2.jpg" alt="Image" className="w-full h-auto rounded-2xl" />
             </div>
             <div className="xl:col-span-6 col-span-12 xl:pl-5">
               <div className="flex flex-col justify-start text-white h-full">
-                {/* <h2 className="text-5xl max-w-screen-sm font-bold mb-4">Environment Design and Production Management</h2> */}
                 <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Timing and Pacing</h2>
                 <p className="mb-4 text-justify">Previs allows us to establish the timing and pacing of scenes, ensuring a smooth and coherent flow throughout your project. By visualizing the sequence of events, you can fine-tune the rhythm, transitions, and dramatic moments, resulting in a more engaging and compelling outcome.</p>
                 <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Collaboration and Feedback</h2>
@@ -156,20 +138,6 @@ const index = () => {
             </div>
 
           </div>
-          {/* <div className="grid grid-cols-12  py-10">
-            <div className="xl:col-span-6 col-span-12">
-              <div className="flex flex-col justify-start items-center xl:items-start text-white h-full">
-                <h2 className="text-5xl max-w-screen-sm font-bold mb-4">Environment Design and Production Management</h2>
-                <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Unreal Environment Design</h2>
-                <p className="mb-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, dolorem quod ex assumenda dolorum voluptas beatae, officiis alias, tempore voluptatibus nam. Eligendi similique illum rerum quos voluptatibus alias dolore asperiores. Blanditiis ducimus ea, magni, praesentium eligendi a tempora distinctio aspernatur laboriosam illo ipsum laudantium voluptatem at obcaecati accusantium eos maxime. </p>
-                <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Unreal Environment Design</h2>
-                <p className="mb-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, dolorem quod ex assumenda dolorum voluptas beatae, officiis alias, tempore voluptatibus nam. Eligendi similique illum rerum quos voluptatibus alias dolore asperiores. </p>
-              </div>
-            </div>
-            <div className="xl:col-span-6 col-span-12 xl:pl-5">
-              <img src="/assets/Pre_Visualization_3.jpg" alt="Image" className="w-full h-auto rounded-2xl" />
-            </div>
-          </div> */}
           <div className='max-w-screen-2xl mx-auto'>
             <p className='text-white font-semibold py-10 flex justify-center xl:justify-start '>HOW WE DO IT</p>
             <div className="max-w-screen-2xl mx-auto px-5">
@@ -193,7 +161,6 @@ const index = () => {
             </div>
             <div className="xl:col-span-6 col-span-12 xl:pl-5">
               <div className="flex flex-col justify-start text-white h-full">
-                {/* <h2 className="text-5xl max-w-screen-sm font-bold mb-4">Environment Design and Production Management</h2> */}
                 <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Storytelling Visualization</h2>
                 <p className="mb-4 text-justify">Explore our portfolio to witness our ability to bring scripts and storyboards to life through visual storytelling. We demonstrate how we transform written narratives into dynamic and engaging visual sequences, providing a clear roadmap for the production process. </p>
                 <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Scene Layout and Composition</h2>
@@ -207,7 +174,6 @@ const index = () => {
            <div className="grid grid-cols-12  py-10">
             <div className="xl:col-span-6 col-span-12">
               <div className="flex flex-col justify-start items-center xl:items-start text-white h-full">
-                {/* <h2 className="text-5xl max-w-screen-sm font-bold mb-4">Environment Design and Production Management</h2> */}
                 <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Timing and Pacing</h2>
                 <p className="mb-4 text-justify">Our portfolio highlights our attention to timing and pacing in previsualization. We showcase how we accurately represent the timing and rhythm of the final film, ensuring that scenes flow seamlessly and capture the desired dramatic impact. </p>
                 <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Visual Effects Previsualization</h2>

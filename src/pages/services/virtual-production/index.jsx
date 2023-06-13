@@ -21,24 +21,6 @@ const index = () => {
       dispatch(getMetatags("SET_META_TAGS", hostWithPath));
     }
   }, [dispatch, path]);
-
-  // const path = useRouter().pathname;
-  // const metaTags = useSelector(state => state.allMetatags.payload);
-  // const dispatch = useDispatch();
-
-  // useEffect(() => {
-  //  if(window)
-  //  {
-  //   const host = window.location.host
-  //   const hostWithPath = `${host}${path}`
-  //   dispatch(getMetatags('SET_META_TAGS', hostWithPath));
-  //  }
-  // }, [dispatch, path]);
-  {/* <Head>
-        {metaTags && (
-          <meta dangerouslySetInnerHTML={{ __html: metaTags }} />
-        )}
-      </Head> */}
   return (
     <>
       <HeadTag />

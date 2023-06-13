@@ -145,7 +145,7 @@ const index = () => {
               <img src="/assets/Pre_Visualization_2.jpg" alt="Image" className="w-full h-auto rounded-2xl" />
             </div>
             <div className="xl:col-span-6 col-span-12 xl:pl-5">
-              <div className="flex flex-col justify-end text-white h-full">
+              <div className="flex flex-col justify-start text-white h-full">
                 {/* <h2 className="text-5xl max-w-screen-sm font-bold mb-4">Environment Design and Production Management</h2> */}
                 <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Timing and Pacing</h2>
                 <p className="mb-4 text-justify">Previs allows us to establish the timing and pacing of scenes, ensuring a smooth and coherent flow throughout your project. By visualizing the sequence of events, you can fine-tune the rhythm, transitions, and dramatic moments, resulting in a more engaging and compelling outcome.</p>
@@ -192,7 +192,7 @@ const index = () => {
               <img src="/assets/Pre_Visualization_4.jpg" alt="Image" className="w-full h-auto rounded-2xl" />
             </div>
             <div className="xl:col-span-6 col-span-12 xl:pl-5">
-              <div className="flex flex-col justify-end text-white h-full">
+              <div className="flex flex-col justify-start text-white h-full">
                 {/* <h2 className="text-5xl max-w-screen-sm font-bold mb-4">Environment Design and Production Management</h2> */}
                 <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Storytelling Visualization</h2>
                 <p className="mb-4 text-justify">Explore our portfolio to witness our ability to bring scripts and storyboards to life through visual storytelling. We demonstrate how we transform written narratives into dynamic and engaging visual sequences, providing a clear roadmap for the production process. </p>
@@ -219,7 +219,7 @@ const index = () => {
               </div>
             </div>
             <div className="xl:col-span-6 col-span-12 xl:pl-5">
-              <img src="/assets/Pre_Visualization_3.jpg" alt="Image" className="w-full h-auto rounded-2xl" />
+              <img src="/assets/Pre_Visualization_3.jpg" alt="Image" className="w-full h-[550px] rounded-2xl" />
             </div>
           </div>
         </div>

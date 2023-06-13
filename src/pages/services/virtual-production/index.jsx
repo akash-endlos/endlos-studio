@@ -160,10 +160,10 @@ const index = () => {
           </div> */}
           <div className="grid grid-cols-12 py-10">
             <div className="xl:col-span-6 col-span-12">
-              <img src="/assets/Virtual_2.jpg" alt="Image" className="w-full h-auto rounded-2xl" />
+              <img src="/assets/Virtual_2.jpg" alt="Image" className="w-full h-[550px] rounded-2xl" />
             </div>
             <div className="xl:col-span-6 col-span-12 xl:pl-5">
-              <div className="flex flex-col justify-end text-white h-full">
+              <div className="flex flex-col justify-start text-white h-full">
                 {/* <h2 className="text-5xl max-w-screen-sm font-bold mb-4">Environment Design and Production Management</h2> */}
                 <h3 className="text-2xl max-w-screen-sm font-bold mb-4">Virtual Cinematography</h3>
                 <p className="mb-4 text-justify">Our experienced team of virtual cinematographers leverages the power of Virtual Production to capture stunning shots in the virtual environment. Through virtual cameras and real-time rendering, we can explore unique camera angles, experiment with different lenses, and create captivating compositions that enhance the overall visual narrative.</p>

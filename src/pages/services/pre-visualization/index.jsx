@@ -43,7 +43,7 @@ const index = () => {
             </div>
             <div className="col-span-12 lg:col-span-8">
               <div className="flex flex-col justify-start text-white h-full text-xl  leading-8">
-                <p className="mb-4 text-justify">Our pre-visualization services offer a comprehensive and detailed approach to planning and visualizing complex scenes and sequences before they are brought to life. By leveraging advanced 3D technology and creative expertise, we help you streamline your production process, enhance communication, and optimize resource allocation. From storyboarding and animatics to virtual set design, our pre-visualization services empower you to visualize your project precisely and confidently.</p>
+                <p className="mb-4 text-justify">Our pre visualization services offer a comprehensive and detailed approach to planning and visualizing complex scenes and sequences before they are brought to life. By leveraging advanced 3D technology and creative expertise, we help you streamline your production process, enhance communication, and optimize resource allocation. From storyboarding and animatics to virtual set design, our pre visualization services empower you to visualize your project precisely and confidently.</p>
               </div>
             </div>
           </div>

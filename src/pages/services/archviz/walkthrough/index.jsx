@@ -21,7 +21,7 @@ const index = () => {
   }, [dispatch, path]);
   return (
     <>
-    <HeadTag/>
+      <HeadTag />
       <Navbar />
       <div className='bg-[#111111] text-white'>
         <div className="relative">

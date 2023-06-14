@@ -3,7 +3,9 @@ import BlogParallaxComponent from "@/components/blog-page-components/BlogParalla
 import LatestBlogCarousel from "@/components/blog-page-components/LatestBlogCarousel/LatestBlogCarousel";
 import Footer from "@/components/footer/Footer";
 import Navbar from "@/components/navbar/Navbar";
+import BlogShare from "@/shareBlog/shareBlog";
 import ShareBlog from "@/shareBlog/shareBlog";
+import { useRouter } from "next/router";
 import React from "react";
 import {
   AiFillYoutube,
@@ -14,6 +16,8 @@ import {
 } from "react-icons/ai";
 
 const FirstBlog = ({ }) => {
+  const pathname= useRouter()
+  console.log(pathname);
   return (
     <div className="w-full">
       <Navbar Navclass="bg-[#111111] text-white" />
@@ -34,7 +38,7 @@ const FirstBlog = ({ }) => {
                 <small>Senior Digital Marketer</small>
               </div>
             </div>
-            <ShareBlog/>
+            <BlogShare url={pathname} title={'Artificial Intelligence in Gaming: Enhancing Immersion and Gameplay.'}/>
             {/* <div className=" justify-between items-center hidden xl:flex">
               <small className="pr-5 font-semibold">Share On :- </small>
               <span className="font-semibold tracking-widest text-md pr-5 cursor-pointer">
@@ -55,7 +59,7 @@ const FirstBlog = ({ }) => {
             <img src="/assets/blog_inside_vr_1.jpg" className="mx-auto max-w-full h-auto" alt="example image" />
             <p className="py-2 pt-5">In the gaming world, artificial intelligence (AI) can be described as developing more flexible, adaptable, and demanding games. From NPCs to pathfinding, AI is revolutionizing the game experience.</p>
             <p className="py-2">
-            However, what does using AI mean in the gaming industry? What is it, and why is it important? Learn more in this blog.
+              However, what does using AI mean in the gaming industry? What is it, and why is it important? Learn more in this blog.
 
             </p>
             <h2 className="text-3xl font-bold max-w-7xl mx-auto py-5 px-5">What exactly is AI for gaming?</h2>

@@ -3,6 +3,7 @@ import BlogParallaxComponent from "@/components/blog-page-components/BlogParalla
 import LatestBlogCarousel from "@/components/blog-page-components/LatestBlogCarousel/LatestBlogCarousel";
 import Footer from "@/components/footer/Footer";
 import Navbar from "@/components/navbar/Navbar";
+import BlogShare from "@/shareBlog/shareBlog";
 import React from "react";
 import {
   AiFillYoutube,
@@ -33,7 +34,8 @@ const ThirdBlog = ({ }) => {
                 <small>Senior Digital Marketer</small>
               </div>
             </div>
-            <div className=" justify-between items-center hidden xl:flex">
+            <BlogShare title={'The Unreal Engine 5.2 is available!'}/>
+            {/* <div className=" justify-between items-center hidden xl:flex">
               <small className="pr-5 font-semibold">Share On :- </small>
               <span className="font-semibold tracking-widest text-md pr-5 cursor-pointer">
                 <AiOutlineWhatsApp size={20} color="white" />
@@ -47,7 +49,7 @@ const ThirdBlog = ({ }) => {
               <span className="font-semibold tracking-widest text-md pr-5 cursor-pointer">
                 <AiFillFacebook size={20} color="white" />
               </span>
-            </div>
+            </div> */}
           </div>
           <div className="max-w-7xl mx-auto py-10">
             <img src="/assets/blog_inside_vr_3.jpg" className="mx-auto max-w-full h-auto" alt="example image" />

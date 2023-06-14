@@ -21,16 +21,13 @@ const index = () => {
   }, [dispatch, path]);
   return (
     <>
-    <HeadTag/>
+      <HeadTag />
       <Navbar />
       <div className='bg-[#111111] text-white'>
         <div className="relative">
           <video src='/assets/Pre Visualization.mp4' autoPlay loop muted className={`${styles.videocontainer}  `} />
           <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center gap-4 justify-center px-5 bg-opacity-60 bg-black ">
             <h1 className="text-white xl:text-5xl md:text-xl max-w-screen-md px-5 font-extrabold">Pre Visualization</h1>
-
-
-
           </div>
         </div>
 
@@ -170,7 +167,7 @@ const index = () => {
             </div>
 
           </div>
-           <div className="grid grid-cols-12  py-10">
+          <div className="grid grid-cols-12  py-10">
             <div className="xl:col-span-6 col-span-12">
               <div className="flex flex-col justify-start items-center xl:items-start text-white h-full">
                 <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Timing and Pacing</h2>

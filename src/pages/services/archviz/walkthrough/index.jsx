@@ -119,12 +119,12 @@ const index = () => {
               </div>
             </div>
             <div className="xl:col-span-6 col-span-12 xl:pl-5">
-              <img src="/assets/Walktrough_1.jpg" alt="Image" className="w-full h-auto rounded-2xl" />
+              <img src="/assets/Pre_Visualization_1.jpg" alt="Image" className="w-full h-auto rounded-2xl" />
             </div>
           </div>
           <div className="grid grid-cols-12 py-10">
             <div className="xl:col-span-6 col-span-12">
-              <img src="/assets/Walktrough_2.jpg" alt="Image" className="w-full h-auto rounded-2xl" />
+              <img src="/assets/Pre_Visualization_2.jpg" alt="Image" className="w-full h-auto rounded-2xl" />
             </div>
             <div className="xl:col-span-6 col-span-12 xl:pl-5">
               <div className="flex flex-col justify-end text-white h-full">
@@ -157,7 +157,7 @@ const index = () => {
           </div>
           <div className="grid grid-cols-12 py-10">
             <div className="xl:col-span-6 col-span-12">
-              <img src="/assets/Walktrough_4.jpg" alt="Image" className="w-full h-auto rounded-2xl" />
+              <img src="/assets/Pre_Visualization_4.jpg" alt="Image" className="w-full h-auto rounded-2xl" />
             </div>
             <div className="xl:col-span-6 col-span-12 xl:pl-5">
               <div className="flex flex-col justify-end text-white h-full">
@@ -183,7 +183,7 @@ const index = () => {
               </div>
             </div>
             <div className="xl:col-span-6 col-span-12 xl:pl-5">
-              <img src="/assets/Walktrough_3.jpg" alt="Image" className="w-full h-auto rounded-2xl" />
+              <img src="/assets/Pre_Visualization_3.jpg" alt="Image" className="w-full h-auto rounded-2xl" />
             </div>
           </div>
         </div>

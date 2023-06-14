@@ -53,34 +53,34 @@ const index = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-screen-2xl mx-auto py-10">
           <div className="grid gap-4">
             <div>
-              <img className="h-auto max-w-full rounded-lg" src="/assets/archviz_1.jpg" alt="" />
+              <img className="h-auto max-w-full rounded-lg" src="/assets/archviz_1.jpg" alt="virtual production" />
             </div>
             <div>
-              <img className="h-auto max-w-full rounded-lg" src="/assets/archviz_2.jpg" alt="" />
-            </div>
-          </div>
-          <div className="grid gap-4">
-            <div>
-              <img className="h-auto max-w-full rounded-lg" src="/assets/archviz_5.jpg" alt="" />
-            </div>
-            <div>
-              <img className="h-auto max-w-full rounded-lg" src="/assets/archviz_6.jpg" alt="" />
+              <img className="h-auto max-w-full rounded-lg" src="/assets/archviz_2.jpg" alt="endlos virtual production" />
             </div>
           </div>
           <div className="grid gap-4">
             <div>
-              <img className="h-auto max-w-full rounded-lg" src="/assets/archviz_7.jpg" alt="" />
+              <img className="h-auto max-w-full rounded-lg" src="/assets/archviz_5.jpg" alt="virtual production studio" />
             </div>
             <div>
-              <img className="h-auto max-w-full rounded-lg" src="/assets/archviz_1.jpg" alt="" />
+              <img className="h-auto max-w-full rounded-lg" src="/assets/archviz_6.jpg" alt="virtual production visualization" />
             </div>
           </div>
           <div className="grid gap-4">
             <div>
-              <img className="h-auto max-w-full rounded-lg" src="/assets/archviz_3.jpg" alt="" />
+              <img className="h-auto max-w-full rounded-lg" src="/assets/archviz_7.jpg" alt="virtual reality virtual production" />
             </div>
             <div>
-              <img className="h-auto max-w-full rounded-lg" src="/assets/archviz_5.jpg" alt="" />
+              <img className="h-auto max-w-full rounded-lg" src="/assets/archviz_1.jpg" alt="virtual production augmented reality" />
+            </div>
+          </div>
+          <div className="grid gap-4">
+            <div>
+              <img className="h-auto max-w-full rounded-lg" src="/assets/archviz_3.jpg" alt="endlos motion capture" />
+            </div>
+            <div>
+              <img className="h-auto max-w-full rounded-lg" src="/assets/archviz_5.jpg" alt="endlos virtual production studio" />
             </div>
           </div>
         </div>
@@ -118,12 +118,12 @@ const index = () => {
               </div>
             </div>
             <div className="xl:col-span-6 col-span-12 xl:pl-5">
-              <img src="/assets/Virtual_1.jpg" alt="Image" className="w-full h-auto rounded-2xl" />
+              <img src="/assets/Virtual_1.jpg" alt="endlos visualization studio" className="w-full h-auto rounded-2xl" />
             </div>
           </div>
           <div className="grid grid-cols-12 py-10">
             <div className="xl:col-span-6 col-span-12">
-              <img src="/assets/Virtual_2.jpg" alt="Image" className="w-full h-[550px] rounded-2xl" />
+              <img src="/assets/Virtual_2.jpg" alt="endlos virtual studio" className="w-full h-[550px] rounded-2xl" />
             </div>
             <div className="xl:col-span-6 col-span-12 xl:pl-5">
               <div className="flex flex-col justify-start text-white h-full">
@@ -157,7 +157,7 @@ const index = () => {
           </div>
           <div className="grid grid-cols-12 py-10">
             <div className="xl:col-span-6 col-span-12">
-              <img src="/assets/Virtual_4.jpg" alt="Image" className="w-full h-auto rounded-2xl" />
+              <img src="/assets/Virtual_4.jpg" alt="virtual production image" className="w-full h-auto rounded-2xl" />
             </div>
             <div className="xl:col-span-6 col-span-12 xl:pl-5">
               <div className="flex flex-col justify-end text-white h-full">
@@ -183,7 +183,7 @@ const index = () => {
               </div>
             </div>
             <div className="xl:col-span-6 col-span-12 xl:pl-5">
-              <img src="/assets/Virtual_3.jpg" alt="Image" className="w-full h-auto rounded-2xl" />
+              <img src="/assets/Virtual_3.jpg" alt="virtual production endlos" className="w-full h-auto rounded-2xl" />
             </div>
           </div>
         </div>
@@ -198,7 +198,7 @@ const index = () => {
               </Link>
             </div>
             <div>
-              <img src="/assets/blog_inside_vr_2.jpg" alt="endlos unreal engine studio" className="w-[250px] h-[250px] rounded-2xl" />
+              <img src="/assets/blog_inside_vr_2.jpg" alt="endlos studio" className="w-[250px] h-[250px] rounded-2xl" />
             </div>
           </div>
         </div>

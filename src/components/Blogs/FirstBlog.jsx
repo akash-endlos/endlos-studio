@@ -16,8 +16,6 @@ import {
 } from "react-icons/ai";
 
 const FirstBlog = ({ }) => {
-  const pathname= useRouter()
-  console.log(pathname);
   return (
     <div className="w-full">
       <Navbar Navclass="bg-[#111111] text-white" />
@@ -38,7 +36,7 @@ const FirstBlog = ({ }) => {
                 <small>Senior Digital Marketer</small>
               </div>
             </div>
-            <BlogShare url={pathname} title={'Artificial Intelligence in Gaming: Enhancing Immersion and Gameplay.'}/>
+            <BlogShare  title={'Artificial Intelligence in Gaming: Enhancing Immersion and Gameplay.'}/>
             {/* <div className=" justify-between items-center hidden xl:flex">
               <small className="pr-5 font-semibold">Share On :- </small>
               <span className="font-semibold tracking-widest text-md pr-5 cursor-pointer">

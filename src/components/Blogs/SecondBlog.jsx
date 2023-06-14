@@ -34,7 +34,7 @@ const SecondBlog = ({ }) => {
                 <small>Senior Digital Marketer</small>
               </div>
             </div>
-            <BlogShare url={pathname} title={'The Impact of Virtual Reality on Architecture and Design.'}/>
+            <BlogShare  title={'The Impact of Virtual Reality on Architecture and Design.'}/>
             {/* <div className=" justify-between items-center hidden xl:flex">
               <small className="pr-5 font-semibold">Share On :- </small>
               <span className="font-semibold tracking-widest text-md pr-5 cursor-pointer">

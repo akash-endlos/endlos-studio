@@ -13,13 +13,10 @@ import {
 
 const BlogShare = ({  title }) => {
   const [currentUrl, setCurrentUrl] = useState('');
-  const router = useRouter();
 
   useEffect(() => {
     setCurrentUrl(window.location.href);
   }, []);
-
-  const path = router.asPath;
 
   return (
     <>

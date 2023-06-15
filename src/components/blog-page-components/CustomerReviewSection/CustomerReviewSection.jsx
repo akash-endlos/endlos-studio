@@ -16,14 +16,14 @@ const CustomerReviewSection = () => {
                     <div className="absolute inset-0 bg-black opacity-60"></div>
                     <div className="absolute inset-0 flex justify-center items-center">
                         <div className="text-center">
-                            <h1 className="text-3xl font-bold text-white">Customer Review</h1>
+                            <h2 className="text-3xl font-bold text-white">Customer Review</h2>
                         </div>
                     </div>
                 </div>
                 <div className="bg-black flex justify-center items-center max-h-max md:h-40 lg:h-40 p-5">
                 <div className="inset-0 flex justify-center items-center">
                     <div className="text-center">
-                        <h1 className="text-5xl font-bold text-white">Reviews</h1>
+                        <h2 className="text-5xl font-bold text-white">Reviews</h2>
                     </div>
                 </div>
             </div>

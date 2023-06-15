@@ -7,7 +7,7 @@ const BlogRightSection = () => {
     return (
         <div className='px-1 py-5 w-full'>
             <div className="flex flex-col xl:items-start px-5 py-10">
-                <h1 className="text-2xl font-bold py-5">Popular News</h1>
+                <h2 className="text-2xl font-bold py-5">Popular News</h2>
                 {news && news.map((item,index)=>(
                     <div className='flex flex-col justify-between items-center text-white gap-4'>
 

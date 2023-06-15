@@ -27,11 +27,11 @@ export const menuItems = [
         subchildren: [
           {
             subchild: "Walkthrough",
-            link: "/services/archviz/walkthrough",
+            link: "/services/architectural-visualization/walkthrough",
           },
           {
             subchild: "AR & VR application",
-            link: "/services/archviz/ar-vr",
+            link: "/services/architectural-visualization/ar-vr",
           },
         ]
       },

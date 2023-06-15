@@ -185,7 +185,7 @@ const index = () => {
             </div>
           </div>
         </div>
-        <div className="max-w-screen-2xl mx-auto px-5 py-5">
+        {/* <div className="max-w-screen-2xl mx-auto px-5 py-5">
           <div className='h-auto flex flex-col xl:flex-row md:flex-row gap-5 justify-between items-center'>
             <div className='flex flex-col justify-center gap-5'>
               <p className='text-white text-md text-justify max-w-screen-lg'>Experience the power of previsualization through our portfolio. Each project exemplifies our commitment to helping filmmakers visualize and plan their projects with precision, creativity, and attention to detail, ultimately laying the foundation for a successful production.</p>
@@ -197,7 +197,7 @@ const index = () => {
               <img src="/assets/blog_inside_vr_2.jpg" alt="endlos unreal engine studio" className="w-[250px] h-[250px] rounded-2xl" />
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
       <Footer />
     </>

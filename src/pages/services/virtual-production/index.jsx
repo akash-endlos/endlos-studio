@@ -187,7 +187,7 @@ const index = () => {
             </div>
           </div>
         </div>
-        <div className="max-w-screen-2xl mx-auto px-5 py-5">
+        {/* <div className="max-w-screen-2xl mx-auto px-5 py-5">
           <div className='h-auto flex flex-col xl:flex-row md:flex-row gap-5 justify-between items-center'>
             <div className='flex flex-col justify-center gap-5'>
             <h2 className="text-2xl max-w-screen-sm font-bold mb-4 text-white">Collaboration and Expertise</h2>
@@ -201,7 +201,7 @@ const index = () => {
               <img src="/assets/blog_inside_vr_2.jpg" alt="endlos studio" className="w-[250px] h-[250px] rounded-2xl" />
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
       <Footer />
     </>

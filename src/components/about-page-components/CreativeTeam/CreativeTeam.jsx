@@ -21,7 +21,7 @@ const CreativeTeam = () => {
                             <p className='cursor-pointer'>Founder of  Endlos group</p>
                         </div>
                         <div class="text-center text-gray-500 dark:text-gray-400">
-                            <img class="mx-auto mb-4 rounded-lg h-[300px] w-[300px]" src="/assets/khilan.jpg" alt="endlos founder khilan patel" />
+                            <img class="mx-auto mb-4 rounded-lg h-[300px] w-[300px]" src="/assets/saurabh_malpure.png" alt="endlos cto saurabh malpure" />
                             <h3 class="mb-1 text-lg font-bold tracking-tight text-gray-900 dark:text-white">
                                 <p className='text-white cursor-pointer'>Saurabh Malpure</p>
                             </h3>

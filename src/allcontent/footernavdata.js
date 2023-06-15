@@ -11,7 +11,7 @@ export const footernav=[ {
         link:"/services/pre-visualization",
       },
       {
-        subchild: "WalkThrough",
+        subchild: "Architectural Visualization",
         link:"/services/archviz/walkthrough",
       },
       {

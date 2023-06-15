@@ -7,7 +7,7 @@ const CreativeTeam = () => {
                 <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
                     <div class="grid gap-2 lg:gap-16 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                         <div class="text-center text-gray-500 dark:text-gray-400">
-                            <img class="mx-auto mb-4 rounded-lg h-[300px] w-[300px]" src="/assets/khilan.jpg" alt="endlos ceo yash patel" />
+                            <img class="mx-auto mb-4 rounded-lg h-[300px] w-[300px]" src="/assets/yash.jpg" alt="endlos ceo yash patel" />
                             <h3 class="mb-1 text-lg font-bold tracking-tight text-gray-900 dark:text-white">
                                 <p className='text-white cursor-pointer'>Yash Patel</p>
                             </h3>

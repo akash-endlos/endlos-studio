@@ -54,31 +54,31 @@ const index = () => {
               <img className="h-auto max-w-full rounded-lg" src="/assets/archviz_1.jpg" alt="pre visualization studio" />
             </div>
             <div>
-              <img className="h-auto max-w-full rounded-lg" src="/assets/archviz_2.jpg" alt="endlos pre visualization studio" />
+              <img className="h-auto max-w-full rounded-lg" src="/assets/prev_2.jpg" alt="endlos pre visualization studio" />
             </div>
           </div>
           <div className="grid gap-4">
             <div>
-              <img className="h-auto max-w-full rounded-lg" src="/assets/archviz_5.jpg" alt="endlos visual storytelling" />
+              <img className="h-auto max-w-full rounded-lg" src="/assets/prev_3.jpg" alt="endlos visual storytelling" />
             </div>
             <div>
-              <img className="h-auto max-w-full rounded-lg" src="/assets/archviz_6.jpg" alt="endlos visual studio" />
-            </div>
-          </div>
-          <div className="grid gap-4">
-            <div>
-              <img className="h-auto max-w-full rounded-lg" src="/assets/archviz_7.jpg" alt="visual studio" />
-            </div>
-            <div>
-              <img className="h-auto max-w-full rounded-lg" src="/assets/archviz_1.jpg" alt="visualization studio" />
+              <img className="h-auto max-w-full rounded-lg" src="/assets/prev_4.jpg" alt="endlos visual studio" />
             </div>
           </div>
           <div className="grid gap-4">
             <div>
-              <img className="h-auto max-w-full rounded-lg" src="/assets/archviz_3.jpg" alt="unreal engine studio" />
+              <img className="h-auto max-w-full rounded-lg" src="/assets/prev_5.jpg" alt="visual studio" />
             </div>
             <div>
-              <img className="h-auto max-w-full rounded-lg" src="/assets/archviz_5.jpg" alt="visual storytelling studio" />
+              <img className="h-auto max-w-full rounded-lg" src="/assets/prev_6.jpg" alt="visualization studio" />
+            </div>
+          </div>
+          <div className="grid gap-4">
+            <div>
+              <img className="h-auto max-w-full rounded-lg" src="/assets/prev_7.jpg" alt="unreal engine studio" />
+            </div>
+            <div>
+              <img className="h-auto max-w-full rounded-lg" src="/assets/prev_8.jpg" alt="visual storytelling studio" />
             </div>
           </div>
         </div>

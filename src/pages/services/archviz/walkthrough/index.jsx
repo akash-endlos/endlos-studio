@@ -27,7 +27,7 @@ const index = () => {
         <div className="relative">
           <video src='/assets/Walktrough1.mp4' autoPlay loop muted className={`${styles.videocontainer}  `} />
           <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center gap-4 justify-center px-5 bg-opacity-60 bg-black ">
-            <h1 className="text-white xl:text-5xl md:text-xl max-w-screen-md px-5 font-extrabold">Walkthrough</h1>
+            <h1 className="text-white xl:text-5xl md:text-xl max-w-screen-md px-5 font-extrabold">Architectural Visualization</h1>
 
 
 

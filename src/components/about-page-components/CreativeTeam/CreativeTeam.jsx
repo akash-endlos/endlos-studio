@@ -32,7 +32,7 @@ const CreativeTeam = () => {
                             <h3 class="mb-1 text-lg font-bold tracking-tight text-gray-900 dark:text-white">
                                 <p className='text-white cursor-pointer'>Rohit Nair</p>
                             </h3>
-                            <p className='cursor-pointer'>Unreal Engine Artist</p>
+                            <p className='cursor-pointer'>Unreal Engine Lead</p>
                         </div>
                         <div class="text-center text-gray-500 dark:text-gray-400">
                             <img class="mx-auto mb-4 rounded-lg h-[300px] w-[300px]" src="/assets/nikesh.jpg" alt="endlos nikesh more" />

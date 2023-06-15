@@ -3,11 +3,11 @@ import React from 'react'
 import { useSelector } from 'react-redux';
 
 const AlternateImageContainer = ({filteredData}) => {
-    const LeftContainer = ({id,name,src}) => (
+    const LeftContainer = ({id,name,src,alt}) => (
         <>
                     <div className="max-w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                         <a href="#">
-                            <img className="rounded-t-lg" src={src} alt="img_1" />
+                            <img className="rounded-t-lg" src={src} alt={alt} />
                         </a>
                         <div className="p-5">
                             <a href="#">
@@ -27,7 +27,7 @@ const AlternateImageContainer = ({filteredData}) => {
             <div className='max-w-screen-2xl grid xl:grid-cols-2 md:grid-cols-1 gap-5 mx-auto px-10'>
                {filteredData && filteredData.map((item,key)=>(
                    <>
-                   <LeftContainer id={item?.id} name={item.name} src={item.src} />
+                   <LeftContainer id={item?.id} name={item.name} src={item.src} alt={alt} />
                    </> ))}
             </div>
 

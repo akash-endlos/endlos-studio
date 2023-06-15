@@ -26,7 +26,7 @@ const index = () => {
       <div className="relative">
         <img
           src="/assets/contact_us.jpg"
-          alt="dummy-img"
+          alt="endlos studio contact"
           className="mx-auto w-full h-auto"
         />
         <div className="absolute inset-0 flex items-center justify-center">

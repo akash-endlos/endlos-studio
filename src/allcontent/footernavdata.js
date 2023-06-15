@@ -12,11 +12,11 @@ export const footernav=[ {
       },
       {
         subchild: "Architectural Visualization",
-        link:"/services/archviz/walkthrough",
+        link:"/services/architectural-visualization/walkthrough",
       },
       {
         subchild: "AR & VR",
-        link:"/services/archviz/ar-vr",
+        link:"/services/architectural-visualization/ar-vr",
       },
     ],
   },]

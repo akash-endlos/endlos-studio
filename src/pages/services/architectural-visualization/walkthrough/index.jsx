@@ -54,34 +54,34 @@ const index = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-screen-2xl mx-auto py-10">
           <div className="grid gap-4">
             <div>
-              <img className="h-auto max-w-full rounded-lg" src="/assets/archviz_1.jpg" alt="" />
+              <img className="h-auto max-w-full rounded-lg" src="/assets/wt_1.jpg" alt="" />
             </div>
             <div>
-              <img className="h-auto max-w-full rounded-lg" src="/assets/archviz_2.jpg" alt="" />
-            </div>
-          </div>
-          <div className="grid gap-4">
-            <div>
-              <img className="h-auto max-w-full rounded-lg" src="/assets/archviz_5.jpg" alt="" />
-            </div>
-            <div>
-              <img className="h-auto max-w-full rounded-lg" src="/assets/archviz_6.jpg" alt="" />
+              <img className="h-auto max-w-full rounded-lg" src="/assets/wt_2.jpg" alt="" />
             </div>
           </div>
           <div className="grid gap-4">
             <div>
-              <img className="h-auto max-w-full rounded-lg" src="/assets/archviz_7.jpg" alt="" />
+              <img className="h-auto max-w-full rounded-lg" src="/assets/wt_3.jpg" alt="" />
             </div>
             <div>
-              <img className="h-auto max-w-full rounded-lg" src="/assets/archviz_1.jpg" alt="" />
+              <img className="h-auto max-w-full rounded-lg" src="/assets/wt_4.jpg" alt="" />
             </div>
           </div>
           <div className="grid gap-4">
             <div>
-              <img className="h-auto max-w-full rounded-lg" src="/assets/archviz_3.jpg" alt="" />
+              <img className="h-auto max-w-full rounded-lg" src="/assets/wt_5.jpg" alt="" />
             </div>
             <div>
-              <img className="h-auto max-w-full rounded-lg" src="/assets/archviz_5.jpg" alt="" />
+              <img className="h-auto max-w-full rounded-lg" src="/assets/wt_6.jpg" alt="" />
+            </div>
+          </div>
+          <div className="grid gap-4">
+            <div>
+              <img className="h-auto max-w-full rounded-lg" src="/assets/wt_7.jpg" alt="" />
+            </div>
+            <div>
+              <img className="h-auto max-w-full rounded-lg" src="/assets/wt_8.jpg" alt="" />
             </div>
           </div>
         </div>

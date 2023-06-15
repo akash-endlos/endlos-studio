@@ -53,34 +53,34 @@ const index = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-screen-2xl mx-auto py-10">
           <div className="grid gap-4">
             <div>
-              <img className="h-auto max-w-full rounded-lg" src="/assets/archviz_1.jpg" alt="virtual production" />
+              <img className="h-auto max-w-full rounded-lg" src="/assets/vp_1.jpg" alt="virtual production" />
             </div>
             <div>
-              <img className="h-auto max-w-full rounded-lg" src="/assets/archviz_2.jpg" alt="endlos virtual production" />
-            </div>
-          </div>
-          <div className="grid gap-4">
-            <div>
-              <img className="h-auto max-w-full rounded-lg" src="/assets/archviz_5.jpg" alt="virtual production studio" />
-            </div>
-            <div>
-              <img className="h-auto max-w-full rounded-lg" src="/assets/archviz_6.jpg" alt="virtual production visualization" />
+              <img className="h-auto max-w-full rounded-lg" src="/assets/vp_2.jpg" alt="endlos virtual production" />
             </div>
           </div>
           <div className="grid gap-4">
             <div>
-              <img className="h-auto max-w-full rounded-lg" src="/assets/archviz_7.jpg" alt="virtual reality virtual production" />
+              <img className="h-auto max-w-full rounded-lg" src="/assets/vp_3.jpg" alt="virtual production studio" />
             </div>
             <div>
-              <img className="h-auto max-w-full rounded-lg" src="/assets/archviz_1.jpg" alt="virtual production augmented reality" />
+              <img className="h-auto max-w-full rounded-lg" src="/assets/vp_4.jpg" alt="virtual production visualization" />
             </div>
           </div>
           <div className="grid gap-4">
             <div>
-              <img className="h-auto max-w-full rounded-lg" src="/assets/archviz_3.jpg" alt="endlos motion capture" />
+              <img className="h-auto max-w-full rounded-lg" src="/assets/vp_5.jpg" alt="virtual reality virtual production" />
             </div>
             <div>
-              <img className="h-auto max-w-full rounded-lg" src="/assets/archviz_5.jpg" alt="endlos virtual production studio" />
+              <img className="h-auto max-w-full rounded-lg" src="/assets/vp_6.jpg" alt="virtual production augmented reality" />
+            </div>
+          </div>
+          <div className="grid gap-4">
+            <div>
+              <img className="h-auto max-w-full rounded-lg" src="/assets/vp_7.jpg" alt="endlos motion capture" />
+            </div>
+            <div>
+              <img className="h-auto max-w-full rounded-lg" src="/assets/vp_8.jpg" alt="endlos virtual production studio" />
             </div>
           </div>
         </div>

@@ -51,7 +51,7 @@ const index = () => {
 
       </div>
       <div className='bg-[#111111] px-5'>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-screen-2xl mx-auto py-10">
+        {/* <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-screen-2xl mx-auto py-10">
           <div className="grid gap-4">
             <div>
               <img className="h-auto max-w-full rounded-lg" src="/assets/archviz_1.jpg" alt="" />
@@ -84,13 +84,15 @@ const index = () => {
               <img className="h-auto max-w-full rounded-lg" src="/assets/archviz_5.jpg" alt="" />
             </div>
           </div>
-        </div>
+        </div> */}
 
 
 
 
         <div className='max-w-screen-2xl mx-auto'>
+          <hr/>
           <p className='text-white font-semibold py-10 flex justify-center xl:justify-start '>HOW WE DO IT</p>
+          <hr/>
           <div className="max-w-screen-2xl mx-auto px-5">
             <div className="grid xl:grid-cols-12 lg:grid-flow-row py-10">
               <div className="col-span-12 lg:col-span-4">

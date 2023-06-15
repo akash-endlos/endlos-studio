@@ -27,7 +27,7 @@ const AlternateImageContainer = ({filteredData}) => {
             <div className='max-w-screen-2xl grid xl:grid-cols-2 md:grid-cols-1 gap-5 mx-auto px-10'>
                {filteredData && filteredData.map((item,key)=>(
                    <>
-                   <LeftContainer id={item?.id} name={item.name} src={item.src} alt={alt} />
+                   <LeftContainer id={item?.id} name={item.name} src={item.src} alt={item.alt} />
                    </> ))}
             </div>
 

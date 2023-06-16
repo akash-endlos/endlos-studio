@@ -67,23 +67,15 @@ export default function HomeVideoCarousel() {
         grabCursor
         centeredSlides
         slidesPerView={1} 
-        coverflowEffect={{
-          rotate: 0,
-          stretch: 0,
-          depth: 200,
-          modifier: 1,
-          scale: 2,
-          slideShadows: false,
-        }}
         pagination={false}
         navigation
         className="mySwiper"
         breakpoints={{
           768: {
-            slidesPerView: 2, 
+            slidesPerView: 1, 
           },
           1024: {
-            slidesPerView: 2, 
+            slidesPerView: 1, 
           },
           1280: {
             slidesPerView: 2, 

@@ -19,6 +19,7 @@ export default function HomeVideoCarousel() {
     videoRefs.current[index].pause();
     videoRefs.current[index].currentTime = 0;
   };
+
   const CarouselSection = [
     {
       title:
@@ -54,20 +55,18 @@ export default function HomeVideoCarousel() {
   return (
     <div className="bg-[#111111]">
       <div className="bg-[#111111] flex justify-center items-center py-16 p-5 border-t-2 border-gray-900">
-            <div className="inset-0 flex justify-center items-center">
-              <div className="text-center">
-                <h2 className="text-4xl font-bold text-white">
-                Our works
-                </h2>
-              </div>
-            </div>
+        <div className="inset-0 flex justify-center items-center">
+          <div className="text-center">
+            <h2 className="text-4xl font-bold text-white">Our works</h2>
           </div>
+        </div>
+      </div>
       <Swiper
-        loop={true}
-        effect={"coverflow"}
-        grabCursor={true}
-        centeredSlides={true}
-        slidesPerView={2}
+        loop
+        effect="coverflow"
+        grabCursor
+        centeredSlides
+        slidesPerView={1} 
         coverflowEffect={{
           rotate: 0,
           stretch: 0,
@@ -77,17 +76,28 @@ export default function HomeVideoCarousel() {
           slideShadows: false,
         }}
         pagination={false}
-        navigation={true}
+        navigation
         className="mySwiper"
+        breakpoints={{
+          768: {
+            slidesPerView: 2, 
+          },
+          1024: {
+            slidesPerView: 2, 
+          },
+          1280: {
+            slidesPerView: 2, 
+          },
+        }}
       >
-        {CarouselSection.map((item,index) => (
+        {CarouselSection.map((item, index) => (
           <SwiperSlide
             key={index}
             onMouseEnter={() => handleSlideMouseEnter(index)}
             onMouseLeave={() => handleSlideMouseLeave(index)}
           >
             <video
-             className="w-full h-[650px] "
+              className="w-full h-[650px]"
               src={item.src}
               ref={(ref) => (videoRefs.current[index] = ref)}
               autoPlay={index === currentSlide}

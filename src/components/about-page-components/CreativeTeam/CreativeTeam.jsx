@@ -56,7 +56,7 @@ const CreativeTeam = () => {
                             <p className='cursor-pointer'>Unreal Engine Developer</p>
                         </div>
                         <div class="text-center text-gray-500 dark:text-gray-400">
-                            <img class="mx-auto mb-4 rounded-lg h-[300px] w-[300px]" src="/assets/payal.jpg" alt="endlos payal patel" />
+                            <img class="mx-auto mb-4 rounded-lg h-[300px] w-[300px] object-cover" src="/assets/payal.jpg" alt="endlos payal patel" />
                             <h3 class="mb-1 text-lg font-bold tracking-tight text-gray-900 dark:text-white">
                                 <p className='text-white cursor-pointer'>Payal Jadav</p>
                             </h3>

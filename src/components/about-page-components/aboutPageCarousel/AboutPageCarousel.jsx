@@ -43,13 +43,13 @@ export default function AboutPageCarousel() {
                     <video src="/assets/cr4.mp4" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <video src="/assets/cr5.mp4" />
+                    <video src="/assets/cr4.mp4" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <video src="/assets/cr5.mp4" />
+                    <video src="/assets/cr4.mp4" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <video src="/assets/cr5.mp4" />
+                    <video src="/assets/cr4.mp4" />
                 </SwiperSlide>
                 <SwiperSlide>
                     <video src="/assets/cr5.mp4" />

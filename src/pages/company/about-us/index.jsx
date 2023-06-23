@@ -42,7 +42,7 @@ const page = () => {
                     </div>
                 </div>
             </div>
-      <AboutPageCarousel />
+      {/* <AboutPageCarousel /> */}
       <OurGoal/>
       <ParallaxImageContainer/>
       <CreativeTeam/>

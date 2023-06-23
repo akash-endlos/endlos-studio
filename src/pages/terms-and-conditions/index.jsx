@@ -1,3 +1,4 @@
+import { HeadTag } from '@/components/HeaadTag/HeadTag'
 import Footer from '@/components/footer/Footer'
 import Navbar from '@/components/navbar/Navbar'
 import Link from 'next/link'
@@ -6,6 +7,7 @@ import React from 'react'
 const index = () => {
   return (
     <>
+      <HeadTag />
     <Navbar/>
     <div className="pt-24 bg-[#111111] text-white px-5">
         <div className='max-w-screen-2xl mx-auto py-10'>

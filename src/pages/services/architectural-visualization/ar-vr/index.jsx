@@ -129,7 +129,7 @@ const index = () => {
               <img src="/assets/Ar_VR_2.jpg" alt="Image" className="w-full h-auto rounded-2xl" />
             </div>
             <div className="xl:col-span-6 col-span-12 xl:pl-5">
-              <div className="flex flex-col justify-end text-white h-full">
+              <div className="flex flex-col justify-start text-white h-full">
                 <h3 className="text-2xl max-w-screen-sm font-bold mb-4">Realistic Visualizations</h3>
                 <p className="mb-4 text-justify">We pride ourselves on creating realistic and visually stunning AR and VR experiences. Our team of skilled artists and designers meticulously craft virtual environments with accurate textures, lighting, and spatial relationships, ensuring high realism and immersion in the virtual world. </p>
                 <h3 className="text-2xl max-w-screen-sm font-bold mb-4">Customization and Collaboration</h3>

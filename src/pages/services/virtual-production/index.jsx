@@ -160,7 +160,7 @@ const index = () => {
               <img src="/assets/Virtual_4.jpg" alt="virtual production image" className="w-full h-auto rounded-2xl" />
             </div>
             <div className="xl:col-span-6 col-span-12 xl:pl-5">
-              <div className="flex flex-col justify-end text-white h-full">
+              <div className="flex flex-col justify-start text-white h-full">
                 <h3 className="text-2xl max-w-screen-sm font-bold mb-4">Integrated Workflow</h3>
                 <p className="mb-4 text-justify">We excel at creating an integrated workflow that combines live-action footage with real-time rendering and virtual environments. Our portfolio demonstrates how we seamlessly merge physical sets with digital assets, enabling directors and cinematographers to visualize and capture scenes in real-time.</p>
                 <h3 className="text-2xl max-w-screen-sm font-bold mb-4">Realistic Virtual Sets</h3>

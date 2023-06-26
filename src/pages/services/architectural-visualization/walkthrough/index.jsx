@@ -127,7 +127,7 @@ const index = () => {
               <img src="/assets/Walkthrough_2.jpg" alt="virtual reality studio" className="w-full h-auto rounded-2xl" />
             </div>
             <div className="xl:col-span-6 col-span-12 xl:pl-5">
-              <div className="flex flex-col justify-end text-white h-full">
+              <div className="flex flex-col justify-start text-white h-full">
                 <h3 className="text-2xl max-w-screen-sm font-bold mb-4">Realistic Lighting and Atmosphere</h3>
                 <p className="mb-4 text-justify">We create realistic lighting scenarios that replicate natural daylight or artificial lighting sources, enhancing the visual appeal of the walkthrough. The interplay of light and shadow and the manipulation of atmosphere and mood add depth and realism to the virtual space. </p>
                 <h3 className="text-2xl max-w-screen-sm font-bold mb-4">Customization and Flexibility</h3>
@@ -160,7 +160,7 @@ const index = () => {
               <img src="/assets/Walkthrough_4.jpg" alt="augmented reality studio" className="w-full h-auto rounded-2xl" />
             </div>
             <div className="xl:col-span-6 col-span-12 xl:pl-5">
-              <div className="flex flex-col justify-end text-white h-full">
+              <div className="flex flex-col justify-start text-white h-full">
                 <h3 className="text-2xl max-w-screen-sm font-bold mb-4">Realistic Visualization</h3>
                 <p className="mb-4 text-justify">We use state-of-the-art rendering techniques to create realistic and visually stunning walkthroughs. Our attention to detail in texturing, lighting, and materiality ensures that the virtual representation closely matches the intended real-world design.</p>
                 <h3 className="text-2xl max-w-screen-sm font-bold mb-4">Interior and Exterior Exploration</h3>

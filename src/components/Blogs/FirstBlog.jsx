@@ -60,25 +60,25 @@ const FirstBlog = ({ }) => {
               However, what does using AI mean in the gaming industry? What is it, and why is it important? Learn more in this blog.
 
             </p>
-            <h3 className="text-3xl font-bold max-w-7xl mx-auto py-5 px-5">What exactly is AI for gaming?</h3>
+            <h2 className="text-3xl font-bold max-w-7xl mx-auto py-5 px-5">What exactly is AI for gaming?</h2>
             <p className="py-2">AI in gaming provides dynamic and personalized gaming experiences using non-player characters (NPCs) that perform innovatively and intelligently. They are created to resemble human players, and their actions are guided by AI algorithms that allow them to react and adapt to the gaming context.</p>
             <p className="py-2">The excitement surrounding AI for gaming has been growing steadily over a long time. Take a look at Cortana in Halo (yes, Microsoft virtual assistant in honor of this person!) This isn't the only game based on artificial intelligence.</p>
             <p className="py-2">What could be in AI gaming? Are they just games that deal with artificial intelligence?</p>
             {/* <p className="py-2">What could be in AI gaming? Are they just games that deal with artificial intelligence?</p> */}
-            <h3 className="text-3xl font-bold max-w-7xl mx-auto py-5 px-5">What are the advantages of AI for games?</h3>
+            <h2 className="text-3xl font-bold max-w-7xl mx-auto py-5 px-5">What are the advantages of AI for games?</h2>
             <p className="py-2">Making realistic developments in the context of a situation to advance the game brings excitement. The increasing complexity of AI games guarantees that gamers remain glued to the action. With the number of games, gamers expect to experience a full-bodied gaming experience on various gadgets</p>
             {/*  */}
-            <h3 className="text-3xl font-bold max-w-7xl mx-auto py-5 px-5">Playing with a flexible approach</h3>
+            <h2 className="text-3xl font-bold max-w-7xl mx-auto py-5 px-5">Playing with a flexible approach</h2>
             <p className="py-2">AI algorithms can analyze players' behavior, learning patterns, mechanics, game performance, and more. This ensures that players will be constantly engaged and avoid boredom.</p>
             {/*  */}
             {/*  */}
-            <h3 className="text-3xl font-bold max-w-7xl mx-auto py-5 px-5">Realistic Non-Player Characteristics</h3>
+            <h2 className="text-3xl font-bold max-w-7xl mx-auto py-5 px-5">Realistic Non-Player Characteristics</h2>
             <p className="py-2">Non-player characters, also known as NPCs, are where Game AI is used the most. Characters in games are intelligent and behave like humans control them. Artificial Intelligence algorithms decide their behavior adding depth and variety to the game and making it more enjoyable for participants.</p>
             {/*  */}
             {/*  */}
-            <h3 className="text-3xl font-bold max-w-7xl mx-auto py-5 px-5">Procedural content generation</h3>
+            <h2 className="text-3xl font-bold max-w-7xl mx-auto py-5 px-5">Procedural content generation</h2>
             <p className="py-2">AI algorithms could generate game-related content, such as challenges, difficulty levels, task maps, etc. This cuts down on development costs and time. It also provides players with infinite possibilities and new games each time.</p>
-            <h3 className="text-3xl font-bold max-w-7xl mx-auto py-5 px-5">Intelligent game balancing & testing</h3>
+            <h2 className="text-3xl font-bold max-w-7xl mx-auto py-5 px-5">Intelligent game balancing & testing</h2>
             <p className="py-2">AI could help balance games with multiple players to ensure enjoyable and fair games for everyone. Testing with AI can create many different scenarios of play to find hidden bugs and improve game mechanics to make them more efficient.</p>
             <p className="py-2">Game AI can determine the level of skill and mental state of the participant and adapt the game to this. It could also involve an adaptive game difficulty balance where the game's difficulty can be adjusted at any time, according to the player's capabilities. Artificial Intelligence in gaming can help in deciphering the game's purpose.</p>
             {/*  */}

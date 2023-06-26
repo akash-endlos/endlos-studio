@@ -7,6 +7,7 @@ import { HeadTag } from '@/components/HeaadTag/HeadTag'
 import { useDispatch } from 'react-redux'
 import { useRouter } from 'next/router'
 import { getMetatags } from '@/redux/action/metatags/creator'
+import Head from 'next/head'
 
 const index = () => {
   const path = useRouter().pathname;
@@ -21,6 +22,24 @@ const index = () => {
   }, [dispatch, path]);
   return (
     <>
+    <Head>
+    <title>What is AR and VR services ? | Endlos Studio </title>
+<meta name="description" content=" Embark on a journey of limitless possibilities with cutting-edge AR VR services. Discover a new dimension of reality and unlock captivating experiences. Get ready to be amazed! "/>
+<meta name="keywords" content=" AR, VR, virtual reality, augmented reality , endlos studio"/>
+<meta property="og:title" content=" What is AR and VR services ? | Endlos Studio"/>
+<meta property="og:description" content=" Embark on a journey of limitless possibilities with cutting-edge AR VR services. Discover a new dimension of reality and unlock captivating experiences. Get ready to be amazed! "/>
+<meta property="og:site_name" content="Endlos Studio "/>
+<meta property="og:type" content="article"/>
+<meta property="og:image" content=" https://endlos.studio/assets/logo.png "/>
+<meta property="og:url" content="https://endlos.studio/services/architectural-visualization/ar-vr "/>
+<meta name="twitter:title" content=" What is AR and VR services ? | Endlos Studio"/>
+<meta name="twitter:description" content=" Embark on a journey of limitless possibilities with cutting-edge AR VR services. Discover a new dimension of reality and unlock captivating experiences. Get ready to be amazed! "/>
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:url" content="https://endlos.studio/services/architectural-visualization/ar-vr"/>
+<meta name="twitter:image" content=" https://endlos.studio/assets/logo.png "/>
+<meta name="robots" content="index, follow"/>
+<link rel="canonical" href="https://endlos.studio/services/architectural-visualization/ar-vr"/>
+    </Head>
       <HeadTag />
       <Navbar />
       <div className='bg-[#111111] text-white'>

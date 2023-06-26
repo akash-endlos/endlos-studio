@@ -22,6 +22,7 @@ const index = () => {
   }, [dispatch, path]);
   return (
     <>
+    <HeadTag/>
       <Head>
         <title>What is architectural visualization? | Endlos Studio </title>
         <meta name="description" content=" Elevate your Archviz with Endlos Studio.We specialize in virtual reality and augmented reality experiences. Trust us to bring your designs to life" />

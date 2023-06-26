@@ -23,6 +23,7 @@ const index = () => {
   }, [dispatch, path]);
   return (
     <>
+    <HeadTag/>
       <Head>
         <title> What is Virtual Production? | Endlos Studio </title>
         <meta name="description" content=" Revolutionize your production process with Virtual Production.Explore the endless possibilities of virtual reality,augmented reality & motion capture." />

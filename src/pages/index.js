@@ -32,6 +32,7 @@ export default function Home() {
 
   return (
     <>
+    <HeadTag/>
      <Head>
         <title> Unreal Engine Possibilities | Endlos Studio</title>
         <meta name="description" content="Endlos Studio offers virtual production, architectural visualization & game development expertise. Experience the power of Unreal Engine with us." />

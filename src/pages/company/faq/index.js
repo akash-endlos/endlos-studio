@@ -9,6 +9,7 @@ import { useRouter } from 'next/router'
 import { useDispatch } from 'react-redux'
 import { getMetatags } from '@/redux/action/metatags/creator'
 import { HeadTag } from '@/components/HeaadTag/HeadTag'
+import Head from 'next/head'
 
 
 const Index = () => {
@@ -32,6 +33,24 @@ const Index = () => {
 
   return (
     <>
+    <Head>
+    <title> FAQ Guide to Mastering the Unfathomable!</title>
+<meta name="description" content=" Find answers to your questions about Endlos Studio.Explore our comprehensive FAQ page for insights on our services,process and creative techniques"/>
+<meta name="keywords" content=" FAQ, unreal engine, Endlos studio"/>
+<meta property="og:title" content=" FAQ Guide to Mastering the Unfathomable!"/>
+<meta property="og:description" content=" Find answers to your questions about Endlos Studio.Explore our comprehensive FAQ page for insights on our services,process and creative techniques"/>
+<meta property="og:site_name" content="Endlos Studio "/>
+<meta property="og:type" content="article"/>
+<meta property="og:image" content=" https://endlos.studio/assets/logo.png "/>
+<meta property="og:url" content="https://endlos.studio/company/faq "/>
+<meta name="twitter:title" content=" FAQ Guide to Mastering the Unfathomable!"/>
+<meta name="twitter:description" content="Find answers to your questions about Endlos Studio.Explore our comprehensive FAQ page for insights on our services,process and creative techniques"/>
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:url" content="https://endlos.studio/company/faq "/>
+<meta name="twitter:image" content=" https://endlos.studio/assets/logo.png "/>
+<meta name="robots" content="index, follow"/>
+<link rel="canonical" href="https://endlos.studio/company/faq "/>
+    </Head>
     <HeadTag/>
       <Navbar />
       <div className="relative">

@@ -22,6 +22,7 @@ const index = () => {
   }, [dispatch, path]);
   return (
     <>
+    <HeadTag/>
       <Head>
         <title> What is Pre visualization? | Endlos Studio| Endlos Studio </title>
         <meta name="description" content=" Boost your project's success with pre visualization services.Experience dynamic visualizations,streamlined workflows & enhanced collaboration." />

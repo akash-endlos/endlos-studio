@@ -9,6 +9,7 @@ import Footer from '@/components/footer/Footer'
 import FormContainer from '@/components/form-container/FormContainer'
 import Navbar from '@/components/navbar/Navbar'
 import { getMetatags } from '@/redux/action/metatags/creator'
+import Head from 'next/head'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import React, { useEffect, useState } from 'react'
@@ -61,6 +62,24 @@ const index = () => {
     return (
         <>
             <HeadTag />
+            <Head>
+            <title>Unreal Engine 5.2 is now available! | Endlos Studio </title>
+<meta name="description" content=" Discover the endless possibilities of creativity with Endlos Studio's captivating blog.Join us on a journey of inspiration and innovation today!"/>
+<meta name="keywords" content=" Blog, unreal engine 5.2 , endlos studio"/>
+<meta property="og:title" content=" Unreal Engine 5.2 is now available! | Endlos Studio"/>
+<meta property="og:description" content=" Discover the endless possibilities of creativity with Endlos Studio's captivating blog.Join us on a journey of inspiration and innovation today!"/>
+<meta property="og:site_name" content="Endlos Studio "/>
+<meta property="og:type" content="article"/>
+<meta property="og:image" content=" https://endlos.studio/assets/logo.png "/>
+<meta property="og:url" content="https://endlos.studio/blog "/>
+<meta name="twitter:title" content=" Unreal Engine 5.2 is now available! | Endlos Studio"/>
+<meta name="twitter:description" content=" Discover the endless possibilities of creativity with Endlos Studio's captivating blog.Join us on a journey of inspiration and innovation today!"/>
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:url" content="https://endlos.studio/blog "/>
+<meta name="twitter:image" content=" https://endlos.studio/assets/logo.png "/>
+<meta name="robots" content="index, follow"/>
+<link rel="canonical" href="https://endlos.studio/blog "/>
+            </Head>
             <Navbar />
             <BlogParallaxComponent title={'Blog'} />
             <div className="grid grid-cols-1 xl:grid-cols-12 gap-4  bg-[#111111] ">

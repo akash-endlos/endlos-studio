@@ -7,6 +7,7 @@ import { HeadTag } from '@/components/HeaadTag/HeadTag'
 import { useDispatch } from 'react-redux'
 import { getMetatags } from '@/redux/action/metatags/creator'
 import { useRouter } from 'next/router'
+import Head from 'next/head'
 
 const index = () => {
   const path = useRouter().pathname;
@@ -21,7 +22,24 @@ const index = () => {
   }, [dispatch, path]);
   return (
     <>
-      <HeadTag />
+      <Head>
+        <title> What is Pre visualization? | Endlos Studio| Endlos Studio </title>
+        <meta name="description" content=" Boost your project's success with pre visualization services.Experience dynamic visualizations,streamlined workflows & enhanced collaboration." />
+        <meta name="keywords" content=" Virtual Production, virtual reality, augmented reality, visualization, motion capture " />
+        <meta property="og:title" content=" What is Pre visualization? | Endlos Studio" />
+        <meta property="og:description" content=" Boost your project's success with pre visualization services.Experience dynamic visualizations,streamlined workflows & enhanced collaboration." />
+        <meta property="og:site_name" content="Endlos Studio " />
+        <meta property="og:type" content="article" />
+        <meta property="og:image" content=" https://endlos.studio/assets/logo.png " />
+        <meta property="og:url" content="https://endlos.studio/services/pre-visualization" />
+        <meta name="twitter:title" content=" What is Pre visualization? | Endlos Studio" />
+        <meta name="twitter:description" content=" Boost your project's success with pre visualization services.Experience dynamic visualizations,streamlined workflows & enhanced collaboration" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:url" content="https://endlos.studio/services/pre-visualization" />
+        <meta name="twitter:image" content=" https://endlos.studio/assets/logo.png " />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href=" https://endlos.studio/services/pre-visualization" />
+      </Head>
       <Navbar />
       <div className='bg-[#111111] text-white'>
         <div className="relative">

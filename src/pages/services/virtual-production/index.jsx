@@ -23,7 +23,24 @@ const index = () => {
   }, [dispatch, path]);
   return (
     <>
-      <HeadTag />
+      <Head>
+        <title> What is Virtual Production? | Endlos Studio </title>
+        <meta name="description" content=" Revolutionize your production process with Virtual Production.Explore the endless possibilities of virtual reality,augmented reality & motion capture." />
+        <meta name="keywords" content=" Virtual Production, virtual reality, augmented reality, visualization, motion capture " />
+        <meta property="og:title" content=" What is Virtual Production? | Endlos Studio " />
+        <meta property="og:description" content=" Revolutionize your production process with Virtual Production.Explore the endless possibilities of virtual reality,augmented reality & motion capture " />
+        <meta property="og:site_name" content="Endlos Studio " />
+        <meta property="og:type" content="article" />
+        <meta property="og:image" content=" https://endlos.studio/assets/logo.png " />
+        <meta property="og:url" content=" https://endlos.studio/services/virtual-production " />
+        <meta name="twitter:title" content=" What is Virtual Production? | Endlos Studio " />
+        <meta name="twitter:description" content=" Revolutionize your production process with Virtual Production.Explore the endless possibilities of virtual reality,augmented reality & motion capture " />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:url" content=" https://endlos.studio/services/virtual-production " />
+        <meta name="twitter:image" content=" https://endlos.studio/assets/logo.png " />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href=" https://endlos.studio/services/virtual-production " />
+      </Head>
       <Navbar />
       <div className='bg-[#111111] text-white'>
         <div className="relative">

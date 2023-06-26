@@ -7,6 +7,7 @@ import { HeadTag } from '@/components/HeaadTag/HeadTag'
 import { getMetatags } from '@/redux/action/metatags/creator'
 import { useDispatch } from 'react-redux'
 import { useRouter } from 'next/router'
+import Head from 'next/head'
 
 const index = () => {
   const path = useRouter().pathname;
@@ -21,7 +22,24 @@ const index = () => {
   }, [dispatch, path]);
   return (
     <>
-      <HeadTag />
+      <Head>
+        <title>What is architectural visualization? | Endlos Studio </title>
+        <meta name="description" content=" Elevate your Archviz with Endlos Studio.We specialize in virtual reality and augmented reality experiences. Trust us to bring your designs to life" />
+        <meta name="keywords" content=" architectural visualization, virtual reality, augmented reality, Archviz, endlos studio" />
+        <meta property="og:title" content=" What is architectural visualization? | Endlos Studio" />
+        <meta property="og:description" content=" Elevate your Archviz with Endlos Studio.We specialize in virtual reality and augmented reality experiences. Trust us to bring your designs to life" />
+        <meta property="og:site_name" content="Endlos Studio " />
+        <meta property="og:type" content="article" />
+        <meta property="og:image" content=" https://endlos.studio/assets/logo.png " />
+        <meta property="og:url" content="https://endlos.studio/services/architectural-visualization/walkthrough" />
+        <meta name="twitter:title" content=" What is architectural visualization? | Endlos Studio" />
+        <meta name="twitter:description" content=" Elevate your Archviz with Endlos Studio.We specialize in virtual reality and augmented reality experiences. Trust us to bring your designs to life" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:url" content="https://endlos.studio/services/architectural-visualization/walkthrough" />
+        <meta name="twitter:image" content=" https://endlos.studio/assets/logo.png " />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href=" https://endlos.studio/services/architectural-visualization/walkthrough" />
+      </Head>
       <Navbar />
       <div className='bg-[#111111] text-white'>
         <div className="relative">

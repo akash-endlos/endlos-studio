@@ -39,7 +39,7 @@ const index = () => {
               <div className="text-center">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-white">
                   <div className=" p-4">
-                    <h2 className="font-bold">ADDRESS</h2>
+                    <h3 className="font-bold">ADDRESS</h3>
                     <p className="py-2">
                       1108, Shivalik Shilp, Iskcon <br />
                       Cross Rd, Sanidhya, Ahmedabad 380015, <br />

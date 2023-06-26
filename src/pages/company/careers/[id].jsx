@@ -28,17 +28,17 @@ const CareerDetails = () => {
           <div className='col-span-12 sm:col-span-8'>
             <div className='max-w-screen-md mx-auto py-10'>
               <div className='py-5'>
-                <h2 className='font-bold text-xl'>Abouts Us</h2>
+                <h3 className='font-bold text-xl'>Abouts Us</h3>
                 <p className='py-4'>Chennai | Mumbai | Hyderabad</p>
                 <p>Open, inclusive, and equal are three words that sum up the work culture at PhantomFX. Our strength lies in our people; a dedicated team of creative professionals who work together to bring alive magic on screen. Our teams have delivered on some of the craziest deadlines, without taking eyes off the high bar of quality.</p>
               </div>
               <div className='py-5'>
-                <h2 className='font-bold text-xl py-4'>Job Description</h2>
+                <h3 className='font-bold text-xl py-4'>Job Description</h3>
                 <p>Phantom Fx is looking for a Mid-Senior Creature Animator with extensive experience animating animal movement and behaviour. As a  Creature Animator, you will be part of a diverse team of animators that collaborates closely with Visual Design and Code to create engaging creatures for our current projects. As a Creature Animator for this dedicated creature team, we will look to you to deliver world-className creature animation quality.
                 </p>
               </div>
               <div className='py-5'>
-                <h2 className='font-bold text-md py-4'>Job Description</h2>
+                <h3 className='font-bold text-md py-4'>Job Description</h3>
                 <p>Phantom Fx is looking for a Mid-Senior Creature Animator with extensive experience animating animal movement and behaviour. As a  Creature Animator, you will be part of a diverse team of animators that collaborates closely with Visual Design and Code to create engaging creatures for our current projects. As a Creature Animator for this dedicated creature team, we will look to you to deliver world-className creature animation quality.
                 </p>
               </div>
@@ -50,7 +50,7 @@ const CareerDetails = () => {
                 </p>
               </div>
               <div className='py-5'>
-                <h2 className='font-bold text-xl py-4'>Requirements</h2>
+                <h3 className='font-bold text-xl py-4'>Requirements</h3>
                 <p className='py-4'>We would love to hear from if:</p>
                 <p className='px-5 py-1'>Create animalistic and grounded hand keyed animations that have a very strong foundation in realism;
                 </p>
@@ -70,7 +70,7 @@ const CareerDetails = () => {
                 </p>
               </div>
               <div className='py-5'>
-                <h2 className='font-bold text-xl py-4'>Benefits</h2>
+                <h3 className='font-bold text-xl py-4'>Benefits</h3>
                 <p className='py-4'>We would love to hear from if:</p>
                 <p className='px-5 py-1'>Create animalistic and grounded hand keyed animations that have a very strong foundation in realism;
                 </p>

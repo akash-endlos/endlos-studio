@@ -38,7 +38,7 @@ const index = () => {
           <div className="grid xl:grid-cols-12 lg:grid-flow-row py-10">
             <div className="col-span-12 lg:col-span-4">
               <div className="flex flex-col items-start justify-center">
-                <h2 className="text-4xl  text-white max-w-sm font-bold mb-4">Why Choose Endlos Studio</h2>
+                <h3 className="text-4xl  text-white max-w-sm font-bold mb-4">Why Choose Endlos Studio</h3>
               </div>
             </div>
             <div className="col-span-12 lg:col-span-8">
@@ -97,7 +97,7 @@ const index = () => {
             <div className="grid xl:grid-cols-12 lg:grid-flow-row py-10">
               <div className="col-span-12 lg:col-span-4">
                 <div className="flex flex-col items-start justify-center">
-                  <h2 className="text-4xl  text-white max-w-sm font-bold mb-4">AR & VR Services</h2>
+                  <h3 className="text-4xl  text-white max-w-sm font-bold mb-4">AR & VR Services</h3>
                 </div>
               </div>
               <div className="col-span-12 lg:col-span-8">
@@ -112,11 +112,11 @@ const index = () => {
           <div className="grid grid-cols-12  py-10">
             <div className="xl:col-span-6 col-span-12">
               <div className="flex flex-col justify-start items-center xl:items-start text-white h-full">
-                <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Augmented Reality (AR) Applications</h2>
+                <h3 className="text-2xl max-w-screen-sm font-bold mb-4">Augmented Reality (AR) Applications</h3>
                 <p className="mb-4 text-justify">We develop AR applications that overlay digital content onto the real world, enhancing your perception and understanding of architectural spaces. Through mobile AR apps, interactive installations, and wearable AR devices, we bring your designs to life and provide a dynamic and interactive experience.</p>
-                <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Virtual Reality (VR) Applications</h2>
+                <h3 className="text-2xl max-w-screen-sm font-bold mb-4">Virtual Reality (VR) Applications</h3>
                 <p className="mb-4 text-justify">Our VR applications transport you into immersive virtual environments where you can fully engage with architectural designs. With the help of head-mounted displays and interactive controllers, you can explore, interact, and experience spaces as if you were physically present, offering an unparalleled sense of immersion. </p>
-                <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Interactive Experiences</h2>
+                <h3 className="text-2xl max-w-screen-sm font-bold mb-4">Interactive Experiences</h3>
                 <p className="mb-4 text-justify">Our AR and VR applications are designed to provide interactive experiences that empower you to engage with architectural designs meaningfully. We incorporate interactive elements such as gesture-based controls, spatial tracking, and object manipulation, allowing you to interact with virtual objects and explore different design possibilities. </p>
               </div>
             </div>
@@ -130,9 +130,9 @@ const index = () => {
             </div>
             <div className="xl:col-span-6 col-span-12 xl:pl-5">
               <div className="flex flex-col justify-end text-white h-full">
-                <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Realistic Visualizations</h2>
+                <h3 className="text-2xl max-w-screen-sm font-bold mb-4">Realistic Visualizations</h3>
                 <p className="mb-4 text-justify">We pride ourselves on creating realistic and visually stunning AR and VR experiences. Our team of skilled artists and designers meticulously craft virtual environments with accurate textures, lighting, and spatial relationships, ensuring high realism and immersion in the virtual world. </p>
-                <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Customization and Collaboration</h2>
+                <h3 className="text-2xl max-w-screen-sm font-bold mb-4">Customization and Collaboration</h3>
                 <p className="mb-4 text-justify">We understand that each architectural project has unique requirements and objectives. Our team works closely with you to understand your vision and tailor our AR and VR applications to meet your needs. We value collaboration and strive to deliver a solution that exceeds your expectations.</p>
                 <p className="mb-4 text-justify">With our AR and VR applications in architectural visualization, you can revolutionize how you showcase and communicate your designs. Whether for client presentations, marketing campaigns, or internal design reviews, our AR and VR solutions provide an interactive and engaging experience that leaves a lasting impression.</p>
               </div>
@@ -145,7 +145,7 @@ const index = () => {
               <div className="grid xl:grid-cols-12 lg:grid-flow-row py-10">
                 <div className="col-span-12 lg:col-span-4">
                   <div className="flex flex-col items-start justify-center">
-                    <h2 className="text-4xl  text-white max-w-sm font-bold mb-4">Our Architectural Visualization (AR & VR) portfolio</h2>
+                    <h3 className="text-4xl  text-white max-w-sm font-bold mb-4">Our Architectural Visualization (AR & VR) portfolio</h3>
                   </div>
                 </div>
                 <div className="col-span-12 lg:col-span-8">
@@ -162,11 +162,11 @@ const index = () => {
             </div>
             <div className="xl:col-span-6 col-span-12 xl:pl-5">
               <div className="flex flex-col justify-end text-white h-full">
-                <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Immersive Virtual Reality Experience</h2>
+                <h3 className="text-2xl max-w-screen-sm font-bold mb-4">Immersive Virtual Reality Experience</h3>
                 <p className="mb-4 text-justify">Step into our portfolio and immerse yourself in virtual reality architectural visualization experiences. Explore architectural designs in a fully immersive virtual environment, where you can navigate and interact with the spaces as if you were physically there. Walk through rooms, examine details, and get a sense of scale and proportion. </p>
-                <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Interactive Augmented Reality Applications</h2>
+                <h3 className="text-2xl max-w-screen-sm font-bold mb-4">Interactive Augmented Reality Applications</h3>
                 <p className="mb-4 text-justify">Witness the power of augmented reality in our portfolio. Through our AR architectural visualization, we overlay virtual architectural models onto the real-world environment, allowing users to visualize and interact with designs in their physical surroundings. Interact with virtual furniture, explore different material options, and visualize how the design fits within the space. </p>
-                <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Design Evaluation and Iteration</h2>
+                <h3 className="text-2xl max-w-screen-sm font-bold mb-4">Design Evaluation and Iteration</h3>
                 <p className="mb-4 text-justify">Our AR and VR architectural visualization tools, provide valuable insights for design evaluation and iteration. Architects and clients can experience the design in a realistic context, identifying potential issues and making informed decisions before construction begins. This iterative process saves time and resources while ensuring the final design meets the desired objectives.</p>
               </div>
             </div>
@@ -174,11 +174,11 @@ const index = () => {
             <div className="grid grid-cols-12  py-10">
               <div className="xl:col-span-6 col-span-12">
                 <div className="flex flex-col justify-start items-center xl:items-start text-white h-full">
-                  <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Customization and Personalization</h2>
+                  <h3 className="text-2xl max-w-screen-sm font-bold mb-4">Customization and Personalization</h3>
                   <p className="mb-4 text-justify">Our portfolio highlights our ability to tailor AR and VR experiences to suit specific project requirements. We can customize the virtual environment, lighting conditions, and material options and even incorporate interactive elements, allowing clients a personalized and immersive architectural visualization experience. </p>
-                  <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Collaboration and Communication</h2>
+                  <h3 className="text-2xl max-w-screen-sm font-bold mb-4">Collaboration and Communication</h3>
                   <p className="mb-4 text-justify">AR and VR architectural visualization enhances collaboration and communication among project stakeholders. Our portfolio showcases how these technologies facilitate effective communication between architects, clients, and other team members by providing a shared virtual space to discuss and refine design concepts. </p>
-                  <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Marketing and Presentation Tools</h2>
+                  <h3 className="text-2xl max-w-screen-sm font-bold mb-4">Marketing and Presentation Tools</h3>
                   <p className="mb-4 text-justify">Our AR and VR architectural visualization can be powerful marketing and presentation tools. With our portfolio, you can see how these technologies enable architects and developers to showcase their designs to potential clients and investors visually, captivatingly, and interactively. </p>
                 </div>
               </div>

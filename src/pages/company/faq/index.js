@@ -52,7 +52,7 @@ const Index = () => {
             </div>
       <div className='bg-[#111111] text-white py-5'>
         <div className='pt-24 pb-10'>
-          <h2 className='text-center text-2xl'>How Can I Help You ?</h2>
+          <h3 className='text-center text-2xl'>How Can I Help You ?</h3>
         </div>
         <div className='max-w-screen-xl mx-auto px-5'>
           {faqData.map((section, index) => (

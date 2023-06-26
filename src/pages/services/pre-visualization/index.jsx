@@ -35,7 +35,7 @@ const index = () => {
           <div className="grid xl:grid-cols-12 lg:grid-flow-row py-10">
             <div className="col-span-12 lg:col-span-4">
               <div className="flex flex-col items-start justify-center">
-                <h2 className="text-4xl  text-white max-w-sm font-bold mb-4">Why Choose Endlos Studio</h2>
+                <h3 className="text-4xl  text-white max-w-sm font-bold mb-4">Why Choose Endlos Studio</h3>
               </div>
             </div>
             <div className="col-span-12 lg:col-span-8">
@@ -92,7 +92,7 @@ const index = () => {
             <div className="grid xl:grid-cols-12 lg:grid-flow-row py-10">
               <div className="col-span-12 lg:col-span-4">
                 <div className="flex flex-col items-start justify-center">
-                  <h2 className="text-4xl  text-white max-w-sm font-bold mb-4">Pre Visualization Services</h2>
+                  <h3 className="text-4xl  text-white max-w-sm font-bold mb-4">Pre Visualization Services</h3>
                 </div>
               </div>
               <div className="col-span-12 lg:col-span-8">
@@ -107,11 +107,11 @@ const index = () => {
           <div className="grid grid-cols-12  py-10">
             <div className="xl:col-span-6 col-span-12">
               <div className="flex flex-col justify-start items-center xl:items-start text-white h-full">
-                <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Conceptualizing Ideas</h2>
+                <h3 className="text-2xl max-w-screen-sm font-bold mb-4">Conceptualizing Ideas</h3>
                 <p className="mb-4 text-justify">Our team works closely with you to understand and translate your creative vision into a visual representation. Through storyboards, concept art, and 3D mock-ups, we bring your ideas to life, allowing you to visualize and refine your project from the early stages. </p>
-                <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Scene Layout and Blocking</h2>
+                <h3 className="text-2xl max-w-screen-sm font-bold mb-4">Scene Layout and Blocking</h3>
                 <p className="mb-4 text-justify">With our expertise in scene layout and blocking, we help you plan the composition and movement of characters, cameras, and objects within the virtual environment. This process enables you to experiment with different perspectives, camera angles, and staging, ensuring your story is effectively communicated.</p>
-                <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Dynamic Camera Animations</h2>
+                <h3 className="text-2xl max-w-screen-sm font-bold mb-4">Dynamic Camera Animations</h3>
                 <p className="mb-4 text-justify">We create dynamic camera animations that simulate the movement and framing of shots. By previsualizing camera movements, we help you identify the most impactful angles and transitions, enhancing the cinematic experience.</p>
               </div>
             </div>
@@ -125,9 +125,9 @@ const index = () => {
             </div>
             <div className="xl:col-span-6 col-span-12 xl:pl-5">
               <div className="flex flex-col justify-start text-white h-full">
-                <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Timing and Pacing</h2>
+                <h3 className="text-2xl max-w-screen-sm font-bold mb-4">Timing and Pacing</h3>
                 <p className="mb-4 text-justify">Previs allows us to establish the timing and pacing of scenes, ensuring a smooth and coherent flow throughout your project. By visualizing the sequence of events, you can fine-tune the rhythm, transitions, and dramatic moments, resulting in a more engaging and compelling outcome.</p>
-                <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Collaboration and Feedback</h2>
+                <h3 className="text-2xl max-w-screen-sm font-bold mb-4">Collaboration and Feedback</h3>
                 <p className="mb-4 text-justify">We believe in collaboration and value your input throughout the Pre Visualization process. We provide regular updates and seek feedback to ensure that the final result aligns with your creative vision. Our iterative approach allows for seamless communication and adjustments, ensuring your satisfaction with the final product. </p>
                 <p className="mb-4 text-justify">Pre Visualization is an essential step that helps streamline the production process, saving time and resources by identifying potential issues early on. With our Pre Visualization services, you can confidently move forward with your project, knowing that you have a clear roadmap and a solid foundation for execution.</p>
               </div>
@@ -140,7 +140,7 @@ const index = () => {
               <div className="grid xl:grid-cols-12 lg:grid-flow-row py-10">
                 <div className="col-span-12 lg:col-span-4">
                   <div className="flex flex-col items-start justify-center">
-                    <h2 className="text-4xl  text-white max-w-sm font-bold mb-4">Our Pre Visualization Portfolio</h2>
+                    <h3 className="text-4xl  text-white max-w-sm font-bold mb-4">Our Pre Visualization Portfolio</h3>
                   </div>
                 </div>
                 <div className="col-span-12 lg:col-span-8">
@@ -157,11 +157,11 @@ const index = () => {
             </div>
             <div className="xl:col-span-6 col-span-12 xl:pl-5">
               <div className="flex flex-col justify-start text-white h-full">
-                <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Storytelling Visualization</h2>
+                <h3 className="text-2xl max-w-screen-sm font-bold mb-4">Storytelling Visualization</h3>
                 <p className="mb-4 text-justify">Explore our portfolio to witness our ability to bring scripts and storyboards to life through visual storytelling. We demonstrate how we transform written narratives into dynamic and engaging visual sequences, providing a clear roadmap for the production process. </p>
-                <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Scene Layout and Composition</h2>
+                <h3 className="text-2xl max-w-screen-sm font-bold mb-4">Scene Layout and Composition</h3>
                 <p className="mb-4 text-justify">Our portfolio showcases our scene layout and composition expertise. We emphasize the importance of camera placement, shot selection, and overall scene composition in effectively conveying the story and capturing the desired mood and emotions. </p>
-                <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Shot Planning and Camera Movements</h2>
+                <h3 className="text-2xl max-w-screen-sm font-bold mb-4">Shot Planning and Camera Movements</h3>
                 <p className="mb-4 text-justify">Witness our ability to plan and visualize complex camera movements and shots. We demonstrate how we work closely with directors and cinematographers to develop shot sequences, including dolly moves, crane shots, and dynamic camera angles, ensuring a well-crafted visual narrative.</p>
               </div>
             </div>
@@ -170,13 +170,13 @@ const index = () => {
           <div className="grid grid-cols-12  py-10">
             <div className="xl:col-span-6 col-span-12">
               <div className="flex flex-col justify-start items-center xl:items-start text-white h-full">
-                <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Timing and Pacing</h2>
+                <h3 className="text-2xl max-w-screen-sm font-bold mb-4">Timing and Pacing</h3>
                 <p className="mb-4 text-justify">Our portfolio highlights our attention to timing and pacing in previsualization. We showcase how we accurately represent the timing and rhythm of the final film, ensuring that scenes flow seamlessly and capture the desired dramatic impact. </p>
-                <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Visual Effects Previsualization</h2>
+                <h3 className="text-2xl max-w-screen-sm font-bold mb-4">Visual Effects Previsualization</h3>
                 <p className="mb-4 text-justify">Experience our expertise in previsualizing visual effects sequences. We demonstrate how we integrate CGI elements and special effects into previsualization, enabling filmmakers to anticipate and plan for complex VFX shots during production.</p>
-                <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Collaborative Workflow</h2>
+                <h3 className="text-2xl max-w-screen-sm font-bold mb-4">Collaborative Workflow</h3>
                 <p className="mb-4 text-justify">Collaboration is at the heart of our previsualization work strategy. Our portfolio showcases successful collaborations with directors, cinematographers, and production teams, highlighting the seamless integration of our previsualization work into the overall filmmaking process.</p>
-                <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Iterative Process</h2>
+                <h3 className="text-2xl max-w-screen-sm font-bold mb-4">Iterative Process</h3>
                 <p className="mb-4 text-justify">We emphasize the importance of an iterative process in previsualization. Our portfolio demonstrates how we refine and improve previsualizations based on feedback and input from the creative team, ensuring that the final vision aligns with the director's vision and production requirements.</p>
               </div>
             </div>
@@ -185,19 +185,7 @@ const index = () => {
             </div>
           </div>
         </div>
-        {/* <div className="max-w-screen-2xl mx-auto px-5 py-5">
-          <div className='h-auto flex flex-col xl:flex-row md:flex-row gap-5 justify-between items-center'>
-            <div className='flex flex-col justify-center gap-5'>
-              <p className='text-white text-md text-justify max-w-screen-lg'>Experience the power of previsualization through our portfolio. Each project exemplifies our commitment to helping filmmakers visualize and plan their projects with precision, creativity, and attention to detail, ultimately laying the foundation for a successful production.</p>
-              <Link href='/contact-us/write-to-us'>
-                <button className='rounded-lg bg-black text-white py-3 px-3 font-semibold hover:bg-white hover:text-black'>Connect With Us</button>
-              </Link>
-            </div>
-            <div>
-              <img src="/assets/blog_inside_vr_2.jpg" alt="endlos unreal engine studio" className="w-[250px] h-[250px] rounded-2xl" />
-            </div>
-          </div>
-        </div> */}
+
       </div>
       <Footer />
     </>

@@ -38,7 +38,7 @@ const index = () => {
           <div className="grid xl:grid-cols-12 lg:grid-flow-row py-10">
             <div className="col-span-12 lg:col-span-4">
               <div className="flex flex-col items-start justify-center">
-                <h2 className="text-4xl  text-white max-w-sm font-bold mb-4">Why Choose Endlos Studio</h2>
+                <h3 className="text-4xl  text-white max-w-sm font-bold mb-4">Why Choose Endlos Studio</h3>
               </div>
             </div>
             <div className="col-span-12 lg:col-span-8">
@@ -95,7 +95,7 @@ const index = () => {
             <div className="grid xl:grid-cols-12 lg:grid-flow-row py-10">
               <div className="col-span-12 lg:col-span-4">
                 <div className="flex flex-col items-start justify-center">
-                  <h2 className="text-4xl  text-white max-w-sm font-bold mb-4">Walkthrough Services</h2>
+                  <h3 className="text-4xl  text-white max-w-sm font-bold mb-4">Walkthrough Services</h3>
                 </div>
               </div>
               <div className="col-span-12 lg:col-span-8">
@@ -110,11 +110,11 @@ const index = () => {
           <div className="grid grid-cols-12  py-10">
             <div className="xl:col-span-6 col-span-12">
               <div className="flex flex-col justify-start items-center xl:items-start text-white h-full">
-                <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Virtual Exploration</h2>
+                <h3 className="text-2xl max-w-screen-sm font-bold mb-4">Virtual Exploration</h3>
                 <p className="mb-4 text-justify">Our walkthroughs enable you to navigate architectural spaces virtually, providing a realistic and immersive experience. With advanced 3D rendering techniques, we create detailed environments that accurately represent your designs, allowing clients and stakeholders to engage and interact with the spaces. </p>
-                <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Attention to Detail</h2>
+                <h3 className="text-2xl max-w-screen-sm font-bold mb-4">Attention to Detail</h3>
                 <p className="mb-4 text-justify">We pay meticulous attention to detail, ensuring that every aspect of your architectural design is faithfully represented in the walkthrough. From textures and materials to lighting and spatial relationships, we strive for accuracy and realism, creating an authentic representation of the space.</p>
-                <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Interactive Elements</h2>
+                <h3 className="text-2xl max-w-screen-sm font-bold mb-4">Interactive Elements</h3>
                 <p className="mb-4 text-justify">Our walkthroughs can incorporate interactive elements, such as clickable hotspots, informative pop-ups, and annotations, to provide additional information about specific areas or features of the design. This interactivity enhances engagement and facilitates a deeper understanding of the space.</p>
               </div>
             </div>
@@ -128,9 +128,9 @@ const index = () => {
             </div>
             <div className="xl:col-span-6 col-span-12 xl:pl-5">
               <div className="flex flex-col justify-end text-white h-full">
-                <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Realistic Lighting and Atmosphere</h2>
+                <h3 className="text-2xl max-w-screen-sm font-bold mb-4">Realistic Lighting and Atmosphere</h3>
                 <p className="mb-4 text-justify">We create realistic lighting scenarios that replicate natural daylight or artificial lighting sources, enhancing the visual appeal of the walkthrough. The interplay of light and shadow and the manipulation of atmosphere and mood add depth and realism to the virtual space. </p>
-                <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Customization and Flexibility</h2>
+                <h3 className="text-2xl max-w-screen-sm font-bold mb-4">Customization and Flexibility</h3>
                 <p className="mb-4 text-justify">We understand that every architectural project is unique, and we tailor our walkthroughs to meet your specific requirements. Whether showcasing different design options, highlighting specific architectural features, or incorporating branding elements, we offer customization and flexibility to ensure that the walkthrough aligns perfectly with your vision. </p>
                 <p className="mb-4 text-justify">Our walkthrough services in architectural visualization provide a powerful tool for architects, interior designers, and real estate developers to effectively communicate their designs to clients, investors, and the general public. With attention to detail, realism, and interactive features, we bring your architectural vision to life and create a compelling visual experience.</p>
               </div>
@@ -143,7 +143,7 @@ const index = () => {
               <div className="grid xl:grid-cols-12 lg:grid-flow-row py-10">
                 <div className="col-span-12 lg:col-span-4">
                   <div className="flex flex-col items-start justify-center">
-                    <h2 className="text-4xl  text-white max-w-sm font-bold mb-4">Architectural Visualization (Walkthrough)</h2>
+                    <h3 className="text-4xl  text-white max-w-sm font-bold mb-4">Architectural Visualization (Walkthrough)</h3>
                   </div>
                 </div>
                 <div className="col-span-12 lg:col-span-8">
@@ -161,11 +161,11 @@ const index = () => {
             </div>
             <div className="xl:col-span-6 col-span-12 xl:pl-5">
               <div className="flex flex-col justify-end text-white h-full">
-                <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Realistic Visualization</h2>
+                <h3 className="text-2xl max-w-screen-sm font-bold mb-4">Realistic Visualization</h3>
                 <p className="mb-4 text-justify">We use state-of-the-art rendering techniques to create realistic and visually stunning walkthroughs. Our attention to detail in texturing, lighting, and materiality ensures that the virtual representation closely matches the intended real-world design.</p>
-                <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Interior and Exterior Exploration</h2>
+                <h3 className="text-2xl max-w-screen-sm font-bold mb-4">Interior and Exterior Exploration</h3>
                 <p className="mb-4 text-justify">Our walkthroughs enable viewers to explore the architectural design's interior and exterior. Users can virtually move through rooms, navigate hallways, and experience the flow of spaces. They can also observe the building's exterior from different angles, understanding its form and integration with the surrounding environment.</p>
-                <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Mood and Atmosphere</h2>
+                <h3 className="text-2xl max-w-screen-sm font-bold mb-4">Mood and Atmosphere</h3>
                 <p className="mb-4 text-justify">We understand the importance of capturing a design's intended mood and atmosphere. Our walkthroughs incorporate lighting effects, weather conditions, and material qualities to evoke the desired emotions and create an immersive experience.</p>
               </div>
             </div>
@@ -174,11 +174,11 @@ const index = () => {
           <div className="grid grid-cols-12  py-10">
             <div className="xl:col-span-6 col-span-12">
               <div className="flex flex-col justify-start items-center xl:items-start text-white h-full">
-                <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Attention to Detail</h2>
+                <h3 className="text-2xl max-w-screen-sm font-bold mb-4">Attention to Detail</h3>
                 <p className="mb-4 text-justify">We pay meticulous attention to every aspect of the architectural design. Our walkthroughs showcase the intricate details of textures, furnishings, and architectural features, accurately representing the design's aesthetics and functionality. </p>
-                <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Animation and Cinematic Techniques</h2>
+                <h3 className="text-2xl max-w-screen-sm font-bold mb-4">Animation and Cinematic Techniques</h3>
                 <p className="mb-4 text-justify">We utilize animation and cinematic techniques to enhance the visual storytelling of the walkthroughs. Smooth camera movements, transitions, and dynamic sequences engage viewers and create an engaging narrative that effectively communicates the design's vision and purpose. </p>
-                <h2 className="text-2xl max-w-screen-sm font-bold mb-4">Collaboration and Customization</h2>
+                <h3 className="text-2xl max-w-screen-sm font-bold mb-4">Collaboration and Customization</h3>
                 <p className="mb-4 text-justify">We work closely with architects, designers, and clients to ensure the walkthrough meets their specific goals and requirements. Our collaborative approach allows us to incorporate feedback and make necessary adjustments, resulting in a tailored and customized visualization experience. </p>
               </div>
             </div>

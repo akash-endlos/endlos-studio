@@ -102,11 +102,11 @@ export const menuItems = [
         link: "/company/about-us",
         id: "",
       },
-      {
-        childmenu: "Careers",
-        link: "/company/careers",
-        id: "",
-      },
+      // {
+      //   childmenu: "Careers",
+      //   link: "/company/careers",
+      //   id: "",
+      // },
       // {
       //   childmenu: "Services",
       //   link: "",

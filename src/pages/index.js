@@ -17,6 +17,7 @@ import { HeadTag } from "@/components/HeaadTag/HeadTag";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
+  const metaTags = useSelector((state) => state.allMetatags.payload);
   const path = useRouter().pathname;
   const dispatch = useDispatch();
 
@@ -28,12 +29,11 @@ export default function Home() {
     }
   }, [dispatch, path]);
 
-  
+
 
   return (
     <>
-    <HeadTag/>
-     <Head>
+      {metaTags ? (<HeadTag metaTags={metaTags} />) : (<Head>
         <title> Unreal Engine Possibilities | Endlos Studio</title>
         <meta name="description" content="Endlos Studio offers virtual production, architectural visualization & game development expertise. Experience the power of Unreal Engine with us." />
         <meta name="keywords" content="unreal engine, Architectural Visualization, Virtual Production, Game Development, Endlos studio " />
@@ -50,7 +50,9 @@ export default function Home() {
         <meta name="twitter:image" content=" https://endlos.studio/assets/logo.png " />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://endlos.studio/ " />
-      </Head>
+      </Head>)}
+
+
       <Navbar />
       <HomeCarousel />
       <HomeImageContainer />

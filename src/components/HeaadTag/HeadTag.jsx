@@ -1,8 +1,7 @@
 import Head from "next/head";
-import { useSelector } from "react-redux";
 
-export function HeadTag() {
-  const metaTags = useSelector((state) => state.allMetatags.payload);
+export function HeadTag({metaTags}) {
+ 
 
   // if (!metaTags) {
   //   return (

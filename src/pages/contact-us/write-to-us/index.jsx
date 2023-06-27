@@ -3,6 +3,7 @@ import Footer from "@/components/footer/Footer";
 import FormContainer from "@/components/form-container/FormContainer";
 import Navbar from "@/components/navbar/Navbar";
 import { getMetatags } from "@/redux/action/metatags/creator";
+import Head from "next/head";
 import { useRouter } from "next/router";
 import React, { useEffect } from "react";
 import { useDispatch } from "react-redux";
@@ -20,7 +21,26 @@ const index = () => {
   }, [dispatch, path]);
   return (
     <>
+      <Head>
+        <title> Contact Us - Get in Touch with Our Team | Endlos Studio</title>
+        <meta name="description" content=" Contact -Endlos Studio, for any inquiries, feedback, or support needs. Our friendly team is always ready to assist you" />
+        <meta name="keywords" content=" contact us, contact page, contact us form, contact information, contact number" />
+        <meta property="og:title" content=" Contact Us - Get in Touch with Our Team | Endlos Studio" />
+        <meta property="og:description" content="Contact -Endlos Studio, for any inquiries, feedback, or support needs. Our friendly team is always ready to assist you" />
+        <meta property="og:site_name" content="Endlos Studio " />
+        <meta property="og:type" content="article" />
+        <meta property="og:image" content=" https://endlos.studio/assets/logo.png " />
+        <meta property="og:url" content="https://endlos.studio/contact-us/write-to-us " />
+        <meta name="twitter:title" content=" Contact Us - Get in Touch with Our Team | Endlos Studio" />
+        <meta name="twitter:description" content="Contact -Endlos Studio, for any inquiries, feedback, or support needs. Our friendly team is always ready to assist you " />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:url" content="https://endlos.studio/contact-us/write-to-us " />
+        <meta name="twitter:image" content=" https://endlos.studio/assets/logo.png " />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://endlos.studio/contact-us/write-to-us " />
+      </Head>
       <HeadTag />
+
       <Navbar Navclass="bg-[#111111] text-white" />
       <div className="pt-24 bg-[#111111] text-white">
         <div className="relative">

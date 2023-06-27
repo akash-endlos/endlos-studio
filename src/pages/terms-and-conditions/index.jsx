@@ -4,11 +4,13 @@ import Navbar from '@/components/navbar/Navbar'
 import Head from 'next/head'
 import Link from 'next/link'
 import React from 'react'
+import { useSelector } from 'react-redux'
 
 const index = () => {
+  const metaTags = useSelector((state) => state.allMetatags.payload);
   return (
     <>
-      <Head>
+      {metaTags ? (<HeadTag metaTags={metaTags} />) : (<Head>
         <title> Terms and Conditions | Discover Legal Insights </title>
         <meta name="description" content=" Delve into the intricate labyrinth of contractual obligations and legal parameters with our comprehensive guide on terms and conditions" />
         <meta name="keywords" content=" Terms and Conditions , Endlos Studio" />
@@ -25,8 +27,7 @@ const index = () => {
         <meta name="twitter:image" content=" https://endlos.studio/assets/logo.png " />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://endlos.studio/terms-and-conditions " />
-      </Head>
-      <HeadTag />
+      </Head>)}
       <Navbar />
       <div className="pt-24 bg-[#111111] text-white px-5">
         <div className='max-w-screen-2xl mx-auto py-10'>

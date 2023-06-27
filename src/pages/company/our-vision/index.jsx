@@ -10,11 +10,12 @@ import { HiOutlineUser } from 'react-icons/hi'
 import { GiGrowth } from 'react-icons/gi'
 import { HeadTag } from "@/components/HeaadTag/HeadTag";
 import { getMetatags } from "@/redux/action/metatags/creator";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { useRouter } from "next/router";
 import Head from "next/head";
 
 const index = () => {
+  const metaTags = useSelector((state) => state.allMetatags.payload);
   const path = useRouter().pathname;
   const dispatch = useDispatch();
 
@@ -27,25 +28,24 @@ const index = () => {
   }, [dispatch, path]);
   return (
     <>
-    <Head>
-    <title> Unveiling Our Vision | Endlos Studio</title>
-<meta name="description" content=" An extraordinary journey with our visionary insights, propelling you towards unparalleled success. Discover a world of boundless possibilities"/>
-<meta name="keywords" content=" Endlos Studio, Our vision, unreal engine"/>
-<meta property="og:title" content=" Unveiling Our Vision | Endlos Studio"/>
-<meta property="og:description" content=" An extraordinary journey with our visionary insights, propelling you towards unparalleled success. Discover a world of boundless possibilities"/>
-<meta property="og:site_name" content="Endlos Studio "/>
-<meta property="og:type" content="article"/>
-<meta property="og:image" content=" https://endlos.studio/assets/logo.png "/>
-<meta property="og:url" content="https://endlos.studio/company/our-vision "/>
-<meta name="twitter:title" content=" Unveiling Our Vision | Endlos Studio"/>
-<meta name="twitter:description" content=" An extraordinary journey with our visionary insights, propelling you towards unparalleled success. Discover a world of boundless possibilities"/>
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:url" content="https://endlos.studio/company/our-vision "/>
-<meta name="twitter:image" content=" https://endlos.studio/assets/logo.png "/>
-<meta name="robots" content="index, follow"/>
-<link rel="canonical" href="https://endlos.studio/company/our-vision "/>
-    </Head>
-      <HeadTag />
+      {metaTags ? (<HeadTag metaTags={metaTags} />) : (<Head>
+        <title> Unveiling Our Vision | Endlos Studio</title>
+        <meta name="description" content=" An extraordinary journey with our visionary insights, propelling you towards unparalleled success. Discover a world of boundless possibilities" />
+        <meta name="keywords" content=" Endlos Studio, Our vision, unreal engine" />
+        <meta property="og:title" content=" Unveiling Our Vision | Endlos Studio" />
+        <meta property="og:description" content=" An extraordinary journey with our visionary insights, propelling you towards unparalleled success. Discover a world of boundless possibilities" />
+        <meta property="og:site_name" content="Endlos Studio " />
+        <meta property="og:type" content="article" />
+        <meta property="og:image" content=" https://endlos.studio/assets/logo.png " />
+        <meta property="og:url" content="https://endlos.studio/company/our-vision " />
+        <meta name="twitter:title" content=" Unveiling Our Vision | Endlos Studio" />
+        <meta name="twitter:description" content=" An extraordinary journey with our visionary insights, propelling you towards unparalleled success. Discover a world of boundless possibilities" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:url" content="https://endlos.studio/company/our-vision " />
+        <meta name="twitter:image" content=" https://endlos.studio/assets/logo.png " />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://endlos.studio/company/our-vision " />
+      </Head>)}
       <Navbar />
       <div className="relative">
         <div

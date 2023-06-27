@@ -4,11 +4,13 @@ import Navbar from '@/components/navbar/Navbar'
 import Head from 'next/head'
 import Link from 'next/link'
 import React from 'react'
+import { useSelector } from 'react-redux'
 
 const index = () => {
+  const metaTags = useSelector((state) => state.allMetatags.payload);
   return (
     <>
-      <Head>
+      {metaTags ? (<HeadTag metaTags={metaTags} />) : (<Head>
         <title> Privacy Policy | Endlos Studio</title>
         <meta name="description" content="Unlock the secrets to safeguarding your personal data. Discover the crucial elements of an effective privacy policy and ensure your online confidentiality" />
         <meta name="keywords" content="Privacy Policy , Endlos Studio" />
@@ -25,8 +27,8 @@ const index = () => {
         <meta name="twitter:image" content=" https://endlos.studio/assets/logo.png " />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://endlos.studio/privacy-policies " />
-      </Head>
-      <HeadTag />
+      </Head>)}
+
       <Navbar />
       <div className="pt-24 bg-[#111111] text-white px-5">
         <div className='max-w-screen-2xl mx-auto py-10'>

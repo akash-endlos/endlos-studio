@@ -7,12 +7,13 @@ import Navbar from '@/components/navbar/Navbar'
 import React, { useEffect } from 'react'
 import bg from "../../../../public/assets/img1.jpg";
 import { useRouter } from 'next/router'
-import { useDispatch } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
 import { getMetatags } from '@/redux/action/metatags/creator'
 import { HeadTag } from '@/components/HeaadTag/HeadTag'
 import Head from 'next/head'
 
 const page = () => {
+  const metaTags = useSelector((state) => state.allMetatags.payload);
   const path = useRouter().pathname;
   const dispatch = useDispatch();
 
@@ -25,8 +26,7 @@ const page = () => {
   }, [dispatch, path]);
   return (
     <>
-      <HeadTag />
-      <Head>
+      {metaTags ? (<HeadTag metaTags={metaTags} />) : (<Head>
         <title> About Us - Learn about our company | Endlos Studio </title>
         <meta name="description" content=" Get to know the visionary minds behind Endlos Studio. Join us on our mission to redefine artistic boundaries today!" />
         <meta name="keywords" content=" about us, Unreal Engine, endlos studio, Virtual Production, architectural visualization" />
@@ -43,7 +43,8 @@ const page = () => {
         <meta name="twitter:image" content=" https://endlos.studio/assets/logo.png " />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://endlos.studio/company/about-us " />
-      </Head>
+      </Head>)}
+
       <Navbar />
       <div className="relative">
         <div className="h-screen bg-cover bg-fixed" style={{

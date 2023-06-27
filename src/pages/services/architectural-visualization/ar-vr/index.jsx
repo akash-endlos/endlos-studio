@@ -4,12 +4,13 @@ import React, { useEffect } from 'react'
 import styles from '../../../../styles/HomeCarousel.module.css'
 import Link from 'next/link'
 import { HeadTag } from '@/components/HeaadTag/HeadTag'
-import { useDispatch } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
 import { useRouter } from 'next/router'
 import { getMetatags } from '@/redux/action/metatags/creator'
 import Head from 'next/head'
 
 const index = () => {
+  const metaTags = useSelector((state) => state.allMetatags.payload);
   const path = useRouter().pathname;
   const dispatch = useDispatch();
 
@@ -22,25 +23,24 @@ const index = () => {
   }, [dispatch, path]);
   return (
     <>
-    <Head>
-    <title>What is AR and VR services ? | Endlos Studio </title>
-<meta name="description" content=" Embark on a journey of limitless possibilities with cutting-edge AR VR services. Discover a new dimension of reality and unlock captivating experiences. Get ready to be amazed! "/>
-<meta name="keywords" content=" AR, VR, virtual reality, augmented reality , endlos studio"/>
-<meta property="og:title" content=" What is AR and VR services ? | Endlos Studio"/>
-<meta property="og:description" content=" Embark on a journey of limitless possibilities with cutting-edge AR VR services. Discover a new dimension of reality and unlock captivating experiences. Get ready to be amazed! "/>
-<meta property="og:site_name" content="Endlos Studio "/>
-<meta property="og:type" content="article"/>
-<meta property="og:image" content=" https://endlos.studio/assets/logo.png "/>
-<meta property="og:url" content="https://endlos.studio/services/architectural-visualization/ar-vr "/>
-<meta name="twitter:title" content=" What is AR and VR services ? | Endlos Studio"/>
-<meta name="twitter:description" content=" Embark on a journey of limitless possibilities with cutting-edge AR VR services. Discover a new dimension of reality and unlock captivating experiences. Get ready to be amazed! "/>
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:url" content="https://endlos.studio/services/architectural-visualization/ar-vr"/>
-<meta name="twitter:image" content=" https://endlos.studio/assets/logo.png "/>
-<meta name="robots" content="index, follow"/>
-<link rel="canonical" href="https://endlos.studio/services/architectural-visualization/ar-vr"/>
-    </Head>
-      <HeadTag />
+      {metaTags ? (<HeadTag metaTags={metaTags} />) : (<Head>
+        <title>What is AR and VR services ? | Endlos Studio </title>
+        <meta name="description" content=" Embark on a journey of limitless possibilities with cutting-edge AR VR services. Discover a new dimension of reality and unlock captivating experiences. Get ready to be amazed! " />
+        <meta name="keywords" content=" AR, VR, virtual reality, augmented reality , endlos studio" />
+        <meta property="og:title" content=" What is AR and VR services ? | Endlos Studio" />
+        <meta property="og:description" content=" Embark on a journey of limitless possibilities with cutting-edge AR VR services. Discover a new dimension of reality and unlock captivating experiences. Get ready to be amazed! " />
+        <meta property="og:site_name" content="Endlos Studio " />
+        <meta property="og:type" content="article" />
+        <meta property="og:image" content=" https://endlos.studio/assets/logo.png " />
+        <meta property="og:url" content="https://endlos.studio/services/architectural-visualization/ar-vr " />
+        <meta name="twitter:title" content=" What is AR and VR services ? | Endlos Studio" />
+        <meta name="twitter:description" content=" Embark on a journey of limitless possibilities with cutting-edge AR VR services. Discover a new dimension of reality and unlock captivating experiences. Get ready to be amazed! " />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:url" content="https://endlos.studio/services/architectural-visualization/ar-vr" />
+        <meta name="twitter:image" content=" https://endlos.studio/assets/logo.png " />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://endlos.studio/services/architectural-visualization/ar-vr" />
+      </Head>)}
       <Navbar />
       <div className='bg-[#111111] text-white'>
         <div className="relative">
@@ -109,9 +109,9 @@ const index = () => {
 
 
         <div className='max-w-screen-2xl mx-auto'>
-          <hr/>
+          <hr />
           <p className='text-white font-semibold py-10 flex justify-center xl:justify-start '>HOW WE DO IT</p>
-          <hr/>
+          <hr />
           <div className="max-w-screen-2xl mx-auto px-5">
             <div className="grid xl:grid-cols-12 lg:grid-flow-row py-10">
               <div className="col-span-12 lg:col-span-4">
@@ -190,21 +190,21 @@ const index = () => {
               </div>
             </div>
           </div>
-            <div className="grid grid-cols-12  py-10">
-              <div className="xl:col-span-6 col-span-12">
-                <div className="flex flex-col justify-start items-center xl:items-start text-white h-full">
-                  <h3 className="text-2xl max-w-screen-sm font-bold mb-4">Customization and Personalization</h3>
-                  <p className="mb-4 text-justify">Our portfolio highlights our ability to tailor AR and VR experiences to suit specific project requirements. We can customize the virtual environment, lighting conditions, and material options and even incorporate interactive elements, allowing clients a personalized and immersive architectural visualization experience. </p>
-                  <h3 className="text-2xl max-w-screen-sm font-bold mb-4">Collaboration and Communication</h3>
-                  <p className="mb-4 text-justify">AR and VR architectural visualization enhances collaboration and communication among project stakeholders. Our portfolio showcases how these technologies facilitate effective communication between architects, clients, and other team members by providing a shared virtual space to discuss and refine design concepts. </p>
-                  <h3 className="text-2xl max-w-screen-sm font-bold mb-4">Marketing and Presentation Tools</h3>
-                  <p className="mb-4 text-justify">Our AR and VR architectural visualization can be powerful marketing and presentation tools. With our portfolio, you can see how these technologies enable architects and developers to showcase their designs to potential clients and investors visually, captivatingly, and interactively. </p>
-                </div>
-              </div>
-              <div className="xl:col-span-6 col-span-12 xl:pl-5">
-                <img src="/assets/Ar_VR_4.jpg" alt="Image" className="w-full h-auto rounded-2xl" />
+          <div className="grid grid-cols-12  py-10">
+            <div className="xl:col-span-6 col-span-12">
+              <div className="flex flex-col justify-start items-center xl:items-start text-white h-full">
+                <h3 className="text-2xl max-w-screen-sm font-bold mb-4">Customization and Personalization</h3>
+                <p className="mb-4 text-justify">Our portfolio highlights our ability to tailor AR and VR experiences to suit specific project requirements. We can customize the virtual environment, lighting conditions, and material options and even incorporate interactive elements, allowing clients a personalized and immersive architectural visualization experience. </p>
+                <h3 className="text-2xl max-w-screen-sm font-bold mb-4">Collaboration and Communication</h3>
+                <p className="mb-4 text-justify">AR and VR architectural visualization enhances collaboration and communication among project stakeholders. Our portfolio showcases how these technologies facilitate effective communication between architects, clients, and other team members by providing a shared virtual space to discuss and refine design concepts. </p>
+                <h3 className="text-2xl max-w-screen-sm font-bold mb-4">Marketing and Presentation Tools</h3>
+                <p className="mb-4 text-justify">Our AR and VR architectural visualization can be powerful marketing and presentation tools. With our portfolio, you can see how these technologies enable architects and developers to showcase their designs to potential clients and investors visually, captivatingly, and interactively. </p>
               </div>
             </div>
+            <div className="xl:col-span-6 col-span-12 xl:pl-5">
+              <img src="/assets/Ar_VR_4.jpg" alt="Image" className="w-full h-auto rounded-2xl" />
+            </div>
+          </div>
         </div>
         {/* <div className="max-w-screen-2xl mx-auto px-5 py-5">
           <div className='h-auto flex flex-col xl:flex-row md:flex-row gap-5 justify-between items-center'>

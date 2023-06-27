@@ -5,11 +5,12 @@ import styles from '../../../../styles/HomeCarousel.module.css'
 import Link from 'next/link'
 import { HeadTag } from '@/components/HeaadTag/HeadTag'
 import { getMetatags } from '@/redux/action/metatags/creator'
-import { useDispatch } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
 import { useRouter } from 'next/router'
 import Head from 'next/head'
 
 const index = () => {
+  const metaTags = useSelector((state) => state.allMetatags.payload);
   const path = useRouter().pathname;
   const dispatch = useDispatch();
 
@@ -22,8 +23,7 @@ const index = () => {
   }, [dispatch, path]);
   return (
     <>
-    <HeadTag/>
-      <Head>
+    {metaTags ? (<HeadTag metaTags={metaTags} />) : (<Head>
         <title>What is architectural visualization? | Endlos Studio </title>
         <meta name="description" content=" Elevate your Archviz with Endlos Studio.We specialize in virtual reality and augmented reality experiences. Trust us to bring your designs to life" />
         <meta name="keywords" content=" architectural visualization, virtual reality, augmented reality, Archviz, endlos studio" />
@@ -40,7 +40,8 @@ const index = () => {
         <meta name="twitter:image" content=" https://endlos.studio/assets/logo.png " />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href=" https://endlos.studio/services/architectural-visualization/walkthrough" />
-      </Head>
+      </Head>)}
+      
       <Navbar />
       <div className='bg-[#111111] text-white'>
         <div className="relative">

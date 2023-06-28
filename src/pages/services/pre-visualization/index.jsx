@@ -55,7 +55,7 @@ const index = () => {
           <div className="grid xl:grid-cols-12 lg:grid-flow-row py-10">
             <div className="col-span-12 lg:col-span-4">
               <div className="flex flex-col items-start justify-center">
-                <h3 className="text-4xl  text-white max-w-sm font-bold mb-4">Why Choose Endlos Studio</h3>
+                <h2 className="text-4xl  text-white max-w-sm font-bold mb-4">Why Choose Endlos Studio</h2>
               </div>
             </div>
             <div className="col-span-12 lg:col-span-8">
@@ -160,7 +160,7 @@ const index = () => {
               <div className="grid xl:grid-cols-12 lg:grid-flow-row py-10">
                 <div className="col-span-12 lg:col-span-4">
                   <div className="flex flex-col items-start justify-center">
-                    <h3 className="text-4xl  text-white max-w-sm font-bold mb-4">Our Pre Visualization Portfolio</h3>
+                    <h2 className="text-4xl  text-white max-w-sm font-bold mb-4">Our Pre Visualization Portfolio</h2>
                   </div>
                 </div>
                 <div className="col-span-12 lg:col-span-8">

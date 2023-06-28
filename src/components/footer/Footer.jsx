@@ -40,7 +40,7 @@ const Footer = () => {
       <div className="flex justify-between items-center flex-wrap px-5 max-w-screen-2xl mx-auto py-6">
         <div>
           <div className=" py-4">
-            <h3 className="mb-6 text-lg font-semibold">Contact Us</h3>
+            <h4 className="mb-6 text-lg font-semibold">Contact Us</h4>
             <p className="py-2">
               1108, Shivalik Shilp, Iskcon <br />
               Cross Rd, Sanidhya, Ahmedabad 380015, <br />

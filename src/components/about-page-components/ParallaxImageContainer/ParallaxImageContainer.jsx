@@ -14,7 +14,7 @@ const ParallaxImageContainer = () => {
             <div className="absolute inset-0 flex items-center justify-center">
                 <div className='flex flex-col items-center gap-2'>
                 {/* <p className='text-xl text-white'>FILMING CREW</p> */}
-                <h3 className="text-white text-3xl font-bold font-serif text-center">MEET THE TEAM</h3>
+                <h2 className="text-white text-3xl font-bold font-serif text-center">MEET THE TEAM</h2>
                 </div>
             </div>
         </div>

@@ -39,7 +39,7 @@ const FormContainer = () => {
     return (
         <form className="w-full pb-10" onSubmit={handleSubmit(onSubmit)} >
 
-            <h1 className='text-white pb-10'><span className="font-bold tracking-[.2em] cursor-pointer text-2xl align-middle ">Write Us</span></h1>
+            <div className='text-white pb-10'><span className="font-bold tracking-[.2em] cursor-pointer text-2xl align-middle ">Write Us</span></div>
             <div className="flex flex-wrap -mx-3 mb-6">
                 <div className="w-full md:w-3/4 px-3 mb-6 md:mb-0">
                     <label className="block uppercase tracking-wide text-white text-xs font-bold mb-2" htmlFor="grid-first-name">

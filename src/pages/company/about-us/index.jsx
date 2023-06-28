@@ -64,8 +64,8 @@ const page = () => {
       </div>
       {/* <AboutPageCarousel /> */}
       <OurGoal />
-      <ParallaxImageContainer />
-      <CreativeTeam />
+      {/* <ParallaxImageContainer />
+      <CreativeTeam /> */}
       <Footer />
     </>
   )

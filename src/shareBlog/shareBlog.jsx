@@ -31,21 +31,21 @@ const BlogShare = ({ title }) => {
 
   return (
     <>
-      <div className="justify-between items-center hidden xl:flex gap-2">
-        <small className="pr-5 font-semibold text-lg">Share On: </small>
+      <div className="justify-between items-center  xl:flex gap-2">
+        <div className="pr-5 font-semibold text-lg">Share On: </div>
         <WhatsappShareButton url={currentUrl} title={title}>
-          <WhatsappIcon size={32} round={true} />
+          <WhatsappIcon size={28} round={true} />
         </WhatsappShareButton>
 
         <FacebookShareButton url={currentUrl} quote={title}>
-          <FacebookIcon size={32} round={true} />
+          <FacebookIcon size={28} round={true} />
         </FacebookShareButton>
 
         <LinkedinShareButton url={currentUrl} source={title} title={title} summary={title}>
-          <LinkedinIcon size={32} round={true} />
+          <LinkedinIcon size={28} round={true} />
         </LinkedinShareButton>
 
-        <button onClick={copyToClipboard} className="p-2">
+        <button onClick={copyToClipboard}>
           {isCopied ? <AiOutlineCopy size={28} /> : <AiFillCopy size={28} />}
         </button>
       </div>

@@ -7,16 +7,28 @@ import {
   TwitterIcon,
   FacebookShareButton,
   FacebookIcon,
-  LinkedinShareButton, // Import LinkedinShareButton
-  LinkedinIcon // Import LinkedinIcon
+  LinkedinShareButton,
+  LinkedinIcon,
 } from 'react-share';
+import { AiFillCopy, AiOutlineCopy } from 'react-icons/ai';
 
 const BlogShare = ({ title }) => {
   const [currentUrl, setCurrentUrl] = useState('');
+  const [isCopied, setIsCopied] = useState(false);
 
   useEffect(() => {
     setCurrentUrl(window.location.href);
   }, []);
+
+  const copyToClipboard = () => {
+    navigator.clipboard.writeText(currentUrl);
+    setIsCopied(true);
+
+    setTimeout(() => {
+      setIsCopied(false);
+    }, 400); // Reset isCopied to false after 2 seconds
+  };
+
   return (
     <>
       <div className="justify-between items-center hidden xl:flex gap-2">
@@ -25,10 +37,6 @@ const BlogShare = ({ title }) => {
           <WhatsappIcon size={32} round={true} />
         </WhatsappShareButton>
 
-        {/* <TwitterShareButton url={currentUrl} title={title}>
-          <TwitterIcon size={32} round={true} />
-        </TwitterShareButton> */}
-
         <FacebookShareButton url={currentUrl} quote={title}>
           <FacebookIcon size={32} round={true} />
         </FacebookShareButton>
@@ -36,6 +44,10 @@ const BlogShare = ({ title }) => {
         <LinkedinShareButton url={currentUrl} source={title} title={title} summary={title}>
           <LinkedinIcon size={32} round={true} />
         </LinkedinShareButton>
+
+        <button onClick={copyToClipboard} className="p-2">
+          {isCopied ? <AiOutlineCopy size={28} /> : <AiFillCopy size={28} />}
+        </button>
       </div>
     </>
   );

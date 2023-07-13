@@ -61,7 +61,7 @@ const index = () => {
     }, []);
     return (
         <>
-            {metaTags ? (<HeadTag metaTags={metaTags} />) : (<Head>
+<Head>
                 <title>Unreal Engine 5.2 is now available! | Endlos Studio </title>
                 <meta name="description" content=" Discover the endless possibilities of creativity with Endlos Studio's captivating blog.Join us on a journey of inspiration and innovation today!" />
                 <meta name="keywords" content=" Blog, unreal engine 5.2 , endlos studio" />
@@ -78,7 +78,7 @@ const index = () => {
                 <meta name="twitter:image" content=" https://endlos.studio/assets/logo.png " />
                 <meta name="robots" content="index, follow" />
                 <link rel="canonical" href="https://endlos.studio/blog " />
-            </Head>)}
+            </Head>
 
             <Navbar />
             <BlogParallaxComponent title={'Blog'} />

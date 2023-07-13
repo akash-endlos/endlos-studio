@@ -24,7 +24,7 @@ const index = () => {
   }, [dispatch, path]);
   return (
     <>
-    {metaTags ? (<HeadTag metaTags={metaTags} />) : (<Head>
+<Head>
         <title> What is Virtual Production? | Endlos Studio </title>
         <meta name="description" content=" Revolutionize your production process with Virtual Production.Explore the endless possibilities of virtual reality,augmented reality & motion capture." />
         <meta name="keywords" content=" Virtual Production, virtual reality, augmented reality, visualization, motion capture " />
@@ -41,7 +41,7 @@ const index = () => {
         <meta name="twitter:image" content=" https://endlos.studio/assets/logo.png " />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href=" https://endlos.studio/services/virtual-production " />
-      </Head>)}      
+      </Head>     
       <Navbar />
       <div className='bg-[#111111] text-white'>
         <div className="relative">

@@ -23,7 +23,7 @@ const index = () => {
   }, [dispatch, path]);
   return (
     <>
-    {metaTags ? (<HeadTag metaTags={metaTags} />) : (<Head>
+<Head>
         <title>What is architectural visualization? | Endlos Studio </title>
         <meta name="description" content=" Elevate your Archviz with Endlos Studio.We specialize in virtual reality and augmented reality experiences. Trust us to bring your designs to life" />
         <meta name="keywords" content=" architectural visualization, virtual reality, augmented reality, Archviz, endlos studio" />
@@ -40,7 +40,7 @@ const index = () => {
         <meta name="twitter:image" content=" https://endlos.studio/assets/logo.png " />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href=" https://endlos.studio/services/architectural-visualization/walkthrough" />
-      </Head>)}
+      </Head>
       
       <Navbar />
       <div className='bg-[#111111] text-white'>

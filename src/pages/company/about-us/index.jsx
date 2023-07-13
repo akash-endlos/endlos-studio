@@ -26,7 +26,7 @@ const page = () => {
   }, [dispatch, path]);
   return (
     <>
-      {metaTags ? (<HeadTag metaTags={metaTags} />) : (<Head>
+<Head>
         <title> About Us - Learn about our company | Endlos Studio </title>
         <meta name="description" content=" Get to know the visionary minds behind Endlos Studio. Join us on our mission to redefine artistic boundaries today!" />
         <meta name="keywords" content=" about us, Unreal Engine, endlos studio, Virtual Production, architectural visualization" />
@@ -43,7 +43,7 @@ const page = () => {
         <meta name="twitter:image" content=" https://endlos.studio/assets/logo.png " />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://endlos.studio/company/about-us " />
-      </Head>)}
+      </Head>
 
       <Navbar />
       <div className="relative">

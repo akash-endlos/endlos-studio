@@ -28,7 +28,7 @@ const index = () => {
   }, [dispatch, path]);
   return (
     <>
-      {metaTags ? (<HeadTag metaTags={metaTags} />) : (<Head>
+<Head>
         <title> Unveiling Our Vision | Endlos Studio</title>
         <meta name="description" content=" An extraordinary journey with our visionary insights, propelling you towards unparalleled success. Discover a world of boundless possibilities" />
         <meta name="keywords" content=" Endlos Studio, Our vision, unreal engine" />
@@ -45,7 +45,7 @@ const index = () => {
         <meta name="twitter:image" content=" https://endlos.studio/assets/logo.png " />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://endlos.studio/company/our-vision " />
-      </Head>)}
+      </Head>
       <Navbar />
       <div className="relative">
         <div

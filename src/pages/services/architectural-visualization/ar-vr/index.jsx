@@ -23,7 +23,7 @@ const index = () => {
   }, [dispatch, path]);
   return (
     <>
-      {metaTags ? (<HeadTag metaTags={metaTags} />) : (<Head>
+<Head>
         <title>What is AR and VR services ? | Endlos Studio </title>
         <meta name="description" content=" Embark on a journey of limitless possibilities with cutting-edge AR VR services. Discover a new dimension of reality and unlock captivating experiences. Get ready to be amazed! " />
         <meta name="keywords" content=" AR, VR, virtual reality, augmented reality , endlos studio" />
@@ -40,7 +40,7 @@ const index = () => {
         <meta name="twitter:image" content=" https://endlos.studio/assets/logo.png " />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://endlos.studio/services/architectural-visualization/ar-vr" />
-      </Head>)}
+      </Head>
       <Navbar />
       <div className='bg-[#111111] text-white'>
         <div className="relative">

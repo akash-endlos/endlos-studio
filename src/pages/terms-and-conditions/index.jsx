@@ -10,7 +10,7 @@ const index = () => {
   const metaTags = useSelector((state) => state.allMetatags.payload);
   return (
     <>
-      {metaTags ? (<HeadTag metaTags={metaTags} />) : (<Head>
+<Head>
         <title> Terms and Conditions | Discover Legal Insights </title>
         <meta name="description" content=" Delve into the intricate labyrinth of contractual obligations and legal parameters with our comprehensive guide on terms and conditions" />
         <meta name="keywords" content=" Terms and Conditions , Endlos Studio" />
@@ -27,7 +27,7 @@ const index = () => {
         <meta name="twitter:image" content=" https://endlos.studio/assets/logo.png " />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://endlos.studio/terms-and-conditions " />
-      </Head>)}
+      </Head>
       <Navbar />
       <div className="pt-24 bg-[#111111] text-white px-5">
         <div className='max-w-screen-2xl mx-auto py-10'>

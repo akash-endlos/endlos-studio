@@ -23,7 +23,7 @@ const index = () => {
   }, [dispatch, path]);
   return (
     <>
-      {metaTags ? (<HeadTag metaTags={metaTags} />) : (<Head>
+<Head>
         <title> What is Pre visualization? | Endlos Studio| Endlos Studio </title>
         <meta name="description" content=" Boost your project's success with pre visualization services.Experience dynamic visualizations,streamlined workflows & enhanced collaboration." />
         <meta name="keywords" content=" Virtual Production, virtual reality, augmented reality, visualization, motion capture " />
@@ -40,7 +40,7 @@ const index = () => {
         <meta name="twitter:image" content=" https://endlos.studio/assets/logo.png " />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href=" https://endlos.studio/services/pre-visualization" />
-      </Head>)}
+      </Head>
       
       <Navbar />
       <div className='bg-[#111111] text-white'>

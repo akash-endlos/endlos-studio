@@ -34,7 +34,7 @@ const Index = () => {
 
   return (
     <>
-      {metaTags ? (<HeadTag metaTags={metaTags} />) : (<Head>
+<Head>
         <title> FAQ Guide to Mastering the Unfathomable!</title>
         <meta name="description" content=" Find answers to your questions about Endlos Studio.Explore our comprehensive FAQ page for insights on our services,process and creative techniques" />
         <meta name="keywords" content=" FAQ, unreal engine, Endlos studio" />
@@ -51,7 +51,7 @@ const Index = () => {
         <meta name="twitter:image" content=" https://endlos.studio/assets/logo.png " />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://endlos.studio/company/faq " />
-      </Head>)}
+      </Head>
       <Navbar />
       <div className="relative">
         <div className="h-screen bg-cover bg-fixed" style={{

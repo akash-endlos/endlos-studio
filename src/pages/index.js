@@ -33,7 +33,7 @@ export default function Home() {
 
   return (
     <>
-      {metaTags ? (<HeadTag metaTags={metaTags} />) : (<Head>
+      <Head>
         <title> Unreal Engine Possibilities | Endlos Studio</title>
         <meta name="description" content="Endlos Studio offers virtual production, architectural visualization & game development expertise. Experience the power of Unreal Engine with us." />
         <meta name="keywords" content="unreal engine, Architectural Visualization, Virtual Production, Game Development, Endlos studio " />
@@ -51,7 +51,7 @@ export default function Home() {
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://endlos.studio/ " />
         <meta property="al:ios:app_name" content="Endlos Studio Pvt Ltd"></meta>
-      </Head>)}
+      </Head>
 
 
       <Navbar />

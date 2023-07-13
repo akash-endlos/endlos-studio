@@ -22,7 +22,7 @@ const index = () => {
   }, [dispatch, path]);
   return (
     <>
-      {metaTags ? (<HeadTag metaTags={metaTags} />) : (<Head>
+<Head>
         <title> Contact Us - Get in Touch with Our Team | Endlos Studio</title>
         <meta name="description" content=" Contact -Endlos Studio, for any inquiries, feedback, or support needs. Our friendly team is always ready to assist you" />
         <meta name="keywords" content=" contact us, contact page, contact us form, contact information, contact number" />
@@ -39,7 +39,7 @@ const index = () => {
         <meta name="twitter:image" content=" https://endlos.studio/assets/logo.png " />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://endlos.studio/contact-us/write-to-us " />
-      </Head>)}
+      </Head>
 
       <Navbar Navclass="bg-[#111111] text-white" />
       <div className="pt-24 bg-[#111111] text-white">

@@ -17,7 +17,7 @@ export default async function handler(req, res) {
       },
     });
 
-    const { name, email, message } = req.body;
+    const { name, email, message,phone } = req.body;
 
     const mailOptions = {
       from: email,
@@ -25,7 +25,9 @@ export default async function handler(req, res) {
       subject: 'Contact Form Submission',
       html: `
         <p><strong>Name:</strong> ${name}</p>
+        <p><strong>Message:</strong> ${email}</p>
         <p><strong>Message:</strong> ${message}</p>
+        <p><strong>Mobile Number:</strong> ${phone}</p>
       `,
     };
 

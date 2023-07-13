@@ -52,8 +52,6 @@ export default function Home() {
         <link rel="canonical" href="https://endlos.studio/ " />
         <meta property="al:ios:app_name" content="Endlos Studio Pvt Ltd"/>
       </Head>
-
-
       <Navbar />
       <HomeCarousel />
       <HomeImageContainer />

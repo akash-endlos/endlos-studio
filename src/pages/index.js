@@ -50,7 +50,7 @@ export default function Home() {
         <meta name="twitter:image" content=" https://endlos.studio/assets/logo.png " />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://endlos.studio/ " />
-        <meta property="al:ios:app_name" content="Endlos Studio Pvt Ltd"></meta>
+        <meta property="al:ios:app_name" content="Endlos Studio Pvt Ltd"/>
       </Head>
 
 

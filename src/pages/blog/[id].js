@@ -36,7 +36,7 @@ const Blog = ({ }) => {
         return (
           (
             <>
-            <HeadTag/>
+            {/* <HeadTag/> */}
             <FirstBlog />
             </>
           )
@@ -45,7 +45,7 @@ const Blog = ({ }) => {
         return (
          (
           <>
-           <HeadTag/>
+           {/* <HeadTag/> */}
            <SecondBlog />
           </>
          )
@@ -53,7 +53,7 @@ const Blog = ({ }) => {
       case "The Unreal Engine 5.2 is available":
         return (
          (<>
-          <HeadTag/>
+          {/* <HeadTag/> */}
           <ThirdBlog />
          </>)
         )
